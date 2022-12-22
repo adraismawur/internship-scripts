@@ -7,15 +7,12 @@ Jorge Navarro
 Jérôme Collemare
 """
 
-from itertools import combinations
-import logging
-import os
 from pathlib import Path
 import sys
 
 from BCBio import GFF
 from Bio import SeqIO
-from Bio.SeqFeature import SeqFeature, CompoundLocation, FeatureLocation
+from Bio.SeqFeature import SeqFeature, CompoundLocation, FeatureLocation, ExactPosition
 from Bio.SeqRecord import SeqRecord
 
 
@@ -31,6 +28,23 @@ def get_exons(feature: SeqFeature) -> CompoundLocation|FeatureLocation:
         subfeature: SeqFeature
         location_parts.append(subfeature.location)
     return CompoundLocation(location_parts)
+
+def fix_start(models: list[SeqFeature], offset=-3):
+    for model in models:
+        if len(model.location.parts) == 1:
+            model.location = FeatureLocation(int(model.location.start) + offset, model.location.end, model.location.strand)
+            continue
+        new_locations = []
+        if model.strand == 1:
+            fixed_location = FeatureLocation(int(model.location.parts[0].start + offset), model.location.parts[0].end, 1)
+            new_locations.append(fixed_location)
+            new_locations.extend(model.location.parts[1:])
+
+        else:
+            fixed_location = FeatureLocation(int(model.location.parts[-1].start + offset), model.location.parts[-1].end, -1)
+            new_locations.extend(model.location.parts[:-1])
+            new_locations.append(fixed_location)
+        model.location = CompoundLocation(new_locations)
 
 
 def collapse_record_cds(gff_seq_rec):
@@ -216,6 +230,8 @@ def find_diffs(gff_file_a, gff_file_b):
         new_record: SeqRecord = collapse_record_cds(gff_seq_rec)
         record_features: list[SeqFeature] = new_record.features
         b_models.extend(record_features)
+
+    fix_start(b_models)
 
     exact_matches, inexact_matches = get_match_candidates(a_models, b_models)
 
