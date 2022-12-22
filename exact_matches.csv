@@ -1,0 +1,1 @@
+model_a_id,model_b_id,sense,len_a,len_b,overlap,percent_overlap_a,percent_overlap_b,num_exons_a,num_exons_b,exon_overlap,exon_len_a,exon_len_b,perc_exon_overlap_a,perc_exon_overlap_b
