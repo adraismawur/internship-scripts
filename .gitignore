@@ -131,3 +131,7 @@ dmypy.json
 
 # vscode stuff
 .vscode/
+
+
+# lock files?
+.~lock.*

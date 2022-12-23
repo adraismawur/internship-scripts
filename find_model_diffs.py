@@ -8,6 +8,7 @@ Jérôme Collemare
 """
 
 from pathlib import Path
+from pyexpat import model
 import sys
 
 from BCBio import GFF
@@ -143,6 +144,9 @@ def get_match_candidates(models_a: list[SeqFeature], models_b: list[SeqFeature])
     inexact = []
     exact = []
 
+    no_matches_a = set([model.id for model in models_a])
+    no_matches_b = set([model.id for model in models_b])
+
     # very inefficient. but we only need to do it once
     start_at = 0
     first_match = -1
@@ -189,6 +193,13 @@ def get_match_candidates(models_a: list[SeqFeature], models_b: list[SeqFeature])
                 perc_exon_overlap_a = exon_overlap / exon_len_a
                 perc_exon_overlap_b = exon_overlap / exon_len_b
                 exact.append((model_a.id, model_b.id, sense, a_len, b_len, total_overlap, perc_tot_overlap_a, perc_tot_overlap_b, exons_a, exons_b, exon_len_a, exon_len_b, exon_overlap, perc_exon_overlap_a, perc_exon_overlap_b))
+
+                if model_a.id in no_matches_a:
+                    no_matches_a.remove(model_a.id)
+
+                if model_b.id in no_matches_b:
+                    no_matches_b.remove(model_b.id)
+
                 continue
 
 
@@ -207,14 +218,56 @@ def get_match_candidates(models_a: list[SeqFeature], models_b: list[SeqFeature])
             perc_exon_overlap_b = exon_overlap / exon_len_b
             inexact.append((model_a.id, model_b.id, sense, a_len, b_len, total_overlap, perc_tot_overlap_a, perc_tot_overlap_b, exons_a, exons_b, exon_len_a, exon_len_b, exon_overlap, perc_exon_overlap_a, perc_exon_overlap_b))
 
+            if model_a.id in no_matches_a:
+                no_matches_a.remove(model_a.id)
+
+            if model_b.id in no_matches_b:
+                no_matches_b.remove(model_b.id)
+
         if first_match != -1:
             start_at = first_match
             first_match = -1
 
-    return exact, inexact
+    no_matches_a = sorted(list(no_matches_a))
+    no_matches_b = sorted(list(no_matches_b))
+
+    return exact, inexact, no_matches_a, no_matches_b
+
+def write_matches(matches, output_path):
+    with open(output_path, "w", encoding="utf-8") as matches_csv:
+        matches_csv.write("model_a_id,model_b_id,sense,len_a,len_b,overlap,percent_overlap_a,percent_overlap_b,num_exons_a,num_exons_b,exon_overlap,exon_len_a,exon_len_b,perc_exon_overlap_a,perc_exon_overlap_b\n")
+        for match in matches:
+            fields = map(str, list(match))
+            matches_csv.write(",".join(fields) + "\n")
+
+def read_matches(input_path: Path):
+    if not input_path.exists:
+        return None
+
+    matches = []
+
+    with open(input_path):
+        for line in input_path:
+            line: str
+            matches.append(tuple(line.rstrip().split(",")))
+    return matches
+
+
+def write_list(list_obj, output_path):
+    with open(output_path, "w", encoding="utf-8") as list_txt:
+        for item in list_obj:
+            list_txt.write(f"{item}\n")
+
+
 
 def find_diffs(gff_file_a, gff_file_b):
     """Returns a list of tuples, each of which contains a combination of models that correspond, but are different somehow"""
+
+    exact_match_path = Path("exact_matches.csv")
+    inexact_match_path = Path("inexact_matches.csv")
+    no_matches_a_path = Path("no_matches_a.txt")
+    no_matches_b_path = Path("no_matches_b.txt")
+
 
     gff_iter_a = GFF.parse(gff_file_a, None, {"gff_type": ["CDS"]})
     gff_iter_b = GFF.parse(gff_file_b, None, {"gff_type": ["CDS"]})
@@ -231,30 +284,36 @@ def find_diffs(gff_file_a, gff_file_b):
         record_features: list[SeqFeature] = new_record.features
         b_models.extend(record_features)
 
+    print(f"{len(a_models)} models in {gff_file_a.stem}")
+    print(f"{len(b_models)} models in {gff_file_b.stem}")
+
     fix_start(b_models)
 
-    exact_matches, inexact_matches = get_match_candidates(a_models, b_models)
+    exact_matches, inexact_matches, no_matches_a, no_matches_b = get_match_candidates(a_models, b_models)
 
-    with open("exact_matches.csv", "w", encoding="utf-8") as exact_matches_csv:
-        exact_matches_csv.write("model_a_id,model_b_id,sense,len_a,len_b,overlap,percent_overlap_a,percent_overlap_b,num_exons_a,num_exons_b,exon_overlap,exon_len_a,exon_len_b,perc_exon_overlap_a,perc_exon_overlap_b\n")
-        for exact_match in exact_matches:
-            fields = map(str, list(exact_match))
-            exact_matches_csv.write(",".join(fields) + "\n")
+    write_matches(exact_matches, exact_match_path)
+    write_matches(inexact_matches, inexact_match_path)
 
-    with open("inexact_matches.csv", "w", encoding="utf-8") as inexact_matches_csv:
-        inexact_matches_csv.write("model_a_id,model_b_id,sense,len_a,len_b,overlap,percent_overlap_a,percent_overlap_b,num_exons_a,num_exons_b,exon_overlap,exon_len_a,exon_len_b,perc_exon_overlap_a,perc_exon_overlap_b\n")
-        for inexact_match in inexact_matches:
-            fields = map(str, list(inexact_match))
-            inexact_matches_csv.write(",".join(fields) + "\n")
+    write_list(no_matches_a, no_matches_a_path)
+    write_list(no_matches_b, no_matches_b_path)
 
 
-
-
-
+HELP = (
+    f"usage: {__file__ } annotations_a.gff annotations_b.gff [-f]"
+)
 
 
 if __name__ == "__main__":
+    if len(sys.argv) < 3:
+        print("Not enough arguments.")
+        print(HELP)
+
     gff_a_path = Path(sys.argv[1])
+    if not gff_a_path.exists():
+        print(f"{gff_a_path} does not exist")
+
     gff_b_path = Path(sys.argv[2])
+    if not gff_b_path.exists():
+        print(f"{gff_b_path} does not exist")
 
     find_diffs(gff_a_path, gff_b_path)
