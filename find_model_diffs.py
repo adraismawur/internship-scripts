@@ -299,7 +299,7 @@ def find_diffs(gff_file_a, gff_file_b):
 
 
 HELP = (
-    f"usage: {__file__ } annotations_a.gff annotations_b.gff [-f]"
+    f"usage: {__file__} annotations_a.gff annotations_b.gff"
 )
 
 
@@ -307,13 +307,16 @@ if __name__ == "__main__":
     if len(sys.argv) < 3:
         print("Not enough arguments.")
         print(HELP)
+        exit()
 
     gff_a_path = Path(sys.argv[1])
     if not gff_a_path.exists():
         print(f"{gff_a_path} does not exist")
+        exit()
 
     gff_b_path = Path(sys.argv[2])
     if not gff_b_path.exists():
         print(f"{gff_b_path} does not exist")
+        exit()
 
     find_diffs(gff_a_path, gff_b_path)
