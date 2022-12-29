@@ -131,13 +131,13 @@ def blastp_gbk_seq_recs(xml_base_path, gbk_seq_recs, include_ids=None):
 
     this function also skips a blast query if an xml file for it already exists
     """
-
+    count = 1
+    max_seq_recs = sum([len(seq_rec.features) for seq_rec in gbk_seq_recs])
     # go through records
     for seq_rec in gbk_seq_recs:
         seq_rec: SeqRecord
 
         # cds level
-        count = 1
         for feature in seq_rec.features:
             feature: SeqFeature
             if "ID" not in feature.qualifiers:
@@ -149,7 +149,7 @@ def blastp_gbk_seq_recs(xml_base_path, gbk_seq_recs, include_ids=None):
                 if include_ids is not None:
                     print(f"({count}/{len(include_ids)}) XML exists: {feature_id}")
                 else:
-                    print(f"({count}/{len(seq_rec.features)}) XML exists: {feature_id}")
+                    print(f"({count}/{len(max_seq_recs)}) XML exists: {feature_id}")
                 count += 1
                 continue
 
@@ -159,7 +159,7 @@ def blastp_gbk_seq_recs(xml_base_path, gbk_seq_recs, include_ids=None):
             if include_ids is not None:
                 print(f"({count}/{len(include_ids)}) Running blast: {feature_id}")
             else:
-                print(f"({count}/{len(seq_rec.features)}) Running blast: {feature_id}")
+                print(f"({count}/{len(max_seq_recs)}) Running blast: {feature_id}")
 
             blastp_results = blastp_model_translation(feature)
 
