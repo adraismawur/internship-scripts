@@ -7,6 +7,7 @@ Jorge Navarro
 Jérôme Collemare
 """
 
+from math import ceil
 from pathlib import Path
 from pyexpat import model
 import sys
@@ -322,4 +323,29 @@ if __name__ == "__main__":
         print(f"{gff_b_path} does not exist")
         exit()
 
-    find_diffs(gff_a_path, gff_b_path)
+    # find_diffs(gff_a_path, gff_b_path)
+
+    # generate an include list. should be deterministic
+    with open("inexact_matches.csv", encoding='utf-8') as inexact_matches_handle:
+        # skip header
+        inexact_matches_handle.readline()
+        inexact_matches = inexact_matches_handle.readlines()
+
+    inexact_matches = [row.split(",") for row in inexact_matches]
+
+    # filter out any % identity < 50%
+    inexact_matches = filter(lambda row: float(row[6]) > 0.5 and float(row[7]) > 0.5, inexact_matches)
+
+    # filter out any % exon identity < 50%
+    inexact_matches = filter(lambda row: float(row[13]) > 0.5 and float(row[14]) > 0.5, inexact_matches)
+
+    # to list
+    inexact_matches = list(inexact_matches)
+
+    include_ids_lines = []
+    # we want 100. start at 0, divide the length by 100, and increase by that number until we hit len
+    for i in range(0, len(inexact_matches), ceil(len(inexact_matches) / 100)):
+        include_ids_lines.append(inexact_matches[i][1] + '\n')
+
+    with open('include_ids.txt', 'w', encoding='utf-8') as include_ids_handle:
+        include_ids_handle.writelines(include_ids_lines)

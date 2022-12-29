@@ -135,3 +135,6 @@ dmypy.json
 
 # lock files?
 .~lock.*
+
+# outputs that we don't want to include
+blastp_out
