@@ -31,12 +31,12 @@ def blastp_model_translation(model: SeqFeature):
     blast_output = NCBIWWW.qblast(
         program = "blastp",
         database = "nr_clustered",
-        descriptions=100,
+        descriptions = 100,
         alignments = 0,
         sequence=str(translation)
     )
 
-    return SearchIO.parse(blast_output, 'blast-xml')
+    return blast_output
 
 def get_file_models(gff_file: Path):
     gff_iter = GFF.parse(gff_file, None, {"gff_type": ["CDS"]})

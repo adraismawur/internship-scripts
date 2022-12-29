@@ -17,7 +17,7 @@ from Bio.SeqFeature import SeqFeature, CompoundLocation, FeatureLocation, ExactP
 from Bio.SeqRecord import SeqRecord
 
 
-def get_exons(feature: SeqFeature) -> CompoundLocation|FeatureLocation:
+def get_exons(feature: SeqFeature):
     """Retrieves the single feature location or a compound location representing the exons in a CDS
     """
     if len(feature.sub_features) == 0:
@@ -154,6 +154,9 @@ def get_match_candidates(models_a: list[SeqFeature], models_b: list[SeqFeature])
         print(f"{idx + 1}/{len(models_a)}")
         for b_idx, model_b in enumerate(models_b[start_at:]):
             if model_a.strand != model_b.strand:
+                continue
+
+            if model_a.id[0:7] != model_b.id[0:7]:
                 continue
 
 
