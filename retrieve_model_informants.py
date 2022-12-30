@@ -88,6 +88,56 @@ def select_blast_xml_accessions(xml_path):
 
     return accessions
 
+def extract_source_gbk(gbk_seq_recs: list[SeqRecord], target_feature_id: str, gbk_base_path: Path):
+    """Retrieves the GBK entry associated with a particular feature id and writes it to a gbk
+    under gbk_base_path/feature_id/feature_id.gbk
+
+    this is inefficient, but only needs to be done once for all xmls
+    """
+
+    for seq_rec in gbk_seq_recs:
+        for feature in seq_rec.features:
+            # actual id
+            gbk_feature_id = feature.qualifiers["ID"][0]
+
+            # skip if not target
+            if gbk_feature_id != target_feature_id:
+                continue
+
+            # folder for all gbk files related to this feature
+            target_gbk_dir = gbk_base_path / Path(target_feature_id)
+            target_gbk_dir.mkdir(exist_ok=True, parents=True)
+
+            # where the actual gbk file ends up
+            target_gbk_path = target_gbk_dir / Path(target_feature_id + '.gbk')
+
+            if target_gbk_path.exists():
+                return
+
+            # generate new seq record
+            new_seq_rec = SeqRecord(seq_rec.seq, id=seq_rec.id, name=seq_rec.name, description=seq_rec.description)
+            new_seq_rec.features = [feature]
+            new_seq_rec.annotations["molecule_type"] = "DNA"
+
+            # write gbk
+            gbk_handle = open(target_gbk_path, mode='w', encoding='utf-8')
+            SeqIO.write(new_seq_rec, gbk_handle, 'genbank')
+            gbk_handle.close()
+            return
+
+    return
+
+
+def extract_xmls_source_gbk(gbk_seq_recs: list[SeqRecord], xml_dir_path: Path, gbk_base_path: Path):
+    """Loops through all xml files in the xml dir path and executes source gbk extraction for each
+    filename
+
+    this should result in a number of folders under gbk_base_path, each of which contains a gbk file
+    for the xml itself. Later this folder will be used to add informant gbks as well"""
+    xml_files = xml_dir_path.glob("*.xml")
+    for xml_file in xml_files:
+        extract_source_gbk(gbk_seq_recs, xml_file.stem, gbk_base_path)
+
 
 def process_xmls(xml_dir_path: Path, gbk_path_base: Path):
     """Loops through XML files in the xml folder, selects relevant accessions for each, and
@@ -215,9 +265,9 @@ if __name__ == "__main__":
 
     # perform blasts on whatever is relevant
     xml_base_path = Path('blastp_out')
-    blastp_gbk_seq_recs(xml_base_path, gbk_seq_recs, include_ids)
+    # blastp_gbk_seq_recs(xml_base_path, gbk_seq_recs, include_ids)
 
-    gbk_path_base = Path('gbk_out')
-
+    gbk_base_path = Path('gbk_out')
+    extract_xmls_source_gbk(gbk_seq_recs, xml_base_path, gbk_base_path)
     # process_xmls(xml_base_path, gbk_path_base)
 

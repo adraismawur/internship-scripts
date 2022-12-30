@@ -138,3 +138,4 @@ dmypy.json
 
 # outputs that we don't want to include
 blastp_out
+gbk_out
