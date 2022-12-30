@@ -45,6 +45,10 @@ def ncbi_protein_accession_to_genome(protein_accession: str, context_len=400):
         return # could not find the cds feature. shouldn't happen
 
     coded_by = protein_cds_feature.qualifiers["coded_by"][0]
+    # remove any spaces. there's a very fun issue where one of the start/stop coordinates
+    # is split by a newline, which somehow turns into a space. since spaces aren't important,
+    # we can just remove all of them
+    coded_by = coded_by.replace(" ", "")
 
     # we need to trim the 'join()' and 'complement()' if they exist
     start_trim = 0
@@ -66,7 +70,7 @@ def ncbi_protein_accession_to_genome(protein_accession: str, context_len=400):
     # but just to be sure we will remove them anyway
     join_string = join_string.replace(">", "")
     join_string = join_string.replace("<", "")
-    join_parts = join_string.split(", ")
+    join_parts = join_string.split(",")
 
 
     nucleotide_accession = None
@@ -119,6 +123,7 @@ def download_accessions(accessions, gbk_path_base):
         accession_gbk_path: Path = gbk_path_base / Path(accession + '.gbk')
         # skip if it already exists
         if accession_gbk_path.exists():
+            print(".", end="")
             continue
 
         nucleotide_seq_rec = ncbi_protein_accession_to_genome(accession)
@@ -362,7 +367,7 @@ if __name__ == "__main__":
 
     # perform blasts on whatever is relevant
     xml_base_path = Path('blastp_out')
-    # blastp_gbk_seq_recs(xml_base_path, gbk_seq_recs, include_ids)
+    blastp_gbk_seq_recs(xml_base_path, gbk_seq_recs, include_ids)
 
     gbk_base_path = Path('gbk_out')
     extract_xmls_source_gbk(gbk_seq_recs, xml_base_path, gbk_base_path)
