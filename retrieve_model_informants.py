@@ -5,6 +5,7 @@ from io import StringIO
 from math import floor
 from pathlib import Path
 import sys
+from time import sleep
 from BCBio import GFF
 from Bio import SeqIO, SearchIO, Entrez
 from Bio.SearchIO import QueryResult, Hit
@@ -19,38 +20,123 @@ MINIMUM_COVERAGE = 0.9
 NUM_MODELS = 8
 
 
-def ncbi_protein_accession_to_genome(accession: str, context_len=100):
+def ncbi_protein_accession_to_genome(protein_accession: str, context_len=400):
     """Retrieves the genome region associated with a given protein accession
-    additional DNA upstream and downstream is selected based on context_len"""
+    additional DNA upstream and downstream is selected based on context_len
+
+    returns a list of seqrecords for the GBK associated with this portion of the genome
+    """
 
     # get the protein details. we need to know where in the genome the protein starts and stops
     protein_handle = Entrez.efetch(
         db="protein",
-        id=accession,
+        id=protein_accession,
         rettype="gb",
         retmode="text"
     )
-    protein_seq_rec = SeqIO.parse(protein_handle, 'gbk')
+    protein_seq_rec: list[SeqRecord] = list(SeqIO.parse(protein_handle, 'genbank'))
+    protein_cds_feature = None
+    for feature in protein_seq_rec[0].features:
+        feature: SeqFeature
+        if feature.type == "CDS":
+            protein_cds_feature = feature
 
-    # get the link to the genome
-    link_handle = Entrez.elink(dbfrom="protein", db="nucleotide", id=accession)
-    link_record = Entrez.read(link_handle, validate=False)
+    if protein_cds_feature is None:
+        return # could not find the cds feature. shouldn't happen
 
-    nucleotide_accession = link_record[0]["LinkSetDb"][0]["Link"][0]["Id"]
+    coded_by = protein_cds_feature.qualifiers["coded_by"][0]
+
+    # we need to trim the 'join()' and 'complement()' if they exist
+    start_trim = 0
+    end_trim = len(coded_by)
+    if 'join' in coded_by:
+        start_trim += 5
+        end_trim -= 1
+
+
+    # reverse strand? we may need to correct for this in getting start and stop if so
+    if "complement" in coded_by:
+        start_trim += 11
+        end_trim -= 1
+
+    join_string = coded_by[start_trim:end_trim]
+
+
+    # gbks can contain other characters in their ranges. these shouldn't appear if all goes well,
+    # but just to be sure we will remove them anyway
+    join_string = join_string.replace(">", "")
+    join_string = join_string.replace("<", "")
+    join_parts = join_string.split(", ")
+
+
+    nucleotide_accession = None
+    accession_join_parts = []
+    for join_part in join_parts:
+        range_accession, range = join_part.split(":")
+
+        if nucleotide_accession is None:
+            nucleotide_accession = range_accession
+
+        if range_accession != nucleotide_accession:
+            continue
+
+        split_range = range.split("..")
+        accession_join_parts.append(split_range)
+
+    # get start and stop
+    start = int(accession_join_parts[0][0])
+    stop = int(accession_join_parts[-1][1])
+
+    # in some cases we got a link to
+    # link_handle = Entrez.elink(dbfrom="protein", db="nucleotide", id=protein_accession)
+    # link_record = Entrez.read(link_handle, validate=False)
+    # nucleotide_accession = link_record[0]["LinkSetDb"][0]["Link"][0]["Id"]
+
 
     # get the genome bit
     nucleotide_handle = Entrez.efetch(
         db="nucleotide",
         id=nucleotide_accession,
         rettype="gb",
-        retmode="text"
+        retmode="text",
+        seq_start=str(start - context_len),
+        seq_stop=str(stop + context_len)
     )
+    nucleotide_seq_rec: list[SeqRecord] = list(SeqIO.parse(nucleotide_handle, 'genbank'))
 
-    return
+    # make sure we don't overload the ncbi server. we are limited to 3 requests per second, and
+    # in this function we make 2
+    sleep(1)
+
+    return nucleotide_seq_rec
+
 
 def download_accessions(accessions, gbk_path_base):
-    for accession in accessions:
-        ncbi_protein_accession_to_genome(accession)
+    """executes ncbi_protein_accession_to_genome for each accession supplied, and skips any
+    accession for which a gbk already exists
+    """
+    for idx, accession in enumerate(accessions):
+        accession_gbk_path: Path = gbk_path_base / Path(accession + '.gbk')
+        # skip if it already exists
+        if accession_gbk_path.exists():
+            continue
+
+        nucleotide_seq_rec = ncbi_protein_accession_to_genome(accession)
+
+        with open(accession_gbk_path, 'w', encoding='utf-8') as gbk_handle:
+            SeqIO.write(nucleotide_seq_rec, accession_gbk_path, 'genbank')
+        print(".", end="")
+
+def find_best_accession(ids: list[str]):
+    """Returns the first hit accession that is a non-XM_ accession
+
+    if it cannot find one, returns the first accession"""
+    for id in ids:
+        parts = id.split('|')
+        if parts[0] != 'ref':
+            return parts[1]
+
+    return ids[0].split('|')[1]
 
 
 def select_blast_xml_accessions(xml_path):
@@ -67,26 +153,27 @@ def select_blast_xml_accessions(xml_path):
     with open(xml_path, encoding='utf-8') as xml_handle:
         parsed_results: list[QueryResult] = list(SearchIO.parse(xml_handle, 'blast-xml'))
 
-    hsps: list[Hit] = parsed_results[0].hsps
+    hits: list[Hit] = parsed_results[0].hits
 
 
     # 1. filter
-    hsps = list(filter(lambda hsp: 1 - hsp.gap_num/hsp.aln_span > 0.9, hsps))
+    hits = list(filter(lambda hit: 1 - hit.hsps[0].gap_num/hit.hsps[0].aln_span > 0.9, hits))
 
     # 2 top and bottom
-    hsps = list(reversed(sorted(hsps, key=lambda hsp: hsp.ident_num/hsp.aln_span)))
-    top_accession = hsps[0].hit_id.split("|")[1]
-    bot_accession = hsps[-1].hit_id.split("|")[1]
+    hits = list(reversed(sorted(hits, key=lambda hit: hit.hsps[0].ident_num/hit.hsps[0].aln_span)))
+    top_accession = find_best_accession(hits[0].id_all)
+    bot_accession = find_best_accession(hits[-1].id_all)
     accessions.append(top_accession)
     accessions.append(bot_accession)
 
     # 3. take a spread of hits
-    remaining_len = len(hsps) - 2
+    remaining_len = len(hits) - 2
     interval = floor(remaining_len / 10)
-    for i in range(1, len(hsps) - 1, interval):
-        accessions.append(hsps[i].hit_id.split("|")[1])
+    for i in range(1, len(hits) - 1, interval):
+        accessions.append(find_best_accession(hits[i].id_all))
 
     return accessions
+
 
 def extract_source_gbk(gbk_seq_recs: list[SeqRecord], target_feature_id: str, gbk_base_path: Path):
     """Retrieves the GBK entry associated with a particular feature id and writes it to a gbk
@@ -139,20 +226,26 @@ def extract_xmls_source_gbk(gbk_seq_recs: list[SeqRecord], xml_dir_path: Path, g
         extract_source_gbk(gbk_seq_recs, xml_file.stem, gbk_base_path)
 
 
-def process_xmls(xml_dir_path: Path, gbk_path_base: Path):
+def retrieve_xmls_informants(xml_dir_path: Path, gbk_path_base: Path):
     """Loops through XML files in the xml folder, selects relevant accessions for each, and
     downloads the nucleotide sequence for each
 
     xml_dir_path: the directory in which the xml files are located
-    gbk_path: the directory to output gbk files to. subdirectories will be created in this folder
-    for each xml file
+    gbk_path_base: the directory to output gbk files to. subdirectories will be created (or have
+        already been created in this folder for each xml file
     email: email address to use for requests to the entrez databases
     """
-    xml_files = xml_dir_path.glob("*.xml")
-    for xml_file in xml_files:
+    xml_files = list(xml_dir_path.glob("*.xml"))
+    for idx, xml_file in enumerate(xml_files):
+        print(f"XML: {idx+1}/{len(xml_files)}")
         xml_accessions = select_blast_xml_accessions(xml_file)
-        download_accessions(xml_accessions, gbk_path_base)
+        xml_gbk_path_base = gbk_base_path / Path(xml_file.stem)
+        xml_gbk_path_base.mkdir(parents=True, exist_ok=True)
+        print("|0%" + " " * (len(xml_accessions) - 8) + "100%|")
+        download_accessions(xml_accessions, xml_gbk_path_base)
+        print("")
     return
+
 
 def blastp_model_translation(model: SeqFeature) -> StringIO:
     """runs a blastp with a model translation as a query
@@ -173,6 +266,7 @@ def blastp_model_translation(model: SeqFeature) -> StringIO:
     )
 
     return blast_output
+
 
 def blastp_gbk_seq_recs(xml_base_path, gbk_seq_recs, include_ids=None):
     """Performs a blastp for all entries found in a gbk, creating an XML file containing hits in
@@ -229,6 +323,7 @@ def get_file_models(gff_file: Path):
 
     return models
 
+
 def read_include_list(include_file: Path):
     include_ids = set()
     with open(include_file, 'r', encoding='utf-8') as include_handle:
@@ -236,10 +331,12 @@ def read_include_list(include_file: Path):
             include_ids.add(line.rstrip())
     return include_ids
 
+
 def write_xml(blast_results: StringIO, xml_path: Path):
     xml_path.parent.mkdir(parents=True, exist_ok=True)
     with open(xml_path, 'w', encoding='utf-8') as xml_handle:
         xml_handle.write(blast_results.read())
+
 
 if __name__ == "__main__":
     if len(sys.argv) < 3:
@@ -269,5 +366,4 @@ if __name__ == "__main__":
 
     gbk_base_path = Path('gbk_out')
     extract_xmls_source_gbk(gbk_seq_recs, xml_base_path, gbk_base_path)
-    # process_xmls(xml_base_path, gbk_path_base)
-
+    retrieve_xmls_informants(xml_base_path, gbk_base_path)
