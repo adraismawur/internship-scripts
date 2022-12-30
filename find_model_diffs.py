@@ -31,21 +31,37 @@ def get_exons(feature: SeqFeature):
         location_parts.append(subfeature.location)
     return CompoundLocation(location_parts)
 
-def fix_start(models: list[SeqFeature], offset=-3):
+def sort_locations(models: list[SeqFeature]):
+    """Sorts the location parts in each model by the start location of the model part"""
+    for model in models:
+        if model.strand == -1 and len(model.location.parts) > 1:
+            location_parts = sorted(model.location.parts, key=lambda parts: parts.start)
+            model.location = CompoundLocation(location_parts)
+
+def fix_ends(models: list[SeqFeature]):
     for model in models:
         if len(model.location.parts) == 1:
-            model.location = FeatureLocation(int(model.location.start) + offset, model.location.end, model.location.strand)
+            if model.location.end - model.location.start < 3:
+                continue
+            if model.strand == 1:
+                model.location = FeatureLocation(int(model.location.start), model.location.end - 3, 1)
+            else:
+                model.location = FeatureLocation(int(model.location.start) + 3, model.location.end, -1)
             continue
         new_locations = []
         if model.strand == 1:
-            fixed_location = FeatureLocation(int(model.location.parts[0].start + offset), model.location.parts[0].end, 1)
+            if model.location.parts[-1].end - model.location.parts[-1].start < 3:
+                continue
+            new_locations.extend(model.location.parts[:-1])
+            fixed_location = FeatureLocation(int(model.location.parts[-1].start), model.location.parts[-1].end - 3, 1)
             new_locations.append(fixed_location)
-            new_locations.extend(model.location.parts[1:])
 
         else:
-            fixed_location = FeatureLocation(int(model.location.parts[-1].start + offset), model.location.parts[-1].end, -1)
-            new_locations.extend(model.location.parts[:-1])
+            if model.location.parts[0].end - model.location.parts[0].start < 3:
+                continue
+            fixed_location = FeatureLocation(int(model.location.parts[0].start + 3), model.location.parts[0].end, -1)
             new_locations.append(fixed_location)
+            new_locations.extend(model.location.parts[1:])
         model.location = CompoundLocation(new_locations)
 
 
@@ -161,16 +177,16 @@ def get_match_candidates(models_a: list[SeqFeature], models_b: list[SeqFeature])
                 continue
 
 
-            if model_a.strand == 1:
-                a_start = int(model_a.location.parts[0].start)
-                a_end = int(model_a.location.parts[-1].end)
-                b_start = int(model_b.location.parts[0].start)
-                b_end = int(model_b.location.parts[-1].end)
-            else:
-                a_start = int(model_a.location.parts[-1].start)
-                a_end = int(model_a.location.parts[0].end)
-                b_start = int(model_b.location.parts[-1].start)
-                b_end = int(model_b.location.parts[0].end)
+            # if model_a.strand == 1:
+            a_start = int(model_a.location.parts[0].start)
+            a_end = int(model_a.location.parts[-1].end)
+            b_start = int(model_b.location.parts[0].start)
+            b_end = int(model_b.location.parts[-1].end)
+            # else:
+            #     a_start = int(model_a.location.parts[-1].start)
+            #     a_end = int(model_a.location.parts[0].end)
+            #     b_start = int(model_b.location.parts[-1].start)
+            #     b_end = int(model_b.location.parts[0].end)
 
             if a_end < b_start:
                 break
@@ -291,7 +307,13 @@ def find_diffs(gff_file_a, gff_file_b):
     print(f"{len(a_models)} models in {gff_file_a.stem}")
     print(f"{len(b_models)} models in {gff_file_b.stem}")
 
-    fix_start(b_models)
+    # sort the model locations. they start out in reverse order which is annoying to work with
+    sort_locations(a_models)
+    sort_locations(b_models)
+
+    # this script was made to compare two models, one of which included stop codons in its cds regions
+    # this function removes those codons
+    fix_ends(a_models)
 
     exact_matches, inexact_matches, no_matches_a, no_matches_b = get_match_candidates(a_models, b_models)
 
@@ -323,7 +345,7 @@ if __name__ == "__main__":
         print(f"{gff_b_path} does not exist")
         exit()
 
-    # find_diffs(gff_a_path, gff_b_path)
+    find_diffs(gff_a_path, gff_b_path)
 
     # generate an include list. should be deterministic
     with open("inexact_matches.csv", encoding='utf-8') as inexact_matches_handle:
