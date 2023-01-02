@@ -173,7 +173,12 @@ def select_blast_xml_accessions(xml_path):
 
     # 3. take a spread of hits
     remaining_len = len(hits) - 2
-    interval = floor(remaining_len / 10)
+    # if we now have less than or equal to 10, take all the hits
+    if remaining_len <= 10:
+        interval = 1
+    else:
+        # otherwise pick 10 hits
+        interval = floor(remaining_len / 10)
     for i in range(1, len(hits) - 1, interval):
         accessions.append(find_best_accession(hits[i].id_all))
 
@@ -207,7 +212,12 @@ def extract_source_gbk(gbk_seq_recs: list[SeqRecord], target_feature_id: str, gb
                 return
 
             # generate new seq record
-            new_seq_rec = SeqRecord(seq_rec.seq, id=seq_rec.id, name=seq_rec.name, description=seq_rec.description)
+            new_seq_rec = SeqRecord(
+                seq_rec.seq,
+                id=seq_rec.id,
+                name=seq_rec.name,
+                description=seq_rec.description
+            )
             new_seq_rec.features = [feature]
             new_seq_rec.annotations["molecule_type"] = "DNA"
 
@@ -367,7 +377,7 @@ if __name__ == "__main__":
 
     # perform blasts on whatever is relevant
     xml_base_path = Path('blastp_out')
-    blastp_gbk_seq_recs(xml_base_path, gbk_seq_recs, include_ids)
+    # blastp_gbk_seq_recs(xml_base_path, gbk_seq_recs, include_ids)
 
     gbk_base_path = Path('gbk_out')
     extract_xmls_source_gbk(gbk_seq_recs, xml_base_path, gbk_base_path)

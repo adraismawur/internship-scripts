@@ -67,7 +67,13 @@ def fix_ends(models: list[SeqFeature]):
 
 def collapse_record_cds(gff_seq_rec):
     """Collapses several CDS features in a SeqRecord into a single CDS with a compound location"""
-    new_record = SeqRecord(gff_seq_rec.seq, gff_seq_rec.id, gff_seq_rec.name, gff_seq_rec.description, gff_seq_rec.dbxrefs)
+    new_record = SeqRecord(
+        gff_seq_rec.seq,
+        gff_seq_rec.id,
+        gff_seq_rec.name,
+        gff_seq_rec.description,
+        gff_seq_rec.dbxrefs
+    )
     new_record.annotations["molecule_type"] = "DNA"
 
     # gene level
