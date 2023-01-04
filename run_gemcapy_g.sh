@@ -1,6 +1,6 @@
 #!/bin/bash
-mkdir output
-for gbk in gbk_out/* ; do
+mkdir $4
+for gbk in $3/* ; do
     file=${gbk##*/}
-    python $1 --macse_path $2 -t $file -i $3/$file -o output/$file --output_algn -g $4/$file/$file\_GeneFamilies.tsv
+    python $1 --macse_path $2 -t $file -i $3/$file -o $4/$file --output_algn -g $5/$file/$file\_GeneFamilies.tsv $6
 done
