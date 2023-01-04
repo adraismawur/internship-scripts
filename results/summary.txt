@@ -1,0 +1,9 @@
+Summary stats:
+Total predictions: 56
+Of which original==truth: 0
+Perfect predictions: 12 (0.21428571428571427)
+Total exons: 279
+Old exons matching truth: 182 (0.6523297491039427)
+Curated exons matching truth: 174 (0.6236559139784946)
+
+
