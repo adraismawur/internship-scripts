@@ -4,6 +4,7 @@
 from io import StringIO
 from math import floor
 from pathlib import Path
+import shutil
 import sys
 from time import sleep
 from BCBio import GFF
@@ -121,16 +122,23 @@ def download_accessions(accessions, gbk_path_base):
     """
     for idx, accession in enumerate(accessions):
         accession_gbk_path: Path = gbk_path_base / Path(accession + '.gbk')
-        # skip if it already exists
+        # skip if it already exists in the output directory
         if accession_gbk_path.exists():
-            print(".", end="")
+            print("e", end="")
+            continue
+
+        # copy if it already exists in the cache
+        gbk_cache_path: Path = Path("gbk_cache") / gbk_path_base.name / Path(accession + '.gbk')
+        if gbk_cache_path.exists():
+            shutil.copy(gbk_cache_path, accession_gbk_path)
+            print("c", end="")
             continue
 
         nucleotide_seq_rec = ncbi_protein_accession_to_genome(accession)
 
         with open(accession_gbk_path, 'w', encoding='utf-8') as gbk_handle:
             SeqIO.write(nucleotide_seq_rec, accession_gbk_path, 'genbank')
-        print(".", end="")
+        print("d", end="")
 
 def find_best_accession(ids: list[str]):
     """Returns the first hit accession that is a non-XM_ accession
@@ -165,7 +173,7 @@ def select_blast_xml_accessions(xml_path, coverage_threshold=0.9, ident_threshol
     if coverage_threshold is not None:
         hits = list(filter(lambda hit: 1 - hit.hsps[0].gap_num/hit.hsps[0].aln_span > coverage_threshold, hits))
     if ident_threshold is not None:
-        hits = list(filter(lambda hit: 1 - hit.hsps[0].ident_num/hit.hsps[0].aln_span > ident_threshold, hits))
+        hits = list(filter(lambda hit: hit.hsps[0].ident_num/hit.hsps[0].aln_span > ident_threshold, hits))
 
     # 2 top and bottom
     hits = list(reversed(sorted(hits, key=lambda hit: hit.hsps[0].ident_num/hit.hsps[0].aln_span)))
@@ -367,7 +375,7 @@ def write_xml(blast_results: StringIO, xml_path: Path):
 
 if __name__ == "__main__":
     if len(sys.argv) < 4:
-        print(f"usage: {__file__} <models.gbk> <gbk output path = gbk_out> <your@email.com> [include models.txt] [coverage threshold] [identity threshold]")
+        print(f"usage: {__file__} <models.gbk> <gbk output path> <your@email.com> [include models.txt] [coverage threshold] [identity threshold]")
         exit()
 
     gbk_file = Path(sys.argv[1])
@@ -386,7 +394,7 @@ if __name__ == "__main__":
 
     include_ids = None
     if len(sys.argv) > 4:
-        include_file = Path(sys.argv[3])
+        include_file = Path(sys.argv[4])
         if not include_file.exists():
             print(f"{include_file} does not exist")
             exit()
@@ -394,11 +402,11 @@ if __name__ == "__main__":
 
     coverage_treshold = 0.9
     if len(sys.argv) > 5:
-        coverage_treshold = float(sys.argv[4])
+        coverage_treshold = float(sys.argv[5])
 
     ident_threshold = None
     if len(sys.argv) > 5:
-        ident_threshold = float(sys.argv[5])
+        ident_threshold = float(sys.argv[6])
 
     gbk_seq_recs = list(SeqIO.parse(gbk_file, format="genbank"))
 
@@ -406,6 +414,5 @@ if __name__ == "__main__":
     xml_base_path = Path('blastp_out')
     # blastp_gbk_seq_recs(xml_base_path, gbk_seq_recs, include_ids)
 
-    gbk_base_path = Path('gbk_out')
     extract_xmls_source_gbk(gbk_seq_recs, xml_base_path, gbk_base_path)
     retrieve_xmls_informants(xml_base_path, gbk_base_path, coverage_treshold, ident_threshold)
