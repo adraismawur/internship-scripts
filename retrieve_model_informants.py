@@ -405,7 +405,7 @@ if __name__ == "__main__":
         coverage_treshold = float(sys.argv[5])
 
     ident_threshold = None
-    if len(sys.argv) > 5:
+    if len(sys.argv) > 6:
         ident_threshold = float(sys.argv[6])
 
     gbk_seq_recs = list(SeqIO.parse(gbk_file, format="genbank"))
