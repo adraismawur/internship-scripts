@@ -130,7 +130,8 @@ if __name__ == "__main__":
     total_old_equal_truth = 0 # total number of old models that already match the truth
     perfect_curations = 0
     total_exons = 0
-    perfect_exons = 0
+    curated_matching_exons = 0
+    old_matching_exons = 0
 
     for output_folder in output_folders:
         curated_model_id = output_folder.name
@@ -200,7 +201,7 @@ if __name__ == "__main__":
         summary_lines.append(f"CURATION:     {len(curated_aa_seq)}\n")
         summary_lines.append(f"ORIGINAL:     {len(old_aa_seq)}\n")
 
-        summary_lines.append("Equality:\n")
+        # figure out sequence equality
         o_t_equal = old_aa_seq == truth_aa_seq
         if o_t_equal:
             total_old_equal_truth += 1
@@ -209,11 +210,27 @@ if __name__ == "__main__":
         if p_t_equal:
             perfect_curations += 1
 
+        summary_lines.append("Equality:\n")
         summary_lines.append(f"ORIGINAL TO TRUTH (expect False): {o_t_equal}\n")
         summary_lines.append(f"ORIGINAL TO PRED (expect False): {o_p_equal}\n")
         summary_lines.append(f"PREDICTED TO TRUTH (expect True): {p_t_equal}\n")
 
         total_curations += 1
+
+        # exons
+        truth_exons = set([(int(p.start), int(p.end)) for p in truth_feature.location.parts])
+        curated_exons = set([(int(p.start), int(p.end)) for p in curated_feature.location.parts])
+        old_exons = set([(int(p.start), int(p.end)) for p in old_feature.location.parts])
+
+        # total number of expected exons
+        total_exons += len(truth_exons)
+
+        # of which old matched truth
+        old_matching_exons += len(truth_exons & old_exons)
+
+        # of which curated match truth
+        curated_matching_exons += len(truth_exons & curated_exons)
+
 
         summary_lines.append("\n")
 
@@ -222,7 +239,8 @@ if __name__ == "__main__":
         summary_handle.write(f"Total predictions: {total_curations}\n")
         summary_handle.write(f"Of which original==truth: {total_old_equal_truth}\n")
         summary_handle.write(f"Perfect predictions: {perfect_curations} ({perfect_curations/total_curations})\n")
-        summary_handle.write(f"Total exons: {0}\n")
-        summary_handle.write(f"Perfect exons: {0}\n")
+        summary_handle.write(f"Total exons: {total_exons}\n")
+        summary_handle.write(f"Old exons matching truth: {old_matching_exons} ({old_matching_exons/total_exons})\n")
+        summary_handle.write(f"Curated exons matching truth: {curated_matching_exons} ({curated_matching_exons/total_exons})\n")
         summary_handle.write("\n\n")
     results_handle.close()
