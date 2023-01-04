@@ -144,7 +144,7 @@ def find_best_accession(ids: list[str]):
     return ids[0].split('|')[1]
 
 
-def select_blast_xml_accessions(xml_path):
+def select_blast_xml_accessions(xml_path, coverage_threshold=0.9, ident_threshold=None):
     """Selects a number of accessions from a blast result by:
     1. filtering the results to have >90% coverage
     2. taking the top hit and bottom hit
@@ -162,7 +162,10 @@ def select_blast_xml_accessions(xml_path):
 
 
     # 1. filter
-    hits = list(filter(lambda hit: 1 - hit.hsps[0].gap_num/hit.hsps[0].aln_span > 0.9, hits))
+    if coverage_threshold is not None:
+        hits = list(filter(lambda hit: 1 - hit.hsps[0].gap_num/hit.hsps[0].aln_span > coverage_threshold, hits))
+    if ident_threshold is not None:
+        hits = list(filter(lambda hit: 1 - hit.hsps[0].ident_num/hit.hsps[0].aln_span > ident_threshold, hits))
 
     # 2 top and bottom
     hits = list(reversed(sorted(hits, key=lambda hit: hit.hsps[0].ident_num/hit.hsps[0].aln_span)))
@@ -241,7 +244,12 @@ def extract_xmls_source_gbk(gbk_seq_recs: list[SeqRecord], xml_dir_path: Path, g
         extract_source_gbk(gbk_seq_recs, xml_file.stem, gbk_base_path)
 
 
-def retrieve_xmls_informants(xml_dir_path: Path, gbk_path_base: Path):
+def retrieve_xmls_informants(
+    xml_dir_path: Path,
+    gbk_path_base: Path,
+    coverage_threshold=0.9,
+    ident_threshold=None
+):
     """Loops through XML files in the xml folder, selects relevant accessions for each, and
     downloads the nucleotide sequence for each
 
@@ -253,8 +261,12 @@ def retrieve_xmls_informants(xml_dir_path: Path, gbk_path_base: Path):
     xml_files = list(xml_dir_path.glob("*.xml"))
     for idx, xml_file in enumerate(xml_files):
         print(f"XML: {idx+1}/{len(xml_files)}")
-        xml_accessions = select_blast_xml_accessions(xml_file)
-        xml_gbk_path_base = gbk_base_path / Path(xml_file.stem)
+        xml_accessions = select_blast_xml_accessions(
+            xml_file,
+            coverage_threshold,
+            ident_threshold
+        )
+        xml_gbk_path_base = gbk_path_base / Path(xml_file.stem)
         xml_gbk_path_base.mkdir(parents=True, exist_ok=True)
         print("|0%" + " " * (len(xml_accessions) - 8) + "100%|")
         download_accessions(xml_accessions, xml_gbk_path_base)
@@ -354,8 +366,8 @@ def write_xml(blast_results: StringIO, xml_path: Path):
 
 
 if __name__ == "__main__":
-    if len(sys.argv) < 3:
-        print(f"usage: {__file__} <models.gbk> <include models.txt>")
+    if len(sys.argv) < 4:
+        print(f"usage: {__file__} <models.gbk> <gbk output path = gbk_out> <your@email.com> [include models.txt] [coverage threshold] [identity threshold]")
         exit()
 
     gbk_file = Path(sys.argv[1])
@@ -363,15 +375,30 @@ if __name__ == "__main__":
         print(f"{gbk_file} does not exist")
         exit()
 
-    Entrez.email = sys.argv[2]
+    gbk_base_path = Path(sys.argv[2])
+    if gbk_base_path.exists() and gbk_base_path.is_file():
+        print(f"{gbk_file} exists and is a file!")
+        exit()
+
+    gbk_base_path.mkdir(parents=True, exist_ok=True)
+
+    Entrez.email = sys.argv[3]
 
     include_ids = None
-    if len(sys.argv) > 3:
+    if len(sys.argv) > 4:
         include_file = Path(sys.argv[3])
         if not include_file.exists():
             print(f"{include_file} does not exist")
             exit()
         include_ids = read_include_list(include_file)
+
+    coverage_treshold = 0.9
+    if len(sys.argv) > 5:
+        coverage_treshold = float(sys.argv[4])
+
+    ident_threshold = None
+    if len(sys.argv) > 5:
+        ident_threshold = float(sys.argv[5])
 
     gbk_seq_recs = list(SeqIO.parse(gbk_file, format="genbank"))
 
@@ -381,4 +408,4 @@ if __name__ == "__main__":
 
     gbk_base_path = Path('gbk_out')
     extract_xmls_source_gbk(gbk_seq_recs, xml_base_path, gbk_base_path)
-    retrieve_xmls_informants(xml_base_path, gbk_base_path)
+    retrieve_xmls_informants(xml_base_path, gbk_base_path, coverage_treshold, ident_threshold)
