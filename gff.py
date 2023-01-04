@@ -69,10 +69,10 @@ def collapse_record_cds(gff_seq_rec):
     """Collapses several CDS features in a SeqRecord into a single CDS with a compound location"""
     new_record = SeqRecord(
         gff_seq_rec.seq,
-        gff_seq_rec.id,
-        gff_seq_rec.name,
-        gff_seq_rec.dbxrefs,
-        ""
+        id=gff_seq_rec.id,
+        name=gff_seq_rec.name,
+        dbxrefs=gff_seq_rec.dbxrefs,
+        description=""
     )
     new_record.annotations["molecule_type"] = "DNA"
 

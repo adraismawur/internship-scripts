@@ -45,7 +45,7 @@ def get_model(feature_id: str, gbk_path: Path):
 
 if __name__ == "__main__":
     if len(sys.argv) < 5:
-        print(f"usage: {__file__} <internship-scripts output dir> <inexact_matches.csv> <ground truth gbk>")
+        print(f"usage: {__file__} <internship-scripts output dir> <inexact_matches.csv> <ground truth gbk> <augustus result gbk>")
         exit()
 
     output_dir = Path(sys.argv[1])
@@ -72,8 +72,11 @@ if __name__ == "__main__":
     output_folders = sorted(list(output_dir.glob("*")))
     truth_model_map = get_truth_model_map(inexact_matches_path)
 
+    summary_handle = open('summary.csv', mode='w', encoding='utf-8')
 
-    print("id,total_len,exon_len,start,stop,n_exons,sequence\n")
+    header = "id,total_len,exon_len,start,stop,n_exons,sequence\n"
+    print(header, end="")
+    summary_handle.write(header)
 
 
     for output_folder in output_folders:
@@ -95,7 +98,9 @@ if __name__ == "__main__":
         truth_annotated_aa_sequence = truth_feature.qualifiers["translation"][0]
         truth_translated_aa_sequence = truth_feature.translate(truth_nucleotide_seq, cds=False)
 
-        print(f"{predicted_model_name}|TRUE,{0},{0},{0},{0},{0},{0},{0}")
+        truth_row = f"{predicted_model_name}|TRUE,{0},{0},{0},{0},{truth_annotated_aa_sequence}\n"
+        print(truth_row, end="")
+        summary_handle.write(truth_row)
 
         # prediction gbk
         output_gbk_path = output_folder / Path(f"output/{predicted_model_name}.gbk")
@@ -108,13 +113,23 @@ if __name__ == "__main__":
         predicted_nucleotide_seq = predicted_seq_rec.seq + pad
         predicted_feature: SeqFeature = predicted_seq_rec.features[0]
 
-        if len(predicted_feature.location.parts) > 1 and predicted_feature.strand == -1:
-            predicted_feature.location = CompoundLocation(list(reversed(predicted_feature.location.parts)))
+        # ensure location is in the "right" order
+        first_start = predicted_feature.location.parts[0].start
+        last_start = predicted_feature.location.parts[-1].start
+        is_ascending = last_start > first_start
+        if len(predicted_feature.location.parts) > 1:
+            sense_wrong_order = predicted_feature.location.strand == 1 and not is_ascending
+            antisense_wrong_order = predicted_feature.location.strand == -1 and is_ascending
+            if antisense_wrong_order or sense_wrong_order:
+                reversed_order = list(reversed(predicted_feature.location.parts))
+                predicted_feature.location = CompoundLocation(reversed_order)
 
         predicted_annotated_aa_sequence = predicted_feature.qualifiers["translation"][0]
         predicted_translated_aa_sequence = predicted_feature.translate(predicted_nucleotide_seq, cds=False)
 
-        print(f"{predicted_model_name}|PRED,{0},{0},{0},{0},{0},{0},{0}")
+        truth_row = f"{predicted_model_name}|PRED,{0},{0},{0},{0},{predicted_translated_aa_sequence}\n"
+        print(truth_row, end="")
+        summary_handle.write(truth_row)
 
 
         # old gbk
@@ -124,8 +139,22 @@ if __name__ == "__main__":
         pad = (3 - len(old_nucleotide_seq) % 3) * "N"
         old_nucleotide_seq = old_nucleotide_seq + pad
 
+        # ensure location is in the "right" order
+        first_start = old_feature.location.parts[0].start
+        last_start = old_feature.location.parts[-1].start
+        is_ascending = last_start > first_start
+        if len(old_feature.location.parts) > 1:
+            sense_wrong_order = old_feature.location.strand == 1 and not is_ascending
+            antisense_wrong_order = old_feature.location.strand == -1 and is_ascending
+            if antisense_wrong_order or sense_wrong_order:
+                reversed_order = list(reversed(old_feature.location.parts))
+                old_feature.location = CompoundLocation(reversed_order)
+
         old_annotated_aa_sequence = old_feature.qualifiers["translation"][0]
         old_translated_aa_sequence = old_feature.translate(old_nucleotide_seq, cds=False)
 
+        pred_row = f"{predicted_model_name}|ORIG,{0},{0},{0},{0},{old_translated_aa_sequence}\n"
+        print(pred_row, end="")
+        summary_handle.write(pred_row)
 
-        print(f"{predicted_model_name}|ORIG,{0},{0},{0},{0},{0},{0},{0}")
+    summary_handle.close()
