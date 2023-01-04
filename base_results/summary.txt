@@ -1,7 +1,7 @@
 Summary stats:
-Total predictions: 56
+Total predictions: 55
 Of which original==truth: 0
-Perfect predictions: 12 (0.21428571428571427)
+Perfect predictions: 12 (0.21818181818181817)
 Total exons: 0
 Perfect exons: 0
 

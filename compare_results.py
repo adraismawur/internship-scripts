@@ -77,8 +77,8 @@ def unpack_gbk_to_map(feature_ids: set, gbk_path: Path):
 
 
 if __name__ == "__main__":
-    if len(sys.argv) < 5:
-        print(f"usage: {__file__} <internship-scripts output dir> <inexact_matches.csv> <ground truth gbk> <augustus result gbk>")
+    if len(sys.argv) < 6:
+        print(f"usage: {__file__} <internship-scripts output dir> <inexact_matches.csv> <ground truth gbk> <augustus result gbk> <result output dir>")
         exit()
 
     output_dir = Path(sys.argv[1])
@@ -101,6 +101,9 @@ if __name__ == "__main__":
         print(f"{old_gbk_path} does not exist")
         exit()
 
+    result_base_path = Path(sys.argv[5])
+    result_base_path.mkdir(parents=True, exist_ok=True)
+
 
     output_folders = sorted(list(output_dir.glob("*")))
 
@@ -115,7 +118,7 @@ if __name__ == "__main__":
     old_features, old_aa_seqs = unpack_gbk_to_map(old_id_set, old_gbk_path)
 
     summary_lines = []
-    results_handle = open('results.csv', mode='w', encoding='utf-8')
+    results_handle = open(result_base_path / Path('results.csv'), mode='w', encoding='utf-8')
 
     header = "id,total_len,exon_len,start,stop,n_exons,sequence\n"
     print(header, end="")
@@ -214,7 +217,7 @@ if __name__ == "__main__":
 
         summary_lines.append("\n")
 
-    with open('summary.txt', mode='w', encoding='utf-8') as summary_handle:
+    with open(result_base_path / Path('summary.txt'), mode='w', encoding='utf-8') as summary_handle:
         summary_handle.write("Summary stats:\n")
         summary_handle.write(f"Total predictions: {total_curations}\n")
         summary_handle.write(f"Of which original==truth: {total_old_equal_truth}\n")
