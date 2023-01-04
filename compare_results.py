@@ -132,6 +132,9 @@ if __name__ == "__main__":
     total_exons = 0
     curated_matching_exons = 0
     old_matching_exons = 0
+    fixed_exons = 0
+    broken_exons = 0
+    unchanged_exons = 0
 
     for output_folder in output_folders:
         curated_model_id = output_folder.name
@@ -231,16 +234,28 @@ if __name__ == "__main__":
         # of which curated match truth
         curated_matching_exons += len(truth_exons & curated_exons)
 
+        # of which were incorrect before, but are correct now
+        fixed_exons += len((truth_exons - old_exons) & curated_exons)
+
+        # of which were correct before, but are not now
+        broken_exons += len((truth_exons & old_exons) - curated_exons)
+
+        # of which are unchanged between truth, curation and old model
+        unchanged_exons += len(truth_exons & old_exons & curated_exons)
+
 
         summary_lines.append("\n")
 
     with open(result_base_path / Path('summary.txt'), mode='w', encoding='utf-8') as summary_handle:
         summary_handle.write("Summary stats:\n")
-        summary_handle.write(f"Total predictions: {total_curations}\n")
+        summary_handle.write(f"Total curations: {total_curations}\n")
         summary_handle.write(f"Of which original==truth: {total_old_equal_truth}\n")
-        summary_handle.write(f"Perfect predictions: {perfect_curations} ({perfect_curations/total_curations})\n")
-        summary_handle.write(f"Total exons: {total_exons}\n")
+        summary_handle.write(f"Perfect curations: {perfect_curations} ({perfect_curations/total_curations})\n")
+        summary_handle.write(f"Total exons in truth: {total_exons}\n")
         summary_handle.write(f"Old exons matching truth: {old_matching_exons} ({old_matching_exons/total_exons})\n")
         summary_handle.write(f"Curated exons matching truth: {curated_matching_exons} ({curated_matching_exons/total_exons})\n")
+        summary_handle.write(f"Exons that did not match truth, but do match after curation: {fixed_exons} ({fixed_exons/total_exons})\n")
+        summary_handle.write(f"Exons that matched truth, but do not match after curation: {broken_exons} ({broken_exons/total_exons})\n")
+        summary_handle.write(f"Exons which did not change at all after curation: {unchanged_exons} ({unchanged_exons/total_exons})\n")
         summary_handle.write("\n\n")
     results_handle.close()
