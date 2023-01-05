@@ -1,4 +1,5 @@
-xml,total_accesions,filtered_coverage,filtered_ident,filtered_total,output_accessionschr_502+CDS516.xml,13,6,1,6,6
+xml,total_accesions,filtered_coverage,filtered_ident,filtered_total,output_accessions
+chr_502+CDS516.xml,13,6,1,6,6
 chr_701+CDS282.xml,50,0,0,50,10
 chr_701+CDS106.xml,50,0,0,50,10
 chr_702+CDS593.xml,50,1,5,44,12

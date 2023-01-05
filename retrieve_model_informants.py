@@ -286,7 +286,7 @@ def retrieve_xmls_informants(
     xml_stats_file_path = Path(gbk_path_base.name + '_stats.csv')
     xml_stats_handle = open(xml_stats_file_path, mode='w', encoding='utf-8')
     # header
-    xml_stats_handle.write("xml,total_accesions,filtered_coverage,filtered_ident,filtered_total,output_accessions")
+    xml_stats_handle.write("xml,total_accesions,filtered_coverage,filtered_ident,filtered_total,output_accessions\n")
 
     for idx, xml_file in enumerate(xml_files):
         print(f"XML: {idx+1}/{len(xml_files)}")
