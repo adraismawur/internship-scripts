@@ -1,0 +1,12 @@
+Summary stats:
+Total curations: 69
+Of which original==truth: 0
+Perfect curations: 15 (0.21739130434782608)
+Total exons in truth: 325
+Old exons matching truth: 195 (0.6)
+Curated exons matching truth: 189 (0.5815384615384616)
+Exons that did not match truth, but do match after curation: 37 (0.11384615384615385)
+Exons that matched truth, but do not match after curation: 43 (0.13230769230769232)
+Exons which did not change at all after curation: 152 (0.4676923076923077)
+
+
