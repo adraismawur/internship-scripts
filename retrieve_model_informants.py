@@ -110,8 +110,8 @@ def ncbi_protein_accession_to_genome(protein_accession: str, context_len=400):
     nucleotide_seq_rec: list[SeqRecord] = list(SeqIO.parse(nucleotide_handle, 'genbank'))
 
     # make sure we don't overload the ncbi server. we are limited to 3 requests per second, and
-    # in this function we make 2
-    sleep(1)
+    # in this function we make 2. setting it to 1.5 just to be safe
+    sleep(1.5)
 
     return nucleotide_seq_rec
 
@@ -135,6 +135,9 @@ def download_accessions(accessions, gbk_path_base):
             continue
 
         nucleotide_seq_rec = ncbi_protein_accession_to_genome(accession)
+        if nucleotide_seq_rec is None:
+            print("s", end="")
+            continue
 
         with open(accession_gbk_path, 'w', encoding='utf-8') as gbk_handle:
             SeqIO.write(nucleotide_seq_rec, accession_gbk_path, 'genbank')
@@ -162,18 +165,27 @@ def select_blast_xml_accessions(xml_path, coverage_threshold=0.9, ident_threshol
     using ncbi_protein_accession_to_genome
     """
     accessions = []
+    stats = {}
 
     with open(xml_path, encoding='utf-8') as xml_handle:
         parsed_results: list[QueryResult] = list(SearchIO.parse(xml_handle, 'blast-xml'))
 
     hits: list[Hit] = parsed_results[0].hits
 
+    stats['n_b'] = len(hits)
+
 
     # 1. filter
     if coverage_threshold is not None:
         hits = list(filter(lambda hit: 1 - hit.hsps[0].gap_num/hit.hsps[0].aln_span > coverage_threshold, hits))
+    stats['n_ct'] = stats['n_b'] - len(hits)
+    stats['n_it'] = len(hits)
+
     if ident_threshold is not None:
         hits = list(filter(lambda hit: hit.hsps[0].ident_num/hit.hsps[0].aln_span > ident_threshold, hits))
+    stats['n_it'] = stats['n_it'] - len(hits)
+
+    stats['n_f'] = len(hits)
 
     # 2 top and bottom
     hits = list(reversed(sorted(hits, key=lambda hit: hit.hsps[0].ident_num/hit.hsps[0].aln_span)))
@@ -187,13 +199,17 @@ def select_blast_xml_accessions(xml_path, coverage_threshold=0.9, ident_threshol
     # if we now have less than or equal to 10, take all the hits
     if remaining_len <= 10:
         interval = 1
+        remnant = 0
     else:
         # otherwise pick 10 hits
-        interval = floor(remaining_len / 10)
-    for i in range(1, len(hits) - 1, interval):
+        interval = round(remaining_len / 10)
+        remnant = remaining_len % 10
+    for i in range(1, len(hits) - 1 - remnant, interval):
         accessions.append(find_best_accession(hits[i].id_all))
 
-    return accessions
+    stats['n_i'] = len(accessions)
+
+    return accessions, stats
 
 
 def extract_source_gbk(gbk_seq_recs: list[SeqRecord], target_feature_id: str, gbk_base_path: Path):
@@ -267,18 +283,36 @@ def retrieve_xmls_informants(
     email: email address to use for requests to the entrez databases
     """
     xml_files = list(xml_dir_path.glob("*.xml"))
+    xml_stats_file_path = Path(gbk_path_base.name + '_stats.csv')
+    xml_stats_handle = open(xml_stats_file_path, mode='w', encoding='utf-8')
+    # header
+    xml_stats_handle.write("xml,total_accesions,filtered_coverage,filtered_ident,filtered_total,output_accessions")
+
     for idx, xml_file in enumerate(xml_files):
         print(f"XML: {idx+1}/{len(xml_files)}")
-        xml_accessions = select_blast_xml_accessions(
+        xml_accessions, xml_stats = select_blast_xml_accessions(
             xml_file,
             coverage_threshold,
             ident_threshold
         )
+
+        # write stats
+        stats_line = []
+        stats_line.append(xml_file.name)
+        stats_line.append(xml_stats['n_b'])
+        stats_line.append(xml_stats['n_ct'])
+        stats_line.append(xml_stats['n_it'])
+        stats_line.append(xml_stats['n_f'])
+        stats_line.append(xml_stats['n_i'])
+        stats_line = map(str, stats_line)
+        xml_stats_handle.write(','.join(stats_line) + "\n")
+
         xml_gbk_path_base = gbk_path_base / Path(xml_file.stem)
         xml_gbk_path_base.mkdir(parents=True, exist_ok=True)
         print("|0%" + " " * (len(xml_accessions) - 8) + "100%|")
         download_accessions(xml_accessions, xml_gbk_path_base)
         print("")
+    xml_stats_handle.close()
     return
 
 
