@@ -140,7 +140,8 @@ def download_accessions(accessions, gbk_path_base):
             continue
 
         with open(accession_gbk_path, 'w', encoding='utf-8') as gbk_handle:
-            SeqIO.write(nucleotide_seq_rec, accession_gbk_path, 'genbank')
+            SeqIO.write(nucleotide_seq_rec, gbk_handle, 'genbank')
+        SeqIO.write(nucleotide_seq_rec, gbk_cache_path, 'genbank')
         print("d", end="")
 
 def find_best_accession(ids: list[str]):
