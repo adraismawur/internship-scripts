@@ -129,12 +129,27 @@ if __name__ == "__main__":
     total_curations = 0 # total number of curations which we can analyze
     total_old_equal_truth = 0 # total number of old models that already match the truth
     perfect_curations = 0
+    # exons
     total_exons = 0
     curated_matching_exons = 0
     old_matching_exons = 0
     fixed_exons = 0
     broken_exons = 0
     unchanged_exons = 0
+    # starts
+    total_starts = 0
+    old_matching_starts = 0
+    curated_matching_starts = 0
+    unchanged_starts = 0
+    broken_starts = 0
+    fixed_starts = 0
+    # stops
+    total_stops = 0
+    old_matching_stops = 0
+    curated_matching_stops = 0
+    unchanged_stops = 0
+    broken_stops = 0
+    fixed_stops = 0
 
     for output_folder in output_folders:
         curated_model_id = output_folder.name
@@ -150,7 +165,7 @@ if __name__ == "__main__":
         truth_aa_seq = truth_aa_seqs[truth_model_id]
         truth_feature: SeqFeature
 
-        truth_row = f"{curated_model_id}|TRUE,{0},{0},{0},{0},{truth_aa_seq}\n"
+        truth_row = f"{curated_model_id}|TRUE,{truth_aa_seq}\n"
         print(truth_row, end="")
         results_handle.write(truth_row)
 
@@ -180,7 +195,7 @@ if __name__ == "__main__":
         # translate the feature
         curated_aa_seq = curated_feature.translate(curated_dna_seq, cds=False)
 
-        curated_row = f"{curated_model_id}|CRTD,{0},{0},{0},{0},{curated_aa_seq}\n"
+        curated_row = f"{curated_model_id}|CRTD,{curated_aa_seq}\n"
         print(curated_row, end="")
         results_handle.write(curated_row)
 
@@ -191,7 +206,7 @@ if __name__ == "__main__":
         old_feature: SeqFeature
         old_aa_seq = old_aa_seqs[curated_model_id]
 
-        old_row = f"{curated_model_id}|ORIG,{0},{0},{0},{0},{old_aa_seq}\n"
+        old_row = f"{curated_model_id}|ORIG,{old_aa_seq}\n"
         print(old_row, end="")
         results_handle.write(old_row)
 
@@ -244,6 +259,65 @@ if __name__ == "__main__":
         unchanged_exons += len(truth_exons & old_exons & curated_exons)
 
 
+        # find start and stop
+        ordered_truth_exons = sorted(list(truth_exons), key = lambda exon: exon[0])
+        ordered_curated_exons = sorted(list(curated_exons), key = lambda exon: exon[0])
+        ordered_old_exons = sorted(list(old_exons), key = lambda exon: exon[0])
+
+        if truth_feature.strand == 1:
+            truth_start = ordered_truth_exons[0][0]
+            curated_start = ordered_curated_exons[0][0]
+            old_start = ordered_old_exons[0][0]
+
+            truth_stop = ordered_truth_exons[-1][1]
+            curated_stop = ordered_curated_exons[-1][1]
+            old_stop = ordered_old_exons[-1][1]
+        else:
+            truth_start = ordered_truth_exons[-1][1]
+            curated_start = ordered_curated_exons[-1][1]
+            old_start = ordered_old_exons[-1][1]
+
+            truth_stop = ordered_truth_exons[0][0]
+            curated_stop = ordered_curated_exons[0][0]
+            old_stop = ordered_old_exons[0][0]
+
+        # starts
+        total_starts += 1
+
+        if truth_start == old_start:
+            old_matching_starts += 1
+
+        if truth_start == curated_start:
+            curated_matching_starts += 1
+
+        if truth_start == old_start == curated_start:
+            unchanged_starts += 1
+
+        if truth_start == old_start and truth_start != curated_start:
+            broken_starts += 1
+
+        if truth_start != old_start and truth_start == curated_start:
+            fixed_starts += 1
+
+
+        # stops
+        total_stops += 1
+
+        if truth_stop == old_stop:
+            old_matching_stops += 1
+
+        if truth_stop == curated_stop:
+            curated_matching_stops += 1
+
+        if truth_stop == old_stop == curated_stop:
+            unchanged_stops += 1
+
+        if truth_stop == old_stop and truth_stop != curated_stop:
+            broken_stops += 1
+
+        if truth_stop != old_stop and truth_stop == curated_stop:
+            fixed_stops += 1
+
         summary_lines.append("\n")
 
     with open(result_base_path / Path('summary.txt'), mode='w', encoding='utf-8') as summary_handle:
@@ -251,6 +325,7 @@ if __name__ == "__main__":
         summary_handle.write(f"Total curations: {total_curations}\n")
         summary_handle.write(f"Of which original==truth: {total_old_equal_truth}\n")
         summary_handle.write(f"Perfect curations: {perfect_curations} ({perfect_curations/total_curations})\n")
+        summary_handle.write("\n\n")
         summary_handle.write(f"Total exons in truth: {total_exons}\n")
         summary_handle.write(f"Old exons matching truth: {old_matching_exons} ({old_matching_exons/total_exons})\n")
         summary_handle.write(f"Curated exons matching truth: {curated_matching_exons} ({curated_matching_exons/total_exons})\n")
@@ -258,4 +333,18 @@ if __name__ == "__main__":
         summary_handle.write(f"Exons that matched truth, but do not match after curation: {broken_exons} ({broken_exons/total_exons})\n")
         summary_handle.write(f"Exons which did not change at all after curation: {unchanged_exons} ({unchanged_exons/total_exons})\n")
         summary_handle.write("\n\n")
+        summary_handle.write(f"Total starts in truth: {total_starts}\n")
+        summary_handle.write(f"Old starts matching truth: {old_matching_starts} ({old_matching_starts/total_starts})\n")
+        summary_handle.write(f"Curated starts matching truth: {curated_matching_starts} ({curated_matching_starts/total_starts})\n")
+        summary_handle.write(f"Starts that did not match truth, but do match after curation: {fixed_starts} ({fixed_starts/total_starts})\n")
+        summary_handle.write(f"Starts that matched truth, but do not match after curation: {broken_starts} ({broken_starts/total_starts})\n")
+        summary_handle.write(f"Starts which did not change at all after curation: {unchanged_starts} ({unchanged_starts/total_starts})\n")
+        summary_handle.write("\n\n")
+        summary_handle.write(f"Total stops in truth: {total_stops}\n")
+        summary_handle.write(f"Old stops matching truth: {old_matching_stops} ({old_matching_stops/total_stops})\n")
+        summary_handle.write(f"Curated stops matching truth: {curated_matching_stops} ({curated_matching_stops/total_stops})\n")
+        summary_handle.write(f"Stops that did not match truth, but do match after curation: {fixed_stops} ({fixed_stops/total_stops})\n")
+        summary_handle.write(f"Stops that matched truth, but do not match after curation: {broken_stops} ({broken_stops/total_stops})\n")
+        summary_handle.write(f"Stops which did not change at all after curation: {unchanged_stops} ({unchanged_stops/total_stops})\n")
+        summary_handle.write("\n")
     results_handle.close()
