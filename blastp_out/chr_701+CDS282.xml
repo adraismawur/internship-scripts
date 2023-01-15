@@ -1,0 +1,1442 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.13.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_45285</BlastOutput_query-ID>
+  <BlastOutput_query-def>unnamed protein product</BlastOutput_query-def>
+  <BlastOutput_query-len>122</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_45285</Iteration_query-ID>
+  <Iteration_query-def>unnamed protein product</Iteration_query-def>
+  <Iteration_query-len>122</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>ref|XP_001395222.2|</Hit_id>
+  <Hit_def>protein sym1 [Aspergillus niger CBS 513.88] &gt;ref|XP_025451701.1| protein sym1 [Aspergillus niger CBS 101883] &gt;ref|XP_026628832.1| hypothetical protein BDQ94DRAFT_125741 [Aspergillus welwitschiae] &gt;gb|KAI2819459.1| hypothetical protein CBS115989_4310 [Aspergillus niger] &gt;gb|RDH20756.1| protein sym1 [Aspergillus niger ATCC 13496] &gt;gb|RDK42508.1| protein sym1 [Aspergillus phoenicis ATCC 13157] &gt;gb|KAI2829371.1| hypothetical protein CBS133816_4647 [Aspergillus niger] &gt;gb|KAI2834920.1| hypothetical protein CBS11350_10355 [Aspergillus niger]</Hit_def>
+  <Hit_accession>XP_001395222</Hit_accession>
+  <Hit_len>173</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>253.832</Hsp_bit-score>
+      <Hsp_score>647</Hsp_score>
+      <Hsp_evalue>3.16564e-84</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>122</Hsp_query-to>
+      <Hsp_hit-from>52</Hsp_hit-from>
+      <Hsp_hit-to>173</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>122</Hsp_identity>
+      <Hsp_positive>122</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>122</Hsp_align-len>
+      <Hsp_qseq>MALYGGAIFGPAATTWYGVLQRHVVLNNAKTTLIARVIADQCVFTPAHLTCFLSSMAIMEGTDPIEKWRNGFVPSFKANLAIWPLVQGVNFAIVPLEYRVLFVNLVALGWNCLLSLINSGEK</Hsp_qseq>
+      <Hsp_hseq>MALYGGAIFGPAATTWYGVLQRHVVLNNAKTTLIARVIADQCVFTPAHLTCFLSSMAIMEGTDPIEKWRNGFVPSFKANLAIWPLVQGVNFAIVPLEYRVLFVNLVALGWNCLLSLINSGEK</Hsp_hseq>
+      <Hsp_midline>MALYGGAIFGPAATTWYGVLQRHVVLNNAKTTLIARVIADQCVFTPAHLTCFLSSMAIMEGTDPIEKWRNGFVPSFKANLAIWPLVQGVNFAIVPLEYRVLFVNLVALGWNCLLSLINSGEK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gb|OJZ81538.1|</Hit_id>
+  <Hit_def>hypothetical protein ASPFODRAFT_198597 [Aspergillus luchuensis CBS 106.47]</Hit_def>
+  <Hit_accession>OJZ81538</Hit_accession>
+  <Hit_len>173</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>252.292</Hsp_bit-score>
+      <Hsp_score>643</Hsp_score>
+      <Hsp_evalue>1.30298e-83</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>122</Hsp_query-to>
+      <Hsp_hit-from>52</Hsp_hit-from>
+      <Hsp_hit-to>173</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>120</Hsp_identity>
+      <Hsp_positive>122</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>122</Hsp_align-len>
+      <Hsp_qseq>MALYGGAIFGPAATTWYGVLQRHVVLNNAKTTLIARVIADQCVFTPAHLTCFLSSMAIMEGTDPIEKWRNGFVPSFKANLAIWPLVQGVNFAIVPLEYRVLFVNLVALGWNCLLSLINSGEK</Hsp_qseq>
+      <Hsp_hseq>MALYGGAIFGPAATTWYGVLQRHVVLNNAKTTLLARVVADQCVFTPAHLTCFLSSMAIMEGTDPIEKWRNGFVPSFKANLAIWPLVQGVNFAIVPLEYRVLFVNLVALGWNCLLSLINSGEK</Hsp_hseq>
+      <Hsp_midline>MALYGGAIFGPAATTWYGVLQRHVVLNNAKTTL+ARV+ADQCVFTPAHLTCFLSSMAIMEGTDPIEKWRNGFVPSFKANLAIWPLVQGVNFAIVPLEYRVLFVNLVALGWNCLLSLINSGEK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gb|EHA25898.1|</Hit_id>
+  <Hit_def>hypothetical protein ASPNIDRAFT_127917, partial [Aspergillus niger ATCC 1015]</Hit_def>
+  <Hit_accession>EHA25898</Hit_accession>
+  <Hit_len>172</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>252.292</Hsp_bit-score>
+      <Hsp_score>643</Hsp_score>
+      <Hsp_evalue>1.33074e-83</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>121</Hsp_query-to>
+      <Hsp_hit-from>52</Hsp_hit-from>
+      <Hsp_hit-to>172</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>121</Hsp_identity>
+      <Hsp_positive>121</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>121</Hsp_align-len>
+      <Hsp_qseq>MALYGGAIFGPAATTWYGVLQRHVVLNNAKTTLIARVIADQCVFTPAHLTCFLSSMAIMEGTDPIEKWRNGFVPSFKANLAIWPLVQGVNFAIVPLEYRVLFVNLVALGWNCLLSLINSGE</Hsp_qseq>
+      <Hsp_hseq>MALYGGAIFGPAATTWYGVLQRHVVLNNAKTTLIARVIADQCVFTPAHLTCFLSSMAIMEGTDPIEKWRNGFVPSFKANLAIWPLVQGVNFAIVPLEYRVLFVNLVALGWNCLLSLINSGE</Hsp_hseq>
+      <Hsp_midline>MALYGGAIFGPAATTWYGVLQRHVVLNNAKTTLIARVIADQCVFTPAHLTCFLSSMAIMEGTDPIEKWRNGFVPSFKANLAIWPLVQGVNFAIVPLEYRVLFVNLVALGWNCLLSLINSGE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gb|OJJ66507.1|</Hit_id>
+  <Hit_def>hypothetical protein ASPBRDRAFT_211390 [Aspergillus brasiliensis CBS 101740] &gt;dbj|GKZ26899.1| protein required for ethanol metabolism [Aspergillus brasiliensis] &gt;dbj|GKZ40090.1| protein required for ethanol metabolism [Aspergillus brasiliensis] &gt;dbj|GKZ48287.1| protein required for ethanol metabolism [Aspergillus brasiliensis]</Hit_def>
+  <Hit_accession>OJJ66507</Hit_accession>
+  <Hit_len>173</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>251.136</Hsp_bit-score>
+      <Hsp_score>640</Hsp_score>
+      <Hsp_evalue>3.98832e-83</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>122</Hsp_query-to>
+      <Hsp_hit-from>52</Hsp_hit-from>
+      <Hsp_hit-to>173</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>119</Hsp_identity>
+      <Hsp_positive>122</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>122</Hsp_align-len>
+      <Hsp_qseq>MALYGGAIFGPAATTWYGVLQRHVVLNNAKTTLIARVIADQCVFTPAHLTCFLSSMAIMEGTDPIEKWRNGFVPSFKANLAIWPLVQGVNFAIVPLEYRVLFVNLVALGWNCLLSLINSGEK</Hsp_qseq>
+      <Hsp_hseq>MALYGGAIFGPAATTWYGVLQRHVVLNSAKTTLVARVVADQCVFTPAHLTCFLSSMAIMEGTDPIEKWRNGFVPSFKANLAIWPLVQGVNFAIVPLEYRVLFVNLVALGWNCLLSLINSGEK</Hsp_hseq>
+      <Hsp_midline>MALYGGAIFGPAATTWYGVLQRHVVLN+AKTTL+ARV+ADQCVFTPAHLTCFLSSMAIMEGTDPIEKWRNGFVPSFKANLAIWPLVQGVNFAIVPLEYRVLFVNLVALGWNCLLSLINSGEK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>ref|XP_025387429.1|</Hit_id>
+  <Hit_def>integral membrane protein, Mpv17/PMP22 family [Aspergillus eucalypticola CBS 122712] &gt;ref|XP_025511916.1| integral membrane protein, Mpv17/PMP22 family [Aspergillus piperis CBS 112811] &gt;ref|XP_025541751.1| integral membrane protein, Mpv17/PMP22 family [Aspergillus costaricaensis CBS 115574] &gt;ref|XP_035354651.1| integral membrane protein, Mpv17/PMP22 family [Aspergillus tubingensis] &gt;ref|XP_041549058.1| protein required for ethanol metabolism [Aspergillus luchuensis] &gt;gb|OJI88648.1| hypothetical protein ASPTUDRAFT_50605 [Aspergillus tubingensis CBS 134.48] &gt;dbj|GAA91203.1| integral membrane protein, Mpv17/PMP22 family [Aspergillus luchuensis IFO 4308] &gt;gb|PWY71438.1| integral membrane protein, Mpv17/PMP22 family [Aspergillus eucalypticola CBS 122712] &gt;gb|RAH53994.1| integral membrane protein, Mpv17/PMP22 family [Aspergillus piperis CBS 112811] &gt;gb|RAK90916.1| integral membrane protein, Mpv17/PMP22 family [Aspergillus costaricaensis CBS 115574]</Hit_def>
+  <Hit_accession>XP_025387429</Hit_accession>
+  <Hit_len>173</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>250.751</Hsp_bit-score>
+      <Hsp_score>639</Hsp_score>
+      <Hsp_evalue>5.54225e-83</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>122</Hsp_query-to>
+      <Hsp_hit-from>52</Hsp_hit-from>
+      <Hsp_hit-to>173</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>119</Hsp_identity>
+      <Hsp_positive>122</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>122</Hsp_align-len>
+      <Hsp_qseq>MALYGGAIFGPAATTWYGVLQRHVVLNNAKTTLIARVIADQCVFTPAHLTCFLSSMAIMEGTDPIEKWRNGFVPSFKANLAIWPLVQGVNFAIVPLEYRVLFVNLVALGWNCLLSLINSGEK</Hsp_qseq>
+      <Hsp_hseq>MALYGGAIFGPAATTWYGVLQRHVVLNSAKTTLLARVVADQCVFTPAHLTCFLSSMAIMEGTDPIEKWRNGFVPSFKANLAIWPLVQGVNFAIVPLEYRVLFVNLVALGWNCLLSLINSGEK</Hsp_hseq>
+      <Hsp_midline>MALYGGAIFGPAATTWYGVLQRHVVLN+AKTTL+ARV+ADQCVFTPAHLTCFLSSMAIMEGTDPIEKWRNGFVPSFKANLAIWPLVQGVNFAIVPLEYRVLFVNLVALGWNCLLSLINSGEK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>dbj|GAQ46463.1|</Hit_id>
+  <Hit_def>integral membrane protein, Mpv17/PMP22 family [Aspergillus niger] &gt;dbj|GAT24724.1| integral membrane protein, Mpv17/PMP22 family [Aspergillus luchuensis] &gt;dbj|GLA91492.1| protein required for ethanol metabolism [Aspergillus tubingensis] &gt;dbj|GLB23336.1| protein required for ethanol metabolism [Aspergillus tubingensis]</Hit_def>
+  <Hit_accession>GAQ46463</Hit_accession>
+  <Hit_len>128</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>248.825</Hsp_bit-score>
+      <Hsp_score>634</Hsp_score>
+      <Hsp_evalue>7.37855e-83</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>122</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>128</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>119</Hsp_identity>
+      <Hsp_positive>122</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>122</Hsp_align-len>
+      <Hsp_qseq>MALYGGAIFGPAATTWYGVLQRHVVLNNAKTTLIARVIADQCVFTPAHLTCFLSSMAIMEGTDPIEKWRNGFVPSFKANLAIWPLVQGVNFAIVPLEYRVLFVNLVALGWNCLLSLINSGEK</Hsp_qseq>
+      <Hsp_hseq>MALYGGAIFGPAATTWYGVLQRHVVLNSAKTTLLARVVADQCVFTPAHLTCFLSSMAIMEGTDPIEKWRNGFVPSFKANLAIWPLVQGVNFAIVPLEYRVLFVNLVALGWNCLLSLINSGEK</Hsp_hseq>
+      <Hsp_midline>MALYGGAIFGPAATTWYGVLQRHVVLN+AKTTL+ARV+ADQCVFTPAHLTCFLSSMAIMEGTDPIEKWRNGFVPSFKANLAIWPLVQGVNFAIVPLEYRVLFVNLVALGWNCLLSLINSGEK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>ref|XP_025474797.1|</Hit_id>
+  <Hit_def>integral membrane protein, Mpv17/PMP22 family [Aspergillus neoniger CBS 115656] &gt;gb|PYH29319.1| integral membrane protein, Mpv17/PMP22 family [Aspergillus neoniger CBS 115656]</Hit_def>
+  <Hit_accession>XP_025474797</Hit_accession>
+  <Hit_len>173</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>250.366</Hsp_bit-score>
+      <Hsp_score>638</Hsp_score>
+      <Hsp_evalue>8.59434e-83</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>122</Hsp_query-to>
+      <Hsp_hit-from>52</Hsp_hit-from>
+      <Hsp_hit-to>173</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>118</Hsp_identity>
+      <Hsp_positive>122</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>122</Hsp_align-len>
+      <Hsp_qseq>MALYGGAIFGPAATTWYGVLQRHVVLNNAKTTLIARVIADQCVFTPAHLTCFLSSMAIMEGTDPIEKWRNGFVPSFKANLAIWPLVQGVNFAIVPLEYRVLFVNLVALGWNCLLSLINSGEK</Hsp_qseq>
+      <Hsp_hseq>MALYGGAIFGPAATTWYGVLQRHVVLNSAKTTLLARVVADQCVFTPAHLTCFLSSMAIMEGTDPIEKWRNGFVPSFKANLAIWPLVQGVNFAIIPLEYRVLFVNLVALGWNCLLSLINSGEK</Hsp_hseq>
+      <Hsp_midline>MALYGGAIFGPAATTWYGVLQRHVVLN+AKTTL+ARV+ADQCVFTPAHLTCFLSSMAIMEGTDPIEKWRNGFVPSFKANLAIWPLVQGVNFAI+PLEYRVLFVNLVALGWNCLLSLINSGEK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>ref|XP_025561577.1|</Hit_id>
+  <Hit_def>integral membrane protein, Mpv17/PMP22 family [Aspergillus vadensis CBS 113365] &gt;gb|PYH67783.1| integral membrane protein, Mpv17/PMP22 family [Aspergillus vadensis CBS 113365]</Hit_def>
+  <Hit_accession>XP_025561577</Hit_accession>
+  <Hit_len>173</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>249.21</Hsp_bit-score>
+      <Hsp_score>635</Hsp_score>
+      <Hsp_evalue>2.63056e-82</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>122</Hsp_query-to>
+      <Hsp_hit-from>52</Hsp_hit-from>
+      <Hsp_hit-to>173</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>118</Hsp_identity>
+      <Hsp_positive>122</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>122</Hsp_align-len>
+      <Hsp_qseq>MALYGGAIFGPAATTWYGVLQRHVVLNNAKTTLIARVIADQCVFTPAHLTCFLSSMAIMEGTDPIEKWRNGFVPSFKANLAIWPLVQGVNFAIVPLEYRVLFVNLVALGWNCLLSLINSGEK</Hsp_qseq>
+      <Hsp_hseq>MALYGGAIFGPAATTWYGVLQRHVVLSSAKTTLLARVVADQCVFTPAHLTCFLSSMAIMEGTDPIEKWRNGFVPSFKANLAIWPLVQGVNFAIVPLEYRVLFVNLVALGWNCLLSLINSGEK</Hsp_hseq>
+      <Hsp_midline>MALYGGAIFGPAATTWYGVLQRHVVL++AKTTL+ARV+ADQCVFTPAHLTCFLSSMAIMEGTDPIEKWRNGFVPSFKANLAIWPLVQGVNFAIVPLEYRVLFVNLVALGWNCLLSLINSGEK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gb|PYI05641.1|</Hit_id>
+  <Hit_def>integral membrane protein, Mpv17/PMP22 family [Aspergillus sclerotiicarbonarius CBS 121057]</Hit_def>
+  <Hit_accession>PYI05641</Hit_accession>
+  <Hit_len>173</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>235.343</Hsp_bit-score>
+      <Hsp_score>599</Hsp_score>
+      <Hsp_evalue>6.68906e-77</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>121</Hsp_query-to>
+      <Hsp_hit-from>52</Hsp_hit-from>
+      <Hsp_hit-to>172</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>110</Hsp_identity>
+      <Hsp_positive>115</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>121</Hsp_align-len>
+      <Hsp_qseq>MALYGGAIFGPAATTWYGVLQRHVVLNNAKTTLIARVIADQCVFTPAHLTCFLSSMAIMEGTDPIEKWRNGFVPSFKANLAIWPLVQGVNFAIVPLEYRVLFVNLVALGWNCLLSLINSGE</Hsp_qseq>
+      <Hsp_hseq>MALYGGAIFGPAATAWYGILQRHVVLKSTKTTLAARVVADQCVFTPAHLTCFLSSMAIMEGTDPIEKWRNGFVPSYKANLTIWPLVQGVNFAIVPLEYRVLVVNLVALGWNCLLSLISSGE</Hsp_hseq>
+      <Hsp_midline>MALYGGAIFGPAAT WYG+LQRHVVL + KTTL ARV+ADQCVFTPAHLTCFLSSMAIMEGTDPIEKWRNGFVPS+KANL IWPLVQGVNFAIVPLEYRVL VNLVALGWNCLLSLI+SGE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>ref|XP_025464580.1|</Hit_id>
+  <Hit_def>integral membrane protein, Mpv17/PMP22 family [Aspergillus sclerotioniger CBS 115572] &gt;gb|PWY78068.1| integral membrane protein, Mpv17/PMP22 family [Aspergillus sclerotioniger CBS 115572]</Hit_def>
+  <Hit_accession>XP_025464580</Hit_accession>
+  <Hit_len>173</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>234.958</Hsp_bit-score>
+      <Hsp_score>598</Hsp_score>
+      <Hsp_evalue>9.39676e-77</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>121</Hsp_query-to>
+      <Hsp_hit-from>52</Hsp_hit-from>
+      <Hsp_hit-to>172</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>109</Hsp_identity>
+      <Hsp_positive>116</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>121</Hsp_align-len>
+      <Hsp_qseq>MALYGGAIFGPAATTWYGVLQRHVVLNNAKTTLIARVIADQCVFTPAHLTCFLSSMAIMEGTDPIEKWRNGFVPSFKANLAIWPLVQGVNFAIVPLEYRVLFVNLVALGWNCLLSLINSGE</Hsp_qseq>
+      <Hsp_hseq>MALYGGAIFGPAATAWYGILQRHVVLKSTKTTLVARVVADQCLFTPAHLTCFLSSMAIMEGTDPIEKWRNGFVPSYKANLTIWPLVQGVNFAIVPLEYRVLVVNLVALGWNCLLSLISSGE</Hsp_hseq>
+      <Hsp_midline>MALYGGAIFGPAAT WYG+LQRHVVL + KTTL+ARV+ADQC+FTPAHLTCFLSSMAIMEGTDPIEKWRNGFVPS+KANL IWPLVQGVNFAIVPLEYRVL VNLVALGWNCLLSLI+SGE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>ref|XP_025578607.1|</Hit_id>
+  <Hit_def>integral membrane protein, Mpv17/PMP22 family [Aspergillus ibericus CBS 121593] &gt;gb|RAL04280.1| integral membrane protein, Mpv17/PMP22 family [Aspergillus ibericus CBS 121593]</Hit_def>
+  <Hit_accession>XP_025578607</Hit_accession>
+  <Hit_len>173</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>234.958</Hsp_bit-score>
+      <Hsp_score>598</Hsp_score>
+      <Hsp_evalue>1.09557e-76</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>121</Hsp_query-to>
+      <Hsp_hit-from>52</Hsp_hit-from>
+      <Hsp_hit-to>172</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>109</Hsp_identity>
+      <Hsp_positive>116</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>121</Hsp_align-len>
+      <Hsp_qseq>MALYGGAIFGPAATTWYGVLQRHVVLNNAKTTLIARVIADQCVFTPAHLTCFLSSMAIMEGTDPIEKWRNGFVPSFKANLAIWPLVQGVNFAIVPLEYRVLFVNLVALGWNCLLSLINSGE</Hsp_qseq>
+      <Hsp_hseq>MALYGGAIFGPAATAWYGILQRHVVLKSTKTTLVARVVADQCLFTPAHLTCFLSSMAIMEGTDPIEKWRNGFVPSYKANLTIWPLVQGVNFAIVPLEYRVLVVNLVALGWNCLLSLISSGE</Hsp_hseq>
+      <Hsp_midline>MALYGGAIFGPAAT WYG+LQRHVVL + KTTL+ARV+ADQC+FTPAHLTCFLSSMAIMEGTDPIEKWRNGFVPS+KANL IWPLVQGVNFAIVPLEYRVL VNLVALGWNCLLSLI+SGE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gb|KAF9895222.1|</Hit_id>
+  <Hit_def>Protein required for ethanol metabolism [Aspergillus nanangensis]</Hit_def>
+  <Hit_accession>KAF9895222</Hit_accession>
+  <Hit_len>173</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>231.876</Hsp_bit-score>
+      <Hsp_score>590</Hsp_score>
+      <Hsp_evalue>1.60772e-75</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>122</Hsp_query-to>
+      <Hsp_hit-from>52</Hsp_hit-from>
+      <Hsp_hit-to>173</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>105</Hsp_identity>
+      <Hsp_positive>115</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>122</Hsp_align-len>
+      <Hsp_qseq>MALYGGAIFGPAATTWYGVLQRHVVLNNAKTTLIARVIADQCVFTPAHLTCFLSSMAIMEGTDPIEKWRNGFVPSFKANLAIWPLVQGVNFAIVPLEYRVLFVNLVALGWNCLLSLINSGEK</Hsp_qseq>
+      <Hsp_hseq>MALYGGAIFGPAATTWYGILQRHVVLKNTKATIVARVVADQCLFTPTHLTCFLSSMAIMEGTDPIEKWRNSFLPSYKANLTIWPMVQGVNFALVPLEYRVLVVNLVSLGWNCLLSLINSGEK</Hsp_hseq>
+      <Hsp_midline>MALYGGAIFGPAATTWYG+LQRHVVL N K T++ARV+ADQC+FTP HLTCFLSSMAIMEGTDPIEKWRN F+PS+KANL IWP+VQGVNFA+VPLEYRVL VNLV+LGWNCLLSLINSGEK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gb|OOF90971.1|</Hit_id>
+  <Hit_def>hypothetical protein ASPCADRAFT_211555 [Aspergillus carbonarius ITEM 5010]</Hit_def>
+  <Hit_accession>OOF90971</Hit_accession>
+  <Hit_len>173</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>231.491</Hsp_bit-score>
+      <Hsp_score>589</Hsp_score>
+      <Hsp_evalue>2.11467e-75</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>121</Hsp_query-to>
+      <Hsp_hit-from>52</Hsp_hit-from>
+      <Hsp_hit-to>172</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>108</Hsp_identity>
+      <Hsp_positive>114</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>121</Hsp_align-len>
+      <Hsp_qseq>MALYGGAIFGPAATTWYGVLQRHVVLNNAKTTLIARVIADQCVFTPAHLTCFLSSMAIMEGTDPIEKWRNGFVPSFKANLAIWPLVQGVNFAIVPLEYRVLFVNLVALGWNCLLSLINSGE</Hsp_qseq>
+      <Hsp_hseq>MALYGGAIFGPAATAWYGILQRHVVLKSTKATLVARVAADQCLFTPAHLTCFLSSMAIMEGTDPIEKWRNGFVPSYKANLTIWPLVQGVNFAIVPLEYRVLVVNLVALGWNCLLSLISSGE</Hsp_hseq>
+      <Hsp_midline>MALYGGAIFGPAAT WYG+LQRHVVL + K TL+ARV ADQC+FTPAHLTCFLSSMAIMEGTDPIEKWRNGFVPS+KANL IWPLVQGVNFAIVPLEYRVL VNLVALGWNCLLSLI+SGE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>emb|CAK48418.1|</Hit_id>
+  <Hit_def>unnamed protein product [Aspergillus niger]</Hit_def>
+  <Hit_accession>CAK48418</Hit_accession>
+  <Hit_len>172</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>228.794</Hsp_bit-score>
+      <Hsp_score>582</Hsp_score>
+      <Hsp_evalue>2.60257e-74</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>121</Hsp_query-to>
+      <Hsp_hit-from>29</Hsp_hit-from>
+      <Hsp_hit-to>150</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>112</Hsp_identity>
+      <Hsp_positive>116</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>122</Hsp_align-len>
+      <Hsp_qseq>MALYGGAIFGPAATTWYGVLQRHVVLNNAKTTLIARVIADQCVFTPAHLTCFLSSMAIMEGTDPIEKWRNGFVPSFKANLAIWPLVQGVNFAIVPLEYRVLFVNLVALG-WNCLLSLINSGE</Hsp_qseq>
+      <Hsp_hseq>MALYGGAIFGPAATTWYGVLQRHVVLNNAKTTLIARVIADQCVFTPAHLTCFLSSMAIMEGTDPIEKWRNGFVPSFKANLAIWPLVQGVNFAIVPLEYRVLFVNLVALGVYSGLLLISNDAD</Hsp_hseq>
+      <Hsp_midline>MALYGGAIFGPAATTWYGVLQRHVVLNNAKTTLIARVIADQCVFTPAHLTCFLSSMAIMEGTDPIEKWRNGFVPSFKANLAIWPLVQGVNFAIVPLEYRVLFVNLVALG ++ LL + N  +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>dbj|GCB21101.1|</Hit_id>
+  <Hit_def>protein sym1 [Aspergillus awamori] &gt;dbj|GJP96640.1| protein sym1 [Aspergillus niger] &gt;dbj|GKZ58116.1| protein required for ethanol metabolism [Aspergillus niger] &gt;dbj|GKZ68497.1| protein required for ethanol metabolism [Aspergillus niger] &gt;dbj|GKZ84026.1| protein required for ethanol metabolism [Aspergillus niger]</Hit_def>
+  <Hit_accession>GCB21101</Hit_accession>
+  <Hit_len>184</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>229.18</Hsp_bit-score>
+      <Hsp_score>583</Hsp_score>
+      <Hsp_evalue>3.01185e-74</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>121</Hsp_query-to>
+      <Hsp_hit-from>52</Hsp_hit-from>
+      <Hsp_hit-to>173</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>112</Hsp_identity>
+      <Hsp_positive>116</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>122</Hsp_align-len>
+      <Hsp_qseq>MALYGGAIFGPAATTWYGVLQRHVVLNNAKTTLIARVIADQCVFTPAHLTCFLSSMAIMEGTDPIEKWRNGFVPSFKANLAIWPLVQGVNFAIVPLEYRVLFVNLVALG-WNCLLSLINSGE</Hsp_qseq>
+      <Hsp_hseq>MALYGGAIFGPAATTWYGVLQRHVVLNNAKTTLIARVIADQCVFTPAHLTCFLSSMAIMEGTDPIEKWRNGFVPSFKANLAIWPLVQGVNFAIVPLEYRVLFVNLVALGVYSGLLLISNDAD</Hsp_hseq>
+      <Hsp_midline>MALYGGAIFGPAATTWYGVLQRHVVLNNAKTTLIARVIADQCVFTPAHLTCFLSSMAIMEGTDPIEKWRNGFVPSFKANLAIWPLVQGVNFAIVPLEYRVLFVNLVALG ++ LL + N  +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>ref|XP_033424731.1|</Hit_id>
+  <Hit_def>Protein required for ethanol metabolism [Aspergillus tanneri] &gt;gb|KAA8645370.1| Protein required for ethanol metabolism [Aspergillus tanneri] &gt;gb|THD00104.1| hypothetical protein EYZ11_000429 [Aspergillus tanneri]</Hit_def>
+  <Hit_accession>XP_033424731</Hit_accession>
+  <Hit_len>173</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>227.639</Hsp_bit-score>
+      <Hsp_score>579</Hsp_score>
+      <Hsp_evalue>7.87776e-74</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>122</Hsp_query-to>
+      <Hsp_hit-from>52</Hsp_hit-from>
+      <Hsp_hit-to>173</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>103</Hsp_identity>
+      <Hsp_positive>114</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>122</Hsp_align-len>
+      <Hsp_qseq>MALYGGAIFGPAATTWYGVLQRHVVLNNAKTTLIARVIADQCVFTPAHLTCFLSSMAIMEGTDPIEKWRNGFVPSFKANLAIWPLVQGVNFAIVPLEYRVLFVNLVALGWNCLLSLINSGEK</Hsp_qseq>
+      <Hsp_hseq>MALYGGAIFGPAATTWYGILQRHVVLKGTKSTIVARVVADQCLFTPTHLTCFLTSMAIMEGSDPVEKWRNSFFASYKANLAIWPLVQGVNFAIVPLEYRVLVVNLVSLGWNCLLSLINSGEK</Hsp_hseq>
+      <Hsp_midline>MALYGGAIFGPAATTWYG+LQRHVVL   K+T++ARV+ADQC+FTP HLTCFL+SMAIMEG+DP+EKWRN F  S+KANLAIWPLVQGVNFAIVPLEYRVL VNLV+LGWNCLLSLINSGEK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gb|KAE8374123.1|</Hit_id>
+  <Hit_def>protein sym1 [Aspergillus bertholletiae]</Hit_def>
+  <Hit_accession>KAE8374123</Hit_accession>
+  <Hit_len>173</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>227.254</Hsp_bit-score>
+      <Hsp_score>578</Hsp_score>
+      <Hsp_evalue>1.16894e-73</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>122</Hsp_query-to>
+      <Hsp_hit-from>52</Hsp_hit-from>
+      <Hsp_hit-to>173</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>103</Hsp_identity>
+      <Hsp_positive>115</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>122</Hsp_align-len>
+      <Hsp_qseq>MALYGGAIFGPAATTWYGVLQRHVVLNNAKTTLIARVIADQCVFTPAHLTCFLSSMAIMEGTDPIEKWRNGFVPSFKANLAIWPLVQGVNFAIVPLEYRVLFVNLVALGWNCLLSLINSGEK</Hsp_qseq>
+      <Hsp_hseq>MALYGGAIFGPAATTWYGILQRNVVLKNSKATIVARVAADQCLFTPVHLTCFLTSMAIMEGSDPIERWRNSFIPSYKANLTIWPLVQGVNFAIVPLEYRVLVVNLVSLGWNCLLSLINSGEK</Hsp_hseq>
+      <Hsp_midline>MALYGGAIFGPAATTWYG+LQR+VVL N+K T++ARV ADQC+FTP HLTCFL+SMAIMEG+DPIE+WRN F+PS+KANL IWPLVQGVNFAIVPLEYRVL VNLV+LGWNCLLSLINSGEK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gb|PYH91232.1|</Hit_id>
+  <Hit_def>integral membrane protein, Mpv17/PMP22 family [Aspergillus ellipticus CBS 707.79]</Hit_def>
+  <Hit_accession>PYH91232</Hit_accession>
+  <Hit_len>173</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>227.254</Hsp_bit-score>
+      <Hsp_score>578</Hsp_score>
+      <Hsp_evalue>1.24841e-73</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>122</Hsp_query-to>
+      <Hsp_hit-from>52</Hsp_hit-from>
+      <Hsp_hit-to>173</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>105</Hsp_identity>
+      <Hsp_positive>112</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>122</Hsp_align-len>
+      <Hsp_qseq>MALYGGAIFGPAATTWYGVLQRHVVLNNAKTTLIARVIADQCVFTPAHLTCFLSSMAIMEGTDPIEKWRNGFVPSFKANLAIWPLVQGVNFAIVPLEYRVLFVNLVALGWNCLLSLINSGEK</Hsp_qseq>
+      <Hsp_hseq>MVLYGGAIFGPAATAWYGILQRHVVLQNTKATLLARVVADQCLFTPTHLTCFLSSMAIMEGSDPIEKLRNSFVPSYKANLTIWPLVQGVNFAIVPLEYRVLVVNLVSLGWNCLLSLINSGEK</Hsp_hseq>
+      <Hsp_midline>M LYGGAIFGPAAT WYG+LQRHVVL N K TL+ARV+ADQC+FTP HLTCFLSSMAIMEG+DPIEK RN FVPS+KANL IWPLVQGVNFAIVPLEYRVL VNLV+LGWNCLLSLINSGEK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>dbj|GKZ93351.1|</Hit_id>
+  <Hit_def>protein required for ethanol metabolism [Aspergillus niger]</Hit_def>
+  <Hit_accession>GKZ93351</Hit_accession>
+  <Hit_len>184</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>225.328</Hsp_bit-score>
+      <Hsp_score>573</Hsp_score>
+      <Hsp_evalue>8.99935e-73</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>121</Hsp_query-to>
+      <Hsp_hit-from>52</Hsp_hit-from>
+      <Hsp_hit-to>173</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>111</Hsp_identity>
+      <Hsp_positive>115</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>122</Hsp_align-len>
+      <Hsp_qseq>MALYGGAIFGPAATTWYGVLQRHVVLNNAKTTLIARVIADQCVFTPAHLTCFLSSMAIMEGTDPIEKWRNGFVPSFKANLAIWPLVQGVNFAIVPLEYRVLFVNLVALG-WNCLLSLINSGE</Hsp_qseq>
+      <Hsp_hseq>MALYGGAIFGPAATTWYGVLQRHVVLNNAKTTLIARVIADQCVFTPAHLTCFLSSMAIMEGTDLIEKWRNGFVPSFKANLAIWPLVQGVNFAIVPLEYRVLFVNLVALGVYSGLLLISNDAD</Hsp_hseq>
+      <Hsp_midline>MALYGGAIFGPAATTWYGVLQRHVVLNNAKTTLIARVIADQCVFTPAHLTCFLSSMAIMEGTD IEKWRNGFVPSFKANLAIWPLVQGVNFAIVPLEYRVLFVNLVALG ++ LL + N  +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gb|KAB8272431.1|</Hit_id>
+  <Hit_def>protein sym1 [Aspergillus minisclerotigenes]</Hit_def>
+  <Hit_accession>KAB8272431</Hit_accession>
+  <Hit_len>173</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>224.942</Hsp_bit-score>
+      <Hsp_score>572</Hsp_score>
+      <Hsp_evalue>9.80311e-73</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>122</Hsp_query-to>
+      <Hsp_hit-from>52</Hsp_hit-from>
+      <Hsp_hit-to>173</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>102</Hsp_identity>
+      <Hsp_positive>115</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>122</Hsp_align-len>
+      <Hsp_qseq>MALYGGAIFGPAATTWYGVLQRHVVLNNAKTTLIARVIADQCVFTPAHLTCFLSSMAIMEGTDPIEKWRNGFVPSFKANLAIWPLVQGVNFAIVPLEYRVLFVNLVALGWNCLLSLINSGEK</Hsp_qseq>
+      <Hsp_hseq>MALYGGAIFGPAATTWYGFLQRNVVLKNSKATIVARVAADQCLFTPTHLTCFLTSMAIMEGSDPIEKWRNSFLPSYKANLAIWPLVQGVNFSIVPLEYRVLVVNLVSLGWNCLLSMINSGDK</Hsp_hseq>
+      <Hsp_midline>MALYGGAIFGPAATTWYG LQR+VVL N+K T++ARV ADQC+FTP HLTCFL+SMAIMEG+DPIEKWRN F+PS+KANLAIWPLVQGVNF+IVPLEYRVL VNLV+LGWNCLLS+INSG+K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gb|KAF7587919.1|</Hit_id>
+  <Hit_def>Protein required for ethanol metabolism [Aspergillus hancockii]</Hit_def>
+  <Hit_accession>KAF7587919</Hit_accession>
+  <Hit_len>173</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>224.172</Hsp_bit-score>
+      <Hsp_score>570</Hsp_score>
+      <Hsp_evalue>1.58791e-72</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>122</Hsp_query-to>
+      <Hsp_hit-from>52</Hsp_hit-from>
+      <Hsp_hit-to>173</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>102</Hsp_identity>
+      <Hsp_positive>114</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>122</Hsp_align-len>
+      <Hsp_qseq>MALYGGAIFGPAATTWYGVLQRHVVLNNAKTTLIARVIADQCVFTPAHLTCFLSSMAIMEGTDPIEKWRNGFVPSFKANLAIWPLVQGVNFAIVPLEYRVLFVNLVALGWNCLLSLINSGEK</Hsp_qseq>
+      <Hsp_hseq>MALYGGAIFGPAATTWYGFLQRNVVLKNSKATIVARVAADQCLFTPTHLTCFLTSMAIMEGSDPIEKWRNSFLPSYKANLTIWPLVQGVNFAIVPLEYRVLVVNLVSLGWNCLLSMINSGDK</Hsp_hseq>
+      <Hsp_midline>MALYGGAIFGPAATTWYG LQR+VVL N+K T++ARV ADQC+FTP HLTCFL+SMAIMEG+DPIEKWRN F+PS+KANL IWPLVQGVNFAIVPLEYRVL VNLV+LGWNCLLS+INSG+K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gb|KAB8203484.1|</Hit_id>
+  <Hit_def>protein sym1 [Aspergillus parasiticus] &gt;gb|KAB8226640.1| protein sym1 [Aspergillus novoparasiticus] &gt;gb|KAE8313888.1| protein sym1 [Aspergillus transmontanensis] &gt;gb|KAE8329687.1| protein sym1 [Aspergillus sergii] &gt;gb|KAE8341510.1| protein sym1 [Aspergillus arachidicola] &gt;gb|KJK67387.1| Mpv17 / PMP22 family protein [Aspergillus parasiticus SU-1]</Hit_def>
+  <Hit_accession>KAB8203484</Hit_accession>
+  <Hit_len>173</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>223.402</Hsp_bit-score>
+      <Hsp_score>568</Hsp_score>
+      <Hsp_evalue>3.90103e-72</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>122</Hsp_query-to>
+      <Hsp_hit-from>52</Hsp_hit-from>
+      <Hsp_hit-to>173</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>101</Hsp_identity>
+      <Hsp_positive>114</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>122</Hsp_align-len>
+      <Hsp_qseq>MALYGGAIFGPAATTWYGVLQRHVVLNNAKTTLIARVIADQCVFTPAHLTCFLSSMAIMEGTDPIEKWRNGFVPSFKANLAIWPLVQGVNFAIVPLEYRVLFVNLVALGWNCLLSLINSGEK</Hsp_qseq>
+      <Hsp_hseq>MALYGGAIFGPAATTWYGFLQRNVVLKNSKATIVARVAADQCLFTPTHLTCFLTSMAIMEGSDPIEKWRNSFLPSYKANLTIWPLVQGVNFSIVPLEYRVLVVNLVSLGWNCLLSMINSGDK</Hsp_hseq>
+      <Hsp_midline>MALYGGAIFGPAATTWYG LQR+VVL N+K T++ARV ADQC+FTP HLTCFL+SMAIMEG+DPIEKWRN F+PS+KANL IWPLVQGVNF+IVPLEYRVL VNLV+LGWNCLLS+INSG+K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>ref|XP_031917637.1|</Hit_id>
+  <Hit_def>protein sym1 [Aspergillus pseudotamarii] &gt;ref|XP_031926194.1| protein sym1 [Aspergillus caelatus] &gt;gb|KAE8167547.1| protein sym1 [Aspergillus tamarii] &gt;gb|KAE8411162.1| protein sym1 [Aspergillus pseudocaelatus] &gt;gb|KAE8141574.1| protein sym1 [Aspergillus pseudotamarii] &gt;gb|KAE8363113.1| protein sym1 [Aspergillus caelatus]</Hit_def>
+  <Hit_accession>XP_031917637</Hit_accession>
+  <Hit_len>173</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>223.016</Hsp_bit-score>
+      <Hsp_score>567</Hsp_score>
+      <Hsp_evalue>6.11439e-72</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>122</Hsp_query-to>
+      <Hsp_hit-from>52</Hsp_hit-from>
+      <Hsp_hit-to>173</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>101</Hsp_identity>
+      <Hsp_positive>114</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>122</Hsp_align-len>
+      <Hsp_qseq>MALYGGAIFGPAATTWYGVLQRHVVLNNAKTTLIARVIADQCVFTPAHLTCFLSSMAIMEGTDPIEKWRNGFVPSFKANLAIWPLVQGVNFAIVPLEYRVLFVNLVALGWNCLLSLINSGEK</Hsp_qseq>
+      <Hsp_hseq>MALYGGAIFGPAATTWYGFLQRNVVLKNSKATIVARVAADQCLFTPTHLTCFLTSMAIMEGSDPIEKWRNSFLPSYKANLTIWPLVQGVNFAIVPLEYRVLVVNLVSLGWNCLLSMINSGDQ</Hsp_hseq>
+      <Hsp_midline>MALYGGAIFGPAATTWYG LQR+VVL N+K T++ARV ADQC+FTP HLTCFL+SMAIMEG+DPIEKWRN F+PS+KANL IWPLVQGVNFAIVPLEYRVL VNLV+LGWNCLLS+INSG++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>ref|XP_015405147.1|</Hit_id>
+  <Hit_def>protein sym1 [Aspergillus nomiae NRRL 13137] &gt;gb|KAB8258554.1| protein sym1 [Aspergillus pseudonomiae] &gt;gb|KNG84224.1| protein sym1 [Aspergillus nomiae NRRL 13137]</Hit_def>
+  <Hit_accession>XP_015405147</Hit_accession>
+  <Hit_len>173</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>222.631</Hsp_bit-score>
+      <Hsp_score>566</Hsp_score>
+      <Hsp_evalue>6.53002e-72</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>122</Hsp_query-to>
+      <Hsp_hit-from>52</Hsp_hit-from>
+      <Hsp_hit-to>173</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>101</Hsp_identity>
+      <Hsp_positive>113</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>122</Hsp_align-len>
+      <Hsp_qseq>MALYGGAIFGPAATTWYGVLQRHVVLNNAKTTLIARVIADQCVFTPAHLTCFLSSMAIMEGTDPIEKWRNGFVPSFKANLAIWPLVQGVNFAIVPLEYRVLFVNLVALGWNCLLSLINSGEK</Hsp_qseq>
+      <Hsp_hseq>MALYGGAIFGPAATTWYGFLQRNVVLKNTKATIVARVAADQCLFTPTHLTCFLTSMAIMEGSDPIEKWRNSFLPSYKANLTIWPLVQGVNFSIVPLEYRVLVVNLVSLGWNCLLSMINSGDK</Hsp_hseq>
+      <Hsp_midline>MALYGGAIFGPAATTWYG LQR+VVL N K T++ARV ADQC+FTP HLTCFL+SMAIMEG+DPIEKWRN F+PS+KANL IWPLVQGVNF+IVPLEYRVL VNLV+LGWNCLLS+INSG+K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>ref|XP_001827254.1|</Hit_id>
+  <Hit_def>unnamed protein product [Aspergillus oryzae RIB40] &gt;ref|XP_041151560.1| uncharacterized protein G4B84_012086 [Aspergillus flavus NRRL3357] &gt;sp|Q2TXA2.1| RecName: Full=Protein sym1 [Aspergillus oryzae RIB40] &gt;gb|EIT75837.1| peroxisomal membrane protein [Aspergillus oryzae 3.042] &gt;gb|KAB8243041.1| protein sym1 [Aspergillus flavus] &gt;gb|KDE81776.1| peroxisomal membrane protein [Aspergillus oryzae 100-8] &gt;gb|KOC07576.1| hypothetical protein AFLA70_58g003861 [Aspergillus flavus AF70] &gt;gb|OOO07509.1| Mpv17/PMP22 [Aspergillus oryzae]</Hit_def>
+  <Hit_accession>XP_001827254</Hit_accession>
+  <Hit_len>173</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>221.476</Hsp_bit-score>
+      <Hsp_score>563</Hsp_score>
+      <Hsp_evalue>1.79e-71</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>122</Hsp_query-to>
+      <Hsp_hit-from>52</Hsp_hit-from>
+      <Hsp_hit-to>173</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>100</Hsp_identity>
+      <Hsp_positive>114</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>122</Hsp_align-len>
+      <Hsp_qseq>MALYGGAIFGPAATTWYGVLQRHVVLNNAKTTLIARVIADQCVFTPAHLTCFLSSMAIMEGTDPIEKWRNGFVPSFKANLAIWPLVQGVNFAIVPLEYRVLFVNLVALGWNCLLSLINSGEK</Hsp_qseq>
+      <Hsp_hseq>MALYGGAIFGPAATTWFGFLQRNVVLKNSKATIVARVAADQCLFTPTHLTCFLTSMAIMEGSDPIEKWRNSFLPSYKANLTIWPLVQGVNFSIVPLEYRVLVVNLVSLGWNCLLSMINSGDK</Hsp_hseq>
+      <Hsp_midline>MALYGGAIFGPAATTW+G LQR+VVL N+K T++ARV ADQC+FTP HLTCFL+SMAIMEG+DPIEKWRN F+PS+KANL IWPLVQGVNF+IVPLEYRVL VNLV+LGWNCLLS+INSG+K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>ref|XP_031934442.1|</Hit_id>
+  <Hit_def>protein sym1 [Aspergillus pseudonomiae] &gt;gb|KAE8397123.1| protein sym1 [Aspergillus pseudonomiae]</Hit_def>
+  <Hit_accession>XP_031934442</Hit_accession>
+  <Hit_len>173</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>220.705</Hsp_bit-score>
+      <Hsp_score>561</Hsp_score>
+      <Hsp_evalue>4.85312e-71</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>122</Hsp_query-to>
+      <Hsp_hit-from>52</Hsp_hit-from>
+      <Hsp_hit-to>173</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>100</Hsp_identity>
+      <Hsp_positive>113</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>122</Hsp_align-len>
+      <Hsp_qseq>MALYGGAIFGPAATTWYGVLQRHVVLNNAKTTLIARVIADQCVFTPAHLTCFLSSMAIMEGTDPIEKWRNGFVPSFKANLAIWPLVQGVNFAIVPLEYRVLFVNLVALGWNCLLSLINSGEK</Hsp_qseq>
+      <Hsp_hseq>MALYGGAIFGPAATTWYGFLQRNVVLKNTKATIVARVAADQCLFTPTHLTCFLTSMAIMEGSNPIEKWRNSFLPSYKANLTIWPLVQGVNFSIVPLEYRVLVVNLVSLGWNCLLSMINSGDK</Hsp_hseq>
+      <Hsp_midline>MALYGGAIFGPAATTWYG LQR+VVL N K T++ARV ADQC+FTP HLTCFL+SMAIMEG++PIEKWRN F+PS+KANL IWPLVQGVNF+IVPLEYRVL VNLV+LGWNCLLS+INSG+K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>ref|XP_031903311.1|</Hit_id>
+  <Hit_def>protein sym1 [Aspergillus alliaceus] &gt;gb|KAB8236474.1| protein sym1 [Aspergillus alliaceus] &gt;gb|KAE8387055.1| protein sym1 [Aspergillus alliaceus] &gt;gb|KAF5857697.1| Protein required for ethanol metabolism [Aspergillus burnettii]</Hit_def>
+  <Hit_accession>XP_031903311</Hit_accession>
+  <Hit_len>173</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>220.32</Hsp_bit-score>
+      <Hsp_score>560</Hsp_score>
+      <Hsp_evalue>5.07062e-71</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>122</Hsp_query-to>
+      <Hsp_hit-from>52</Hsp_hit-from>
+      <Hsp_hit-to>173</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>101</Hsp_identity>
+      <Hsp_positive>113</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>122</Hsp_align-len>
+      <Hsp_qseq>MALYGGAIFGPAATTWYGVLQRHVVLNNAKTTLIARVIADQCVFTPAHLTCFLSSMAIMEGTDPIEKWRNGFVPSFKANLAIWPLVQGVNFAIVPLEYRVLFVNLVALGWNCLLSLINSGEK</Hsp_qseq>
+      <Hsp_hseq>MALYGGAIFGPAATTWYGFLQRNVVLKNSKATIVARVAADQCLFTPTHLTCFLTSMAIMEGSDPIEKLRNSFLPSYKANLTIWPLVQGVNFAIVPLEYRVLVVNLVSLGWNCLLSMINSGDK</Hsp_hseq>
+      <Hsp_midline>MALYGGAIFGPAATTWYG LQR+VVL N+K T++ARV ADQC+FTP HLTCFL+SMAIMEG+DPIEK RN F+PS+KANL IWPLVQGVNFAIVPLEYRVL VNLV+LGWNCLLS+INSG+K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gb|KAB8078728.1|</Hit_id>
+  <Hit_def>protein sym1 [Aspergillus leporis]</Hit_def>
+  <Hit_accession>KAB8078728</Hit_accession>
+  <Hit_len>173</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>219.935</Hsp_bit-score>
+      <Hsp_score>559</Hsp_score>
+      <Hsp_evalue>8.67558e-71</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>122</Hsp_query-to>
+      <Hsp_hit-from>52</Hsp_hit-from>
+      <Hsp_hit-to>173</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>98</Hsp_identity>
+      <Hsp_positive>114</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>122</Hsp_align-len>
+      <Hsp_qseq>MALYGGAIFGPAATTWYGVLQRHVVLNNAKTTLIARVIADQCVFTPAHLTCFLSSMAIMEGTDPIEKWRNGFVPSFKANLAIWPLVQGVNFAIVPLEYRVLFVNLVALGWNCLLSLINSGEK</Hsp_qseq>
+      <Hsp_hseq>MALYGGAIFGPAATTWYGFLQRNVVLKNSKATIVARVAADQCLFTPTHLTCFLTSMAIMEGSDPIEKWRSSFLPSYKANLTIWPMVQGVNFALVPLEYRVLVVNLVSLGWNCILSMINSGDK</Hsp_hseq>
+      <Hsp_midline>MALYGGAIFGPAATTWYG LQR+VVL N+K T++ARV ADQC+FTP HLTCFL+SMAIMEG+DPIEKWR+ F+PS+KANL IWP+VQGVNFA+VPLEYRVL VNLV+LGWNC+LS+INSG+K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>ref|XP_022384131.1|</Hit_id>
+  <Hit_def>protein sym1 [Aspergillus bombycis] &gt;gb|OGM40414.1| protein sym1 [Aspergillus bombycis]</Hit_def>
+  <Hit_accession>XP_022384131</Hit_accession>
+  <Hit_len>173</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>219.55</Hsp_bit-score>
+      <Hsp_score>558</Hsp_score>
+      <Hsp_evalue>1.2053e-70</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>122</Hsp_query-to>
+      <Hsp_hit-from>52</Hsp_hit-from>
+      <Hsp_hit-to>173</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>99</Hsp_identity>
+      <Hsp_positive>113</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>122</Hsp_align-len>
+      <Hsp_qseq>MALYGGAIFGPAATTWYGVLQRHVVLNNAKTTLIARVIADQCVFTPAHLTCFLSSMAIMEGTDPIEKWRNGFVPSFKANLAIWPLVQGVNFAIVPLEYRVLFVNLVALGWNCLLSLINSGEK</Hsp_qseq>
+      <Hsp_hseq>MALYGGAIFGPAATTWFAFLQRNVVLKNSKATIVARVAADQCLFTPTHLTCFLTSMAIMEGSDPIEKWRNSFLPSYKANLTIWPLVQGVNFSIVPLEYRVLVVNLVSLGWNCLLSMINSGDK</Hsp_hseq>
+      <Hsp_midline>MALYGGAIFGPAATTW+  LQR+VVL N+K T++ARV ADQC+FTP HLTCFL+SMAIMEG+DPIEKWRN F+PS+KANL IWPLVQGVNF+IVPLEYRVL VNLV+LGWNCLLS+INSG+K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>ref|XP_025551058.1|</Hit_id>
+  <Hit_def>protein sym1 [Aspergillus homomorphus CBS 101889] &gt;gb|RAL11904.1| protein sym1 [Aspergillus homomorphus CBS 101889]</Hit_def>
+  <Hit_accession>XP_025551058</Hit_accession>
+  <Hit_len>173</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>219.55</Hsp_bit-score>
+      <Hsp_score>558</Hsp_score>
+      <Hsp_evalue>1.2053e-70</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>122</Hsp_query-to>
+      <Hsp_hit-from>52</Hsp_hit-from>
+      <Hsp_hit-to>173</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>103</Hsp_identity>
+      <Hsp_positive>110</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>122</Hsp_align-len>
+      <Hsp_qseq>MALYGGAIFGPAATTWYGVLQRHVVLNNAKTTLIARVIADQCVFTPAHLTCFLSSMAIMEGTDPIEKWRNGFVPSFKANLAIWPLVQGVNFAIVPLEYRVLFVNLVALGWNCLLSLINSGEK</Hsp_qseq>
+      <Hsp_hseq>MALYGGAVFGPAATAWYGILQRRVVLQNAKATLVARVAADQLLFTPIHLTCFLSSMAIMEGSDSIEKLRNSFVPSYKANLTIWPLVQGVNFAIVPLEYRVLVVNLVSLGWNCLLSLINSGEK</Hsp_hseq>
+      <Hsp_midline>MALYGGA+FGPAAT WYG+LQR VVL NAK TL+ARV ADQ +FTP HLTCFLSSMAIMEG+D IEK RN FVPS+KANL IWPLVQGVNFAIVPLEYRVL VNLV+LGWNCLLSLINSGEK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gb|KAE8355688.1|</Hit_id>
+  <Hit_def>protein sym1 [Aspergillus coremiiformis]</Hit_def>
+  <Hit_accession>KAE8355688</Hit_accession>
+  <Hit_len>173</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>218.009</Hsp_bit-score>
+      <Hsp_score>554</Hsp_score>
+      <Hsp_evalue>5.23485e-70</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>121</Hsp_query-to>
+      <Hsp_hit-from>52</Hsp_hit-from>
+      <Hsp_hit-to>172</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>99</Hsp_identity>
+      <Hsp_positive>111</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>121</Hsp_align-len>
+      <Hsp_qseq>MALYGGAIFGPAATTWYGVLQRHVVLNNAKTTLIARVIADQCVFTPAHLTCFLSSMAIMEGTDPIEKWRNGFVPSFKANLAIWPLVQGVNFAIVPLEYRVLFVNLVALGWNCLLSLINSGE</Hsp_qseq>
+      <Hsp_hseq>MALYGGAIFGPAATTWFGFLQRNVVLKNHKATIVARVAADQCLFTPTHLTCFLTSMAIMEGTDPIEKWRNSFLPSYKANLTIWPFVQGVNFSIVPLEYRVLVVNLVSLGWNCLLSMINSGD</Hsp_hseq>
+      <Hsp_midline>MALYGGAIFGPAATTW+G LQR+VVL N K T++ARV ADQC+FTP HLTCFL+SMAIMEGTDPIEKWRN F+PS+KANL IWP VQGVNF+IVPLEYRVL VNLV+LGWNCLLS+INSG+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>ref|XP_001272400.1|</Hit_id>
+  <Hit_def>integral membrane protein, Mpv17/PMP22 family, putative [Aspergillus clavatus NRRL 1] &gt;gb|EAW10974.1| integral membrane protein, Mpv17/PMP22 family, putative [Aspergillus clavatus NRRL 1]</Hit_def>
+  <Hit_accession>XP_001272400</Hit_accession>
+  <Hit_len>173</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>217.624</Hsp_bit-score>
+      <Hsp_score>553</Hsp_score>
+      <Hsp_evalue>6.37644e-70</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>122</Hsp_query-to>
+      <Hsp_hit-from>52</Hsp_hit-from>
+      <Hsp_hit-to>173</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>100</Hsp_identity>
+      <Hsp_positive>111</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>122</Hsp_align-len>
+      <Hsp_qseq>MALYGGAIFGPAATTWYGVLQRHVVLNNAKTTLIARVIADQCVFTPAHLTCFLSSMAIMEGTDPIEKWRNGFVPSFKANLAIWPLVQGVNFAIVPLEYRVLFVNLVALGWNCLLSLINSGEK</Hsp_qseq>
+      <Hsp_hseq>MALYGGAIFGPAATTWYAFLQRNVALKSYKATIVARVIADQAIFTPAHLTCFLTSMAIMEGTDPIEKWRTSFVPSYKANLSIWPFVQGVNFSIVPLEYRVLVVNVVSLGWNCLLSLINSGEK</Hsp_hseq>
+      <Hsp_midline>MALYGGAIFGPAATTWY  LQR+V L + K T++ARVIADQ +FTPAHLTCFL+SMAIMEGTDPIEKWR  FVPS+KANL+IWP VQGVNF+IVPLEYRVL VN+V+LGWNCLLSLINSGEK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gb|KAE8147772.1|</Hit_id>
+  <Hit_def>protein sym1 [Aspergillus avenaceus]</Hit_def>
+  <Hit_accession>KAE8147772</Hit_accession>
+  <Hit_len>173</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>216.083</Hsp_bit-score>
+      <Hsp_score>549</Hsp_score>
+      <Hsp_evalue>3.22839e-69</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>121</Hsp_query-to>
+      <Hsp_hit-from>52</Hsp_hit-from>
+      <Hsp_hit-to>172</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>98</Hsp_identity>
+      <Hsp_positive>111</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>121</Hsp_align-len>
+      <Hsp_qseq>MALYGGAIFGPAATTWYGVLQRHVVLNNAKTTLIARVIADQCVFTPAHLTCFLSSMAIMEGTDPIEKWRNGFVPSFKANLAIWPLVQGVNFAIVPLEYRVLFVNLVALGWNCLLSLINSGE</Hsp_qseq>
+      <Hsp_hseq>MALYGGAIFGPAATTWFGFLQRNVVLKSTKATIVARVAADQCLFTPTHLTCFLTSMAIMEGSDPIEKWRNSFLPSYKANLTIWPLVQGVNFAIVPLEYRVLVVNLVSLGWNCLLSMINSSD</Hsp_hseq>
+      <Hsp_midline>MALYGGAIFGPAATTW+G LQR+VVL + K T++ARV ADQC+FTP HLTCFL+SMAIMEG+DPIEKWRN F+PS+KANL IWPLVQGVNFAIVPLEYRVL VNLV+LGWNCLLS+INS +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>ref|XP_040638684.1|</Hit_id>
+  <Hit_def>uncharacterized protein EURHEDRAFT_412854 [Aspergillus ruber CBS 135680] &gt;gb|EYE94996.1| hypothetical protein EURHEDRAFT_412854 [Aspergillus ruber CBS 135680]</Hit_def>
+  <Hit_accession>XP_040638684</Hit_accession>
+  <Hit_len>173</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>215.698</Hsp_bit-score>
+      <Hsp_score>548</Hsp_score>
+      <Hsp_evalue>4.01952e-69</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>121</Hsp_query-to>
+      <Hsp_hit-from>52</Hsp_hit-from>
+      <Hsp_hit-to>172</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>99</Hsp_identity>
+      <Hsp_positive>109</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>121</Hsp_align-len>
+      <Hsp_qseq>MALYGGAIFGPAATTWYGVLQRHVVLNNAKTTLIARVIADQCVFTPAHLTCFLSSMAIMEGTDPIEKWRNGFVPSFKANLAIWPLVQGVNFAIVPLEYRVLFVNLVALGWNCLLSLINSGE</Hsp_qseq>
+      <Hsp_hseq>MALYGGAIFGPAATTWFGFLQRHVVLKNSKATIVARVAADQCLFTPTHLTCFLSSMAIMEGSDPIEKLRTTFVPSYKANLTIWPLVQGVNFTFVPLEYRVLAVNLVSLGWNCLLSMINSGD</Hsp_hseq>
+      <Hsp_midline>MALYGGAIFGPAATTW+G LQRHVVL N+K T++ARV ADQC+FTP HLTCFLSSMAIMEG+DPIEK R  FVPS+KANL IWPLVQGVNF  VPLEYRVL VNLV+LGWNCLLS+INSG+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>ref|XP_040688137.1|</Hit_id>
+  <Hit_def>uncharacterized protein ASPWEDRAFT_42467 [Aspergillus wentii DTO 134E9] &gt;gb|KAI9925792.1| Protein required for ethanol metabolism [Aspergillus wentii] &gt;gb|OJJ34461.1| hypothetical protein ASPWEDRAFT_42467 [Aspergillus wentii DTO 134E9]</Hit_def>
+  <Hit_accession>XP_040688137</Hit_accession>
+  <Hit_len>173</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>215.698</Hsp_bit-score>
+      <Hsp_score>548</Hsp_score>
+      <Hsp_evalue>4.19963e-69</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>121</Hsp_query-to>
+      <Hsp_hit-from>52</Hsp_hit-from>
+      <Hsp_hit-to>172</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>100</Hsp_identity>
+      <Hsp_positive>108</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>121</Hsp_align-len>
+      <Hsp_qseq>MALYGGAIFGPAATTWYGVLQRHVVLNNAKTTLIARVIADQCVFTPAHLTCFLSSMAIMEGTDPIEKWRNGFVPSFKANLAIWPLVQGVNFAIVPLEYRVLFVNLVALGWNCLLSLINSGE</Hsp_qseq>
+      <Hsp_hseq>MALYGGAIFGPAATTWFGFLQRHVVLKSTPTTIAARVAADQCFFTPIHLTCFLSSMAIMEGTDPIEKWRSSFVPSYKANLAIWPLVQAVNFTFVPLEYRVLAVNLVSLGWNCLLSMINSGD</Hsp_hseq>
+      <Hsp_midline>MALYGGAIFGPAATTW+G LQRHVVL +  TT+ ARV ADQC FTP HLTCFLSSMAIMEGTDPIEKWR+ FVPS+KANLAIWPLVQ VNF  VPLEYRVL VNLV+LGWNCLLS+INSG+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>ref|XP_025429612.1|</Hit_id>
+  <Hit_def>peroxisomal membrane protein [Aspergillus saccharolyticus JOP 1030-1] &gt;gb|PYH43630.1| peroxisomal membrane protein [Aspergillus saccharolyticus JOP 1030-1]</Hit_def>
+  <Hit_accession>XP_025429612</Hit_accession>
+  <Hit_len>173</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>215.698</Hsp_bit-score>
+      <Hsp_score>548</Hsp_score>
+      <Hsp_evalue>4.48505e-69</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>122</Hsp_query-to>
+      <Hsp_hit-from>52</Hsp_hit-from>
+      <Hsp_hit-to>173</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>101</Hsp_identity>
+      <Hsp_positive>109</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>122</Hsp_align-len>
+      <Hsp_qseq>MALYGGAIFGPAATTWYGVLQRHVVLNNAKTTLIARVIADQCVFTPAHLTCFLSSMAIMEGTDPIEKWRNGFVPSFKANLAIWPLVQGVNFAIVPLEYRVLFVNLVALGWNCLLSLINSGEK</Hsp_qseq>
+      <Hsp_hseq>MALYGGAVFGPAATAWYGILQRHVVLKNPKVTLAARVAADQLLFTPTHLTCFLSSMAIMEGSDPWEKLRSSFVPSYKANLTIWPMVQGVNFAIVPLEYRVLVVNLVSLGWNCLLSLINSGEK</Hsp_hseq>
+      <Hsp_midline>MALYGGA+FGPAAT WYG+LQRHVVL N K TL ARV ADQ +FTP HLTCFLSSMAIMEG+DP EK R+ FVPS+KANL IWP+VQGVNFAIVPLEYRVL VNLV+LGWNCLLSLINSGEK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>ref|XP_025397806.1|</Hit_id>
+  <Hit_def>uncharacterized protein BO70DRAFT_363590 [Aspergillus heteromorphus CBS 117.55] &gt;gb|PWY77045.1| hypothetical protein BO70DRAFT_363590 [Aspergillus heteromorphus CBS 117.55]</Hit_def>
+  <Hit_accession>XP_025397806</Hit_accession>
+  <Hit_len>122</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>213.386</Hsp_bit-score>
+      <Hsp_score>542</Hsp_score>
+      <Hsp_evalue>6.96181e-69</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>122</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>122</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>98</Hsp_identity>
+      <Hsp_positive>109</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>122</Hsp_align-len>
+      <Hsp_qseq>MALYGGAIFGPAATTWYGVLQRHVVLNNAKTTLIARVIADQCVFTPAHLTCFLSSMAIMEGTDPIEKWRNGFVPSFKANLAIWPLVQGVNFAIVPLEYRVLFVNLVALGWNCLLSLINSGEK</Hsp_qseq>
+      <Hsp_hseq>MVLYGGAVFGPAATVWYGILQRRVVLQNAKATLLARVVADQCLFTPVHLTCFLSSMAIMEGKDPMEKLRSSFIPSYKANLTIWPAVQGVNFAMVPLEYRVLVVNLVSLGWNCLLSLINSGGK</Hsp_hseq>
+      <Hsp_midline>M LYGGA+FGPAAT WYG+LQR VVL NAK TL+ARV+ADQC+FTP HLTCFLSSMAIMEG DP+EK R+ F+PS+KANL IWP VQGVNFA+VPLEYRVL VNLV+LGWNCLLSLINSG K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gb|KAF4174220.1|</Hit_id>
+  <Hit_def>hypothetical protein CNMCM8060_008961 [Aspergillus lentulus] &gt;gb|KAF4193153.1| hypothetical protein CNMCM8694_009154 [Aspergillus lentulus] &gt;gb|KAF4207092.1| hypothetical protein CNMCM8927_003925 [Aspergillus lentulus]</Hit_def>
+  <Hit_accession>KAF4174220</Hit_accession>
+  <Hit_len>173</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>214.927</Hsp_bit-score>
+      <Hsp_score>546</Hsp_score>
+      <Hsp_evalue>8.84796e-69</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>122</Hsp_query-to>
+      <Hsp_hit-from>52</Hsp_hit-from>
+      <Hsp_hit-to>173</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>99</Hsp_identity>
+      <Hsp_positive>111</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>122</Hsp_align-len>
+      <Hsp_qseq>MALYGGAIFGPAATTWYGVLQRHVVLNNAKTTLIARVIADQCVFTPAHLTCFLSSMAIMEGTDPIEKWRNGFVPSFKANLAIWPLVQGVNFAIVPLEYRVLFVNLVALGWNCLLSLINSGEK</Hsp_qseq>
+      <Hsp_hseq>MALYGGAIFGPAATTWFAFLQRNVVLKNHKATIVARVIADQGLFTPTHLTCFLTSMAIMEGTDPIEKWRTSFLPSYKANLTIWPLVQGVNFSIVPLEYRVLVVNVVSLGWNCILSLINSGEK</Hsp_hseq>
+      <Hsp_midline>MALYGGAIFGPAATTW+  LQR+VVL N K T++ARVIADQ +FTP HLTCFL+SMAIMEGTDPIEKWR  F+PS+KANL IWPLVQGVNF+IVPLEYRVL VN+V+LGWNC+LSLINSGEK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>ref|XP_025497061.1|</Hit_id>
+  <Hit_def>protein sym1 [Aspergillus uvarum CBS 121591] &gt;gb|PYH86861.1| protein sym1 [Aspergillus uvarum CBS 121591]</Hit_def>
+  <Hit_accession>XP_025497061</Hit_accession>
+  <Hit_len>173</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>214.157</Hsp_bit-score>
+      <Hsp_score>544</Hsp_score>
+      <Hsp_evalue>1.56431e-68</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>122</Hsp_query-to>
+      <Hsp_hit-from>52</Hsp_hit-from>
+      <Hsp_hit-to>173</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>100</Hsp_identity>
+      <Hsp_positive>109</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>122</Hsp_align-len>
+      <Hsp_qseq>MALYGGAIFGPAATTWYGVLQRHVVLNNAKTTLIARVIADQCVFTPAHLTCFLSSMAIMEGTDPIEKWRNGFVPSFKANLAIWPLVQGVNFAIVPLEYRVLFVNLVALGWNCLLSLINSGEK</Hsp_qseq>
+      <Hsp_hseq>MALYGGAIFGPAATAWYGILQRHVVLKNPITTTAARVAADQLLFTPTHLTCFLSSMAILEGSDPMEKLRSSFVPSYKANLTIWPMVQGVNFAIVPLEYRVLVVNLVSLGWNCLLSLINSGEK</Hsp_hseq>
+      <Hsp_midline>MALYGGAIFGPAAT WYG+LQRHVVL N  TT  ARV ADQ +FTP HLTCFLSSMAI+EG+DP+EK R+ FVPS+KANL IWP+VQGVNFAIVPLEYRVL VNLV+LGWNCLLSLINSGEK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>ref|XP_022400691.1|</Hit_id>
+  <Hit_def>hypothetical protein ASPGLDRAFT_47708 [Aspergillus glaucus CBS 516.65] &gt;gb|OJJ83993.1| hypothetical protein ASPGLDRAFT_47708 [Aspergillus glaucus CBS 516.65]</Hit_def>
+  <Hit_accession>XP_022400691</Hit_accession>
+  <Hit_len>173</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>213.772</Hsp_bit-score>
+      <Hsp_score>543</Hsp_score>
+      <Hsp_evalue>2.12607e-68</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>121</Hsp_query-to>
+      <Hsp_hit-from>52</Hsp_hit-from>
+      <Hsp_hit-to>172</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>98</Hsp_identity>
+      <Hsp_positive>109</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>121</Hsp_align-len>
+      <Hsp_qseq>MALYGGAIFGPAATTWYGVLQRHVVLNNAKTTLIARVIADQCVFTPAHLTCFLSSMAIMEGTDPIEKWRNGFVPSFKANLAIWPLVQGVNFAIVPLEYRVLFVNLVALGWNCLLSLINSGE</Hsp_qseq>
+      <Hsp_hseq>MALYGGAIFGPAATTWFGFLQRHVVLKNSKATIVARVAADQCLFTPIHLTCFLSSMAIMEGSDPIEKLRTTFLPSYKANLTIWPLVQGVNFTFVPLEYRVLAVNLVSLGWNCLLSMINSGD</Hsp_hseq>
+      <Hsp_midline>MALYGGAIFGPAATTW+G LQRHVVL N+K T++ARV ADQC+FTP HLTCFLSSMAIMEG+DPIEK R  F+PS+KANL IWPLVQGVNF  VPLEYRVL VNLV+LGWNCLLS+INSG+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>dbj|GFF42681.1|</Hit_id>
+  <Hit_def>putative integral membrane protein, Mpv17/PMP22 family [Aspergillus udagawae]</Hit_def>
+  <Hit_accession>GFF42681</Hit_accession>
+  <Hit_len>128</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>212.231</Hsp_bit-score>
+      <Hsp_score>539</Hsp_score>
+      <Hsp_evalue>2.27359e-68</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>122</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>128</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>98</Hsp_identity>
+      <Hsp_positive>111</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>122</Hsp_align-len>
+      <Hsp_qseq>MALYGGAIFGPAATTWYGVLQRHVVLNNAKTTLIARVIADQCVFTPAHLTCFLSSMAIMEGTDPIEKWRNGFVPSFKANLAIWPLVQGVNFAIVPLEYRVLFVNLVALGWNCLLSLINSGEK</Hsp_qseq>
+      <Hsp_hseq>MALYGGAIFGPAATTWFAFLQRNVVLKSHKATIVARVIADQGLFTPTHLTCFLTSMAIMEGTDPIEKWRTSFLPSYKANLTIWPLVQGVNFSIVPLEYRVLVVNVVSLGWNCILSLINSGEK</Hsp_hseq>
+      <Hsp_midline>MALYGGAIFGPAATTW+  LQR+VVL + K T++ARVIADQ +FTP HLTCFL+SMAIMEGTDPIEKWR  F+PS+KANL IWPLVQGVNF+IVPLEYRVL VN+V+LGWNC+LSLINSGEK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gb|KAF4285201.1|</Hit_id>
+  <Hit_def>hypothetical protein CNMCM8689_005165 [Aspergillus fumigatus] &gt;gb|KAH1399452.1| Protein required for ethanol metabolism [Aspergillus fumigatus] &gt;gb|KAH1426241.1| Protein required for ethanol metabolism [Aspergillus fumigatus] &gt;gb|KAH1587225.1| Protein required for ethanol metabolism [Aspergillus fumigatus] &gt;gb|KAH1619597.1| Protein required for ethanol metabolism [Aspergillus fumigatus]</Hit_def>
+  <Hit_accession>KAF4285201</Hit_accession>
+  <Hit_len>173</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>213.772</Hsp_bit-score>
+      <Hsp_score>543</Hsp_score>
+      <Hsp_evalue>2.56142e-68</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>122</Hsp_query-to>
+      <Hsp_hit-from>52</Hsp_hit-from>
+      <Hsp_hit-to>173</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>98</Hsp_identity>
+      <Hsp_positive>111</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>122</Hsp_align-len>
+      <Hsp_qseq>MALYGGAIFGPAATTWYGVLQRHVVLNNAKTTLIARVIADQCVFTPAHLTCFLSSMAIMEGTDPIEKWRNGFVPSFKANLAIWPLVQGVNFAIVPLEYRVLFVNLVALGWNCLLSLINSGEK</Hsp_qseq>
+      <Hsp_hseq>MALYGGAIFGPAATTWFAFLQRNVVLKSHKATIIARVVADQGLFTPTHLTCFLTSMAIMEGTDPIEKWRTSFLPSYKANLTIWPLVQGVNFSIVPLEYRVLVVNVVSLGWNCILSLINSGEK</Hsp_hseq>
+      <Hsp_midline>MALYGGAIFGPAATTW+  LQR+VVL + K T+IARV+ADQ +FTP HLTCFL+SMAIMEGTDPIEKWR  F+PS+KANL IWPLVQGVNF+IVPLEYRVL VN+V+LGWNC+LSLINSGEK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>ref|XP_746785.1|</Hit_id>
+  <Hit_def>integral membrane protein, Mpv17/PMP22 family, putative [Aspergillus fumigatus Af293] &gt;gb|EAL84747.1| integral membrane protein, Mpv17/PMP22 family, putative [Aspergillus fumigatus Af293] &gt;gb|EDP48094.1| integral membrane protein, Mpv17/PMP22 family, putative [Aspergillus fumigatus A1163] &gt;gb|KEY79351.1| integral membrane protein Mpv17/PMP22 [Aspergillus fumigatus var. RP-2014]</Hit_def>
+  <Hit_accession>XP_746785</Hit_accession>
+  <Hit_len>178</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>213.386</Hsp_bit-score>
+      <Hsp_score>542</Hsp_score>
+      <Hsp_evalue>3.47958e-68</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>122</Hsp_query-to>
+      <Hsp_hit-from>57</Hsp_hit-from>
+      <Hsp_hit-to>178</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>98</Hsp_identity>
+      <Hsp_positive>111</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>122</Hsp_align-len>
+      <Hsp_qseq>MALYGGAIFGPAATTWYGVLQRHVVLNNAKTTLIARVIADQCVFTPAHLTCFLSSMAIMEGTDPIEKWRNGFVPSFKANLAIWPLVQGVNFAIVPLEYRVLFVNLVALGWNCLLSLINSGEK</Hsp_qseq>
+      <Hsp_hseq>MALYGGAIFGPAATTWFAFLQRNVVLKSHKATIIARVVADQGLFTPTHLTCFLTSMAIMEGTDPIEKWRTSFLPSYKANLTIWPLVQGVNFSIVPLEYRVLVVNVVSLGWNCILSLINSGEK</Hsp_hseq>
+      <Hsp_midline>MALYGGAIFGPAATTW+  LQR+VVL + K T+IARV+ADQ +FTP HLTCFL+SMAIMEGTDPIEKWR  F+PS+KANL IWPLVQGVNF+IVPLEYRVL VN+V+LGWNC+LSLINSGEK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gb|KAF4266166.1|</Hit_id>
+  <Hit_def>hypothetical protein CNMCM8714_005607 [Aspergillus fumigatus] &gt;gb|KMK55859.1| integral membrane protein, Mpv17/PMP22 family, putative [Aspergillus fumigatus Z5] &gt;gb|KAF4270961.1| hypothetical protein CNMCM8057_007519 [Aspergillus fumigatus] &gt;gb|KAF4293250.1| hypothetical protein CNMCM8686_006382 [Aspergillus fumigatus] &gt;gb|KAH1273440.1| Protein required for ethanol metabolism [Aspergillus fumigatus]</Hit_def>
+  <Hit_accession>KAF4266166</Hit_accession>
+  <Hit_len>173</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>213.386</Hsp_bit-score>
+      <Hsp_score>542</Hsp_score>
+      <Hsp_evalue>3.71783e-68</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>122</Hsp_query-to>
+      <Hsp_hit-from>52</Hsp_hit-from>
+      <Hsp_hit-to>173</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>98</Hsp_identity>
+      <Hsp_positive>111</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>122</Hsp_align-len>
+      <Hsp_qseq>MALYGGAIFGPAATTWYGVLQRHVVLNNAKTTLIARVIADQCVFTPAHLTCFLSSMAIMEGTDPIEKWRNGFVPSFKANLAIWPLVQGVNFAIVPLEYRVLFVNLVALGWNCLLSLINSGEK</Hsp_qseq>
+      <Hsp_hseq>MALYGGAIFGPAATTWFAFLQRNVVLKSHKATIIARVVADQGLFTPTHLTCFLTSMAIMEGTDPIEKWRTSFLPSYKANLTIWPLVQGVNFSIVPLEYRVLVVNVVSLGWNCILSLINSGEK</Hsp_hseq>
+      <Hsp_midline>MALYGGAIFGPAATTW+  LQR+VVL + K T+IARV+ADQ +FTP HLTCFL+SMAIMEGTDPIEKWR  F+PS+KANL IWPLVQGVNF+IVPLEYRVL VN+V+LGWNC+LSLINSGEK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>ref|XP_024678977.1|</Hit_id>
+  <Hit_def>putative integral membrane protein, Mpv17/PMP22 family [Aspergillus novofumigatus IBT 16806] &gt;ref|XP_033415054.1| putative integral membrane protein, Mpv17/PMP22 family [Aspergillus lentulus] &gt;ref|XP_043127459.1| protein required for ethanol metabolism [Aspergillus viridinutans] &gt;gb|KAF4216645.1| hypothetical protein CNMCM5878_006986 [Aspergillus fumigatiaffinis] &gt;gb|KAF4158565.1| hypothetical protein CNMCM6069_003951 [Aspergillus lentulus] &gt;gb|KAF4162625.1| hypothetical protein CNMCM6936_001814 [Aspergillus lentulus] &gt;gb|KAF4182580.1| hypothetical protein CNMCM7927_009592 [Aspergillus lentulus] &gt;gb|KAF4229034.1| hypothetical protein CNMCM6457_006625 [Aspergillus fumigatiaffinis]</Hit_def>
+  <Hit_accession>XP_024678977</Hit_accession>
+  <Hit_len>173</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>213.386</Hsp_bit-score>
+      <Hsp_score>542</Hsp_score>
+      <Hsp_evalue>3.80021e-68</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>122</Hsp_query-to>
+      <Hsp_hit-from>52</Hsp_hit-from>
+      <Hsp_hit-to>173</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>98</Hsp_identity>
+      <Hsp_positive>111</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>122</Hsp_align-len>
+      <Hsp_qseq>MALYGGAIFGPAATTWYGVLQRHVVLNNAKTTLIARVIADQCVFTPAHLTCFLSSMAIMEGTDPIEKWRNGFVPSFKANLAIWPLVQGVNFAIVPLEYRVLFVNLVALGWNCLLSLINSGEK</Hsp_qseq>
+      <Hsp_hseq>MALYGGAIFGPAATTWFAFLQRNVVLKSHKATIVARVIADQGLFTPTHLTCFLTSMAIMEGTDPIEKWRTSFLPSYKANLTIWPLVQGVNFSIVPLEYRVLVVNVVSLGWNCILSLINSGEK</Hsp_hseq>
+      <Hsp_midline>MALYGGAIFGPAATTW+  LQR+VVL + K T++ARVIADQ +FTP HLTCFL+SMAIMEGTDPIEKWR  F+PS+KANL IWPLVQGVNF+IVPLEYRVL VN+V+LGWNC+LSLINSGEK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>ref|XP_043150487.1|</Hit_id>
+  <Hit_def>protein required for ethanol metabolism [Aspergillus udagawae] &gt;dbj|GFF44321.1| protein sym1 [Aspergillus udagawae] &gt;dbj|GFF99119.1| protein sym1 [Aspergillus udagawae] &gt;dbj|GFG04283.1| protein sym1 [Aspergillus udagawae] &gt;dbj|GFG20795.1| protein sym1 [Aspergillus udagawae] &gt;dbj|GIC93221.1| protein required for ethanol metabolism [Aspergillus udagawae]</Hit_def>
+  <Hit_accession>XP_043150487</Hit_accession>
+  <Hit_len>173</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>213.001</Hsp_bit-score>
+      <Hsp_score>541</Hsp_score>
+      <Hsp_evalue>4.1941e-68</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>122</Hsp_query-to>
+      <Hsp_hit-from>52</Hsp_hit-from>
+      <Hsp_hit-to>173</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>98</Hsp_identity>
+      <Hsp_positive>111</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>122</Hsp_align-len>
+      <Hsp_qseq>MALYGGAIFGPAATTWYGVLQRHVVLNNAKTTLIARVIADQCVFTPAHLTCFLSSMAIMEGTDPIEKWRNGFVPSFKANLAIWPLVQGVNFAIVPLEYRVLFVNLVALGWNCLLSLINSGEK</Hsp_qseq>
+      <Hsp_hseq>MALYGGAIFGPAATTWFAFLQRNVVLKSHKATIVARVIADQGLFTPTHLTCFLTSMAIMEGTDPIEKWRTSFLPSYKANLTIWPLVQGVNFSIVPLEYRVLVVNVVSLGWNCILSLINSGEK</Hsp_hseq>
+      <Hsp_midline>MALYGGAIFGPAATTW+  LQR+VVL + K T++ARVIADQ +FTP HLTCFL+SMAIMEGTDPIEKWR  F+PS+KANL IWPLVQGVNF+IVPLEYRVL VN+V+LGWNC+LSLINSGEK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>ref|XP_026613714.1|</Hit_id>
+  <Hit_def>Protein required for ethanol metabolism [Aspergillus thermomutatus] &gt;gb|RHZ53725.1| Protein required for ethanol metabolism [Aspergillus thermomutatus]</Hit_def>
+  <Hit_accession>XP_026613714</Hit_accession>
+  <Hit_len>173</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>213.001</Hsp_bit-score>
+      <Hsp_score>541</Hsp_score>
+      <Hsp_evalue>4.33426e-68</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>122</Hsp_query-to>
+      <Hsp_hit-from>52</Hsp_hit-from>
+      <Hsp_hit-to>173</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>99</Hsp_identity>
+      <Hsp_positive>111</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>122</Hsp_align-len>
+      <Hsp_qseq>MALYGGAIFGPAATTWYGVLQRHVVLNNAKTTLIARVIADQCVFTPAHLTCFLSSMAIMEGTDPIEKWRNGFVPSFKANLAIWPLVQGVNFAIVPLEYRVLFVNLVALGWNCLLSLINSGEK</Hsp_qseq>
+      <Hsp_hseq>MALYGGAIFGPAATTWFGFLQRNVVLKSHKATIVARVIADQGLFTPTHLTCFLTSMAIMEGTDPIEKWRTSFLPSYKANLTIWPWVQGVNFSIVPLEYRVLVVNVVSLGWNCLLSLINSGEK</Hsp_hseq>
+      <Hsp_midline>MALYGGAIFGPAATTW+G LQR+VVL + K T++ARVIADQ +FTP HLTCFL+SMAIMEGTDPIEKWR  F+PS+KANL IWP VQGVNF+IVPLEYRVL VN+V+LGWNCLLSLINSGEK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>ref|XP_024671585.1|</Hit_id>
+  <Hit_def>peroxisomal membrane protein [Aspergillus candidus] &gt;gb|PLB37573.1| peroxisomal membrane protein [Aspergillus candidus]</Hit_def>
+  <Hit_accession>XP_024671585</Hit_accession>
+  <Hit_len>173</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>213.001</Hsp_bit-score>
+      <Hsp_score>541</Hsp_score>
+      <Hsp_evalue>4.52847e-68</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>122</Hsp_query-to>
+      <Hsp_hit-from>52</Hsp_hit-from>
+      <Hsp_hit-to>173</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>96</Hsp_identity>
+      <Hsp_positive>109</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>122</Hsp_align-len>
+      <Hsp_qseq>MALYGGAIFGPAATTWYGVLQRHVVLNNAKTTLIARVIADQCVFTPAHLTCFLSSMAIMEGTDPIEKWRNGFVPSFKANLAIWPLVQGVNFAIVPLEYRVLFVNLVALGWNCLLSLINSGEK</Hsp_qseq>
+      <Hsp_hseq>MALYGGAIFGPAATTWFSFLQRHVVLKSKTATLVARVTADQCLFTPTHLTCFLSSMAIMEGSDPVEKWRNNFLPSYKANLAIWPFVQGVNFTFVPLEFRVLVVNVVALGWNCLLSVINSGDQ</Hsp_hseq>
+      <Hsp_midline>MALYGGAIFGPAATTW+  LQRHVVL +   TL+ARV ADQC+FTP HLTCFLSSMAIMEG+DP+EKWRN F+PS+KANLAIWP VQGVNF  VPLE+RVL VN+VALGWNCLLS+INSG++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>ref|XP_024689099.1|</Hit_id>
+  <Hit_def>peroxisomal membrane protein [Aspergillus campestris IBT 28561] &gt;gb|PKY00505.1| peroxisomal membrane protein [Aspergillus campestris IBT 28561]</Hit_def>
+  <Hit_accession>XP_024689099</Hit_accession>
+  <Hit_len>173</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>213.001</Hsp_bit-score>
+      <Hsp_score>541</Hsp_score>
+      <Hsp_evalue>4.8895e-68</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>122</Hsp_query-to>
+      <Hsp_hit-from>52</Hsp_hit-from>
+      <Hsp_hit-to>173</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>96</Hsp_identity>
+      <Hsp_positive>109</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>122</Hsp_align-len>
+      <Hsp_qseq>MALYGGAIFGPAATTWYGVLQRHVVLNNAKTTLIARVIADQCVFTPAHLTCFLSSMAIMEGTDPIEKWRNGFVPSFKANLAIWPLVQGVNFAIVPLEYRVLFVNLVALGWNCLLSLINSGEK</Hsp_qseq>
+      <Hsp_hseq>MALYGGAIFGPAATTWFSFLQRHVVLKSKTATLVARVTADQCLFTPTHLTCFLSSMAIMEGSDPVEKWRNNFLPSYKANLAIWPFVQGVNFTFVPLEFRVLVVNVVALGWNCLLSVINSGDQ</Hsp_hseq>
+      <Hsp_midline>MALYGGAIFGPAATTW+  LQRHVVL +   TL+ARV ADQC+FTP HLTCFLSSMAIMEG+DP+EKWRN F+PS+KANLAIWP VQGVNF  VPLE+RVL VN+VALGWNCLLS+INSG++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>ref|XP_043162441.1|</Hit_id>
+  <Hit_def>protein required for ethanol metabolism [Aspergillus pseudoviridinutans] &gt;dbj|GIJ91695.1| protein required for ethanol metabolism [Aspergillus pseudoviridinutans]</Hit_def>
+  <Hit_accession>XP_043162441</Hit_accession>
+  <Hit_len>173</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>213.001</Hsp_bit-score>
+      <Hsp_score>541</Hsp_score>
+      <Hsp_evalue>5.27931e-68</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>122</Hsp_query-to>
+      <Hsp_hit-from>52</Hsp_hit-from>
+      <Hsp_hit-to>173</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>97</Hsp_identity>
+      <Hsp_positive>111</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>122</Hsp_align-len>
+      <Hsp_qseq>MALYGGAIFGPAATTWYGVLQRHVVLNNAKTTLIARVIADQCVFTPAHLTCFLSSMAIMEGTDPIEKWRNGFVPSFKANLAIWPLVQGVNFAIVPLEYRVLFVNLVALGWNCLLSLINSGEK</Hsp_qseq>
+      <Hsp_hseq>MALYGGAIFGPAATTWFAFLQRNVVLKSXKATIVARVIADQALFTPTHLTCFLTSMAIMEGTDPIEKWRTSFLPSYKANLTIWPLVQGVNFSIVPLEYRVLVVNVVALGWNCILSLISSGER</Hsp_hseq>
+      <Hsp_midline>MALYGGAIFGPAATTW+  LQR+VVL + K T++ARVIADQ +FTP HLTCFL+SMAIMEGTDPIEKWR  F+PS+KANL IWPLVQGVNF+IVPLEYRVL VN+VALGWNC+LSLI+SGE+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>520535009</Statistics_db-num>
+      <Statistics_db-len>204151440358</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+  <Iteration_message>Searches from this IP address have consumed a large amount of server CPU time. Future searches may be penalized in fairness to other users. Please consider the BLAST+ binaries: https://www.ncbi.nlm.nih.gov/books/NBK279690/</Iteration_message>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>

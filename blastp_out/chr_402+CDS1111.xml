@@ -1,0 +1,1442 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.13.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_29003</BlastOutput_query-ID>
+  <BlastOutput_query-def>unnamed protein product</BlastOutput_query-def>
+  <BlastOutput_query-len>101</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_29003</Iteration_query-ID>
+  <Iteration_query-def>unnamed protein product</Iteration_query-def>
+  <Iteration_query-len>101</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>ref|XP_003188600.1|</Hit_id>
+  <Hit_def>hydroxyacyl dehydrogenase [Aspergillus niger CBS 513.88]</Hit_def>
+  <Hit_accession>XP_003188600</Hit_accession>
+  <Hit_len>195</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>216.853</Hsp_bit-score>
+      <Hsp_score>551</Hsp_score>
+      <Hsp_evalue>1.03859e-69</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>101</Hsp_query-to>
+      <Hsp_hit-from>95</Hsp_hit-from>
+      <Hsp_hit-to>195</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>101</Hsp_identity>
+      <Hsp_positive>101</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>101</Hsp_align-len>
+      <Hsp_qseq>MSWAEGSAFAPMPAYNISKAVLNALTVQYALSYTDEGFTFMAIHPGWLRTDMGGQDADLSVEEGATAVWEMVSSCTQTQNGQFMNIHIPGSESYTWDIIPW</Hsp_qseq>
+      <Hsp_hseq>MSWAEGSAFAPMPAYNISKAVLNALTVQYALSYTDEGFTFMAIHPGWLRTDMGGQDADLSVEEGATAVWEMVSSCTQTQNGQFMNIHIPGSESYTWDIIPW</Hsp_hseq>
+      <Hsp_midline>MSWAEGSAFAPMPAYNISKAVLNALTVQYALSYTDEGFTFMAIHPGWLRTDMGGQDADLSVEEGATAVWEMVSSCTQTQNGQFMNIHIPGSESYTWDIIPW</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gb|RDH24939.1|</Hit_id>
+  <Hit_def>NAD(P)-binding protein [Aspergillus niger ATCC 13496]</Hit_def>
+  <Hit_accession>RDH24939</Hit_accession>
+  <Hit_len>139</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>213.772</Hsp_bit-score>
+      <Hsp_score>543</Hsp_score>
+      <Hsp_evalue>2.76085e-69</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>101</Hsp_query-to>
+      <Hsp_hit-from>39</Hsp_hit-from>
+      <Hsp_hit-to>139</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>101</Hsp_identity>
+      <Hsp_positive>101</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>101</Hsp_align-len>
+      <Hsp_qseq>MSWAEGSAFAPMPAYNISKAVLNALTVQYALSYTDEGFTFMAIHPGWLRTDMGGQDADLSVEEGATAVWEMVSSCTQTQNGQFMNIHIPGSESYTWDIIPW</Hsp_qseq>
+      <Hsp_hseq>MSWAEGSAFAPMPAYNISKAVLNALTVQYALSYTDEGFTFMAIHPGWLRTDMGGQDADLSVEEGATAVWEMVSSCTQTQNGQFMNIHIPGSESYTWDIIPW</Hsp_hseq>
+      <Hsp_midline>MSWAEGSAFAPMPAYNISKAVLNALTVQYALSYTDEGFTFMAIHPGWLRTDMGGQDADLSVEEGATAVWEMVSSCTQTQNGQFMNIHIPGSESYTWDIIPW</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gb|TPR09552.1|</Hit_id>
+  <Hit_def>Pectate lyase family protein [Aspergillus niger] &gt;dbj|GKZ95448.1| hypothetical protein AnigIFM59636_009455 [Aspergillus niger] &gt;emb|SPB48277.1| unnamed protein product [Aspergillus niger]</Hit_def>
+  <Hit_accession>TPR09552</Hit_accession>
+  <Hit_len>101</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>211.846</Hsp_bit-score>
+      <Hsp_score>538</Hsp_score>
+      <Hsp_evalue>5.85675e-69</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>101</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>101</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>101</Hsp_identity>
+      <Hsp_positive>101</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>101</Hsp_align-len>
+      <Hsp_qseq>MSWAEGSAFAPMPAYNISKAVLNALTVQYALSYTDEGFTFMAIHPGWLRTDMGGQDADLSVEEGATAVWEMVSSCTQTQNGQFMNIHIPGSESYTWDIIPW</Hsp_qseq>
+      <Hsp_hseq>MSWAEGSAFAPMPAYNISKAVLNALTVQYALSYTDEGFTFMAIHPGWLRTDMGGQDADLSVEEGATAVWEMVSSCTQTQNGQFMNIHIPGSESYTWDIIPW</Hsp_hseq>
+      <Hsp_midline>MSWAEGSAFAPMPAYNISKAVLNALTVQYALSYTDEGFTFMAIHPGWLRTDMGGQDADLSVEEGATAVWEMVSSCTQTQNGQFMNIHIPGSESYTWDIIPW</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>dbj|GLA35964.1|</Hit_id>
+  <Hit_def>hypothetical protein AnigIFM63309_001347 [Aspergillus niger]</Hit_def>
+  <Hit_accession>GLA35964</Hit_accession>
+  <Hit_len>101</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>200.29</Hsp_bit-score>
+      <Hsp_score>508</Hsp_score>
+      <Hsp_evalue>1.94196e-64</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>101</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>101</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>96</Hsp_identity>
+      <Hsp_positive>96</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>101</Hsp_align-len>
+      <Hsp_qseq>MSWAEGSAFAPMPAYNISKAVLNALTVQYALSYTDEGFTFMAIHPGWLRTDMGGQDADLSVEEGATAVWEMVSSCTQTQNGQFMNIHIPGSESYTWDIIPW</Hsp_qseq>
+      <Hsp_hseq>MSWAEGSAFAPMPAYKISKAALNALTVQYALSYTDEGFTFMAIHPGWLRTDMGGQDADLSVEEGATAVWEMVSSCTQTQNGQFMNIHIPGSERYTGGIIPW</Hsp_hseq>
+      <Hsp_midline>MSWAEGSAFAPMPAY ISKA LNALTVQYALSYTDEGFTFMAIHPGWLRTDMGGQDADLSVEEGATAVWEMVSSCTQTQNGQFMNIHIPGSE YT  IIPW</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gb|EHA22546.1|</Hit_id>
+  <Hit_def>hypothetical protein ASPNIDRAFT_136791, partial [Aspergillus niger ATCC 1015]</Hit_def>
+  <Hit_accession>EHA22546</Hit_accession>
+  <Hit_len>182</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>198.364</Hsp_bit-score>
+      <Hsp_score>503</Hsp_score>
+      <Hsp_evalue>1.39843e-62</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>93</Hsp_query-to>
+      <Hsp_hit-from>90</Hsp_hit-from>
+      <Hsp_hit-to>182</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>93</Hsp_identity>
+      <Hsp_positive>93</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>93</Hsp_align-len>
+      <Hsp_qseq>MSWAEGSAFAPMPAYNISKAVLNALTVQYALSYTDEGFTFMAIHPGWLRTDMGGQDADLSVEEGATAVWEMVSSCTQTQNGQFMNIHIPGSES</Hsp_qseq>
+      <Hsp_hseq>MSWAEGSAFAPMPAYNISKAVLNALTVQYALSYTDEGFTFMAIHPGWLRTDMGGQDADLSVEEGATAVWEMVSSCTQTQNGQFMNIHIPGSES</Hsp_hseq>
+      <Hsp_midline>MSWAEGSAFAPMPAYNISKAVLNALTVQYALSYTDEGFTFMAIHPGWLRTDMGGQDADLSVEEGATAVWEMVSSCTQTQNGQFMNIHIPGSES</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>dbj|GLA00415.1|</Hit_id>
+  <Hit_def>hypothetical protein AnigIFM60653_008476 [Aspergillus niger]</Hit_def>
+  <Hit_accession>GLA00415</Hit_accession>
+  <Hit_len>101</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>194.512</Hsp_bit-score>
+      <Hsp_score>493</Hsp_score>
+      <Hsp_evalue>3.85879e-62</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>101</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>101</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>93</Hsp_identity>
+      <Hsp_positive>93</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>101</Hsp_align-len>
+      <Hsp_qseq>MSWAEGSAFAPMPAYNISKAVLNALTVQYALSYTDEGFTFMAIHPGWLRTDMGGQDADLSVEEGATAVWEMVSSCTQTQNGQFMNIHIPGSESYTWDIIPW</Hsp_qseq>
+      <Hsp_hseq>MSWAEGSAFAPMPAYKISKAALNTLTVQYALSYTDEGFTFMAIHPGWLRTDMGGQDTDLLVEEGATAVWEMVSSCTQTQNGQFMNIHIPGSERYTGGIIPW</Hsp_hseq>
+      <Hsp_midline>MSWAEGSAFAPMPAY ISKA LN LTVQYALSYTDEGFTFMAIHPGWLRTDMGGQD DL VEEGATAVWEMVSSCTQTQNGQFMNIHIPGSE YT  IIPW</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>dbj|GKZ85801.1|</Hit_id>
+  <Hit_def>hypothetical protein AnigIFM56816_011772 [Aspergillus niger]</Hit_def>
+  <Hit_accession>GKZ85801</Hit_accession>
+  <Hit_len>101</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>185.652</Hsp_bit-score>
+      <Hsp_score>470</Hsp_score>
+      <Hsp_evalue>1.17918e-58</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>101</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>101</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>89</Hsp_identity>
+      <Hsp_positive>91</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>101</Hsp_align-len>
+      <Hsp_qseq>MSWAEGSAFAPMPAYNISKAVLNALTVQYALSYTDEGFTFMAIHPGWLRTDMGGQDADLSVEEGATAVWEMVSSCTQTQNGQFMNIHIPGSESYTWDIIPW</Hsp_qseq>
+      <Hsp_hseq>MSWAERFAFAPLPAYKISKTTLNPLTVQYALSYTDEGFTFTAIYPGWLRTDMGGQDADLSVEEGATAVWEMVSSCTQTQNGQFMNIHIPGSERYTGGIIPW</Hsp_hseq>
+      <Hsp_midline>MSWAE  AFAP+PAY ISK  LN LTVQYALSYTDEGFTF AI+PGWLRTDMGGQDADLSVEEGATAVWEMVSSCTQTQNGQFMNIHIPGSE YT  IIPW</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>ref|XP_025460160.1|</Hit_id>
+  <Hit_def>uncharacterized protein BO96DRAFT_406836 [Aspergillus niger CBS 101883] &gt;gb|PYH62105.1| hypothetical protein BO96DRAFT_406836 [Aspergillus niger CBS 101883]</Hit_def>
+  <Hit_accession>XP_025460160</Hit_accession>
+  <Hit_len>114</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>186.037</Hsp_bit-score>
+      <Hsp_score>471</Hsp_score>
+      <Hsp_evalue>1.39779e-58</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>100</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>100</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>91</Hsp_identity>
+      <Hsp_positive>92</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>100</Hsp_align-len>
+      <Hsp_qseq>MSWAEGSAFAPMPAYNISKAVLNALTVQYALSYTDEGFTFMAIHPGWLRTDMGGQDADLSVEEGATAVWEMVSSCTQTQNGQFMNIHIPGSESYTWDIIP</Hsp_qseq>
+      <Hsp_hseq>MSWAEGSPFAPMPAYNISKAAVNALTVQYALSYTDEGFTFMAIHPGWLRTDMGGQDADLLVEEGATAVWEMVSSWTQTQNGQFMNNHIPGSERYTGGIIP</Hsp_hseq>
+      <Hsp_midline>MSWAEGS FAPMPAYNISKA +NALTVQYALSYTDEGFTFMAIHPGWLRTDMGGQDADL VEEGATAVWEMVSS TQTQNGQFMN HIPGSE YT  IIP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>ref|XP_026625099.1|</Hit_id>
+  <Hit_def>hypothetical protein BDQ94DRAFT_49921 [Aspergillus welwitschiae] &gt;gb|RDH32077.1| hypothetical protein BDQ94DRAFT_49921 [Aspergillus welwitschiae]</Hit_def>
+  <Hit_accession>XP_026625099</Hit_accession>
+  <Hit_len>90</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>177.178</Hsp_bit-score>
+      <Hsp_score>448</Hsp_score>
+      <Hsp_evalue>2.2699e-55</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>101</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>90</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>84</Hsp_identity>
+      <Hsp_positive>84</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>90</Hsp_align-len>
+      <Hsp_qseq>MPAYNISKAVLNALTVQYALSYTDEGFTFMAIHPGWLRTDMGGQDADLSVEEGATAVWEMVSSCTQTQNGQFMNIHIPGSESYTWDIIPW</Hsp_qseq>
+      <Hsp_hseq>MPAYKISKAALNALTVQYALSYTDEGFTFMAIHPGWLRTDMGGQDADLSVEEGATAVWEMVSSCIQTQNGQFMNIHIPGSERYTVGIIPW</Hsp_hseq>
+      <Hsp_midline>MPAY ISKA LNALTVQYALSYTDEGFTFMAIHPGWLRTDMGGQDADLSVEEGATAVWEMVSSC QTQNGQFMNIHIPGSE YT  IIPW</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gb|KAE8151182.1|</Hit_id>
+  <Hit_def>hypothetical protein BDV25DRAFT_153038 [Aspergillus avenaceus]</Hit_def>
+  <Hit_accession>KAE8151182</Hit_accession>
+  <Hit_len>245</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>134.42</Hsp_bit-score>
+      <Hsp_score>337</Hsp_score>
+      <Hsp_evalue>1.58161e-36</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>101</Hsp_query-to>
+      <Hsp_hit-from>145</Hsp_hit-from>
+      <Hsp_hit-to>245</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>63</Hsp_identity>
+      <Hsp_positive>75</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>101</Hsp_align-len>
+      <Hsp_qseq>MSWAEGSAFAPMPAYNISKAVLNALTVQYALSYTDEGFTFMAIHPGWLRTDMGGQDADLSVEEGATAVWEMVSSCTQTQNGQFMNIHIPGSESYTWDIIPW</Hsp_qseq>
+      <Hsp_hseq>MTAAESSAFAPCPAYKISKASLNALTVQYALSYKEEGFVFMAVSPGWLKTEMGGEDAHLTVEEGAQAVLRVVDDADSSSNGCFKNIEVPGWDNYDGKNIPW</Hsp_hseq>
+      <Hsp_midline>M+ AE SAFAP PAY ISKA LNALTVQYALSY +EGF FMA+ PGWL+T+MGG+DA L+VEEGA AV  +V     + NG F NI +PG ++Y    IPW</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>ref|XP_025498711.1|</Hit_id>
+  <Hit_def>putative short chain-type dehydrogenase [Aspergillus aculeatinus CBS 121060] &gt;gb|RAH64888.1| putative short chain-type dehydrogenase [Aspergillus aculeatinus CBS 121060]</Hit_def>
+  <Hit_accession>XP_025498711</Hit_accession>
+  <Hit_len>245</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>132.88</Hsp_bit-score>
+      <Hsp_score>333</Hsp_score>
+      <Hsp_evalue>6.89875e-36</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>101</Hsp_query-to>
+      <Hsp_hit-from>145</Hsp_hit-from>
+      <Hsp_hit-to>245</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>58</Hsp_identity>
+      <Hsp_positive>74</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>101</Hsp_align-len>
+      <Hsp_qseq>MSWAEGSAFAPMPAYNISKAVLNALTVQYALSYTDEGFTFMAIHPGWLRTDMGGQDADLSVEEGATAVWEMVSSCTQTQNGQFMNIHIPGSESYTWDIIPW</Hsp_qseq>
+      <Hsp_hseq>MARARANDYAKLPAYKVSKAALNALTVQYALSYEADGFVFMAVHPGWLQTDMGGSGADLTVSQGAKAVLEVIVAADEKSNGTFRNIHVEGSEIYRGEEIPW</Hsp_hseq>
+      <Hsp_midline>M+ A  + +A +PAY +SKA LNALTVQYALSY  +GF FMA+HPGWL+TDMGG  ADL+V +GA AV E++ +  +  NG F NIH+ GSE Y  + IPW</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>ref|XP_025527924.1|</Hit_id>
+  <Hit_def>putative short chain-type dehydrogenase [Aspergillus japonicus CBS 114.51] &gt;gb|PYI18782.1| putative short chain-type dehydrogenase [Aspergillus violaceofuscus CBS 115571] &gt;gb|RAH82030.1| putative short chain-type dehydrogenase [Aspergillus japonicus CBS 114.51]</Hit_def>
+  <Hit_accession>XP_025527924</Hit_accession>
+  <Hit_len>246</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>132.494</Hsp_bit-score>
+      <Hsp_score>332</Hsp_score>
+      <Hsp_evalue>8.9806e-36</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>101</Hsp_query-to>
+      <Hsp_hit-from>146</Hsp_hit-from>
+      <Hsp_hit-to>246</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>59</Hsp_identity>
+      <Hsp_positive>74</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>101</Hsp_align-len>
+      <Hsp_qseq>MSWAEGSAFAPMPAYNISKAVLNALTVQYALSYTDEGFTFMAIHPGWLRTDMGGQDADLSVEEGATAVWEMVSSCTQTQNGQFMNIHIPGSESYTWDIIPW</Hsp_qseq>
+      <Hsp_hseq>MARARENDYAKLPAYKISKAALNALTVQYALSYEADGFVFMAVHPGWLQTDMGGSGADLTVSQGAKAVLEVIVAADEQSNGTFRNIHVAGSEIYRGEEIPW</Hsp_hseq>
+      <Hsp_midline>M+ A  + +A +PAY ISKA LNALTVQYALSY  +GF FMA+HPGWL+TDMGG  ADL+V +GA AV E++ +  +  NG F NIH+ GSE Y  + IPW</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>ref|XP_020059312.1|</Hit_id>
+  <Hit_def>uncharacterized protein ASPACDRAFT_113531 [Aspergillus aculeatus ATCC 16872] &gt;gb|OJK02973.1| hypothetical protein ASPACDRAFT_113531 [Aspergillus aculeatus ATCC 16872]</Hit_def>
+  <Hit_accession>XP_020059312</Hit_accession>
+  <Hit_len>247</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>130.568</Hsp_bit-score>
+      <Hsp_score>327</Hsp_score>
+      <Hsp_evalue>5.26082e-35</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>101</Hsp_query-to>
+      <Hsp_hit-from>147</Hsp_hit-from>
+      <Hsp_hit-to>247</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>73</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>101</Hsp_align-len>
+      <Hsp_qseq>MSWAEGSAFAPMPAYNISKAVLNALTVQYALSYTDEGFTFMAIHPGWLRTDMGGQDADLSVEEGATAVWEMVSSCTQTQNGQFMNIHIPGSESYTWDIIPW</Hsp_qseq>
+      <Hsp_hseq>MARARATDYAKVPAYKVSKAALNALTVQYALSYEADGFVFMTVHPGWLQTDMGGSGADLTVSQGAKAVLEVIVAADEKSNGTFRNIHVEGSEIYRGEEIPW</Hsp_hseq>
+      <Hsp_midline>M+ A  + +A +PAY +SKA LNALTVQYALSY  +GF FM +HPGWL+TDMGG  ADL+V +GA AV E++ +  +  NG F NIH+ GSE Y  + IPW</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>ref|XP_025571669.1|</Hit_id>
+  <Hit_def>hydroxyacyl dehydrogenase [Aspergillus ibericus CBS 121593] &gt;gb|RAK97341.1| hydroxyacyl dehydrogenase [Aspergillus ibericus CBS 121593]</Hit_def>
+  <Hit_accession>XP_025571669</Hit_accession>
+  <Hit_len>244</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>130.183</Hsp_bit-score>
+      <Hsp_score>326</Hsp_score>
+      <Hsp_evalue>7.51835e-35</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>101</Hsp_query-to>
+      <Hsp_hit-from>144</Hsp_hit-from>
+      <Hsp_hit-to>244</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>61</Hsp_identity>
+      <Hsp_positive>73</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>101</Hsp_align-len>
+      <Hsp_qseq>MSWAEGSAFAPMPAYNISKAVLNALTVQYALSYTDEGFTFMAIHPGWLRTDMGGQDADLSVEEGATAVWEMVSSCTQTQNGQFMNIHIPGSESYTWDIIPW</Hsp_qseq>
+      <Hsp_hseq>MTRAAEVTYAPCPAYKISKAALNALTVQYAMSYQDQGYIFLAISPGWLRTDMGGTNADLTVEEGAKAVVNAVMSADKECNGRFQNIHVPGWKGYDGQDIPW</Hsp_hseq>
+      <Hsp_midline>M+ A    +AP PAY ISKA LNALTVQYA+SY D+G+ F+AI PGWLRTDMGG +ADL+VEEGA AV   V S  +  NG+F NIH+PG + Y    IPW</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>ref|XP_025436225.1|</Hit_id>
+  <Hit_def>putative short chain-type dehydrogenase [Aspergillus brunneoviolaceus CBS 621.78] &gt;gb|RAH39704.1| putative short chain-type dehydrogenase [Aspergillus brunneoviolaceus CBS 621.78]</Hit_def>
+  <Hit_accession>XP_025436225</Hit_accession>
+  <Hit_len>246</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>129.798</Hsp_bit-score>
+      <Hsp_score>325</Hsp_score>
+      <Hsp_evalue>9.50473e-35</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>101</Hsp_query-to>
+      <Hsp_hit-from>146</Hsp_hit-from>
+      <Hsp_hit-to>246</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>73</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>101</Hsp_align-len>
+      <Hsp_qseq>MSWAEGSAFAPMPAYNISKAVLNALTVQYALSYTDEGFTFMAIHPGWLRTDMGGQDADLSVEEGATAVWEMVSSCTQTQNGQFMNIHIPGSESYTWDIIPW</Hsp_qseq>
+      <Hsp_hseq>MARARANDYAKLPAYKVSKAALNALTVQYALSYEADGFVFMAVHPGWLQTDMGGSGADLTVSQGAKAVLEVIVAVDEKSNGTFKNIHVESSEIYRGEEIPW</Hsp_hseq>
+      <Hsp_midline>M+ A  + +A +PAY +SKA LNALTVQYALSY  +GF FMA+HPGWL+TDMGG  ADL+V +GA AV E++ +  +  NG F NIH+  SE Y  + IPW</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>ref|XP_040797960.1|</Hit_id>
+  <Hit_def>putative short chain-type dehydrogenase [Aspergillus fijiensis CBS 313.89] &gt;gb|RAK73950.1| putative short chain-type dehydrogenase [Aspergillus fijiensis CBS 313.89]</Hit_def>
+  <Hit_accession>XP_040797960</Hit_accession>
+  <Hit_len>245</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>129.798</Hsp_bit-score>
+      <Hsp_score>325</Hsp_score>
+      <Hsp_evalue>1.1261e-34</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>101</Hsp_query-to>
+      <Hsp_hit-from>145</Hsp_hit-from>
+      <Hsp_hit-to>245</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>74</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>101</Hsp_align-len>
+      <Hsp_qseq>MSWAEGSAFAPMPAYNISKAVLNALTVQYALSYTDEGFTFMAIHPGWLRTDMGGQDADLSVEEGATAVWEMVSSCTQTQNGQFMNIHIPGSESYTWDIIPW</Hsp_qseq>
+      <Hsp_hseq>MARARANDYAKLPAYKVSKAALNALTVQYALSYEADGFVFMAVHPGWLQTDMGGSGADLTVSQGAKAVLEVIVAADEKSNGTFRNIYVGGSEIYRGEEIPW</Hsp_hseq>
+      <Hsp_midline>M+ A  + +A +PAY +SKA LNALTVQYALSY  +GF FMA+HPGWL+TDMGG  ADL+V +GA AV E++ +  +  NG F NI++ GSE Y  + IPW</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gb|PYI27466.1|</Hit_id>
+  <Hit_def>putative short chain-type dehydrogenase [Aspergillus indologenus CBS 114.80]</Hit_def>
+  <Hit_accession>PYI27466</Hit_accession>
+  <Hit_len>246</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>129.413</Hsp_bit-score>
+      <Hsp_score>324</Hsp_score>
+      <Hsp_evalue>1.25921e-34</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>101</Hsp_query-to>
+      <Hsp_hit-from>146</Hsp_hit-from>
+      <Hsp_hit-to>246</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>58</Hsp_identity>
+      <Hsp_positive>72</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>101</Hsp_align-len>
+      <Hsp_qseq>MSWAEGSAFAPMPAYNISKAVLNALTVQYALSYTDEGFTFMAIHPGWLRTDMGGQDADLSVEEGATAVWEMVSSCTQTQNGQFMNIHIPGSESYTWDIIPW</Hsp_qseq>
+      <Hsp_hseq>MARARANDSAKLPAYKVSKAALNALTVQYALSYEADGFVFMAVHPGWLQTDMGGSGADLTVSQGAKAVLEVIVAADAQSNGTFRNIHVAGSEIYRGEEIPW</Hsp_hseq>
+      <Hsp_midline>M+ A  +  A +PAY +SKA LNALTVQYALSY  +GF FMA+HPGWL+TDMGG  ADL+V +GA AV E++ +     NG F NIH+ GSE Y  + IPW</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gb|PYI09393.1|</Hit_id>
+  <Hit_def>hydroxyacyl dehydrogenase [Aspergillus sclerotiicarbonarius CBS 121057]</Hit_def>
+  <Hit_accession>PYI09393</Hit_accession>
+  <Hit_len>245</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>128.642</Hsp_bit-score>
+      <Hsp_score>322</Hsp_score>
+      <Hsp_evalue>2.88626e-34</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>101</Hsp_query-to>
+      <Hsp_hit-from>145</Hsp_hit-from>
+      <Hsp_hit-to>245</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>60</Hsp_identity>
+      <Hsp_positive>74</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>101</Hsp_align-len>
+      <Hsp_qseq>MSWAEGSAFAPMPAYNISKAVLNALTVQYALSYTDEGFTFMAIHPGWLRTDMGGQDADLSVEEGATAVWEMVSSCTQTQNGQFMNIHIPGSESYTWDIIPW</Hsp_qseq>
+      <Hsp_hseq>MTRAAEVSYAPCPAYKISKAALNALTVQYAMSYQDKGFVFLAVSPGWLQTDMGGGNADLTVEEGANAVLDVVMSAGPECNGHFKNIHVPGWKGYDGQEIPW</Hsp_hseq>
+      <Hsp_midline>M+ A   ++AP PAY ISKA LNALTVQYA+SY D+GF F+A+ PGWL+TDMGG +ADL+VEEGA AV ++V S     NG F NIH+PG + Y    IPW</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>ref|XP_025440071.1|</Hit_id>
+  <Hit_def>hydroxyacyl dehydrogenase [Aspergillus brunneoviolaceus CBS 621.78] &gt;gb|RAH43550.1| hydroxyacyl dehydrogenase [Aspergillus brunneoviolaceus CBS 621.78]</Hit_def>
+  <Hit_accession>XP_025440071</Hit_accession>
+  <Hit_len>246</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>128.257</Hsp_bit-score>
+      <Hsp_score>321</Hsp_score>
+      <Hsp_evalue>4.13826e-34</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>101</Hsp_query-to>
+      <Hsp_hit-from>146</Hsp_hit-from>
+      <Hsp_hit-to>246</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>59</Hsp_identity>
+      <Hsp_positive>72</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>101</Hsp_align-len>
+      <Hsp_qseq>MSWAEGSAFAPMPAYNISKAVLNALTVQYALSYTDEGFTFMAIHPGWLRTDMGGQDADLSVEEGATAVWEMVSSCTQTQNGQFMNIHIPGSESYTWDIIPW</Hsp_qseq>
+      <Hsp_hseq>ISHARDVAYAPCPAYKISKAALNALTVQYALSYEDDGFVFFAVNPGWLKSDMGGQDADLTVPQGAKAVLEMAFAADSRDNGTFKNIDVPGWDKYNGQILAW</Hsp_hseq>
+      <Hsp_midline>+S A   A+AP PAY ISKA LNALTVQYALSY D+GF F A++PGWL++DMGGQDADL+V +GA AV EM  +     NG F NI +PG + Y   I+ W</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gb|KAE8372265.1|</Hit_id>
+  <Hit_def>hypothetical protein BDV26DRAFT_298015 [Aspergillus bertholletiae]</Hit_def>
+  <Hit_accession>KAE8372265</Hit_accession>
+  <Hit_len>246</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>127.487</Hsp_bit-score>
+      <Hsp_score>319</Hsp_score>
+      <Hsp_evalue>6.95407e-34</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>101</Hsp_query-to>
+      <Hsp_hit-from>146</Hsp_hit-from>
+      <Hsp_hit-to>246</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>59</Hsp_identity>
+      <Hsp_positive>71</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>101</Hsp_align-len>
+      <Hsp_qseq>MSWAEGSAFAPMPAYNISKAVLNALTVQYALSYTDEGFTFMAIHPGWLRTDMGGQDADLSVEEGATAVWEMVSSCTQTQNGQFMNIHIPGSESYTWDIIPW</Hsp_qseq>
+      <Hsp_hseq>MTLAEMSSFANCPAYKISKAALNALTVQYAMSYKDEGFTFLAVSPGWLKTDMGGDDAHLTAEEGAQAVLNIVDKADTDSNGSFKNVEVPGWDMYDGKNVPW</Hsp_hseq>
+      <Hsp_midline>M+ AE S+FA  PAY ISKA LNALTVQYA+SY DEGFTF+A+ PGWL+TDMGG DA L+ EEGA AV  +V       NG F N+ +PG + Y    +PW</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>ref|XP_041548476.1|</Hit_id>
+  <Hit_def>uncharacterized protein AKAW2_80516A [Aspergillus luchuensis] &gt;dbj|BCS04714.1| hypothetical protein AKAW2_80516A [Aspergillus luchuensis] &gt;dbj|BCS16283.1| hypothetical protein ALUC_80490A [Aspergillus luchuensis] &gt;dbj|GAA83721.1| hydroxyacyl dehydrogenase [Aspergillus luchuensis IFO 4308] &gt;dbj|GAT22534.1| hydroxyacyl dehydrogenase [Aspergillus luchuensis]</Hit_def>
+  <Hit_accession>XP_041548476</Hit_accession>
+  <Hit_len>246</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>127.102</Hsp_bit-score>
+      <Hsp_score>318</Hsp_score>
+      <Hsp_evalue>9.61854e-34</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>101</Hsp_query-to>
+      <Hsp_hit-from>146</Hsp_hit-from>
+      <Hsp_hit-to>246</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>74</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>101</Hsp_align-len>
+      <Hsp_qseq>MSWAEGSAFAPMPAYNISKAVLNALTVQYALSYTDEGFTFMAIHPGWLRTDMGGQDADLSVEEGATAVWEMVSSCTQTQNGQFMNIHIPGSESYTWDIIPW</Hsp_qseq>
+      <Hsp_hseq>ITSAREVSYAPCPAYKISKAALNALTVQYALSYQDEGFIFLAVSPGWLQSDMGGKHADLTVPQGAEAVLNIAMSADRVDNGRFKNIHVPGWEAYKGQDVPW</Hsp_hseq>
+      <Hsp_midline>++ A   ++AP PAY ISKA LNALTVQYALSY DEGF F+A+ PGWL++DMGG+ ADL+V +GA AV  +  S  +  NG+F NIH+PG E+Y    +PW</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gb|KAF7631491.1|</Hit_id>
+  <Hit_def>hypothetical protein AFLA_012348 [Aspergillus flavus NRRL3357]</Hit_def>
+  <Hit_accession>KAF7631491</Hit_accession>
+  <Hit_len>224</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>126.716</Hsp_bit-score>
+      <Hsp_score>317</Hsp_score>
+      <Hsp_evalue>1.0758e-33</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>101</Hsp_query-to>
+      <Hsp_hit-from>124</Hsp_hit-from>
+      <Hsp_hit-to>224</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>55</Hsp_identity>
+      <Hsp_positive>77</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>101</Hsp_align-len>
+      <Hsp_qseq>MSWAEGSAFAPMPAYNISKAVLNALTVQYALSYTDEGFTFMAIHPGWLRTDMGGQDADLSVEEGATAVWEMVSSCTQTQNGQFMNIHIPGSESYTWDIIPW</Hsp_qseq>
+      <Hsp_hseq>LANASDVAYAPCPAYKISKAALNALTVQYALSYKDDGFIFLSVNPGWLQSDMGGMNADLTLPQGADAVLNVILAADCTDNGRFKNIHVPGWEAYNGEDVPW</Hsp_hseq>
+      <Hsp_midline>++ A   A+AP PAY ISKA LNALTVQYALSY D+GF F++++PGWL++DMGG +ADL++ +GA AV  ++ +   T NG+F NIH+PG E+Y  + +PW</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>ref|XP_041552570.1|</Hit_id>
+  <Hit_def>uncharacterized protein APUU_20808S [Aspergillus puulaauensis] &gt;dbj|BCS20376.1| hypothetical protein APUU_20808S [Aspergillus puulaauensis]</Hit_def>
+  <Hit_accession>XP_041552570</Hit_accession>
+  <Hit_len>246</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>126.716</Hsp_bit-score>
+      <Hsp_score>317</Hsp_score>
+      <Hsp_evalue>1.51462e-33</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>101</Hsp_query-to>
+      <Hsp_hit-from>146</Hsp_hit-from>
+      <Hsp_hit-to>246</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>77</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>101</Hsp_align-len>
+      <Hsp_qseq>MSWAEGSAFAPMPAYNISKAVLNALTVQYALSYTDEGFTFMAIHPGWLRTDMGGQDADLSVEEGATAVWEMVSSCTQTQNGQFMNIHIPGSESYTWDIIPW</Hsp_qseq>
+      <Hsp_hseq>MTLASSSTYAPCPAYKISKAALNALTVQYALSYKEDGFTFVPLSPGWLQTDMGGENADLTVPQGAEAVLNVVNSVTHESNGRYKNILVPGWDAYSGQDLPW</Hsp_hseq>
+      <Hsp_midline>M+ A  S +AP PAY ISKA LNALTVQYALSY ++GFTF+ + PGWL+TDMGG++ADL+V +GA AV  +V+S T   NG++ NI +PG ++Y+   +PW</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gb|QRD81400.1|</Hit_id>
+  <Hit_def>putative short chain-type dehydrogenase [Aspergillus flavus]</Hit_def>
+  <Hit_accession>QRD81400</Hit_accession>
+  <Hit_len>245</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>126.331</Hsp_bit-score>
+      <Hsp_score>316</Hsp_score>
+      <Hsp_evalue>1.99982e-33</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>101</Hsp_query-to>
+      <Hsp_hit-from>145</Hsp_hit-from>
+      <Hsp_hit-to>245</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>55</Hsp_identity>
+      <Hsp_positive>77</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>101</Hsp_align-len>
+      <Hsp_qseq>MSWAEGSAFAPMPAYNISKAVLNALTVQYALSYTDEGFTFMAIHPGWLRTDMGGQDADLSVEEGATAVWEMVSSCTQTQNGQFMNIHIPGSESYTWDIIPW</Hsp_qseq>
+      <Hsp_hseq>LANASDVAYAPCPAYKISKAALNALTVQYALSYKDDGFIFLSVNPGWLQSDMGGMNADLTLPQGADAVLNVILAADCTDNGRFKNIHVPGWEAYNGEDVPW</Hsp_hseq>
+      <Hsp_midline>++ A   A+AP PAY ISKA LNALTVQYALSY D+GF F++++PGWL++DMGG +ADL++ +GA AV  ++ +   T NG+F NIH+PG E+Y  + +PW</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>ref|XP_031919825.1|</Hit_id>
+  <Hit_def>uncharacterized protein BDV38DRAFT_289633 [Aspergillus pseudotamarii] &gt;gb|KAE8143762.1| hypothetical protein BDV38DRAFT_289633 [Aspergillus pseudotamarii]</Hit_def>
+  <Hit_accession>XP_031919825</Hit_accession>
+  <Hit_len>246</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>126.331</Hsp_bit-score>
+      <Hsp_score>316</Hsp_score>
+      <Hsp_evalue>2.02796e-33</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>101</Hsp_query-to>
+      <Hsp_hit-from>146</Hsp_hit-from>
+      <Hsp_hit-to>246</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>59</Hsp_identity>
+      <Hsp_positive>73</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>101</Hsp_align-len>
+      <Hsp_qseq>MSWAEGSAFAPMPAYNISKAVLNALTVQYALSYTDEGFTFMAIHPGWLRTDMGGQDADLSVEEGATAVWEMVSSCTQTQNGQFMNIHIPGSESYTWDIIPW</Hsp_qseq>
+      <Hsp_hseq>MTHAETSSFANCPAYKISKAALNALTVQYAMSYKDEGFTFLAVNPGWLKTDMGGDDAHLTADEGAQAVLNVIDKAEKDSNGCFKNIYAPGWDMYDGKDIPW</Hsp_hseq>
+      <Hsp_midline>M+ AE S+FA  PAY ISKA LNALTVQYA+SY DEGFTF+A++PGWL+TDMGG DA L+ +EGA AV  ++    +  NG F NI+ PG + Y    IPW</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gb|EIT76283.1|</Hit_id>
+  <Hit_def>putative short chain-type dehydrogenase [Aspergillus oryzae 3.042] &gt;gb|KDE77279.1| putative short chain-type dehydrogenase [Aspergillus oryzae 100-8] &gt;gb|RAQ78480.1| hypothetical protein COH21_011995 [Aspergillus flavus] &gt;gb|RMZ39523.1| hypothetical protein CA14_010147 [Aspergillus flavus]</Hit_def>
+  <Hit_accession>EIT76283</Hit_accession>
+  <Hit_len>245</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>126.331</Hsp_bit-score>
+      <Hsp_score>316</Hsp_score>
+      <Hsp_evalue>2.13384e-33</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>101</Hsp_query-to>
+      <Hsp_hit-from>145</Hsp_hit-from>
+      <Hsp_hit-to>245</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>55</Hsp_identity>
+      <Hsp_positive>77</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>101</Hsp_align-len>
+      <Hsp_qseq>MSWAEGSAFAPMPAYNISKAVLNALTVQYALSYTDEGFTFMAIHPGWLRTDMGGQDADLSVEEGATAVWEMVSSCTQTQNGQFMNIHIPGSESYTWDIIPW</Hsp_qseq>
+      <Hsp_hseq>LANASDVAYAPCPAYKISKAALNALTVQYALSYKDDGFIFLSVNPGWLQSDMGGMNADLTLPQGADAVLNVILAADCTDNGRFKNIHVPGWEAYNGEDVPW</Hsp_hseq>
+      <Hsp_midline>++ A   A+AP PAY ISKA LNALTVQYALSY D+GF F++++PGWL++DMGG +ADL++ +GA AV  ++ +   T NG+F NIH+PG E+Y  + +PW</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>dbj|GLB02609.1|</Hit_id>
+  <Hit_def>hypothetical protein AtubIFM57258_003967 [Aspergillus tubingensis]</Hit_def>
+  <Hit_accession>GLB02609</Hit_accession>
+  <Hit_len>246</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>125.561</Hsp_bit-score>
+      <Hsp_score>314</Hsp_score>
+      <Hsp_evalue>4.00659e-33</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>101</Hsp_query-to>
+      <Hsp_hit-from>146</Hsp_hit-from>
+      <Hsp_hit-to>246</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>74</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>101</Hsp_align-len>
+      <Hsp_qseq>MSWAEGSAFAPMPAYNISKAVLNALTVQYALSYTDEGFTFMAIHPGWLRTDMGGQDADLSVEEGATAVWEMVSSCTQTQNGQFMNIHIPGSESYTWDIIPW</Hsp_qseq>
+      <Hsp_hseq>ITSAREVSYAPCPAYKISKAALNALTVQYALSYQEEGFIFLAVSPGWLQSDMGGKHADLTVPQGAEAVLNIAMSADRVDNGRFKNIHVPGWEAYKGQDVPW</Hsp_hseq>
+      <Hsp_midline>++ A   ++AP PAY ISKA LNALTVQYALSY +EGF F+A+ PGWL++DMGG+ ADL+V +GA AV  +  S  +  NG+F NIH+PG E+Y    +PW</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>ref|XP_035357850.1|</Hit_id>
+  <Hit_def>hydroxyacyl dehydrogenase [Aspergillus tubingensis] &gt;dbj|GFN17046.1| hydroxyacyl dehydrogenase [Aspergillus tubingensis] &gt;dbj|GLA65581.1| hypothetical protein AtubIFM54640_007766 [Aspergillus tubingensis] &gt;dbj|GLA76058.1| hypothetical protein AtubIFM55763_007624 [Aspergillus tubingensis] &gt;dbj|GLA92173.1| hypothetical protein AtubIFM57143_007684 [Aspergillus tubingensis] &gt;dbj|GLB17577.1| hypothetical protein AtubIFM61612_007455 [Aspergillus tubingensis]</Hit_def>
+  <Hit_accession>XP_035357850</Hit_accession>
+  <Hit_len>246</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>125.561</Hsp_bit-score>
+      <Hsp_score>314</Hsp_score>
+      <Hsp_evalue>4.56136e-33</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>101</Hsp_query-to>
+      <Hsp_hit-from>146</Hsp_hit-from>
+      <Hsp_hit-to>246</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>74</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>101</Hsp_align-len>
+      <Hsp_qseq>MSWAEGSAFAPMPAYNISKAVLNALTVQYALSYTDEGFTFMAIHPGWLRTDMGGQDADLSVEEGATAVWEMVSSCTQTQNGQFMNIHIPGSESYTWDIIPW</Hsp_qseq>
+      <Hsp_hseq>MTNAREVSYAPCPAYKISKAALNALTVQYALSYQEEGFIFLAVSPGWLQSDMGGKYADLTVPQGAEAVLNIAMSADRADNGRFKNIHVPGWEAYKGQDVPW</Hsp_hseq>
+      <Hsp_midline>M+ A   ++AP PAY ISKA LNALTVQYALSY +EGF F+A+ PGWL++DMGG+ ADL+V +GA AV  +  S  +  NG+F NIH+PG E+Y    +PW</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gb|KAI2900137.1|</Hit_id>
+  <Hit_def>hypothetical protein CBS11852_2931 [Aspergillus niger] &gt;gb|KAI2965634.1| hypothetical protein CBS147323_5806 [Aspergillus niger] &gt;gb|KAI3030740.1| hypothetical protein CBS147347_2413 [Aspergillus niger]</Hit_def>
+  <Hit_accession>KAI2900137</Hit_accession>
+  <Hit_len>203</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>124.02</Hsp_bit-score>
+      <Hsp_score>310</Hsp_score>
+      <Hsp_evalue>5.97174e-33</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>101</Hsp_query-to>
+      <Hsp_hit-from>103</Hsp_hit-from>
+      <Hsp_hit-to>203</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>75</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>101</Hsp_align-len>
+      <Hsp_qseq>MSWAEGSAFAPMPAYNISKAVLNALTVQYALSYTDEGFTFMAIHPGWLRTDMGGQDADLSVEEGATAVWEMVSSCTQTQNGQFMNIHIPGSESYTWDIIPW</Hsp_qseq>
+      <Hsp_hseq>MTSARAVSYAPCPAYKISKAALNALTVQYALSYEEEGFIFLSVSPGWLQSDMGGKNADLTVPQGAEAVLSISLSAERTDNGRFKNISVPGWEAYDGQDVPW</Hsp_hseq>
+      <Hsp_midline>M+ A   ++AP PAY ISKA LNALTVQYALSY +EGF F+++ PGWL++DMGG++ADL+V +GA AV  +  S  +T NG+F NI +PG E+Y    +PW</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gb|KAI2940974.1|</Hit_id>
+  <Hit_def>hypothetical protein CBS63078_555 [Aspergillus niger]</Hit_def>
+  <Hit_accession>KAI2940974</Hit_accession>
+  <Hit_len>203</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>124.02</Hsp_bit-score>
+      <Hsp_score>310</Hsp_score>
+      <Hsp_evalue>6.87761e-33</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>101</Hsp_query-to>
+      <Hsp_hit-from>103</Hsp_hit-from>
+      <Hsp_hit-to>203</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>75</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>101</Hsp_align-len>
+      <Hsp_qseq>MSWAEGSAFAPMPAYNISKAVLNALTVQYALSYTDEGFTFMAIHPGWLRTDMGGQDADLSVEEGATAVWEMVSSCTQTQNGQFMNIHIPGSESYTWDIIPW</Hsp_qseq>
+      <Hsp_hseq>MTSARAVSYAPYPAYKISKAALNALTVQYALSYEEEGFIFLSVSPGWLQSDMGGKNADLTVPQGAEAVLSISLSAERTDNGRFKNISVPGWEAYDGQDVPW</Hsp_hseq>
+      <Hsp_midline>M+ A   ++AP PAY ISKA LNALTVQYALSY +EGF F+++ PGWL++DMGG++ADL+V +GA AV  +  S  +T NG+F NI +PG E+Y    +PW</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>ref|XP_022388426.1|</Hit_id>
+  <Hit_def>hydroxyacyl dehydrogenase [Aspergillus bombycis] &gt;gb|OGM44709.1| hydroxyacyl dehydrogenase [Aspergillus bombycis]</Hit_def>
+  <Hit_accession>XP_022388426</Hit_accession>
+  <Hit_len>246</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>125.176</Hsp_bit-score>
+      <Hsp_score>313</Hsp_score>
+      <Hsp_evalue>7.33804e-33</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>101</Hsp_query-to>
+      <Hsp_hit-from>146</Hsp_hit-from>
+      <Hsp_hit-to>246</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>59</Hsp_identity>
+      <Hsp_positive>69</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>101</Hsp_align-len>
+      <Hsp_qseq>MSWAEGSAFAPMPAYNISKAVLNALTVQYALSYTDEGFTFMAIHPGWLRTDMGGQDADLSVEEGATAVWEMVSSCTQTQNGQFMNIHIPGSESYTWDIIPW</Hsp_qseq>
+      <Hsp_hseq>MTRAEMSSHANCPAYKISKAALNALTVQYAMSYKDEGFIFLAVSPGWLKTDMGGDDAHLTAEEGAQAVLNVVDKANTDSNGSFKNIHAPGWDMYDGKDVPW</Hsp_hseq>
+      <Hsp_midline>M+ AE S+ A  PAY ISKA LNALTVQYA+SY DEGF F+A+ PGWL+TDMGG DA L+ EEGA AV  +V       NG F NIH PG + Y    +PW</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>ref|XP_031932259.1|</Hit_id>
+  <Hit_def>uncharacterized protein BDV27DRAFT_166117 [Aspergillus caelatus] &gt;gb|KAE8369178.1| hypothetical protein BDV27DRAFT_166117 [Aspergillus caelatus] &gt;gb|KAE8423542.1| hypothetical protein BDV36DRAFT_93265 [Aspergillus pseudocaelatus]</Hit_def>
+  <Hit_accession>XP_031932259</Hit_accession>
+  <Hit_len>246</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>124.79</Hsp_bit-score>
+      <Hsp_score>312</Hsp_score>
+      <Hsp_evalue>7.5798e-33</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>101</Hsp_query-to>
+      <Hsp_hit-from>146</Hsp_hit-from>
+      <Hsp_hit-to>246</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>61</Hsp_identity>
+      <Hsp_positive>70</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>101</Hsp_align-len>
+      <Hsp_qseq>MSWAEGSAFAPMPAYNISKAVLNALTVQYALSYTDEGFTFMAIHPGWLRTDMGGQDADLSVEEGATAVWEMVSSCTQTQNGQFMNIHIPGSESYTWDIIPW</Hsp_qseq>
+      <Hsp_hseq>MTHAEMSSFANCPAYKISKAALNALTVQYAMSYKDEGFTFLAVSPGWLKTDMGGDDAHLTAEEGAHAVLNVVDKAESDSNGCFKNIFAPGWDMYDGKDIPW</Hsp_hseq>
+      <Hsp_midline>M+ AE S+FA  PAY ISKA LNALTVQYA+SY DEGFTF+A+ PGWL+TDMGG DA L+ EEGA AV  +V       NG F NI  PG + Y    IPW</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>ref|XP_040708478.1|</Hit_id>
+  <Hit_def>uncharacterized protein ASPSYDRAFT_168547 [Aspergillus sydowii CBS 593.65] &gt;gb|OJJ64672.1| hypothetical protein ASPSYDRAFT_168547 [Aspergillus sydowii CBS 593.65]</Hit_def>
+  <Hit_accession>XP_040708478</Hit_accession>
+  <Hit_len>246</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>124.79</Hsp_bit-score>
+      <Hsp_score>312</Hsp_score>
+      <Hsp_evalue>9.61364e-33</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>101</Hsp_query-to>
+      <Hsp_hit-from>146</Hsp_hit-from>
+      <Hsp_hit-to>246</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>74</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>101</Hsp_align-len>
+      <Hsp_qseq>MSWAEGSAFAPMPAYNISKAVLNALTVQYALSYTDEGFTFMAIHPGWLRTDMGGQDADLSVEEGATAVWEMVSSCTQTQNGQFMNIHIPGSESYTWDIIPW</Hsp_qseq>
+      <Hsp_hseq>MTLASSSTYAPCPAYKISKAALNALTVQYALSYKDDGFIFVPSSPGWIKTDMGGEDADLTVTQGAEAVLNVVDSITHENNGQYKSVLVPGWDAYSGQDLPW</Hsp_hseq>
+      <Hsp_midline>M+ A  S +AP PAY ISKA LNALTVQYALSY D+GF F+   PGW++TDMGG+DADL+V +GA AV  +V S T   NGQ+ ++ +PG ++Y+   +PW</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gb|KAI2819730.1|</Hit_id>
+  <Hit_def>hypothetical protein CBS133816_9972 [Aspergillus niger] &gt;gb|KAI2856180.1| hypothetical protein CBS12448_7036 [Aspergillus niger] &gt;gb|KAI2915309.1| hypothetical protein CBS147371_5865 [Aspergillus niger] &gt;gb|KAI2918736.1| hypothetical protein CBS147320_8844 [Aspergillus niger] &gt;gb|KAI2934771.1| hypothetical protein CBS147321_9192 [Aspergillus niger]</Hit_def>
+  <Hit_accession>KAI2819730</Hit_accession>
+  <Hit_len>246</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>124.405</Hsp_bit-score>
+      <Hsp_score>311</Hsp_score>
+      <Hsp_evalue>1.08268e-32</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>101</Hsp_query-to>
+      <Hsp_hit-from>146</Hsp_hit-from>
+      <Hsp_hit-to>246</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>75</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>101</Hsp_align-len>
+      <Hsp_qseq>MSWAEGSAFAPMPAYNISKAVLNALTVQYALSYTDEGFTFMAIHPGWLRTDMGGQDADLSVEEGATAVWEMVSSCTQTQNGQFMNIHIPGSESYTWDIIPW</Hsp_qseq>
+      <Hsp_hseq>MTSARAVSYAPCPAYKISKAALNALTVQYALSYEEEGFIFLSVSPGWLQSDMGGKNADLTVPQGAEAVLSISLSAERTDNGRFKNISVPGWEAYDGQDVPW</Hsp_hseq>
+      <Hsp_midline>M+ A   ++AP PAY ISKA LNALTVQYALSY +EGF F+++ PGWL++DMGG++ADL+V +GA AV  +  S  +T NG+F NI +PG E+Y    +PW</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>ref|XP_001825881.1|</Hit_id>
+  <Hit_def>unnamed protein product [Aspergillus oryzae RIB40] &gt;gb|KAB8252729.1| hypothetical protein BDV35DRAFT_334623 [Aspergillus flavus] &gt;gb|OOO06711.1| short-chain dehydrogenase/reductase SDR [Aspergillus oryzae] &gt;dbj|BAE64748.1| unnamed protein product [Aspergillus oryzae RIB40]</Hit_def>
+  <Hit_accession>XP_001825881</Hit_accession>
+  <Hit_len>246</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>124.405</Hsp_bit-score>
+      <Hsp_score>311</Hsp_score>
+      <Hsp_evalue>1.11834e-32</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>101</Hsp_query-to>
+      <Hsp_hit-from>146</Hsp_hit-from>
+      <Hsp_hit-to>246</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>60</Hsp_identity>
+      <Hsp_positive>70</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>101</Hsp_align-len>
+      <Hsp_qseq>MSWAEGSAFAPMPAYNISKAVLNALTVQYALSYTDEGFTFMAIHPGWLRTDMGGQDADLSVEEGATAVWEMVSSCTQTQNGQFMNIHIPGSESYTWDIIPW</Hsp_qseq>
+      <Hsp_hseq>MAQAEMSSFANCPAYKISKAALNALTVQYAMSYKDEGFIFLAVSPGWLKTDMGGDDAHLTAEEGAQAVLNVVDKAESDSNGCFKNIYAPGWDMYDGKDIPW</Hsp_hseq>
+      <Hsp_midline>M+ AE S+FA  PAY ISKA LNALTVQYA+SY DEGF F+A+ PGWL+TDMGG DA L+ EEGA AV  +V       NG F NI+ PG + Y    IPW</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gb|KAI3021624.1|</Hit_id>
+  <Hit_def>hypothetical protein CBS147345_3757 [Aspergillus niger] &gt;gb|KAI3077827.1| hypothetical protein CBS147353_4290 [Aspergillus niger] &gt;emb|SPB51545.1| unnamed protein product [Aspergillus niger]</Hit_def>
+  <Hit_accession>KAI3021624</Hit_accession>
+  <Hit_len>246</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>124.405</Hsp_bit-score>
+      <Hsp_score>311</Hsp_score>
+      <Hsp_evalue>1.14277e-32</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>101</Hsp_query-to>
+      <Hsp_hit-from>146</Hsp_hit-from>
+      <Hsp_hit-to>246</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>75</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>101</Hsp_align-len>
+      <Hsp_qseq>MSWAEGSAFAPMPAYNISKAVLNALTVQYALSYTDEGFTFMAIHPGWLRTDMGGQDADLSVEEGATAVWEMVSSCTQTQNGQFMNIHIPGSESYTWDIIPW</Hsp_qseq>
+      <Hsp_hseq>MTSARAVSYAPCPAYKISKAALNALTVQYALSYEEEGFIFLSVSPGWLQSDMGGKNADLTVPQGAEAVLSISLSAERTDNGRFKNISVPGWEAYDGQDVPW</Hsp_hseq>
+      <Hsp_midline>M+ A   ++AP PAY ISKA LNALTVQYALSY +EGF F+++ PGWL++DMGG++ADL+V +GA AV  +  S  +T NG+F NI +PG E+Y    +PW</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gb|KAF7623855.1|</Hit_id>
+  <Hit_def>hypothetical protein AFLA_007575 [Aspergillus flavus NRRL3357] &gt;gb|QRD91299.1| putative short chain-type dehydrogenase [Aspergillus flavus]</Hit_def>
+  <Hit_accession>KAF7623855</Hit_accession>
+  <Hit_len>246</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>124.405</Hsp_bit-score>
+      <Hsp_score>311</Hsp_score>
+      <Hsp_evalue>1.18041e-32</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>101</Hsp_query-to>
+      <Hsp_hit-from>146</Hsp_hit-from>
+      <Hsp_hit-to>246</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>60</Hsp_identity>
+      <Hsp_positive>70</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>101</Hsp_align-len>
+      <Hsp_qseq>MSWAEGSAFAPMPAYNISKAVLNALTVQYALSYTDEGFTFMAIHPGWLRTDMGGQDADLSVEEGATAVWEMVSSCTQTQNGQFMNIHIPGSESYTWDIIPW</Hsp_qseq>
+      <Hsp_hseq>MAQAEMSSFANCPAYKISKAALNALTVQYAMSYKDEGFIFLAVSPGWLKTDMGGDDAHLTAEEGAQAVLNVVDKAESDSNGCFKNIYAPGWDMYDGKNIPW</Hsp_hseq>
+      <Hsp_midline>M+ AE S+FA  PAY ISKA LNALTVQYA+SY DEGF F+A+ PGWL+TDMGG DA L+ EEGA AV  +V       NG F NI+ PG + Y    IPW</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gb|EIT74387.1|</Hit_id>
+  <Hit_def>putative short chain-type dehydrogenase [Aspergillus oryzae 3.042] &gt;gb|KDE77868.1| putative short chain-type dehydrogenase [Aspergillus oryzae 100-8] &gt;gb|RMZ45593.1| hydroxyacyl dehydrogenase [Aspergillus flavus] &gt;gb|UDD64009.1| hypothetical protein AFCA_011262 [Aspergillus flavus]</Hit_def>
+  <Hit_accession>EIT74387</Hit_accession>
+  <Hit_len>246</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>124.405</Hsp_bit-score>
+      <Hsp_score>311</Hsp_score>
+      <Hsp_evalue>1.28697e-32</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>101</Hsp_query-to>
+      <Hsp_hit-from>146</Hsp_hit-from>
+      <Hsp_hit-to>246</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>60</Hsp_identity>
+      <Hsp_positive>70</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>101</Hsp_align-len>
+      <Hsp_qseq>MSWAEGSAFAPMPAYNISKAVLNALTVQYALSYTDEGFTFMAIHPGWLRTDMGGQDADLSVEEGATAVWEMVSSCTQTQNGQFMNIHIPGSESYTWDIIPW</Hsp_qseq>
+      <Hsp_hseq>MAQAEMSSFANCPAYKISKAALNALTVQYAMSYKDEGFIFLAVSPGWLKTDMGGDDAHLTAEEGAQAVLNVVDKAESDSNGCFKNIYAPGWDMYDGKNIPW</Hsp_hseq>
+      <Hsp_midline>M+ AE S+FA  PAY ISKA LNALTVQYA+SY DEGF F+A+ PGWL+TDMGG DA L+ EEGA AV  +V       NG F NI+ PG + Y    IPW</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gb|KOC12664.1|</Hit_id>
+  <Hit_def>hydroxyacyl dehydrogenase [Aspergillus flavus AF70]</Hit_def>
+  <Hit_accession>KOC12664</Hit_accession>
+  <Hit_len>246</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>124.405</Hsp_bit-score>
+      <Hsp_score>311</Hsp_score>
+      <Hsp_evalue>1.30095e-32</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>101</Hsp_query-to>
+      <Hsp_hit-from>146</Hsp_hit-from>
+      <Hsp_hit-to>246</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>60</Hsp_identity>
+      <Hsp_positive>70</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>101</Hsp_align-len>
+      <Hsp_qseq>MSWAEGSAFAPMPAYNISKAVLNALTVQYALSYTDEGFTFMAIHPGWLRTDMGGQDADLSVEEGATAVWEMVSSCTQTQNGQFMNIHIPGSESYTWDIIPW</Hsp_qseq>
+      <Hsp_hseq>MAQAEMSSFANCPAYKISKAALNALTVQYAMSYKDEGFIFLAVSPGWLKTDMGGDDAHLTAEEGAQAVLNVVDKAESDSNGCFKNIYAPGWDMYDGKDIPW</Hsp_hseq>
+      <Hsp_midline>M+ AE S+FA  PAY ISKA LNALTVQYA+SY DEGF F+A+ PGWL+TDMGG DA L+ EEGA AV  +V       NG F NI+ PG + Y    IPW</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>ref|XP_031915996.1|</Hit_id>
+  <Hit_def>hydroxyacyl dehydrogenase [Aspergillus pseudotamarii] &gt;gb|KAE8139933.1| hydroxyacyl dehydrogenase [Aspergillus pseudotamarii]</Hit_def>
+  <Hit_accession>XP_031915996</Hit_accession>
+  <Hit_len>252</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>124.405</Hsp_bit-score>
+      <Hsp_score>311</Hsp_score>
+      <Hsp_evalue>1.45727e-32</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>101</Hsp_query-to>
+      <Hsp_hit-from>152</Hsp_hit-from>
+      <Hsp_hit-to>252</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>75</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>101</Hsp_align-len>
+      <Hsp_qseq>MSWAEGSAFAPMPAYNISKAVLNALTVQYALSYTDEGFTFMAIHPGWLRTDMGGQDADLSVEEGATAVWEMVSSCTQTQNGQFMNIHIPGSESYTWDIIPW</Hsp_qseq>
+      <Hsp_hseq>LTNASGVAYAPCPAYKISKAALNALTVQYALSYKDDDFIFLSVNPGWLQSDMGGMNADLTLPQGAEAVLNVILGADRMDNGHFKNIHVPGWEAYNGEDVPW</Hsp_hseq>
+      <Hsp_midline>++ A G A+AP PAY ISKA LNALTVQYALSY D+ F F++++PGWL++DMGG +ADL++ +GA AV  ++    +  NG F NIH+PG E+Y  + +PW</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>dbj|GKZ35786.1|</Hit_id>
+  <Hit_def>hypothetical protein AbraIFM66950_006581 [Aspergillus brasiliensis]</Hit_def>
+  <Hit_accession>GKZ35786</Hit_accession>
+  <Hit_len>246</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>124.02</Hsp_bit-score>
+      <Hsp_score>310</Hsp_score>
+      <Hsp_evalue>1.85813e-32</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>101</Hsp_query-to>
+      <Hsp_hit-from>146</Hsp_hit-from>
+      <Hsp_hit-to>246</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>58</Hsp_identity>
+      <Hsp_positive>73</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>101</Hsp_align-len>
+      <Hsp_qseq>MSWAEGSAFAPMPAYNISKAVLNALTVQYALSYTDEGFTFMAIHPGWLRTDMGGQDADLSVEEGATAVWEMVSSCTQTQNGQFMNIHIPGSESYTWDIIPW</Hsp_qseq>
+      <Hsp_hseq>MTSAREVSYAPCPAYKISKAALNALTVQYALSYEDEGFIFLAVSPGWLQSDMGGKNADLTVPQGAEAVLNISMSADSIDNGRFKNIGVPGWEAYDGQDIPW</Hsp_hseq>
+      <Hsp_midline>M+ A   ++AP PAY ISKA LNALTVQYALSY DEGF F+A+ PGWL++DMGG++ADL+V +GA AV  +  S     NG+F NI +PG E+Y    IPW</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gb|KAI2848395.1|</Hit_id>
+  <Hit_def>hypothetical protein CBS11350_2808 [Aspergillus niger] &gt;gb|KAI2896894.1| hypothetical protein CBS13152_3358 [Aspergillus niger] &gt;gb|KAI3044769.1| hypothetical protein CBS76997_4849 [Aspergillus niger]</Hit_def>
+  <Hit_accession>KAI2848395</Hit_accession>
+  <Hit_len>246</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>124.02</Hsp_bit-score>
+      <Hsp_score>310</Hsp_score>
+      <Hsp_evalue>2.02583e-32</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>101</Hsp_query-to>
+      <Hsp_hit-from>146</Hsp_hit-from>
+      <Hsp_hit-to>246</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>74</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>101</Hsp_align-len>
+      <Hsp_qseq>MSWAEGSAFAPMPAYNISKAVLNALTVQYALSYTDEGFTFMAIHPGWLRTDMGGQDADLSVEEGATAVWEMVSSCTQTQNGQFMNIHIPGSESYTWDIIPW</Hsp_qseq>
+      <Hsp_hseq>MTSARAVSYAPCPAYKISKAALNALTVQYALSYEEEGFIFLSVSPGWLQSDMGGNNADLTVPQGAEAVLSISLSAERTDNGRFKNISVPGWEAYDGQDVPW</Hsp_hseq>
+      <Hsp_midline>M+ A   ++AP PAY ISKA LNALTVQYALSY +EGF F+++ PGWL++DMGG +ADL+V +GA AV  +  S  +T NG+F NI +PG E+Y    +PW</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gb|KAB8209279.1|</Hit_id>
+  <Hit_def>hypothetical protein BDV34DRAFT_221675 [Aspergillus parasiticus]</Hit_def>
+  <Hit_accession>KAB8209279</Hit_accession>
+  <Hit_len>246</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>124.02</Hsp_bit-score>
+      <Hsp_score>310</Hsp_score>
+      <Hsp_evalue>2.07007e-32</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>101</Hsp_query-to>
+      <Hsp_hit-from>146</Hsp_hit-from>
+      <Hsp_hit-to>246</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>60</Hsp_identity>
+      <Hsp_positive>70</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>101</Hsp_align-len>
+      <Hsp_qseq>MSWAEGSAFAPMPAYNISKAVLNALTVQYALSYTDEGFTFMAIHPGWLRTDMGGQDADLSVEEGATAVWEMVSSCTQTQNGQFMNIHIPGSESYTWDIIPW</Hsp_qseq>
+      <Hsp_hseq>MANAEKSSFANCPAYKISKAALNALTVQYATSYKDEGFIFLAVSPGWLKTDMGGDDAHLTAEEGAQAVLNVVNKAESDSNGCFKNIYAPGWDMYDGKDIPW</Hsp_hseq>
+      <Hsp_midline>M+ AE S+FA  PAY ISKA LNALTVQYA SY DEGF F+A+ PGWL+TDMGG DA L+ EEGA AV  +V+      NG F NI+ PG + Y    IPW</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gb|KJK60978.1|</Hit_id>
+  <Hit_def>carbonyl reductase sniffer-like classical c SDR [Aspergillus parasiticus SU-1]</Hit_def>
+  <Hit_accession>KJK60978</Hit_accession>
+  <Hit_len>246</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>123.635</Hsp_bit-score>
+      <Hsp_score>309</Hsp_score>
+      <Hsp_evalue>2.2569e-32</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>101</Hsp_query-to>
+      <Hsp_hit-from>146</Hsp_hit-from>
+      <Hsp_hit-to>246</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>60</Hsp_identity>
+      <Hsp_positive>70</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>101</Hsp_align-len>
+      <Hsp_qseq>MSWAEGSAFAPMPAYNISKAVLNALTVQYALSYTDEGFTFMAIHPGWLRTDMGGQDADLSVEEGATAVWEMVSSCTQTQNGQFMNIHIPGSESYTWDIIPW</Hsp_qseq>
+      <Hsp_hseq>MANAEKSSFANCPAYKISKAALNALTVQYATSYKDEGFIFLAVSPGWLKTDMGGDDAHLTAEEGAQAVLNVVNKAESDSNGCFKNIYAPGWDMYDGKDIPW</Hsp_hseq>
+      <Hsp_midline>M+ AE S+FA  PAY ISKA LNALTVQYA SY DEGF F+A+ PGWL+TDMGG DA L+ EEGA AV  +V+      NG F NI+ PG + Y    IPW</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gb|KAE8336041.1|</Hit_id>
+  <Hit_def>hypothetical protein BDV24DRAFT_178836 [Aspergillus arachidicola]</Hit_def>
+  <Hit_accession>KAE8336041</Hit_accession>
+  <Hit_len>246</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>123.635</Hsp_bit-score>
+      <Hsp_score>309</Hsp_score>
+      <Hsp_evalue>2.30619e-32</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>101</Hsp_query-to>
+      <Hsp_hit-from>146</Hsp_hit-from>
+      <Hsp_hit-to>246</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>60</Hsp_identity>
+      <Hsp_positive>69</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>101</Hsp_align-len>
+      <Hsp_qseq>MSWAEGSAFAPMPAYNISKAVLNALTVQYALSYTDEGFTFMAIHPGWLRTDMGGQDADLSVEEGATAVWEMVSSCTQTQNGQFMNIHIPGSESYTWDIIPW</Hsp_qseq>
+      <Hsp_hseq>MANAEKSSFANCPAYKISKAALNALTVQYATSYKDEGFIFLAVSPGWLKTDMGGDDAHLTAEEGAQAVLNVVDKAESDSNGCFKNIYAPGWDMYDGKDIPW</Hsp_hseq>
+      <Hsp_midline>M+ AE S+FA  PAY ISKA LNALTVQYA SY DEGF F+A+ PGWL+TDMGG DA L+ EEGA AV  +V       NG F NI+ PG + Y    IPW</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gb|KAI3011156.1|</Hit_id>
+  <Hit_def>hypothetical protein CBS147346_1357 [Aspergillus niger]</Hit_def>
+  <Hit_accession>KAI3011156</Hit_accession>
+  <Hit_len>247</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>123.635</Hsp_bit-score>
+      <Hsp_score>309</Hsp_score>
+      <Hsp_evalue>2.46739e-32</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>101</Hsp_query-to>
+      <Hsp_hit-from>147</Hsp_hit-from>
+      <Hsp_hit-to>247</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>75</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>101</Hsp_align-len>
+      <Hsp_qseq>MSWAEGSAFAPMPAYNISKAVLNALTVQYALSYTDEGFTFMAIHPGWLRTDMGGQDADLSVEEGATAVWEMVSSCTQTQNGQFMNIHIPGSESYTWDIIPW</Hsp_qseq>
+      <Hsp_hseq>MTSAREVSYAPCPAYKISKAALNALTVQYALSYEEEGFIFLSVSPGWLQSDMGGKNADLTVPQGAEAVLSISLSAERTDNGRFKNISVPGWEAYDGQDVPW</Hsp_hseq>
+      <Hsp_midline>M+ A   ++AP PAY ISKA LNALTVQYALSY +EGF F+++ PGWL++DMGG++ADL+V +GA AV  +  S  +T NG+F NI +PG E+Y    +PW</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>ref|XP_041149962.1|</Hit_id>
+  <Hit_def>uncharacterized protein G4B84_010450 [Aspergillus flavus NRRL3357] &gt;gb|QMW34959.1| hypothetical protein G4B84_010450 [Aspergillus flavus NRRL3357] &gt;gb|QMW47035.1| hypothetical protein G4B11_010514 [Aspergillus flavus]</Hit_def>
+  <Hit_accession>XP_041149962</Hit_accession>
+  <Hit_len>366</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>125.946</Hsp_bit-score>
+      <Hsp_score>315</Hsp_score>
+      <Hsp_evalue>3.54011e-32</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>101</Hsp_query-to>
+      <Hsp_hit-from>266</Hsp_hit-from>
+      <Hsp_hit-to>366</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>60</Hsp_identity>
+      <Hsp_positive>70</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>101</Hsp_align-len>
+      <Hsp_qseq>MSWAEGSAFAPMPAYNISKAVLNALTVQYALSYTDEGFTFMAIHPGWLRTDMGGQDADLSVEEGATAVWEMVSSCTQTQNGQFMNIHIPGSESYTWDIIPW</Hsp_qseq>
+      <Hsp_hseq>MAQAEMSSFANCPAYKISKAALNALTVQYAMSYKDEGFIFLAVSPGWLKTDMGGDDAHLTAEEGAQAVLNVVDKAESDSNGCFKNIYAPGWDMYDGKNIPW</Hsp_hseq>
+      <Hsp_midline>M+ AE S+FA  PAY ISKA LNALTVQYA+SY DEGF F+A+ PGWL+TDMGG DA L+ EEGA AV  +V       NG F NI+ PG + Y    IPW</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>emb|CAG8038118.1|</Hit_id>
+  <Hit_def>unnamed protein product [Penicillium salamii]</Hit_def>
+  <Hit_accession>CAG8038118</Hit_accession>
+  <Hit_len>246</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>122.865</Hsp_bit-score>
+      <Hsp_score>307</Hsp_score>
+      <Hsp_evalue>5.53085e-32</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>101</Hsp_query-to>
+      <Hsp_hit-from>146</Hsp_hit-from>
+      <Hsp_hit-to>246</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>53</Hsp_identity>
+      <Hsp_positive>71</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>101</Hsp_align-len>
+      <Hsp_qseq>MSWAEGSAFAPMPAYNISKAVLNALTVQYALSYTDEGFTFMAIHPGWLRTDMGGQDADLSVEEGATAVWEMVSSCTQTQNGQFMNIHIPGSESYTWDIIPW</Hsp_qseq>
+      <Hsp_hseq>LTLAREVGYAPCPAYKISKAALNSLMAQYALSYEDEGYIFLTVSPGWLKSDMGGQDADLTVPQGAEAVLDLVMSASGRENGSFKNVRVPGWEKYDGQDLPW</Hsp_hseq>
+      <Hsp_midline>++ A    +AP PAY ISKA LN+L  QYALSY DEG+ F+ + PGWL++DMGGQDADL+V +GA AV ++V S +  +NG F N+ +PG E Y    +PW</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gb|RAQ51210.1|</Hit_id>
+  <Hit_def>hydroxyacyl dehydrogenase [Aspergillus flavus]</Hit_def>
+  <Hit_accession>RAQ51210</Hit_accession>
+  <Hit_len>246</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>122.865</Hsp_bit-score>
+      <Hsp_score>307</Hsp_score>
+      <Hsp_evalue>5.71294e-32</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>101</Hsp_query-to>
+      <Hsp_hit-from>146</Hsp_hit-from>
+      <Hsp_hit-to>246</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>59</Hsp_identity>
+      <Hsp_positive>69</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>101</Hsp_align-len>
+      <Hsp_qseq>MSWAEGSAFAPMPAYNISKAVLNALTVQYALSYTDEGFTFMAIHPGWLRTDMGGQDADLSVEEGATAVWEMVSSCTQTQNGQFMNIHIPGSESYTWDIIPW</Hsp_qseq>
+      <Hsp_hseq>MAQAEMSSFANCPGYKISKAALNALTVQYAMSYKDEGFIFLAVSPGWLKTDMGGDDAHLTAEEGAQAVLNVVDKAESDSNGCFKNIYAPGWDMYDGKNIPW</Hsp_hseq>
+      <Hsp_midline>M+ AE S+FA  P Y ISKA LNALTVQYA+SY DEGF F+A+ PGWL+TDMGG DA L+ EEGA AV  +V       NG F NI+ PG + Y    IPW</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gb|KAE8164583.1|</Hit_id>
+  <Hit_def>hypothetical protein BDV40DRAFT_310790 [Aspergillus tamarii]</Hit_def>
+  <Hit_accession>KAE8164583</Hit_accession>
+  <Hit_len>246</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>122.479</Hsp_bit-score>
+      <Hsp_score>306</Hsp_score>
+      <Hsp_evalue>6.16148e-32</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>101</Hsp_query-to>
+      <Hsp_hit-from>146</Hsp_hit-from>
+      <Hsp_hit-to>246</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>60</Hsp_identity>
+      <Hsp_positive>70</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>101</Hsp_align-len>
+      <Hsp_qseq>MSWAEGSAFAPMPAYNISKAVLNALTVQYALSYTDEGFTFMAIHPGWLRTDMGGQDADLSVEEGATAVWEMVSSCTQTQNGQFMNIHIPGSESYTWDIIPW</Hsp_qseq>
+      <Hsp_hseq>MTHAEMSRFANCPAYKISKAALNALTVQYAASYKDEGFNFLAINPGWLKTDMGGDDAHLTADEGAQAVLSVVAKADSDANGCFKNIYAPGWDMYDGKDIPW</Hsp_hseq>
+      <Hsp_midline>M+ AE S FA  PAY ISKA LNALTVQYA SY DEGF F+AI+PGWL+TDMGG DA L+ +EGA AV  +V+      NG F NI+ PG + Y    IPW</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>520277157</Statistics_db-num>
+      <Statistics_db-len>204016416296</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+  <Iteration_message>Searches from this IP address have consumed a large amount of server CPU time. Future searches may be penalized in fairness to other users. Please consider the BLAST+ binaries: https://www.ncbi.nlm.nih.gov/books/NBK279690/</Iteration_message>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>

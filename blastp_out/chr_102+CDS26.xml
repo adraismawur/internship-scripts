@@ -1,0 +1,1441 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.13.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_38849</BlastOutput_query-ID>
+  <BlastOutput_query-def>unnamed protein product</BlastOutput_query-def>
+  <BlastOutput_query-len>222</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_38849</Iteration_query-ID>
+  <Iteration_query-def>unnamed protein product</Iteration_query-def>
+  <Iteration_query-len>222</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>ref|XP_001400657.1|</Hit_id>
+  <Hit_def>hypothetical protein ANI_1_52124 [Aspergillus niger CBS 513.88] &gt;ref|XP_025458943.1| PRTase-like protein [Aspergillus niger CBS 101883] &gt;ref|XP_026620722.1| phosphoribosyltransferase-like protein [Aspergillus welwitschiae] &gt;gb|EHA27540.1| hypothetical protein ASPNIDRAFT_210854 [Aspergillus niger ATCC 1015] &gt;gb|KAI2821039.1| hypothetical protein CBS115989_3106 [Aspergillus niger] &gt;gb|RDH26075.1| PRTase-like protein [Aspergillus niger ATCC 13496] &gt;gb|RDK40527.1| PRTase-like protein [Aspergillus phoenicis ATCC 13157] &gt;gb|KAI2828928.1| hypothetical protein CBS133816_4931 [Aspergillus niger]</Hit_def>
+  <Hit_accession>XP_001400657</Hit_accession>
+  <Hit_len>204</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>403.29</Hsp_bit-score>
+      <Hsp_score>1035</Hsp_score>
+      <Hsp_evalue>3.99244e-141</Hsp_evalue>
+      <Hsp_query-from>29</Hsp_query-from>
+      <Hsp_query-to>222</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>204</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>194</Hsp_identity>
+      <Hsp_positive>194</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>194</Hsp_align-len>
+      <Hsp_qseq>QVHKLCQASADKILDTFQPNLMIAIGGGGYIPARILRSFLKRPGEPNIPIQAIGLSLYEDLGRGDAEEVPGTKVTRTQWLDLSSLEMANLIGKNILIVDEVDDTRTTLEYAVRELQKDVEIAQKQLGREGEKTNFFVYVVHNKDKPKKGVLPEDMMTSGRYHASVTTADVWICYPWEAKDIDEHDRLAEENPLV</Hsp_qseq>
+      <Hsp_hseq>QVHKLCQASADKILDTFQPNLMIAIGGGGYIPARILRSFLKRPGEPNIPIQAIGLSLYEDLGRGDAEEVPGTKVTRTQWLDLSSLEMANLIGKNILIVDEVDDTRTTLEYAVRELQKDVEIAQKQLGREGEKTNFFVYVVHNKDKPKKGVLPEDMMTSGRYHASVTTADVWICYPWEAKDIDEHDRLAEENPLV</Hsp_hseq>
+      <Hsp_midline>QVHKLCQASADKILDTFQPNLMIAIGGGGYIPARILRSFLKRPGEPNIPIQAIGLSLYEDLGRGDAEEVPGTKVTRTQWLDLSSLEMANLIGKNILIVDEVDDTRTTLEYAVRELQKDVEIAQKQLGREGEKTNFFVYVVHNKDKPKKGVLPEDMMTSGRYHASVTTADVWICYPWEAKDIDEHDRLAEENPLV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>ref|XP_025390365.1|</Hit_id>
+  <Hit_def>xanthine phosphoribosyltransferase 1 [Aspergillus eucalypticola CBS 122712] &gt;ref|XP_025473969.1| xanthine phosphoribosyltransferase 1 [Aspergillus neoniger CBS 115656] &gt;ref|XP_025510817.1| xanthine phosphoribosyltransferase 1 [Aspergillus piperis CBS 112811] &gt;ref|XP_025535115.1| xanthine phosphoribosyltransferase 1 [Aspergillus costaricaensis CBS 115574] &gt;ref|XP_025566341.1| xanthine phosphoribosyltransferase 1 [Aspergillus vadensis CBS 113365] &gt;ref|XP_035351602.1| xanthine phosphoribosyltransferase 1 [Aspergillus tubingensis] &gt;ref|XP_041542796.1| hypoxanthine-guanine phosphoribosyltransferase [Aspergillus luchuensis] &gt;gb|OJI89903.1| hypothetical protein ASPTUDRAFT_195411 [Aspergillus tubingensis CBS 134.48] &gt;dbj|GAA87248.1| xanthine phosphoribosyltransferase 1 [Aspergillus luchuensis IFO 4308] &gt;dbj|GAQ43089.1| xanthine phosphoribosyltransferase 1 [Aspergillus niger] &gt;gb|PWY77984.1| xanthine phosphoribosyltransferase 1 [Aspergillus eucalypticola CBS 122712] &gt;gb|PYH28491.1| xanthine phosphoribosyltransferase 1 [Aspergillus neoniger CBS 115656]</Hit_def>
+  <Hit_accession>XP_025390365</Hit_accession>
+  <Hit_len>204</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>397.512</Hsp_bit-score>
+      <Hsp_score>1020</Hsp_score>
+      <Hsp_evalue>7.55867e-139</Hsp_evalue>
+      <Hsp_query-from>29</Hsp_query-from>
+      <Hsp_query-to>222</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>204</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>191</Hsp_identity>
+      <Hsp_positive>192</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>194</Hsp_align-len>
+      <Hsp_qseq>QVHKLCQASADKILDTFQPNLMIAIGGGGYIPARILRSFLKRPGEPNIPIQAIGLSLYEDLGRGDAEEVPGTKVTRTQWLDLSSLEMANLIGKNILIVDEVDDTRTTLEYAVRELQKDVEIAQKQLGREGEKTNFFVYVVHNKDKPKKGVLPEDMMTSGRYHASVTTADVWICYPWEAKDIDEHDRLAEENPLV</Hsp_qseq>
+      <Hsp_hseq>QVHKLCQASADKILDTFQPNLMIAIGGGGYIPARILRSFLKRTGEPNIPIQAIGLSLYEDLGRGDAEEVPGTKVTRTQWLDLSSLEMANLIGKNILIVDEVDDTRTTLEYAVSELQKDVEIAQKQLGREGEKTNFFVYVVHNKDKPKKGVLPEDMMTSGRYHASVTTADVWICYPWEAKDIDEHDRLAQENPLV</Hsp_hseq>
+      <Hsp_midline>QVHKLCQASADKILDTFQPNLMIAIGGGGYIPARILRSFLKR GEPNIPIQAIGLSLYEDLGRGDAEEVPGTKVTRTQWLDLSSLEMANLIGKNILIVDEVDDTRTTLEYAV ELQKDVEIAQKQLGREGEKTNFFVYVVHNKDKPKKGVLPEDMMTSGRYHASVTTADVWICYPWEAKDIDEHDRLA+ENPLV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gb|OJZ84180.1|</Hit_id>
+  <Hit_def>hypothetical protein ASPFODRAFT_139010 [Aspergillus luchuensis CBS 106.47]</Hit_def>
+  <Hit_accession>OJZ84180</Hit_accession>
+  <Hit_len>204</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>397.127</Hsp_bit-score>
+      <Hsp_score>1019</Hsp_score>
+      <Hsp_evalue>1.03896e-138</Hsp_evalue>
+      <Hsp_query-from>29</Hsp_query-from>
+      <Hsp_query-to>222</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>204</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>190</Hsp_identity>
+      <Hsp_positive>192</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>194</Hsp_align-len>
+      <Hsp_qseq>QVHKLCQASADKILDTFQPNLMIAIGGGGYIPARILRSFLKRPGEPNIPIQAIGLSLYEDLGRGDAEEVPGTKVTRTQWLDLSSLEMANLIGKNILIVDEVDDTRTTLEYAVRELQKDVEIAQKQLGREGEKTNFFVYVVHNKDKPKKGVLPEDMMTSGRYHASVTTADVWICYPWEAKDIDEHDRLAEENPLV</Hsp_qseq>
+      <Hsp_hseq>QVHKLCQASADKILDTFQPNLMIAIGGGGYIPARILRSFLKRTGEPNIPIQAIGLSLYEDLGRGDAEEVPGTKVTRTQWLDLSSLEMANLIGKNILIVDEVDDTRTTLEYAVSELQKDVEIAQKQLGREGEKTNFFVYVVHNKDKPKKGILPEDMMTSGRYHASVTTADVWICYPWEAKDIDEHDRLAQENPLV</Hsp_hseq>
+      <Hsp_midline>QVHKLCQASADKILDTFQPNLMIAIGGGGYIPARILRSFLKR GEPNIPIQAIGLSLYEDLGRGDAEEVPGTKVTRTQWLDLSSLEMANLIGKNILIVDEVDDTRTTLEYAV ELQKDVEIAQKQLGREGEKTNFFVYVVHNKDKPKKG+LPEDMMTSGRYHASVTTADVWICYPWEAKDIDEHDRLA+ENPLV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gb|OJJ76776.1|</Hit_id>
+  <Hit_def>hypothetical protein ASPBRDRAFT_35935 [Aspergillus brasiliensis CBS 101740] &gt;dbj|GKZ26901.1| hypoxanthine-guanine phosphoribosyltransferase [Aspergillus brasiliensis] &gt;dbj|GKZ33870.1| hypoxanthine-guanine phosphoribosyltransferase [Aspergillus brasiliensis] &gt;dbj|GKZ50415.1| hypoxanthine-guanine phosphoribosyltransferase [Aspergillus brasiliensis]</Hit_def>
+  <Hit_accession>OJJ76776</Hit_accession>
+  <Hit_len>204</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>396.741</Hsp_bit-score>
+      <Hsp_score>1018</Hsp_score>
+      <Hsp_evalue>1.45975e-138</Hsp_evalue>
+      <Hsp_query-from>29</Hsp_query-from>
+      <Hsp_query-to>222</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>204</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>190</Hsp_identity>
+      <Hsp_positive>192</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>194</Hsp_align-len>
+      <Hsp_qseq>QVHKLCQASADKILDTFQPNLMIAIGGGGYIPARILRSFLKRPGEPNIPIQAIGLSLYEDLGRGDAEEVPGTKVTRTQWLDLSSLEMANLIGKNILIVDEVDDTRTTLEYAVRELQKDVEIAQKQLGREGEKTNFFVYVVHNKDKPKKGVLPEDMMTSGRYHASVTTADVWICYPWEAKDIDEHDRLAEENPLV</Hsp_qseq>
+      <Hsp_hseq>QVHKLCQASADKILDTFQPNLMIAIGGGGYIPARILRSFLKRTGEPNIPIQAIGLSLYEDLGRGDAEEVPGTKVTRTQWLDLSSLEMANLIGKNILIVDEVDDTRTTLEYAVSELQKDVELAQKQLGREGEKTNFFVYVVHNKDKPKKGVLPEDMMTSGRYHASVTTADVWICYPWEAKDIDEHDRLAQENPLV</Hsp_hseq>
+      <Hsp_midline>QVHKLCQASADKILDTFQPNLMIAIGGGGYIPARILRSFLKR GEPNIPIQAIGLSLYEDLGRGDAEEVPGTKVTRTQWLDLSSLEMANLIGKNILIVDEVDDTRTTLEYAV ELQKDVE+AQKQLGREGEKTNFFVYVVHNKDKPKKGVLPEDMMTSGRYHASVTTADVWICYPWEAKDIDEHDRLA+ENPLV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>dbj|GCB19530.1|</Hit_id>
+  <Hit_def>xanthine phosphoribosyltransferase 1 [Aspergillus awamori]</Hit_def>
+  <Hit_accession>GCB19530</Hit_accession>
+  <Hit_len>671</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>402.905</Hsp_bit-score>
+      <Hsp_score>1034</Hsp_score>
+      <Hsp_evalue>3.21925e-134</Hsp_evalue>
+      <Hsp_query-from>30</Hsp_query-from>
+      <Hsp_query-to>222</Hsp_query-to>
+      <Hsp_hit-from>479</Hsp_hit-from>
+      <Hsp_hit-to>671</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>193</Hsp_identity>
+      <Hsp_positive>193</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>193</Hsp_align-len>
+      <Hsp_qseq>VHKLCQASADKILDTFQPNLMIAIGGGGYIPARILRSFLKRPGEPNIPIQAIGLSLYEDLGRGDAEEVPGTKVTRTQWLDLSSLEMANLIGKNILIVDEVDDTRTTLEYAVRELQKDVEIAQKQLGREGEKTNFFVYVVHNKDKPKKGVLPEDMMTSGRYHASVTTADVWICYPWEAKDIDEHDRLAEENPLV</Hsp_qseq>
+      <Hsp_hseq>VHKLCQASADKILDTFQPNLMIAIGGGGYIPARILRSFLKRPGEPNIPIQAIGLSLYEDLGRGDAEEVPGTKVTRTQWLDLSSLEMANLIGKNILIVDEVDDTRTTLEYAVRELQKDVEIAQKQLGREGEKTNFFVYVVHNKDKPKKGVLPEDMMTSGRYHASVTTADVWICYPWEAKDIDEHDRLAEENPLV</Hsp_hseq>
+      <Hsp_midline>VHKLCQASADKILDTFQPNLMIAIGGGGYIPARILRSFLKRPGEPNIPIQAIGLSLYEDLGRGDAEEVPGTKVTRTQWLDLSSLEMANLIGKNILIVDEVDDTRTTLEYAVRELQKDVEIAQKQLGREGEKTNFFVYVVHNKDKPKKGVLPEDMMTSGRYHASVTTADVWICYPWEAKDIDEHDRLAEENPLV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>ref|XP_031909820.1|</Hit_id>
+  <Hit_def>phosphoribosyltransferase-like protein [Aspergillus pseudotamarii] &gt;gb|KAE8133757.1| phosphoribosyltransferase-like protein [Aspergillus pseudotamarii]</Hit_def>
+  <Hit_accession>XP_031909820</Hit_accession>
+  <Hit_len>204</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>373.629</Hsp_bit-score>
+      <Hsp_score>958</Hsp_score>
+      <Hsp_evalue>2.3529e-129</Hsp_evalue>
+      <Hsp_query-from>29</Hsp_query-from>
+      <Hsp_query-to>221</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>203</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>178</Hsp_identity>
+      <Hsp_positive>184</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>193</Hsp_align-len>
+      <Hsp_qseq>QVHKLCQASADKILDTFQPNLMIAIGGGGYIPARILRSFLKRPGEPNIPIQAIGLSLYEDLGRGDAEEVPGTKVTRTQWLDLSSLEMANLIGKNILIVDEVDDTRTTLEYAVRELQKDVEIAQKQLGREGEKTNFFVYVVHNKDKPKKGVLPEDMMTSGRYHASVTTADVWICYPWEAKDIDEHDRLAEENPL</Hsp_qseq>
+      <Hsp_hseq>QVHKLCQSSADKILTTFHPNLMIAIGGGGYVPARILRSFLKRAGEPNIPIQAIGLSLYEDLGRGDAEEVPGTKVTRTQWLDLSSLEMANLIGKNILIVDEVDDTRTTLEYAVRELQKDVEQAQKQLGREGEKTNFFVFVLHNKNKSKKGVLPADMMDSGRYHASVTTDDVWICYPWEAKDIDEHDALAKENPL</Hsp_hseq>
+      <Hsp_midline>QVHKLCQ+SADKIL TF PNLMIAIGGGGY+PARILRSFLKR GEPNIPIQAIGLSLYEDLGRGDAEEVPGTKVTRTQWLDLSSLEMANLIGKNILIVDEVDDTRTTLEYAVRELQKDVE AQKQLGREGEKTNFFV+V+HNK+K KKGVLP DMM SGRYHASVTT DVWICYPWEAKDIDEHD LA+ENPL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>ref|XP_040751603.1|</Hit_id>
+  <Hit_def>uncharacterized protein P175DRAFT_0502359 [Aspergillus ochraceoroseus IBT 24754] &gt;gb|PTU20211.1| hypothetical protein P175DRAFT_0502359 [Aspergillus ochraceoroseus IBT 24754]</Hit_def>
+  <Hit_accession>XP_040751603</Hit_accession>
+  <Hit_len>194</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>371.703</Hsp_bit-score>
+      <Hsp_score>953</Hsp_score>
+      <Hsp_evalue>7.74158e-129</Hsp_evalue>
+      <Hsp_query-from>30</Hsp_query-from>
+      <Hsp_query-to>222</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>194</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>177</Hsp_identity>
+      <Hsp_positive>185</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>193</Hsp_align-len>
+      <Hsp_qseq>VHKLCQASADKILDTFQPNLMIAIGGGGYIPARILRSFLKRPGEPNIPIQAIGLSLYEDLGRGDAEEVPGTKVTRTQWLDLSSLEMANLIGKNILIVDEVDDTRTTLEYAVRELQKDVEIAQKQLGREGEKTNFFVYVVHNKDKPKKGVLPEDMMTSGRYHASVTTADVWICYPWEAKDIDEHDRLAEENPLV</Hsp_qseq>
+      <Hsp_hseq>VHKLCQSSADKILDKFQPNLMIAIGGGGYVPARILRSFLKRPGDPNIPIQAIGLSLYEDLGRGDPEEVPGTKVTRTQWLDLSSLEMANLIGKNILIVDEVDDTRTTLEYAVRELQKDVEIAQKQLGREGEKTNFFVFVLHNKNKSKKGELPADMMESGRYHAAVTTDDVWICYPWEAKDIDEHDNLAKENPLV</Hsp_hseq>
+      <Hsp_midline>VHKLCQ+SADKILD FQPNLMIAIGGGGY+PARILRSFLKRPG+PNIPIQAIGLSLYEDLGRGD EEVPGTKVTRTQWLDLSSLEMANLIGKNILIVDEVDDTRTTLEYAVRELQKDVEIAQKQLGREGEKTNFFV+V+HNK+K KKG LP DMM SGRYHA+VTT DVWICYPWEAKDIDEHD LA+ENPLV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>ref|XP_031928764.1|</Hit_id>
+  <Hit_def>phosphoribosyltransferase-like protein [Aspergillus caelatus] &gt;gb|KAE8365683.1| phosphoribosyltransferase-like protein [Aspergillus caelatus] &gt;gb|KAE8413945.1| phosphoribosyltransferase-like protein [Aspergillus pseudocaelatus]</Hit_def>
+  <Hit_accession>XP_031928764</Hit_accession>
+  <Hit_len>204</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>372.089</Hsp_bit-score>
+      <Hsp_score>954</Hsp_score>
+      <Hsp_evalue>7.94776e-129</Hsp_evalue>
+      <Hsp_query-from>29</Hsp_query-from>
+      <Hsp_query-to>221</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>203</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>177</Hsp_identity>
+      <Hsp_positive>184</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>193</Hsp_align-len>
+      <Hsp_qseq>QVHKLCQASADKILDTFQPNLMIAIGGGGYIPARILRSFLKRPGEPNIPIQAIGLSLYEDLGRGDAEEVPGTKVTRTQWLDLSSLEMANLIGKNILIVDEVDDTRTTLEYAVRELQKDVEIAQKQLGREGEKTNFFVYVVHNKDKPKKGVLPEDMMTSGRYHASVTTADVWICYPWEAKDIDEHDRLAEENPL</Hsp_qseq>
+      <Hsp_hseq>QVHKLCQSSADKILTTFHPNLMIAIGGGGYVPARILRSFLKRAGEPNIPIQAIGLSLYEDLGRGDAEEVPGTKVTRTQWLDLSSLEMANLIGKNILIVDEVDDTRTTLEYAVRELQKDVEQAQKQLGREGEKTNFFVFVLHNKNKTKKGVLPADMMDSGRYHAAVTTDDVWICYPWEAKDIDEHDALAKENPL</Hsp_hseq>
+      <Hsp_midline>QVHKLCQ+SADKIL TF PNLMIAIGGGGY+PARILRSFLKR GEPNIPIQAIGLSLYEDLGRGDAEEVPGTKVTRTQWLDLSSLEMANLIGKNILIVDEVDDTRTTLEYAVRELQKDVE AQKQLGREGEKTNFFV+V+HNK+K KKGVLP DMM SGRYHA+VTT DVWICYPWEAKDIDEHD LA+ENPL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>ref|XP_015401732.1|</Hit_id>
+  <Hit_def>uncharacterized protein ANOM_009966, partial [Aspergillus nomiae NRRL 13137] &gt;gb|KNG80809.1| hypothetical protein ANOM_009966, partial [Aspergillus nomiae NRRL 13137]</Hit_def>
+  <Hit_accession>XP_015401732</Hit_accession>
+  <Hit_len>212</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>372.474</Hsp_bit-score>
+      <Hsp_score>955</Hsp_score>
+      <Hsp_evalue>8.76432e-129</Hsp_evalue>
+      <Hsp_query-from>29</Hsp_query-from>
+      <Hsp_query-to>221</Hsp_query-to>
+      <Hsp_hit-from>19</Hsp_hit-from>
+      <Hsp_hit-to>211</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>176</Hsp_identity>
+      <Hsp_positive>183</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>193</Hsp_align-len>
+      <Hsp_qseq>QVHKLCQASADKILDTFQPNLMIAIGGGGYIPARILRSFLKRPGEPNIPIQAIGLSLYEDLGRGDAEEVPGTKVTRTQWLDLSSLEMANLIGKNILIVDEVDDTRTTLEYAVRELQKDVEIAQKQLGREGEKTNFFVYVVHNKDKPKKGVLPEDMMTSGRYHASVTTADVWICYPWEAKDIDEHDRLAEENPL</Hsp_qseq>
+      <Hsp_hseq>QVHKLCQSSADKILTTFHPNLMIAIGGGGYVPARILRSFLKRSGEPNIPIQAIGLSLYEDLGRGDAEEVPGTKVTRTQWLDLSSLEMANLIGKNILIVDEVDDTRTTLEYAVRELQKDVEQAQKQLGREGEKTNFFVFVLHNKNKSKKGVLPADMMDSGRYHAAVTTDDVWICYPWEAKDIDEHDAFAEKNPL</Hsp_hseq>
+      <Hsp_midline>QVHKLCQ+SADKIL TF PNLMIAIGGGGY+PARILRSFLKR GEPNIPIQAIGLSLYEDLGRGDAEEVPGTKVTRTQWLDLSSLEMANLIGKNILIVDEVDDTRTTLEYAVRELQKDVE AQKQLGREGEKTNFFV+V+HNK+K KKGVLP DMM SGRYHA+VTT DVWICYPWEAKDIDEHD  AE+NPL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gb|KAE8159731.1|</Hit_id>
+  <Hit_def>hypothetical protein BDV40DRAFT_231652 [Aspergillus tamarii]</Hit_def>
+  <Hit_accession>KAE8159731</Hit_accession>
+  <Hit_len>237</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>373.244</Hsp_bit-score>
+      <Hsp_score>957</Hsp_score>
+      <Hsp_evalue>8.85082e-129</Hsp_evalue>
+      <Hsp_query-from>28</Hsp_query-from>
+      <Hsp_query-to>221</Hsp_query-to>
+      <Hsp_hit-from>43</Hsp_hit-from>
+      <Hsp_hit-to>236</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>176</Hsp_identity>
+      <Hsp_positive>185</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>194</Hsp_align-len>
+      <Hsp_qseq>WQVHKLCQASADKILDTFQPNLMIAIGGGGYIPARILRSFLKRPGEPNIPIQAIGLSLYEDLGRGDAEEVPGTKVTRTQWLDLSSLEMANLIGKNILIVDEVDDTRTTLEYAVRELQKDVEIAQKQLGREGEKTNFFVYVVHNKDKPKKGVLPEDMMTSGRYHASVTTADVWICYPWEAKDIDEHDRLAEENPL</Hsp_qseq>
+      <Hsp_hseq>YQVHKLCQSSADEILTTFHPNLMIAIGGGGYVPARILRSFLKRAGEPNIPIQAIGLSLYEDLGRGDAEEVPGTKVTRTQWLDLSSLEMANLIGKNILIVDEVDDTRTTLEYAVRELQKDVEQAQKQLGREGEKTNFFVFVLHNKNKSKKGVLPADMMDSGRYHAAVTTDDVWICYPWEAKDIDEHDALAKENPL</Hsp_hseq>
+      <Hsp_midline>+QVHKLCQ+SAD+IL TF PNLMIAIGGGGY+PARILRSFLKR GEPNIPIQAIGLSLYEDLGRGDAEEVPGTKVTRTQWLDLSSLEMANLIGKNILIVDEVDDTRTTLEYAVRELQKDVE AQKQLGREGEKTNFFV+V+HNK+K KKGVLP DMM SGRYHA+VTT DVWICYPWEAKDIDEHD LA+ENPL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gb|KKK15105.1|</Hit_id>
+  <Hit_def>hypothetical protein AOCH_006849 [Aspergillus ochraceoroseus] &gt;gb|KKK17815.1| hypothetical protein ARAM_002086 [Aspergillus rambellii]</Hit_def>
+  <Hit_accession>KKK15105</Hit_accession>
+  <Hit_len>204</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>372.089</Hsp_bit-score>
+      <Hsp_score>954</Hsp_score>
+      <Hsp_evalue>9.26658e-129</Hsp_evalue>
+      <Hsp_query-from>30</Hsp_query-from>
+      <Hsp_query-to>222</Hsp_query-to>
+      <Hsp_hit-from>12</Hsp_hit-from>
+      <Hsp_hit-to>204</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>177</Hsp_identity>
+      <Hsp_positive>185</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>193</Hsp_align-len>
+      <Hsp_qseq>VHKLCQASADKILDTFQPNLMIAIGGGGYIPARILRSFLKRPGEPNIPIQAIGLSLYEDLGRGDAEEVPGTKVTRTQWLDLSSLEMANLIGKNILIVDEVDDTRTTLEYAVRELQKDVEIAQKQLGREGEKTNFFVYVVHNKDKPKKGVLPEDMMTSGRYHASVTTADVWICYPWEAKDIDEHDRLAEENPLV</Hsp_qseq>
+      <Hsp_hseq>VHKLCQSSADKILDKFQPNLMIAIGGGGYVPARILRSFLKRPGDPNIPIQAIGLSLYEDLGRGDPEEVPGTKVTRTQWLDLSSLEMANLIGKNILIVDEVDDTRTTLEYAVRELQKDVEIAQKQLGREGEKTNFFVFVLHNKNKSKKGELPADMMESGRYHAAVTTDDVWICYPWEAKDIDEHDNLAKENPLV</Hsp_hseq>
+      <Hsp_midline>VHKLCQ+SADKILD FQPNLMIAIGGGGY+PARILRSFLKRPG+PNIPIQAIGLSLYEDLGRGD EEVPGTKVTRTQWLDLSSLEMANLIGKNILIVDEVDDTRTTLEYAVRELQKDVEIAQKQLGREGEKTNFFV+V+HNK+K KKG LP DMM SGRYHA+VTT DVWICYPWEAKDIDEHD LA+ENPLV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>ref|XP_024670997.1|</Hit_id>
+  <Hit_def>xanthine phosphoribosyltransferase 1 [Aspergillus candidus] &gt;gb|PLB36985.1| xanthine phosphoribosyltransferase 1 [Aspergillus candidus]</Hit_def>
+  <Hit_accession>XP_024670997</Hit_accession>
+  <Hit_len>204</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>372.089</Hsp_bit-score>
+      <Hsp_score>954</Hsp_score>
+      <Hsp_evalue>1.05699e-128</Hsp_evalue>
+      <Hsp_query-from>29</Hsp_query-from>
+      <Hsp_query-to>222</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>204</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>174</Hsp_identity>
+      <Hsp_positive>186</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>194</Hsp_align-len>
+      <Hsp_qseq>QVHKLCQASADKILDTFQPNLMIAIGGGGYIPARILRSFLKRPGEPNIPIQAIGLSLYEDLGRGDAEEVPGTKVTRTQWLDLSSLEMANLIGKNILIVDEVDDTRTTLEYAVRELQKDVEIAQKQLGREGEKTNFFVYVVHNKDKPKKGVLPEDMMTSGRYHASVTTADVWICYPWEAKDIDEHDRLAEENPLV</Hsp_qseq>
+      <Hsp_hseq>QVHKLCQTSADQILNAFHPNLMIAIGGGGYVPARILRSFLKRQGDPNIPIQAIGLSLYEDLGRGDAEEVPGTKVTRTQWLDLSSLEMANLIGKNILIVDEVDDTRTTLEYAVRELEKDVELAQKQLGREGEKTNFFVFVLHNKNKPKKGSLPTDMMETGRYHASVTTDDVWICYPWEAKDIDEHDRLAKENPLI</Hsp_hseq>
+      <Hsp_midline>QVHKLCQ SAD+IL+ F PNLMIAIGGGGY+PARILRSFLKR G+PNIPIQAIGLSLYEDLGRGDAEEVPGTKVTRTQWLDLSSLEMANLIGKNILIVDEVDDTRTTLEYAVREL+KDVE+AQKQLGREGEKTNFFV+V+HNK+KPKKG LP DMM +GRYHASVTT DVWICYPWEAKDIDEHDRLA+ENPL+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>ref|XP_001274761.1|</Hit_id>
+  <Hit_def>conserved hypothetical protein [Aspergillus clavatus NRRL 1] &gt;gb|EAW13335.1| conserved hypothetical protein [Aspergillus clavatus NRRL 1]</Hit_def>
+  <Hit_accession>XP_001274761</Hit_accession>
+  <Hit_len>204</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>371.703</Hsp_bit-score>
+      <Hsp_score>953</Hsp_score>
+      <Hsp_evalue>1.3307e-128</Hsp_evalue>
+      <Hsp_query-from>29</Hsp_query-from>
+      <Hsp_query-to>222</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>204</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>176</Hsp_identity>
+      <Hsp_positive>187</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>194</Hsp_align-len>
+      <Hsp_qseq>QVHKLCQASADKILDTFQPNLMIAIGGGGYIPARILRSFLKRPGEPNIPIQAIGLSLYEDLGRGDAEEVPGTKVTRTQWLDLSSLEMANLIGKNILIVDEVDDTRTTLEYAVRELQKDVEIAQKQLGREGEKTNFFVYVVHNKDKPKKGVLPEDMMTSGRYHASVTTADVWICYPWEAKDIDEHDRLAEENPLV</Hsp_qseq>
+      <Hsp_hseq>QVHQLCQTSAEKILDTFRPNLMIAIGGGGYVPARILRSFLKRAGEPNIPIQAIGLSLYEDLGRGDPEEVPGTKVTRTQWLDLSSLEMANLIGKNILIVDEVDDTRTTLEYAVRELQKDVELAQKQLGREGEQTNFFVFVLHNKDKSKKGELPKDMMESGRYHASVTTDDVWICYPWEAKDIEEHDRLAKENPLV</Hsp_hseq>
+      <Hsp_midline>QVH+LCQ SA+KILDTF+PNLMIAIGGGGY+PARILRSFLKR GEPNIPIQAIGLSLYEDLGRGD EEVPGTKVTRTQWLDLSSLEMANLIGKNILIVDEVDDTRTTLEYAVRELQKDVE+AQKQLGREGE+TNFFV+V+HNKDK KKG LP+DMM SGRYHASVTT DVWICYPWEAKDI+EHDRLA+ENPLV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gb|PYH97478.1|</Hit_id>
+  <Hit_def>PRTase-like protein [Aspergillus ellipticus CBS 707.79]</Hit_def>
+  <Hit_accession>PYH97478</Hit_accession>
+  <Hit_len>220</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>372.089</Hsp_bit-score>
+      <Hsp_score>954</Hsp_score>
+      <Hsp_evalue>1.60018e-128</Hsp_evalue>
+      <Hsp_query-from>29</Hsp_query-from>
+      <Hsp_query-to>222</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>204</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>174</Hsp_identity>
+      <Hsp_positive>186</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>194</Hsp_align-len>
+      <Hsp_qseq>QVHKLCQASADKILDTFQPNLMIAIGGGGYIPARILRSFLKRPGEPNIPIQAIGLSLYEDLGRGDAEEVPGTKVTRTQWLDLSSLEMANLIGKNILIVDEVDDTRTTLEYAVRELQKDVEIAQKQLGREGEKTNFFVYVVHNKDKPKKGVLPEDMMTSGRYHASVTTADVWICYPWEAKDIDEHDRLAEENPLV</Hsp_qseq>
+      <Hsp_hseq>QIHKLCQSSADQILNTFHPNLMIAIGGGGYVPARILRSFLKRPGDPNIPIQAIGLSLYEDLGRGDPEEVPGTKVTRTQWLDLSSLEMANLIGKNILIVDEVDDTRTTLEYAVRELQKDVELAQKQLGREGETTNFFVFVLHNKNKAKKGVLPADMMESGRYHASVTTDDVWICYPWEAKDIDEHDRLAQQNPLF</Hsp_hseq>
+      <Hsp_midline>Q+HKLCQ+SAD+IL+TF PNLMIAIGGGGY+PARILRSFLKRPG+PNIPIQAIGLSLYEDLGRGD EEVPGTKVTRTQWLDLSSLEMANLIGKNILIVDEVDDTRTTLEYAVRELQKDVE+AQKQLGREGE TNFFV+V+HNK+K KKGVLP DMM SGRYHASVTT DVWICYPWEAKDIDEHDRLA++NPL </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>ref|XP_031940905.1|</Hit_id>
+  <Hit_def>phosphoribosyltransferase-like protein [Aspergillus pseudonomiae] &gt;gb|KAB8258895.1| phosphoribosyltransferase-like protein [Aspergillus pseudonomiae] &gt;gb|KAE8403586.1| phosphoribosyltransferase-like protein [Aspergillus pseudonomiae]</Hit_def>
+  <Hit_accession>XP_031940905</Hit_accession>
+  <Hit_len>204</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>371.318</Hsp_bit-score>
+      <Hsp_score>952</Hsp_score>
+      <Hsp_evalue>1.80896e-128</Hsp_evalue>
+      <Hsp_query-from>29</Hsp_query-from>
+      <Hsp_query-to>221</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>203</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>176</Hsp_identity>
+      <Hsp_positive>183</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>193</Hsp_align-len>
+      <Hsp_qseq>QVHKLCQASADKILDTFQPNLMIAIGGGGYIPARILRSFLKRPGEPNIPIQAIGLSLYEDLGRGDAEEVPGTKVTRTQWLDLSSLEMANLIGKNILIVDEVDDTRTTLEYAVRELQKDVEIAQKQLGREGEKTNFFVYVVHNKDKPKKGVLPEDMMTSGRYHASVTTADVWICYPWEAKDIDEHDRLAEENPL</Hsp_qseq>
+      <Hsp_hseq>QVHKLCQSSADKILTTFHPNLMIAIGGGGYVPARILRSFLKRSGEPNIPIQAIGLSLYEDLGRGDAEEVPGTKVTRTQWLDLSSLEMANLIGKNILIVDEVDDTRTTLEYAVRELQKDVEQAQKQLGREGEKTNFFVFVLHNKNKSKKGVLPADMMDSGRYHAAVTTDDVWICYPWEAKDIDEHDAFAEKNPL</Hsp_hseq>
+      <Hsp_midline>QVHKLCQ+SADKIL TF PNLMIAIGGGGY+PARILRSFLKR GEPNIPIQAIGLSLYEDLGRGDAEEVPGTKVTRTQWLDLSSLEMANLIGKNILIVDEVDDTRTTLEYAVRELQKDVE AQKQLGREGEKTNFFV+V+HNK+K KKGVLP DMM SGRYHA+VTT DVWICYPWEAKDIDEHD  AE+NPL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gb|KAF7116554.1|</Hit_id>
+  <Hit_def>hypothetical protein CNMCM5793_005035 [Aspergillus hiratsukae] &gt;gb|KAF7156762.1| hypothetical protein CNMCM6106_001204 [Aspergillus hiratsukae]</Hit_def>
+  <Hit_accession>KAF7116554</Hit_accession>
+  <Hit_len>204</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>370.933</Hsp_bit-score>
+      <Hsp_score>951</Hsp_score>
+      <Hsp_evalue>2.228e-128</Hsp_evalue>
+      <Hsp_query-from>29</Hsp_query-from>
+      <Hsp_query-to>222</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>204</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>177</Hsp_identity>
+      <Hsp_positive>184</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>194</Hsp_align-len>
+      <Hsp_qseq>QVHKLCQASADKILDTFQPNLMIAIGGGGYIPARILRSFLKRPGEPNIPIQAIGLSLYEDLGRGDAEEVPGTKVTRTQWLDLSSLEMANLIGKNILIVDEVDDTRTTLEYAVRELQKDVEIAQKQLGREGEKTNFFVYVVHNKDKPKKGVLPEDMMTSGRYHASVTTADVWICYPWEAKDIDEHDRLAEENPLV</Hsp_qseq>
+      <Hsp_hseq>QVHKLCQTSAEKILDTFRPNLMIAIGGGGYVPARILRSFLKRAGEPNIPIQAIGLSLYEDLGRGDPEEVPGTKVTRTQWLDLSSLEMANLIGKNILIVDEVDDTRTTLEYAVRELQKDVEIAQKSLGREAEKTNFFVFVLHNKDKLKKGELPADMMESGRYHAAVTTEDVWICYPWEAKDIDEHDRLAQENPLV</Hsp_hseq>
+      <Hsp_midline>QVHKLCQ SA+KILDTF+PNLMIAIGGGGY+PARILRSFLKR GEPNIPIQAIGLSLYEDLGRGD EEVPGTKVTRTQWLDLSSLEMANLIGKNILIVDEVDDTRTTLEYAVRELQKDVEIAQK LGRE EKTNFFV+V+HNKDK KKG LP DMM SGRYHA+VTT DVWICYPWEAKDIDEHDRLA+ENPLV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>ref|XP_045945693.1|</Hit_id>
+  <Hit_def>hypoxanthine-guanine phosphoribosyltransferase [Aspergillus melleus] &gt;gb|KAH8430335.1| hypoxanthine-guanine phosphoribosyltransferase [Aspergillus melleus]</Hit_def>
+  <Hit_accession>XP_045945693</Hit_accession>
+  <Hit_len>204</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>370.933</Hsp_bit-score>
+      <Hsp_score>951</Hsp_score>
+      <Hsp_evalue>2.2774e-128</Hsp_evalue>
+      <Hsp_query-from>29</Hsp_query-from>
+      <Hsp_query-to>222</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>204</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>175</Hsp_identity>
+      <Hsp_positive>186</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>194</Hsp_align-len>
+      <Hsp_qseq>QVHKLCQASADKILDTFQPNLMIAIGGGGYIPARILRSFLKRPGEPNIPIQAIGLSLYEDLGRGDAEEVPGTKVTRTQWLDLSSLEMANLIGKNILIVDEVDDTRTTLEYAVRELQKDVEIAQKQLGREGEKTNFFVYVVHNKDKPKKGVLPEDMMTSGRYHASVTTADVWICYPWEAKDIDEHDRLAEENPLV</Hsp_qseq>
+      <Hsp_hseq>QVHKLCQASADQILNTFHPNLMIAIGGGGYVPARILRSFLKQSGEPNIPIQAIGLSLYEDLGRGDPEEVPGTKVTRTQWLDLSSLEMANLIGKNILIVDEVDDTRTTLEYAVRELQKDVELAQKQLGREGEKTNFFVFVLHNKNKSKKGVLPADMMESHRYHAAVTTDDVWICYPWEAKDIDEHDRLAEENPII</Hsp_hseq>
+      <Hsp_midline>QVHKLCQASAD+IL+TF PNLMIAIGGGGY+PARILRSFLK+ GEPNIPIQAIGLSLYEDLGRGD EEVPGTKVTRTQWLDLSSLEMANLIGKNILIVDEVDDTRTTLEYAVRELQKDVE+AQKQLGREGEKTNFFV+V+HNK+K KKGVLP DMM S RYHA+VTT DVWICYPWEAKDIDEHDRLAEENP++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>ref|XP_001826543.1|</Hit_id>
+  <Hit_def>unnamed protein product [Aspergillus oryzae RIB40] &gt;ref|XP_041150636.1| uncharacterized protein G4B84_011124 [Aspergillus flavus NRRL3357] &gt;gb|KAB8245912.1| phosphoribosyltransferase-like protein [Aspergillus flavus] &gt;gb|KDE75691.1| putative phosphoribosyltransferase [Aspergillus oryzae 100-8] &gt;gb|KOC10600.1| putative xanthine-guanine phosphoribosyl transferase Xpt1 [Aspergillus flavus AF70] &gt;gb|OOO03797.1| phosphoribosyltransferase [Aspergillus oryzae] &gt;gb|KAF7627053.1| hypothetical protein AFLA_012992 [Aspergillus flavus NRRL3357]</Hit_def>
+  <Hit_accession>XP_001826543</Hit_accession>
+  <Hit_len>204</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>370.933</Hsp_bit-score>
+      <Hsp_score>951</Hsp_score>
+      <Hsp_evalue>2.74411e-128</Hsp_evalue>
+      <Hsp_query-from>29</Hsp_query-from>
+      <Hsp_query-to>221</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>203</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>176</Hsp_identity>
+      <Hsp_positive>183</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>193</Hsp_align-len>
+      <Hsp_qseq>QVHKLCQASADKILDTFQPNLMIAIGGGGYIPARILRSFLKRPGEPNIPIQAIGLSLYEDLGRGDAEEVPGTKVTRTQWLDLSSLEMANLIGKNILIVDEVDDTRTTLEYAVRELQKDVEIAQKQLGREGEKTNFFVYVVHNKDKPKKGVLPEDMMTSGRYHASVTTADVWICYPWEAKDIDEHDRLAEENPL</Hsp_qseq>
+      <Hsp_hseq>QVHKLCQSSADNILTTFHPNLMIAIGGGGYVPARILRSFLKRAGEPNIPIQAIGLSLYEDLGRGDAEEVPGTKVTRTQWLDLSSLEMANLIGKNILIVDEVDDTRTTLEYAVRELQKDVEQAQKQLGREGEKTNFFVFVLHNKNKSKKGVLPADMMESGRYHAAVTTDDVWICYPWEAKDIDEHDALAKENPL</Hsp_hseq>
+      <Hsp_midline>QVHKLCQ+SAD IL TF PNLMIAIGGGGY+PARILRSFLKR GEPNIPIQAIGLSLYEDLGRGDAEEVPGTKVTRTQWLDLSSLEMANLIGKNILIVDEVDDTRTTLEYAVRELQKDVE AQKQLGREGEKTNFFV+V+HNK+K KKGVLP DMM SGRYHA+VTT DVWICYPWEAKDIDEHD LA+ENPL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>ref|XP_022384356.1|</Hit_id>
+  <Hit_def>xanthine-guanine phosphoribosyl transferase Xpt1 [Aspergillus bombycis] &gt;gb|OGM40639.1| xanthine-guanine phosphoribosyl transferase Xpt1 [Aspergillus bombycis]</Hit_def>
+  <Hit_accession>XP_022384356</Hit_accession>
+  <Hit_len>204</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>370.548</Hsp_bit-score>
+      <Hsp_score>950</Hsp_score>
+      <Hsp_evalue>4.30189e-128</Hsp_evalue>
+      <Hsp_query-from>29</Hsp_query-from>
+      <Hsp_query-to>221</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>203</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>176</Hsp_identity>
+      <Hsp_positive>182</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>193</Hsp_align-len>
+      <Hsp_qseq>QVHKLCQASADKILDTFQPNLMIAIGGGGYIPARILRSFLKRPGEPNIPIQAIGLSLYEDLGRGDAEEVPGTKVTRTQWLDLSSLEMANLIGKNILIVDEVDDTRTTLEYAVRELQKDVEIAQKQLGREGEKTNFFVYVVHNKDKPKKGVLPEDMMTSGRYHASVTTADVWICYPWEAKDIDEHDRLAEENPL</Hsp_qseq>
+      <Hsp_hseq>QVHKLCQTSADKILTTFHPNLMIAIGGGGYVPARILRSFLKRTGEPNIPIQAIGLSLYEDLGRGDAEEVPGTKVTRTQWLDLSSLEMANLIGKNILIVDEVDDTRTTLEYAVRELQKDVEQAQKQLGREGEKTNFFVFVLHNKNKSKKGVLPADMMDSGRYHAAVTTDDVWICYPWEAKDIDEHDAFAKENPL</Hsp_hseq>
+      <Hsp_midline>QVHKLCQ SADKIL TF PNLMIAIGGGGY+PARILRSFLKR GEPNIPIQAIGLSLYEDLGRGDAEEVPGTKVTRTQWLDLSSLEMANLIGKNILIVDEVDDTRTTLEYAVRELQKDVE AQKQLGREGEKTNFFV+V+HNK+K KKGVLP DMM SGRYHA+VTT DVWICYPWEAKDIDEHD  A+ENPL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gb|KAB8201547.1|</Hit_id>
+  <Hit_def>phosphoribosyltransferase-like protein [Aspergillus parasiticus] &gt;gb|KAB8212884.1| phosphoribosyltransferase-like protein [Aspergillus novoparasiticus] &gt;gb|KAE8308486.1| phosphoribosyltransferase-like protein [Aspergillus transmontanensis] &gt;gb|KAE8326089.1| phosphoribosyltransferase-like protein [Aspergillus sergii] &gt;gb|KAE8338930.1| hypothetical protein BDV24DRAFT_153195 [Aspergillus arachidicola]</Hit_def>
+  <Hit_accession>KAB8201547</Hit_accession>
+  <Hit_len>204</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>370.163</Hsp_bit-score>
+      <Hsp_score>949</Hsp_score>
+      <Hsp_evalue>5.597e-128</Hsp_evalue>
+      <Hsp_query-from>29</Hsp_query-from>
+      <Hsp_query-to>221</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>203</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>176</Hsp_identity>
+      <Hsp_positive>183</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>193</Hsp_align-len>
+      <Hsp_qseq>QVHKLCQASADKILDTFQPNLMIAIGGGGYIPARILRSFLKRPGEPNIPIQAIGLSLYEDLGRGDAEEVPGTKVTRTQWLDLSSLEMANLIGKNILIVDEVDDTRTTLEYAVRELQKDVEIAQKQLGREGEKTNFFVYVVHNKDKPKKGVLPEDMMTSGRYHASVTTADVWICYPWEAKDIDEHDRLAEENPL</Hsp_qseq>
+      <Hsp_hseq>QVHKLCQSSADNILTTFHPNLMIAIGGGGYVPARILRSFLKRAGEPNIPIQAIGLSLYEDLGRGDAEEVPGTKVTRTQWLDLSSLEMANLIGKNILIVDEVDDTRTTLEYAVRELQKDVEQAQKQLGREGEKTNFFVFVLHNKNKSKKGVLPADMMDSGRYHAAVTTDDVWICYPWEAKDIDEHDALAKENPL</Hsp_hseq>
+      <Hsp_midline>QVHKLCQ+SAD IL TF PNLMIAIGGGGY+PARILRSFLKR GEPNIPIQAIGLSLYEDLGRGDAEEVPGTKVTRTQWLDLSSLEMANLIGKNILIVDEVDDTRTTLEYAVRELQKDVE AQKQLGREGEKTNFFV+V+HNK+K KKGVLP DMM SGRYHA+VTT DVWICYPWEAKDIDEHD LA+ENPL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>ref|XP_033429413.1|</Hit_id>
+  <Hit_def>hypoxanthine-guanine phosphoribosyltransferase [Aspergillus tanneri] &gt;gb|KAA8650052.1| hypoxanthine-guanine phosphoribosyltransferase [Aspergillus tanneri] &gt;gb|THC88736.1| hypothetical protein EYZ11_011812 [Aspergillus tanneri]</Hit_def>
+  <Hit_accession>XP_033429413</Hit_accession>
+  <Hit_len>204</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>370.163</Hsp_bit-score>
+      <Hsp_score>949</Hsp_score>
+      <Hsp_evalue>5.97764e-128</Hsp_evalue>
+      <Hsp_query-from>29</Hsp_query-from>
+      <Hsp_query-to>222</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>204</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>176</Hsp_identity>
+      <Hsp_positive>184</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>194</Hsp_align-len>
+      <Hsp_qseq>QVHKLCQASADKILDTFQPNLMIAIGGGGYIPARILRSFLKRPGEPNIPIQAIGLSLYEDLGRGDAEEVPGTKVTRTQWLDLSSLEMANLIGKNILIVDEVDDTRTTLEYAVRELQKDVEIAQKQLGREGEKTNFFVYVVHNKDKPKKGVLPEDMMTSGRYHASVTTADVWICYPWEAKDIDEHDRLAEENPLV</Hsp_qseq>
+      <Hsp_hseq>QVHKLCQISADQILNGFHPNLMIAIGGGGYVPARILRSFLKRPGEPNIPIQAIGLSLYEDLGRGDPEEVPGTKVTRTQWLDLSSLEMANLIGKNILIVDEVDDTRTTLEYAVRELQKDVELAQKQLGREGEKTNFFVFVLHNKNKSKKGVLPADMMESHRYHAAVTTDDVWICYPWEAKDIDEHDRFAEENPLV</Hsp_hseq>
+      <Hsp_midline>QVHKLCQ SAD+IL+ F PNLMIAIGGGGY+PARILRSFLKRPGEPNIPIQAIGLSLYEDLGRGD EEVPGTKVTRTQWLDLSSLEMANLIGKNILIVDEVDDTRTTLEYAVRELQKDVE+AQKQLGREGEKTNFFV+V+HNK+K KKGVLP DMM S RYHA+VTT DVWICYPWEAKDIDEHDR AEENPLV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>ref|XP_043153272.1|</Hit_id>
+  <Hit_def>hypoxanthine-guanine phosphoribosyltransferase [Aspergillus pseudoviridinutans] &gt;dbj|GIJ82525.1| hypoxanthine-guanine phosphoribosyltransferase [Aspergillus pseudoviridinutans]</Hit_def>
+  <Hit_accession>XP_043153272</Hit_accession>
+  <Hit_len>204</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>370.163</Hsp_bit-score>
+      <Hsp_score>949</Hsp_score>
+      <Hsp_evalue>6.11019e-128</Hsp_evalue>
+      <Hsp_query-from>29</Hsp_query-from>
+      <Hsp_query-to>222</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>204</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>176</Hsp_identity>
+      <Hsp_positive>184</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>194</Hsp_align-len>
+      <Hsp_qseq>QVHKLCQASADKILDTFQPNLMIAIGGGGYIPARILRSFLKRPGEPNIPIQAIGLSLYEDLGRGDAEEVPGTKVTRTQWLDLSSLEMANLIGKNILIVDEVDDTRTTLEYAVRELQKDVEIAQKQLGREGEKTNFFVYVVHNKDKPKKGVLPEDMMTSGRYHASVTTADVWICYPWEAKDIDEHDRLAEENPLV</Hsp_qseq>
+      <Hsp_hseq>QVHKLCQTSAEKILDTFRPNLMIAIGGGGYVPARILRSFLKRAGEPNIPIQAIGLSLYEDLGRGDPEEVPGTKVTRTQWLDLSSLEMANLIGKNILIVDEVDDTRTTLEYAVRELQKDVEMAQKQLGREAEKTNFFVFVLHNKDKLKKGELPADMMESGRYHAAVTTEDVWICYPWEAKDIEEHDRLAMENPLV</Hsp_hseq>
+      <Hsp_midline>QVHKLCQ SA+KILDTF+PNLMIAIGGGGY+PARILRSFLKR GEPNIPIQAIGLSLYEDLGRGD EEVPGTKVTRTQWLDLSSLEMANLIGKNILIVDEVDDTRTTLEYAVRELQKDVE+AQKQLGRE EKTNFFV+V+HNKDK KKG LP DMM SGRYHA+VTT DVWICYPWEAKDI+EHDRLA ENPLV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gb|KAE8374303.1|</Hit_id>
+  <Hit_def>hypothetical protein BDV26DRAFT_45543 [Aspergillus bertholletiae]</Hit_def>
+  <Hit_accession>KAE8374303</Hit_accession>
+  <Hit_len>198</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>369.777</Hsp_bit-score>
+      <Hsp_score>948</Hsp_score>
+      <Hsp_evalue>6.42448e-128</Hsp_evalue>
+      <Hsp_query-from>28</Hsp_query-from>
+      <Hsp_query-to>222</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>198</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>176</Hsp_identity>
+      <Hsp_positive>183</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>195</Hsp_align-len>
+      <Hsp_qseq>WQVHKLCQASADKILDTFQPNLMIAIGGGGYIPARILRSFLKRPGEPNIPIQAIGLSLYEDLGRGDAEEVPGTKVTRTQWLDLSSLEMANLIGKNILIVDEVDDTRTTLEYAVRELQKDVEIAQKQLGREGEKTNFFVYVVHNKDKPKKGVLPEDMMTSGRYHASVTTADVWICYPWEAKDIDEHDRLAEENPLV</Hsp_qseq>
+      <Hsp_hseq>FQVHKLCQSSADKILTNFHPNLMIAIGGGGYVPARILRSFLKRAGEPNIPIQAIGLSLYEDLGRGDAEEVPGTKVTRTQWLDLSSLEMANLIGKNILIVDEVDDTRTTLEYAVRELQKDVEQAQKQLGREGEKTNFFVFVLHNKNKSKKGVLPADMMDSGRYHASVTTDDVWICYPWEAKDIDEHDAYAKENPLF</Hsp_hseq>
+      <Hsp_midline>+QVHKLCQ+SADKIL  F PNLMIAIGGGGY+PARILRSFLKR GEPNIPIQAIGLSLYEDLGRGDAEEVPGTKVTRTQWLDLSSLEMANLIGKNILIVDEVDDTRTTLEYAVRELQKDVE AQKQLGREGEKTNFFV+V+HNK+K KKGVLP DMM SGRYHASVTT DVWICYPWEAKDIDEHD  A+ENPL </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>ref|XP_022490277.1|</Hit_id>
+  <Hit_def>hypothetical protein PENARI_c005G08172 [Penicillium arizonense] &gt;gb|OGE54847.1| hypothetical protein PENARI_c005G08172 [Penicillium arizonense]</Hit_def>
+  <Hit_accession>XP_022490277</Hit_accession>
+  <Hit_len>204</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>369.777</Hsp_bit-score>
+      <Hsp_score>948</Hsp_score>
+      <Hsp_evalue>6.52572e-128</Hsp_evalue>
+      <Hsp_query-from>29</Hsp_query-from>
+      <Hsp_query-to>222</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>204</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>175</Hsp_identity>
+      <Hsp_positive>184</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>194</Hsp_align-len>
+      <Hsp_qseq>QVHKLCQASADKILDTFQPNLMIAIGGGGYIPARILRSFLKRPGEPNIPIQAIGLSLYEDLGRGDAEEVPGTKVTRTQWLDLSSLEMANLIGKNILIVDEVDDTRTTLEYAVRELQKDVEIAQKQLGREGEKTNFFVYVVHNKDKPKKGVLPEDMMTSGRYHASVTTADVWICYPWEAKDIDEHDRLAEENPLV</Hsp_qseq>
+      <Hsp_hseq>QVHKLCQTSADQILKDFHPNLMIAIGGGGYVPARILRSFLKRTGDPNIPIQAIGLSLYEDLGRGDAEEVPGTKVTRTQWLDMSSLEMANLIGKNILIVDEVDDTRTTLEYAVRELQKDVEIAQKQLGREGEKTNFFVFVLHNKNKEKKGVLPADMMESGRYHASVTTDDVWICYPWEAKDIDEHDALAKENPLI</Hsp_hseq>
+      <Hsp_midline>QVHKLCQ SAD+IL  F PNLMIAIGGGGY+PARILRSFLKR G+PNIPIQAIGLSLYEDLGRGDAEEVPGTKVTRTQWLD+SSLEMANLIGKNILIVDEVDDTRTTLEYAVRELQKDVEIAQKQLGREGEKTNFFV+V+HNK+K KKGVLP DMM SGRYHASVTT DVWICYPWEAKDIDEHD LA+ENPL+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gb|KAF9892372.1|</Hit_id>
+  <Hit_def>hypoxanthine-guanine phosphoribosyltransferase [Aspergillus nanangensis]</Hit_def>
+  <Hit_accession>KAF9892372</Hit_accession>
+  <Hit_len>204</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>369.777</Hsp_bit-score>
+      <Hsp_score>948</Hsp_score>
+      <Hsp_evalue>7.863e-128</Hsp_evalue>
+      <Hsp_query-from>29</Hsp_query-from>
+      <Hsp_query-to>222</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>204</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>175</Hsp_identity>
+      <Hsp_positive>185</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>194</Hsp_align-len>
+      <Hsp_qseq>QVHKLCQASADKILDTFQPNLMIAIGGGGYIPARILRSFLKRPGEPNIPIQAIGLSLYEDLGRGDAEEVPGTKVTRTQWLDLSSLEMANLIGKNILIVDEVDDTRTTLEYAVRELQKDVEIAQKQLGREGEKTNFFVYVVHNKDKPKKGVLPEDMMTSGRYHASVTTADVWICYPWEAKDIDEHDRLAEENPLV</Hsp_qseq>
+      <Hsp_hseq>QVHKLCQTSADEILNAFHPNLMIAIGGGGYVPARILRSFLKRQGEPNIPIQAIGLSLYEDLGRGDPEEVPGTKVTRTQWLDLSSLEMANLIGKNILIVDEVDDTRTTLEYAVRELQKDVELAQKQLGREGETTNFFVFVLHNKNKDKKGVLPADMMSSGRYHASVTTDDVWICYPWEAKDIDEHDRLSKENPLV</Hsp_hseq>
+      <Hsp_midline>QVHKLCQ SAD+IL+ F PNLMIAIGGGGY+PARILRSFLKR GEPNIPIQAIGLSLYEDLGRGD EEVPGTKVTRTQWLDLSSLEMANLIGKNILIVDEVDDTRTTLEYAVRELQKDVE+AQKQLGREGE TNFFV+V+HNK+K KKGVLP DMM+SGRYHASVTT DVWICYPWEAKDIDEHDRL++ENPLV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gb|KAB8267568.1|</Hit_id>
+  <Hit_def>phosphoribosyltransferase-like protein [Aspergillus minisclerotigenes]</Hit_def>
+  <Hit_accession>KAB8267568</Hit_accession>
+  <Hit_len>204</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>369.392</Hsp_bit-score>
+      <Hsp_score>947</Hsp_score>
+      <Hsp_evalue>1.15417e-127</Hsp_evalue>
+      <Hsp_query-from>29</Hsp_query-from>
+      <Hsp_query-to>221</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>203</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>175</Hsp_identity>
+      <Hsp_positive>183</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>193</Hsp_align-len>
+      <Hsp_qseq>QVHKLCQASADKILDTFQPNLMIAIGGGGYIPARILRSFLKRPGEPNIPIQAIGLSLYEDLGRGDAEEVPGTKVTRTQWLDLSSLEMANLIGKNILIVDEVDDTRTTLEYAVRELQKDVEIAQKQLGREGEKTNFFVYVVHNKDKPKKGVLPEDMMTSGRYHASVTTADVWICYPWEAKDIDEHDRLAEENPL</Hsp_qseq>
+      <Hsp_hseq>QVHKLCQSSADNILTTFHPNLMIAIGGGGYVPARILRSFLKRAGEPNIPIQAIGLSLYEDLGRGDAEEVPGTKVTRTQWLDLSSLEMANLIGKNILIVDEVDDTRTTLEYAVRELQKDVEQAQKQLGREGEKTNFFVFVLHNKNKSKKGVLPADMMESGRYHAAVTTDDVWICYPWEAKDIEEHDALAKENPL</Hsp_hseq>
+      <Hsp_midline>QVHKLCQ+SAD IL TF PNLMIAIGGGGY+PARILRSFLKR GEPNIPIQAIGLSLYEDLGRGDAEEVPGTKVTRTQWLDLSSLEMANLIGKNILIVDEVDDTRTTLEYAVRELQKDVE AQKQLGREGEKTNFFV+V+HNK+K KKGVLP DMM SGRYHA+VTT DVWICYPWEAKDI+EHD LA+ENPL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>dbj|GAT25390.1|</Hit_id>
+  <Hit_def>xanthine phosphoribosyltransferase 1 [Aspergillus luchuensis]</Hit_def>
+  <Hit_accession>GAT25390</Hit_accession>
+  <Hit_len>198</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>369.007</Hsp_bit-score>
+      <Hsp_score>946</Hsp_score>
+      <Hsp_evalue>1.2405e-127</Hsp_evalue>
+      <Hsp_query-from>29</Hsp_query-from>
+      <Hsp_query-to>207</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>189</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>177</Hsp_identity>
+      <Hsp_positive>177</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>179</Hsp_align-len>
+      <Hsp_qseq>QVHKLCQASADKILDTFQPNLMIAIGGGGYIPARILRSFLKRPGEPNIPIQAIGLSLYEDLGRGDAEEVPGTKVTRTQWLDLSSLEMANLIGKNILIVDEVDDTRTTLEYAVRELQKDVEIAQKQLGREGEKTNFFVYVVHNKDKPKKGVLPEDMMTSGRYHASVTTADVWICYPWEAK</Hsp_qseq>
+      <Hsp_hseq>QVHKLCQASADKILDTFQPNLMIAIGGGGYIPARILRSFLKRTGEPNIPIQAIGLSLYEDLGRGDAEEVPGTKVTRTQWLDLSSLEMANLIGKNILIVDEVDDTRTTLEYAVSELQKDVEIAQKQLGREGEKTNFFVYVVHNKDKPKKGVLPEDMMTSGRYHASVTTADVWICYPWEAK</Hsp_hseq>
+      <Hsp_midline>QVHKLCQASADKILDTFQPNLMIAIGGGGYIPARILRSFLKR GEPNIPIQAIGLSLYEDLGRGDAEEVPGTKVTRTQWLDLSSLEMANLIGKNILIVDEVDDTRTTLEYAV ELQKDVEIAQKQLGREGEKTNFFVYVVHNKDKPKKGVLPEDMMTSGRYHASVTTADVWICYPWEAK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gb|PLN81200.1|</Hit_id>
+  <Hit_def>xanthine phosphoribosyltransferase 1 [Aspergillus taichungensis]</Hit_def>
+  <Hit_accession>PLN81200</Hit_accession>
+  <Hit_len>204</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>369.007</Hsp_bit-score>
+      <Hsp_score>946</Hsp_score>
+      <Hsp_evalue>1.331e-127</Hsp_evalue>
+      <Hsp_query-from>29</Hsp_query-from>
+      <Hsp_query-to>222</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>204</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>173</Hsp_identity>
+      <Hsp_positive>186</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>194</Hsp_align-len>
+      <Hsp_qseq>QVHKLCQASADKILDTFQPNLMIAIGGGGYIPARILRSFLKRPGEPNIPIQAIGLSLYEDLGRGDAEEVPGTKVTRTQWLDLSSLEMANLIGKNILIVDEVDDTRTTLEYAVRELQKDVEIAQKQLGREGEKTNFFVYVVHNKDKPKKGVLPEDMMTSGRYHASVTTADVWICYPWEAKDIDEHDRLAEENPLV</Hsp_qseq>
+      <Hsp_hseq>QVHKLCQSSANEILNAFHPNLMIAIGGGGYVPARILRSFLKRQGDPNIPIQAIGLSLYEDLGRGDAEEVPGTKVTRTQWLDLSSLEMANLIGKNILIVDEVDDTRTTLEYAVRELEKDVEQAQKQLGREGEKTNFFVFVLHNKNKPKKGTLPTDMMETGRYHASVTTDDVWICYPWEAKDIDEHDRLAKENPLI</Hsp_hseq>
+      <Hsp_midline>QVHKLCQ+SA++IL+ F PNLMIAIGGGGY+PARILRSFLKR G+PNIPIQAIGLSLYEDLGRGDAEEVPGTKVTRTQWLDLSSLEMANLIGKNILIVDEVDDTRTTLEYAVREL+KDVE AQKQLGREGEKTNFFV+V+HNK+KPKKG LP DMM +GRYHASVTT DVWICYPWEAKDIDEHDRLA+ENPL+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gb|KAE8144487.1|</Hit_id>
+  <Hit_def>phosphoribosyltransferase-like protein [Aspergillus avenaceus]</Hit_def>
+  <Hit_accession>KAE8144487</Hit_accession>
+  <Hit_len>204</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>369.007</Hsp_bit-score>
+      <Hsp_score>946</Hsp_score>
+      <Hsp_evalue>1.69414e-127</Hsp_evalue>
+      <Hsp_query-from>29</Hsp_query-from>
+      <Hsp_query-to>221</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>203</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>174</Hsp_identity>
+      <Hsp_positive>185</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>193</Hsp_align-len>
+      <Hsp_qseq>QVHKLCQASADKILDTFQPNLMIAIGGGGYIPARILRSFLKRPGEPNIPIQAIGLSLYEDLGRGDAEEVPGTKVTRTQWLDLSSLEMANLIGKNILIVDEVDDTRTTLEYAVRELQKDVEIAQKQLGREGEKTNFFVYVVHNKDKPKKGVLPEDMMTSGRYHASVTTADVWICYPWEAKDIDEHDRLAEENPL</Hsp_qseq>
+      <Hsp_hseq>QVHKLCQNSADKILNTFHPNLMIAIGGGGYVPARILRSFLKRSGEPNIPIQAIGLSLYEDLGRGDAEEVPGTKVTRTQWLDLSSLEMSNLIGKNILIVDEVDDTRTTLEYAVRELEKDVEQAQKQLGREGEKTNFYIFVLHNKNKPKKGVLPADMMDSGRYHAAVTTDDVWICYPWEAKDIDEHDALAKENPL</Hsp_hseq>
+      <Hsp_midline>QVHKLCQ SADKIL+TF PNLMIAIGGGGY+PARILRSFLKR GEPNIPIQAIGLSLYEDLGRGDAEEVPGTKVTRTQWLDLSSLEM+NLIGKNILIVDEVDDTRTTLEYAVREL+KDVE AQKQLGREGEKTNF+++V+HNK+KPKKGVLP DMM SGRYHA+VTT DVWICYPWEAKDIDEHD LA+ENPL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>ref|XP_026613381.1|</Hit_id>
+  <Hit_def>hypoxanthine-guanine phosphoribosyltransferase [Aspergillus thermomutatus] &gt;gb|RHZ52713.1| hypoxanthine-guanine phosphoribosyltransferase [Aspergillus thermomutatus]</Hit_def>
+  <Hit_accession>XP_026613381</Hit_accession>
+  <Hit_len>204</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>369.007</Hsp_bit-score>
+      <Hsp_score>946</Hsp_score>
+      <Hsp_evalue>1.69414e-127</Hsp_evalue>
+      <Hsp_query-from>29</Hsp_query-from>
+      <Hsp_query-to>222</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>204</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>176</Hsp_identity>
+      <Hsp_positive>185</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>194</Hsp_align-len>
+      <Hsp_qseq>QVHKLCQASADKILDTFQPNLMIAIGGGGYIPARILRSFLKRPGEPNIPIQAIGLSLYEDLGRGDAEEVPGTKVTRTQWLDLSSLEMANLIGKNILIVDEVDDTRTTLEYAVRELQKDVEIAQKQLGREGEKTNFFVYVVHNKDKPKKGVLPEDMMTSGRYHASVTTADVWICYPWEAKDIDEHDRLAEENPLV</Hsp_qseq>
+      <Hsp_hseq>QVHQLCQTSAEKILDTFRPNLMIAIGGGGYVPARILRSFLKRTGEPNIPIQAIGLSLYEDLGRGDPEEVPGTKVTRTQWLDLSSLEMANLIGKNILIVDEVDDTRTTLEYAVRELQKDVEIAQKQLGREGEKTNFFVFVLHNKNKLKKGELPADMMESGRYHAAVTTDDVWICYPWEAKDIEEHDRLARENPLV</Hsp_hseq>
+      <Hsp_midline>QVH+LCQ SA+KILDTF+PNLMIAIGGGGY+PARILRSFLKR GEPNIPIQAIGLSLYEDLGRGD EEVPGTKVTRTQWLDLSSLEMANLIGKNILIVDEVDDTRTTLEYAVRELQKDVEIAQKQLGREGEKTNFFV+V+HNK+K KKG LP DMM SGRYHA+VTT DVWICYPWEAKDI+EHDRLA ENPLV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>ref|XP_001211925.1|</Hit_id>
+  <Hit_def>xanthine phosphoribosyltransferase 1 [Aspergillus terreus NIH2624] &gt;gb|EAU37709.1| xanthine phosphoribosyltransferase 1 [Aspergillus terreus NIH2624] &gt;gb|KAG2417147.1| xanthine phosphoribosyltransferase 1 [Aspergillus terreus]</Hit_def>
+  <Hit_accession>XP_001211925</Hit_accession>
+  <Hit_len>204</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>369.007</Hsp_bit-score>
+      <Hsp_score>946</Hsp_score>
+      <Hsp_evalue>1.71282e-127</Hsp_evalue>
+      <Hsp_query-from>29</Hsp_query-from>
+      <Hsp_query-to>222</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>204</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>173</Hsp_identity>
+      <Hsp_positive>184</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>194</Hsp_align-len>
+      <Hsp_qseq>QVHKLCQASADKILDTFQPNLMIAIGGGGYIPARILRSFLKRPGEPNIPIQAIGLSLYEDLGRGDAEEVPGTKVTRTQWLDLSSLEMANLIGKNILIVDEVDDTRTTLEYAVRELQKDVEIAQKQLGREGEKTNFFVYVVHNKDKPKKGVLPEDMMTSGRYHASVTTADVWICYPWEAKDIDEHDRLAEENPLV</Hsp_qseq>
+      <Hsp_hseq>QVHKLCQTSADRILNAFHPNLMIAIGGGGYVPARILRSFLKRSGEPNIPIQAIGLSLYEDLGRGDPEEVPGTKVTRTQWLDLSSLEMANLIGKNILIVDEVDDTRTTLEYAVRELQKDVELAQKQLGREGEKTNFFVFVLHNKNKPKKGVLPADMMESGHYHAALTTDDVWICYPWEAKDIDEHDRLSSENPLI</Hsp_hseq>
+      <Hsp_midline>QVHKLCQ SAD+IL+ F PNLMIAIGGGGY+PARILRSFLKR GEPNIPIQAIGLSLYEDLGRGD EEVPGTKVTRTQWLDLSSLEMANLIGKNILIVDEVDDTRTTLEYAVRELQKDVE+AQKQLGREGEKTNFFV+V+HNK+KPKKGVLP DMM SG YHA++TT DVWICYPWEAKDIDEHDRL+ ENPL+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>emb|CAG7917925.1|</Hit_id>
+  <Hit_def>unnamed protein product [Penicillium olsonii] &gt;emb|CAG7933004.1| unnamed protein product [Penicillium olsonii] &gt;emb|CAG8024818.1| unnamed protein product [Penicillium olsonii] &gt;emb|CAG8177196.1| unnamed protein product [Penicillium olsonii] &gt;emb|CAG8231623.1| unnamed protein product [Penicillium olsonii]</Hit_def>
+  <Hit_accession>CAG7917925</Hit_accession>
+  <Hit_len>204</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>368.622</Hsp_bit-score>
+      <Hsp_score>945</Hsp_score>
+      <Hsp_evalue>1.80935e-127</Hsp_evalue>
+      <Hsp_query-from>29</Hsp_query-from>
+      <Hsp_query-to>222</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>204</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>174</Hsp_identity>
+      <Hsp_positive>183</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>194</Hsp_align-len>
+      <Hsp_qseq>QVHKLCQASADKILDTFQPNLMIAIGGGGYIPARILRSFLKRPGEPNIPIQAIGLSLYEDLGRGDAEEVPGTKVTRTQWLDLSSLEMANLIGKNILIVDEVDDTRTTLEYAVRELQKDVEIAQKQLGREGEKTNFFVYVVHNKDKPKKGVLPEDMMTSGRYHASVTTADVWICYPWEAKDIDEHDRLAEENPLV</Hsp_qseq>
+      <Hsp_hseq>QVHKLCQTSAEQILKDFHPNLMIAIGGGGYVPARILRSFLKRSGDANIPIQAIGLSLYEDLGRGDAEEVPGTKVTRTQWLDMSSLEMANLIGKNILIVDEVDDTRTTLEYAVRELQKDVEIAQKQLGREGEKTNFFVFVLHNKDKAKKGVLPTDMMESGRYHASVTTKDVWICYPWEAKDIDEHDALAKENPIV</Hsp_hseq>
+      <Hsp_midline>QVHKLCQ SA++IL  F PNLMIAIGGGGY+PARILRSFLKR G+ NIPIQAIGLSLYEDLGRGDAEEVPGTKVTRTQWLD+SSLEMANLIGKNILIVDEVDDTRTTLEYAVRELQKDVEIAQKQLGREGEKTNFFV+V+HNKDK KKGVLP DMM SGRYHASVTT DVWICYPWEAKDIDEHD LA+ENP+V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gb|KAI9044208.1|</Hit_id>
+  <Hit_def>xanthine phosphoribosyltransferase 1 [Aspergillus affinis]</Hit_def>
+  <Hit_accession>KAI9044208</Hit_accession>
+  <Hit_len>204</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>368.237</Hsp_bit-score>
+      <Hsp_score>944</Hsp_score>
+      <Hsp_evalue>2.89935e-127</Hsp_evalue>
+      <Hsp_query-from>29</Hsp_query-from>
+      <Hsp_query-to>222</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>204</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>173</Hsp_identity>
+      <Hsp_positive>185</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>194</Hsp_align-len>
+      <Hsp_qseq>QVHKLCQASADKILDTFQPNLMIAIGGGGYIPARILRSFLKRPGEPNIPIQAIGLSLYEDLGRGDAEEVPGTKVTRTQWLDLSSLEMANLIGKNILIVDEVDDTRTTLEYAVRELQKDVEIAQKQLGREGEKTNFFVYVVHNKDKPKKGVLPEDMMTSGRYHASVTTADVWICYPWEAKDIDEHDRLAEENPLV</Hsp_qseq>
+      <Hsp_hseq>QVHKLCQTSADQILNTFHPNLMIAIGGGGYVPARILRSFLKQAGEPNIPIQAIGLSLYEDLGRGDPEEVPGTKVTRTQWLDLSSLEMANLIGKNILIVDEVDDTRTTLEYAVRELQKDVELAQKQLGREGEKTNFFVFVLHNKNKSKKGVLPTDMMESHRYHAAVTTDDVWICYPWEAKDIDEHDRLAEQNPII</Hsp_hseq>
+      <Hsp_midline>QVHKLCQ SAD+IL+TF PNLMIAIGGGGY+PARILRSFLK+ GEPNIPIQAIGLSLYEDLGRGD EEVPGTKVTRTQWLDLSSLEMANLIGKNILIVDEVDDTRTTLEYAVRELQKDVE+AQKQLGREGEKTNFFV+V+HNK+K KKGVLP DMM S RYHA+VTT DVWICYPWEAKDIDEHDRLAE+NP++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gb|RHZ56543.1|</Hit_id>
+  <Hit_def>hypoxanthine-guanine phosphoribosyltransferase [Aspergillus turcosus] &gt;gb|RLL96889.1| hypoxanthine-guanine phosphoribosyltransferase [Aspergillus turcosus]</Hit_def>
+  <Hit_accession>RHZ56543</Hit_accession>
+  <Hit_len>204</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>368.237</Hsp_bit-score>
+      <Hsp_score>944</Hsp_score>
+      <Hsp_evalue>3.09652e-127</Hsp_evalue>
+      <Hsp_query-from>29</Hsp_query-from>
+      <Hsp_query-to>222</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>204</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>174</Hsp_identity>
+      <Hsp_positive>184</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>194</Hsp_align-len>
+      <Hsp_qseq>QVHKLCQASADKILDTFQPNLMIAIGGGGYIPARILRSFLKRPGEPNIPIQAIGLSLYEDLGRGDAEEVPGTKVTRTQWLDLSSLEMANLIGKNILIVDEVDDTRTTLEYAVRELQKDVEIAQKQLGREGEKTNFFVYVVHNKDKPKKGVLPEDMMTSGRYHASVTTADVWICYPWEAKDIDEHDRLAEENPLV</Hsp_qseq>
+      <Hsp_hseq>QVHKLCQTSAEKILDTFRPNLMIAIGGGGYVPARILRSFLKRAGEPNIPIQAIGLSLYEDLGRGDPEEVPGTKVTRTQWLDLSSLEMANLIGKNILIVDEVDDTRTTLEYAVRELQKDVEMAQKQLGREAENTNFFVFVLHNKNKLKKGELPADMMESGRYHAAVTTEDVWICYPWEAKDIDEHDRLAQENPLI</Hsp_hseq>
+      <Hsp_midline>QVHKLCQ SA+KILDTF+PNLMIAIGGGGY+PARILRSFLKR GEPNIPIQAIGLSLYEDLGRGD EEVPGTKVTRTQWLDLSSLEMANLIGKNILIVDEVDDTRTTLEYAVRELQKDVE+AQKQLGRE E TNFFV+V+HNK+K KKG LP DMM SGRYHA+VTT DVWICYPWEAKDIDEHDRLA+ENPL+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>emb|CEL02422.1|</Hit_id>
+  <Hit_def>Putative Xanthine phosphoribosyltransferase 1 [Aspergillus calidoustus]</Hit_def>
+  <Hit_accession>CEL02422</Hit_accession>
+  <Hit_len>204</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>367.851</Hsp_bit-score>
+      <Hsp_score>943</Hsp_score>
+      <Hsp_evalue>3.94133e-127</Hsp_evalue>
+      <Hsp_query-from>29</Hsp_query-from>
+      <Hsp_query-to>222</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>204</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>175</Hsp_identity>
+      <Hsp_positive>183</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>194</Hsp_align-len>
+      <Hsp_qseq>QVHKLCQASADKILDTFQPNLMIAIGGGGYIPARILRSFLKRPGEPNIPIQAIGLSLYEDLGRGDAEEVPGTKVTRTQWLDLSSLEMANLIGKNILIVDEVDDTRTTLEYAVRELQKDVEIAQKQLGREGEKTNFFVYVVHNKDKPKKGVLPEDMMTSGRYHASVTTADVWICYPWEAKDIDEHDRLAEENPLV</Hsp_qseq>
+      <Hsp_hseq>QVHKLCQTSADQILNAFHPNLMIAIGGGGYVPARILRSFLKRPGDPNIPIQAIGLSLYEDLGRGDPEEVPGTKVTRTQWLDLSSLEMANLIGKNILIVDEVDDTRTTLEYAVRELQKDVEIAQKQLGREGEKTNFFVFVLHNKNKSKKGQLPADMMESGRYHASVTTEDVWICYPWEAKDIDEHDALAKANPLV</Hsp_hseq>
+      <Hsp_midline>QVHKLCQ SAD+IL+ F PNLMIAIGGGGY+PARILRSFLKRPG+PNIPIQAIGLSLYEDLGRGD EEVPGTKVTRTQWLDLSSLEMANLIGKNILIVDEVDDTRTTLEYAVRELQKDVEIAQKQLGREGEKTNFFV+V+HNK+K KKG LP DMM SGRYHASVTT DVWICYPWEAKDIDEHD LA+ NPLV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>ref|XP_050467935.1|</Hit_id>
+  <Hit_def>hypothetical protein [Aspergillus nidulans FGSC A4] &gt;tpe|CBF79297.1| TPA: xanthine-guanine phosphoribosyl transferase Xpt1, putative (AFU_orthologue; AFUA_4G04550) [Aspergillus nidulans FGSC A4]</Hit_def>
+  <Hit_accession>XP_050467935</Hit_accession>
+  <Hit_len>204</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>367.851</Hsp_bit-score>
+      <Hsp_score>943</Hsp_score>
+      <Hsp_evalue>4.07314e-127</Hsp_evalue>
+      <Hsp_query-from>29</Hsp_query-from>
+      <Hsp_query-to>222</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>204</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>174</Hsp_identity>
+      <Hsp_positive>185</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>194</Hsp_align-len>
+      <Hsp_qseq>QVHKLCQASADKILDTFQPNLMIAIGGGGYIPARILRSFLKRPGEPNIPIQAIGLSLYEDLGRGDAEEVPGTKVTRTQWLDLSSLEMANLIGKNILIVDEVDDTRTTLEYAVRELQKDVEIAQKQLGREGEKTNFFVYVVHNKDKPKKGVLPEDMMTSGRYHASVTTADVWICYPWEAKDIDEHDRLAEENPLV</Hsp_qseq>
+      <Hsp_hseq>QVHKLCQSSAEQILNTFHPNLMIAIGGGGYVPARILRSFLKRPGEPNIPIQAIGLSLYEDLGRGDPEEVPGTKVTRTQWLDLSSLEMANLIGKNILIVDEVDDTRTTLEYAVRELQKDVELAQKQLGREGEKTNFFVFVLHNKNKSKKGQLPTDMMESGRYHAAVTTDDVWICYPWEAKDIDEHDALAKANPLV</Hsp_hseq>
+      <Hsp_midline>QVHKLCQ+SA++IL+TF PNLMIAIGGGGY+PARILRSFLKRPGEPNIPIQAIGLSLYEDLGRGD EEVPGTKVTRTQWLDLSSLEMANLIGKNILIVDEVDDTRTTLEYAVRELQKDVE+AQKQLGREGEKTNFFV+V+HNK+K KKG LP DMM SGRYHA+VTT DVWICYPWEAKDIDEHD LA+ NPLV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gb|KAB8070041.1|</Hit_id>
+  <Hit_def>xanthine phosphoribosyltransferase 1 [Aspergillus leporis]</Hit_def>
+  <Hit_accession>KAB8070041</Hit_accession>
+  <Hit_len>204</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>367.851</Hsp_bit-score>
+      <Hsp_score>943</Hsp_score>
+      <Hsp_evalue>4.3027e-127</Hsp_evalue>
+      <Hsp_query-from>29</Hsp_query-from>
+      <Hsp_query-to>222</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>204</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>175</Hsp_identity>
+      <Hsp_positive>183</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>194</Hsp_align-len>
+      <Hsp_qseq>QVHKLCQASADKILDTFQPNLMIAIGGGGYIPARILRSFLKRPGEPNIPIQAIGLSLYEDLGRGDAEEVPGTKVTRTQWLDLSSLEMANLIGKNILIVDEVDDTRTTLEYAVRELQKDVEIAQKQLGREGEKTNFFVYVVHNKDKPKKGVLPEDMMTSGRYHASVTTADVWICYPWEAKDIDEHDRLAEENPLV</Hsp_qseq>
+      <Hsp_hseq>QVHKLCQTSADQILNAFHPNLMIAIGGGGYVPARILRSFLKRTGEPNIPIQAIGLSLYEDLGRGDPEEVPGTKVTRTQWLDLSSLEMANLIGKNILIVDEVDDTRTTLEYAVRELQKDVEQAQKQLGREGEKTNFFVFVLHNKNKSKKGVLPADMMESGRYHASVTTDDVWICYPWEAKDIDEHDALAKENPLL</Hsp_hseq>
+      <Hsp_midline>QVHKLCQ SAD+IL+ F PNLMIAIGGGGY+PARILRSFLKR GEPNIPIQAIGLSLYEDLGRGD EEVPGTKVTRTQWLDLSSLEMANLIGKNILIVDEVDDTRTTLEYAVRELQKDVE AQKQLGREGEKTNFFV+V+HNK+K KKGVLP DMM SGRYHASVTT DVWICYPWEAKDIDEHD LA+ENPL+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>ref|XP_043152034.1|</Hit_id>
+  <Hit_def>hypoxanthine-guanine phosphoribosyltransferase [Aspergillus udagawae] &gt;dbj|GFF53218.1| xanthine phosphoribosyltransferase 1 [Aspergillus udagawae] &gt;dbj|GFF61748.1| xanthine phosphoribosyltransferase 1 [Aspergillus udagawae] &gt;dbj|GFG15061.1| xanthine phosphoribosyltransferase 1 [Aspergillus udagawae] &gt;dbj|GIC94768.1| hypoxanthine-guanine phosphoribosyltransferase [Aspergillus udagawae]</Hit_def>
+  <Hit_accession>XP_043152034</Hit_accession>
+  <Hit_len>204</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>367.851</Hsp_bit-score>
+      <Hsp_score>943</Hsp_score>
+      <Hsp_evalue>4.54519e-127</Hsp_evalue>
+      <Hsp_query-from>29</Hsp_query-from>
+      <Hsp_query-to>222</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>204</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>175</Hsp_identity>
+      <Hsp_positive>183</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>194</Hsp_align-len>
+      <Hsp_qseq>QVHKLCQASADKILDTFQPNLMIAIGGGGYIPARILRSFLKRPGEPNIPIQAIGLSLYEDLGRGDAEEVPGTKVTRTQWLDLSSLEMANLIGKNILIVDEVDDTRTTLEYAVRELQKDVEIAQKQLGREGEKTNFFVYVVHNKDKPKKGVLPEDMMTSGRYHASVTTADVWICYPWEAKDIDEHDRLAEENPLV</Hsp_qseq>
+      <Hsp_hseq>QVHKLCQTSAEKILDTFQPNLMIAIGGGGYVPARILRSFLKRAGEPNIPIQAIGLSLYEDLGRGDPEEVPGTKVTRTQWLDLSSLEMANLIGKNILIVDEVDDTRTTLEYAVRELQKDVEMAQKQLGREAEKTNFFVFVLHNKNKLKKGELPADMMESGRYHAAVTTEDVWICYPWEAKDIEEHDRLAMEKPLV</Hsp_hseq>
+      <Hsp_midline>QVHKLCQ SA+KILDTFQPNLMIAIGGGGY+PARILRSFLKR GEPNIPIQAIGLSLYEDLGRGD EEVPGTKVTRTQWLDLSSLEMANLIGKNILIVDEVDDTRTTLEYAVRELQKDVE+AQKQLGRE EKTNFFV+V+HNK+K KKG LP DMM SGRYHA+VTT DVWICYPWEAKDI+EHDRLA E PLV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gb|OQD80471.1|</Hit_id>
+  <Hit_def>hypothetical protein PENANT_c035G03005 [Penicillium antarcticum]</Hit_def>
+  <Hit_accession>OQD80471</Hit_accession>
+  <Hit_len>204</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>367.466</Hsp_bit-score>
+      <Hsp_score>942</Hsp_score>
+      <Hsp_evalue>5.1844e-127</Hsp_evalue>
+      <Hsp_query-from>29</Hsp_query-from>
+      <Hsp_query-to>222</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>204</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>174</Hsp_identity>
+      <Hsp_positive>183</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>194</Hsp_align-len>
+      <Hsp_qseq>QVHKLCQASADKILDTFQPNLMIAIGGGGYIPARILRSFLKRPGEPNIPIQAIGLSLYEDLGRGDAEEVPGTKVTRTQWLDLSSLEMANLIGKNILIVDEVDDTRTTLEYAVRELQKDVEIAQKQLGREGEKTNFFVYVVHNKDKPKKGVLPEDMMTSGRYHASVTTADVWICYPWEAKDIDEHDRLAEENPLV</Hsp_qseq>
+      <Hsp_hseq>QVHKLCQTSADQILKDFHPNLMIAIGGGGYVPARILRSFLKRTGDPNIPIQAIGLSLYEDLGRGDAEEVPGTKVTRTQWLDMSSLEMANLIGKNILIVDEVDDTRTTLEYAVRELQKDVEIAQKQLGREGEKTNFFVFVLHNKNKEKKGVLPADMMEGGRYHASVTTDDVWICYPWEAKDIDEHDSLAKENPLI</Hsp_hseq>
+      <Hsp_midline>QVHKLCQ SAD+IL  F PNLMIAIGGGGY+PARILRSFLKR G+PNIPIQAIGLSLYEDLGRGDAEEVPGTKVTRTQWLD+SSLEMANLIGKNILIVDEVDDTRTTLEYAVRELQKDVEIAQKQLGREGEKTNFFV+V+HNK+K KKGVLP DMM  GRYHASVTT DVWICYPWEAKDIDEHD LA+ENPL+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>ref|XP_043131083.1|</Hit_id>
+  <Hit_def>hypoxanthine-guanine phosphoribosyltransferase [Aspergillus viridinutans] &gt;dbj|GIK07897.1| hypoxanthine-guanine phosphoribosyltransferase [Aspergillus viridinutans]</Hit_def>
+  <Hit_accession>XP_043131083</Hit_accession>
+  <Hit_len>204</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>367.466</Hsp_bit-score>
+      <Hsp_score>942</Hsp_score>
+      <Hsp_evalue>6.97071e-127</Hsp_evalue>
+      <Hsp_query-from>29</Hsp_query-from>
+      <Hsp_query-to>222</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>204</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>175</Hsp_identity>
+      <Hsp_positive>184</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>194</Hsp_align-len>
+      <Hsp_qseq>QVHKLCQASADKILDTFQPNLMIAIGGGGYIPARILRSFLKRPGEPNIPIQAIGLSLYEDLGRGDAEEVPGTKVTRTQWLDLSSLEMANLIGKNILIVDEVDDTRTTLEYAVRELQKDVEIAQKQLGREGEKTNFFVYVVHNKDKPKKGVLPEDMMTSGRYHASVTTADVWICYPWEAKDIDEHDRLAEENPLV</Hsp_qseq>
+      <Hsp_hseq>QVHKLCQTSAEKILDTFRPNLMIAIGGGGYVPARILRSFLKRAGEPNIPIQAIGLSLYEDLGRGDPEEVPGTKVTRTQWLDLSSLEMANLIGKNILIVDEVDDTRTTLEYAVRELQKDVEIAQKQLGREAEKTNFFVFVLHNKNKLKKGELPADMIESGRYHAAVTTEDVWICYPWEAKDIEEHDRLAMENPLV</Hsp_hseq>
+      <Hsp_midline>QVHKLCQ SA+KILDTF+PNLMIAIGGGGY+PARILRSFLKR GEPNIPIQAIGLSLYEDLGRGD EEVPGTKVTRTQWLDLSSLEMANLIGKNILIVDEVDDTRTTLEYAVRELQKDVEIAQKQLGRE EKTNFFV+V+HNK+K KKG LP DM+ SGRYHA+VTT DVWICYPWEAKDI+EHDRLA ENPLV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>ref|XP_024688511.1|</Hit_id>
+  <Hit_def>xanthine phosphoribosyltransferase 1 [Aspergillus campestris IBT 28561] &gt;gb|PKX99916.1| xanthine phosphoribosyltransferase 1 [Aspergillus campestris IBT 28561]</Hit_def>
+  <Hit_accession>XP_024688511</Hit_accession>
+  <Hit_len>204</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>367.466</Hsp_bit-score>
+      <Hsp_score>942</Hsp_score>
+      <Hsp_evalue>7.12528e-127</Hsp_evalue>
+      <Hsp_query-from>29</Hsp_query-from>
+      <Hsp_query-to>222</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>204</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>171</Hsp_identity>
+      <Hsp_positive>186</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>194</Hsp_align-len>
+      <Hsp_qseq>QVHKLCQASADKILDTFQPNLMIAIGGGGYIPARILRSFLKRPGEPNIPIQAIGLSLYEDLGRGDAEEVPGTKVTRTQWLDLSSLEMANLIGKNILIVDEVDDTRTTLEYAVRELQKDVEIAQKQLGREGEKTNFFVYVVHNKDKPKKGVLPEDMMTSGRYHASVTTADVWICYPWEAKDIDEHDRLAEENPLV</Hsp_qseq>
+      <Hsp_hseq>QVHQLCQTSANQILNAFHPNLMIAIGGGGYVPARILRSFLKRQGDPNIPIQAIGLSLYEDLGRGDAEEVPGTKVTRTQWLDLSSLEMANLIGKNILIVDEVDDTRTTLEYAVRELEKDVELAQKQLGREGEKTNFFVFVLHNKNKPKKGSLPTDMMETGRYHASVTTDDVWICYPWEAKDIEEHDRLAKENPLI</Hsp_hseq>
+      <Hsp_midline>QVH+LCQ SA++IL+ F PNLMIAIGGGGY+PARILRSFLKR G+PNIPIQAIGLSLYEDLGRGDAEEVPGTKVTRTQWLDLSSLEMANLIGKNILIVDEVDDTRTTLEYAVREL+KDVE+AQKQLGREGEKTNFFV+V+HNK+KPKKG LP DMM +GRYHASVTT DVWICYPWEAKDI+EHDRLA+ENPL+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>emb|CAG8220322.1|</Hit_id>
+  <Hit_def>unnamed protein product [Penicillium salamii] &gt;emb|CAG8240396.1| unnamed protein product [Penicillium salamii] &gt;emb|CAG8262094.1| unnamed protein product [Penicillium salamii] &gt;emb|CAG8265965.1| unnamed protein product [Penicillium salamii] &gt;emb|CAG8277095.1| unnamed protein product [Penicillium salamii]</Hit_def>
+  <Hit_accession>CAG8220322</Hit_accession>
+  <Hit_len>204</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>367.081</Hsp_bit-score>
+      <Hsp_score>941</Hsp_score>
+      <Hsp_evalue>8.30753e-127</Hsp_evalue>
+      <Hsp_query-from>29</Hsp_query-from>
+      <Hsp_query-to>222</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>204</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>173</Hsp_identity>
+      <Hsp_positive>182</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>194</Hsp_align-len>
+      <Hsp_qseq>QVHKLCQASADKILDTFQPNLMIAIGGGGYIPARILRSFLKRPGEPNIPIQAIGLSLYEDLGRGDAEEVPGTKVTRTQWLDLSSLEMANLIGKNILIVDEVDDTRTTLEYAVRELQKDVEIAQKQLGREGEKTNFFVYVVHNKDKPKKGVLPEDMMTSGRYHASVTTADVWICYPWEAKDIDEHDRLAEENPLV</Hsp_qseq>
+      <Hsp_hseq>QVHKLCQTSAEHILKDFHPNLMIAIGGGGYVPARILRSFLKRSGDPNIPIQAIGLSLYEDLGRGDAEEVPGTKVTRTQWLDMSSLEMANLIGKNILIVDEVDDTRTTLEYAVRELQKDVEIAQKQLGREGEKTNFFVFVLHNKDKGKKGVLPADMMEGGRYHASVTTGDVWICYPWEAKDIDEHDALAKENPII</Hsp_hseq>
+      <Hsp_midline>QVHKLCQ SA+ IL  F PNLMIAIGGGGY+PARILRSFLKR G+PNIPIQAIGLSLYEDLGRGDAEEVPGTKVTRTQWLD+SSLEMANLIGKNILIVDEVDDTRTTLEYAVRELQKDVEIAQKQLGREGEKTNFFV+V+HNKDK KKGVLP DMM  GRYHASVTT DVWICYPWEAKDIDEHD LA+ENP++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gb|KAF7171416.1|</Hit_id>
+  <Hit_def>hypothetical protein CNMCM5623_003785 [Aspergillus felis] &gt;gb|KAF7183577.1| hypothetical protein CNMCM7691_003856 [Aspergillus felis]</Hit_def>
+  <Hit_accession>KAF7171416</Hit_accession>
+  <Hit_len>204</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>367.081</Hsp_bit-score>
+      <Hsp_score>941</Hsp_score>
+      <Hsp_evalue>8.68002e-127</Hsp_evalue>
+      <Hsp_query-from>29</Hsp_query-from>
+      <Hsp_query-to>222</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>204</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>175</Hsp_identity>
+      <Hsp_positive>183</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>194</Hsp_align-len>
+      <Hsp_qseq>QVHKLCQASADKILDTFQPNLMIAIGGGGYIPARILRSFLKRPGEPNIPIQAIGLSLYEDLGRGDAEEVPGTKVTRTQWLDLSSLEMANLIGKNILIVDEVDDTRTTLEYAVRELQKDVEIAQKQLGREGEKTNFFVYVVHNKDKPKKGVLPEDMMTSGRYHASVTTADVWICYPWEAKDIDEHDRLAEENPLV</Hsp_qseq>
+      <Hsp_hseq>QVHKLCQISAEKILDTFRPNLMIAIGGGGYVPARILRSFLKRAGEPNIPIQAIGLSLYEDLGRGDPEEVPGTKVTRTQWLDLSSLEMANLIGKNILIVDEVDDTRTTLEYAVRELQKDVEIAQKQLGREAEKTNFFVFVLHNKDKLKKGELPADMMESGRYHAAVTAEDVWICYPWEAKDIEEHDRLAMENPIV</Hsp_hseq>
+      <Hsp_midline>QVHKLCQ SA+KILDTF+PNLMIAIGGGGY+PARILRSFLKR GEPNIPIQAIGLSLYEDLGRGD EEVPGTKVTRTQWLDLSSLEMANLIGKNILIVDEVDDTRTTLEYAVRELQKDVEIAQKQLGRE EKTNFFV+V+HNKDK KKG LP DMM SGRYHA+VT  DVWICYPWEAKDI+EHDRLA ENP+V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gb|OQD68537.1|</Hit_id>
+  <Hit_def>hypothetical protein PENDEC_c034G01607 [Penicillium decumbens]</Hit_def>
+  <Hit_accession>OQD68537</Hit_accession>
+  <Hit_len>204</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>367.081</Hsp_bit-score>
+      <Hsp_score>941</Hsp_score>
+      <Hsp_evalue>9.2703e-127</Hsp_evalue>
+      <Hsp_query-from>29</Hsp_query-from>
+      <Hsp_query-to>222</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>204</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>175</Hsp_identity>
+      <Hsp_positive>182</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>194</Hsp_align-len>
+      <Hsp_qseq>QVHKLCQASADKILDTFQPNLMIAIGGGGYIPARILRSFLKRPGEPNIPIQAIGLSLYEDLGRGDAEEVPGTKVTRTQWLDLSSLEMANLIGKNILIVDEVDDTRTTLEYAVRELQKDVEIAQKQLGREGEKTNFFVYVVHNKDKPKKGVLPEDMMTSGRYHASVTTADVWICYPWEAKDIDEHDRLAEENPLV</Hsp_qseq>
+      <Hsp_hseq>QVHKLCQQSADAILKEFHPNLMIAIGGGGYVPARILRSFLKRPGEPNIPIQAIGLSLYEDLGRDDPEEVPGTKVTRTQWLDLSSLEMANLIGKNILIVDEVDDTRTTLEYAVRELEKDVELARKQLGRESEKTNFFVYVLHNKNKSKKGVLPADMMESGRYHASVTTEDVWICYPWEAKDIDEHDRLAKENPLV</Hsp_hseq>
+      <Hsp_midline>QVHKLCQ SAD IL  F PNLMIAIGGGGY+PARILRSFLKRPGEPNIPIQAIGLSLYEDLGR D EEVPGTKVTRTQWLDLSSLEMANLIGKNILIVDEVDDTRTTLEYAVREL+KDVE+A+KQLGRE EKTNFFVYV+HNK+K KKGVLP DMM SGRYHASVTT DVWICYPWEAKDIDEHDRLA+ENPLV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>ref|XP_041562542.1|</Hit_id>
+  <Hit_def>hypoxanthine-guanine phosphoribosyltransferase [Aspergillus puulaauensis] &gt;dbj|BCS30356.1| hypoxanthine-guanine phosphoribosyltransferase [Aspergillus puulaauensis]</Hit_def>
+  <Hit_accession>XP_041562542</Hit_accession>
+  <Hit_len>204</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>367.081</Hsp_bit-score>
+      <Hsp_score>941</Hsp_score>
+      <Hsp_evalue>9.68595e-127</Hsp_evalue>
+      <Hsp_query-from>29</Hsp_query-from>
+      <Hsp_query-to>222</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>204</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>173</Hsp_identity>
+      <Hsp_positive>183</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>194</Hsp_align-len>
+      <Hsp_qseq>QVHKLCQASADKILDTFQPNLMIAIGGGGYIPARILRSFLKRPGEPNIPIQAIGLSLYEDLGRGDAEEVPGTKVTRTQWLDLSSLEMANLIGKNILIVDEVDDTRTTLEYAVRELQKDVEIAQKQLGREGEKTNFFVYVVHNKDKPKKGVLPEDMMTSGRYHASVTTADVWICYPWEAKDIDEHDRLAEENPLV</Hsp_qseq>
+      <Hsp_hseq>QVHKLCQSSADQILNAFHPNLMIAIGGGGYVPARILRSFLKRSGEPNIPIQAIGLSLYEDLGRGDPEEVPGTKVTRTQWLDMSSLEMANLIGKNILIVDEVDDTRTTLEYAVRELQKDVEIAQKQLGREGEKTNFFVFVLHNKDKSKKGQLPTDMMESGRYHAAVTTEDVWICYPWEAKDIEEHDALAKANPLV</Hsp_hseq>
+      <Hsp_midline>QVHKLCQ+SAD+IL+ F PNLMIAIGGGGY+PARILRSFLKR GEPNIPIQAIGLSLYEDLGRGD EEVPGTKVTRTQWLD+SSLEMANLIGKNILIVDEVDDTRTTLEYAVRELQKDVEIAQKQLGREGEKTNFFV+V+HNKDK KKG LP DMM SGRYHA+VTT DVWICYPWEAKDI+EHD LA+ NPLV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>emb|CAG8948397.1|</Hit_id>
+  <Hit_def>unnamed protein product [Penicillium salamii]</Hit_def>
+  <Hit_accession>CAG8948397</Hit_accession>
+  <Hit_len>204</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>366.696</Hsp_bit-score>
+      <Hsp_score>940</Hsp_score>
+      <Hsp_evalue>1.14176e-126</Hsp_evalue>
+      <Hsp_query-from>29</Hsp_query-from>
+      <Hsp_query-to>222</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>204</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>173</Hsp_identity>
+      <Hsp_positive>181</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>194</Hsp_align-len>
+      <Hsp_qseq>QVHKLCQASADKILDTFQPNLMIAIGGGGYIPARILRSFLKRPGEPNIPIQAIGLSLYEDLGRGDAEEVPGTKVTRTQWLDLSSLEMANLIGKNILIVDEVDDTRTTLEYAVRELQKDVEIAQKQLGREGEKTNFFVYVVHNKDKPKKGVLPEDMMTSGRYHASVTTADVWICYPWEAKDIDEHDRLAEENPLV</Hsp_qseq>
+      <Hsp_hseq>QVHKLCQTSAEHILKDFHPNLMIAIGGGGYVPARILRSFLKRSGEANIPIQAIGLSLYEDLGRGDAEEVPGTKVTRTQWLDMSSLEMANLIGKNILIVDEVDDTRTTLEYAVRELQKDVEIAQKQLGREGEKTNFFVFVLHNKDKGKKGVLPADMMEGGRYHASVTTGDVWICYPWEAKDIDEHDALAKENPII</Hsp_hseq>
+      <Hsp_midline>QVHKLCQ SA+ IL  F PNLMIAIGGGGY+PARILRSFLKR GE NIPIQAIGLSLYEDLGRGDAEEVPGTKVTRTQWLD+SSLEMANLIGKNILIVDEVDDTRTTLEYAVRELQKDVEIAQKQLGREGEKTNFFV+V+HNKDK KKGVLP DMM  GRYHASVTT DVWICYPWEAKDIDEHD LA+ENP++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>dbj|GES60517.1|</Hit_id>
+  <Hit_def>hypothetical protein ATETN484_0004084900 [Aspergillus terreus] &gt;dbj|GFF13917.1| xanthine phosphoribosyltransferase 1 [Aspergillus terreus]</Hit_def>
+  <Hit_accession>GES60517</Hit_accession>
+  <Hit_len>204</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>366.696</Hsp_bit-score>
+      <Hsp_score>940</Hsp_score>
+      <Hsp_evalue>1.27408e-126</Hsp_evalue>
+      <Hsp_query-from>29</Hsp_query-from>
+      <Hsp_query-to>222</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>204</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>172</Hsp_identity>
+      <Hsp_positive>183</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>194</Hsp_align-len>
+      <Hsp_qseq>QVHKLCQASADKILDTFQPNLMIAIGGGGYIPARILRSFLKRPGEPNIPIQAIGLSLYEDLGRGDAEEVPGTKVTRTQWLDLSSLEMANLIGKNILIVDEVDDTRTTLEYAVRELQKDVEIAQKQLGREGEKTNFFVYVVHNKDKPKKGVLPEDMMTSGRYHASVTTADVWICYPWEAKDIDEHDRLAEENPLV</Hsp_qseq>
+      <Hsp_hseq>QVHKLCQTSAESILNAFHPNLMIAIGGGGYVPARILRSFLKRSGEPNIPIQAIGLSLYEDLGRGDPEEVPGTKVTRTQWLDLSSLEMANLIGKNILIVDEVDDTRTTLEYAVRELQKDVELAQKQLGREGEKTNFFVFVLHNKNKPKKGVLPADMMESGHYHAALTTDDVWICYPWEAKDIDEHDRLSSENPLI</Hsp_hseq>
+      <Hsp_midline>QVHKLCQ SA+ IL+ F PNLMIAIGGGGY+PARILRSFLKR GEPNIPIQAIGLSLYEDLGRGD EEVPGTKVTRTQWLDLSSLEMANLIGKNILIVDEVDDTRTTLEYAVRELQKDVE+AQKQLGREGEKTNFFV+V+HNK+KPKKGVLP DMM SG YHA++TT DVWICYPWEAKDIDEHDRL+ ENPL+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>ref|XP_040672622.1|</Hit_id>
+  <Hit_def>uncharacterized protein ASPVEDRAFT_65423 [Aspergillus versicolor CBS 583.65] &gt;gb|OJJ06860.1| hypothetical protein ASPVEDRAFT_65423 [Aspergillus versicolor CBS 583.65]</Hit_def>
+  <Hit_accession>XP_040672622</Hit_accession>
+  <Hit_len>204</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>366.696</Hsp_bit-score>
+      <Hsp_score>940</Hsp_score>
+      <Hsp_evalue>1.28813e-126</Hsp_evalue>
+      <Hsp_query-from>29</Hsp_query-from>
+      <Hsp_query-to>222</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>204</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>173</Hsp_identity>
+      <Hsp_positive>182</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>194</Hsp_align-len>
+      <Hsp_qseq>QVHKLCQASADKILDTFQPNLMIAIGGGGYIPARILRSFLKRPGEPNIPIQAIGLSLYEDLGRGDAEEVPGTKVTRTQWLDLSSLEMANLIGKNILIVDEVDDTRTTLEYAVRELQKDVEIAQKQLGREGEKTNFFVYVVHNKDKPKKGVLPEDMMTSGRYHASVTTADVWICYPWEAKDIDEHDRLAEENPLV</Hsp_qseq>
+      <Hsp_hseq>QVHKLCQSSADQILTAFHPNLMIAIGGGGYVPARILRSFLKRSGEPNIPIQAIGLSLYEDLGRGDPEEVPGTKVTRTQWLDMSSLEMANLIGKNILIVDEVDDTRTTLEYAVRELQKDVEIAQKQLGREGEKTNFFVFVLHNKDKSKKGQLPTDMMESGRYHAAVTTGDVWICYPWEAKDIEEHDALAKANPLV</Hsp_hseq>
+      <Hsp_midline>QVHKLCQ+SAD+IL  F PNLMIAIGGGGY+PARILRSFLKR GEPNIPIQAIGLSLYEDLGRGD EEVPGTKVTRTQWLD+SSLEMANLIGKNILIVDEVDDTRTTLEYAVRELQKDVEIAQKQLGREGEKTNFFV+V+HNKDK KKG LP DMM SGRYHA+VTT DVWICYPWEAKDI+EHD LA+ NPLV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>ref|XP_040699579.1|</Hit_id>
+  <Hit_def>uncharacterized protein ASPSYDRAFT_429883 [Aspergillus sydowii CBS 593.65] &gt;gb|OJJ55773.1| hypothetical protein ASPSYDRAFT_429883 [Aspergillus sydowii CBS 593.65]</Hit_def>
+  <Hit_accession>XP_040699579</Hit_accession>
+  <Hit_len>204</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>366.696</Hsp_bit-score>
+      <Hsp_score>940</Hsp_score>
+      <Hsp_evalue>1.37572e-126</Hsp_evalue>
+      <Hsp_query-from>29</Hsp_query-from>
+      <Hsp_query-to>222</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>204</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>173</Hsp_identity>
+      <Hsp_positive>184</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>194</Hsp_align-len>
+      <Hsp_qseq>QVHKLCQASADKILDTFQPNLMIAIGGGGYIPARILRSFLKRPGEPNIPIQAIGLSLYEDLGRGDAEEVPGTKVTRTQWLDLSSLEMANLIGKNILIVDEVDDTRTTLEYAVRELQKDVEIAQKQLGREGEKTNFFVYVVHNKDKPKKGVLPEDMMTSGRYHASVTTADVWICYPWEAKDIDEHDRLAEENPLV</Hsp_qseq>
+      <Hsp_hseq>QVHKLCQSSADQILNAFHPNLMIAIGGGGYVPARILRSFLKRSGEPNIPIQAIGLSLYEDLGRGDPEEVPGTKVTRTQWLDMSSLEMANLIGKNILIVDEVDDTRTTLEYAVRELQKDVEIAQKQLGREGEKTNFFVFVLHNKDKSKKGQLPKDMMESGRYHAAVTTEDVWICYPWEAKDIEEHDALAKANPLV</Hsp_hseq>
+      <Hsp_midline>QVHKLCQ+SAD+IL+ F PNLMIAIGGGGY+PARILRSFLKR GEPNIPIQAIGLSLYEDLGRGD EEVPGTKVTRTQWLD+SSLEMANLIGKNILIVDEVDDTRTTLEYAVRELQKDVEIAQKQLGREGEKTNFFV+V+HNKDK KKG LP+DMM SGRYHA+VTT DVWICYPWEAKDI+EHD LA+ NPLV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>ref|XP_026600079.1|</Hit_id>
+  <Hit_def>Uncharacterized protein DSM5745_08977 [Aspergillus mulundensis] &gt;gb|RDW67111.1| Uncharacterized protein DSM5745_08977 [Aspergillus mulundensis]</Hit_def>
+  <Hit_accession>XP_026600079</Hit_accession>
+  <Hit_len>204</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>365.925</Hsp_bit-score>
+      <Hsp_score>938</Hsp_score>
+      <Hsp_evalue>2.3033e-126</Hsp_evalue>
+      <Hsp_query-from>29</Hsp_query-from>
+      <Hsp_query-to>222</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>204</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>173</Hsp_identity>
+      <Hsp_positive>184</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>194</Hsp_align-len>
+      <Hsp_qseq>QVHKLCQASADKILDTFQPNLMIAIGGGGYIPARILRSFLKRPGEPNIPIQAIGLSLYEDLGRGDAEEVPGTKVTRTQWLDLSSLEMANLIGKNILIVDEVDDTRTTLEYAVRELQKDVEIAQKQLGREGEKTNFFVYVVHNKDKPKKGVLPEDMMTSGRYHASVTTADVWICYPWEAKDIDEHDRLAEENPLV</Hsp_qseq>
+      <Hsp_hseq>QVHKLCQSSADQILNTFHPNLMIAIGGGGYVPARILRSFLKRTGDPNIPIQAIGLSLYEDLGRGDPEEVPGTKVTRTQWLDLSSLEMANLIGKNILIVDEVDDTRTTLEYAVRELQKDVELAQKQLGREGEKTNFFVFVLHNKDKSKKGQLPADMMESGRYHAAVTTEDVWICYPWEAKDIDEHDALAKANPLL</Hsp_hseq>
+      <Hsp_midline>QVHKLCQ+SAD+IL+TF PNLMIAIGGGGY+PARILRSFLKR G+PNIPIQAIGLSLYEDLGRGD EEVPGTKVTRTQWLDLSSLEMANLIGKNILIVDEVDDTRTTLEYAVRELQKDVE+AQKQLGREGEKTNFFV+V+HNKDK KKG LP DMM SGRYHA+VTT DVWICYPWEAKDIDEHD LA+ NPL+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>519165233</Statistics_db-num>
+      <Statistics_db-len>1451323950</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>

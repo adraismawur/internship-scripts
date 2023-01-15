@@ -1,0 +1,1442 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.13.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_43239</BlastOutput_query-ID>
+  <BlastOutput_query-def>unnamed protein product</BlastOutput_query-def>
+  <BlastOutput_query-len>161</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_43239</Iteration_query-ID>
+  <Iteration_query-def>unnamed protein product</Iteration_query-def>
+  <Iteration_query-len>161</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>dbj|GAQ46783.1|</Hit_id>
+  <Hit_def>DNA-directed RNA polymerase II subunit RPB11a [Aspergillus niger]</Hit_def>
+  <Hit_accession>GAQ46783</Hit_accession>
+  <Hit_len>161</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>336.265</Hsp_bit-score>
+      <Hsp_score>861</Hsp_score>
+      <Hsp_evalue>2.46112e-116</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>161</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>161</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>159</Hsp_identity>
+      <Hsp_positive>161</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>161</Hsp_align-len>
+      <Hsp_qseq>MESIMPAEMVYARLKNGSGGSRVRCQSTVNVSHDQQPRYESFVLANGENKVEMEIDTRIPSSAIFTFNKEDHTLGNLIRSRLLQSSHVLFAAYKVPHPLVPNFQLRVQTDGDITPKDAVIAACHELVRDLGILSREFTKEYELRKMVGATAQQQNGVQDGV</Hsp_qseq>
+      <Hsp_hseq>MESIMPAEMVYARLKNGSGGSRVRCQSTINVSHDQQPRYESFVLANGENKVEMEIDTRIPSSAIFTFNKEDHTLGNLIRSRLLQSSHVLFAAYKVPHPLVPNFQLRVQTDGDVTPKDAVIAACHELVRDLGILSREFTKEYELRKMVGATAQQQNGVQDGV</Hsp_hseq>
+      <Hsp_midline>MESIMPAEMVYARLKNGSGGSRVRCQST+NVSHDQQPRYESFVLANGENKVEMEIDTRIPSSAIFTFNKEDHTLGNLIRSRLLQSSHVLFAAYKVPHPLVPNFQLRVQTDGD+TPKDAVIAACHELVRDLGILSREFTKEYELRKMVGATAQQQNGVQDGV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>ref|XP_025538754.1|</Hit_id>
+  <Hit_def>DNA-directed RNA polymerase II subunit RPB11a [Aspergillus costaricaensis CBS 115574] &gt;gb|RAK87919.1| DNA-directed RNA polymerase II subunit RPB11a [Aspergillus costaricaensis CBS 115574] &gt;dbj|GAA89608.1| DNA-directed RNA polymerase II subunit RPB11a [Aspergillus luchuensis IFO 4308]</Hit_def>
+  <Hit_accession>XP_025538754</Hit_accession>
+  <Hit_len>161</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>335.109</Hsp_bit-score>
+      <Hsp_score>858</Hsp_score>
+      <Hsp_evalue>7.53954e-116</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>161</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>161</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>158</Hsp_identity>
+      <Hsp_positive>161</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>161</Hsp_align-len>
+      <Hsp_qseq>MESIMPAEMVYARLKNGSGGSRVRCQSTVNVSHDQQPRYESFVLANGENKVEMEIDTRIPSSAIFTFNKEDHTLGNLIRSRLLQSSHVLFAAYKVPHPLVPNFQLRVQTDGDITPKDAVIAACHELVRDLGILSREFTKEYELRKMVGATAQQQNGVQDGV</Hsp_qseq>
+      <Hsp_hseq>MESIMPAEMVYARLKNGSGGSRVRCQSTINVSHDQQPRYESFVLANGENKVEMEIDTRIPSSAIFTFNKEDHTLGNLIRSRLLQSSHVLFAAYKVPHPLVPNFQLRVQTDGDVSPKDAVIAACHELVRDLGILSREFTKEYELRKMVGATAQQQNGVQDGV</Hsp_hseq>
+      <Hsp_midline>MESIMPAEMVYARLKNGSGGSRVRCQST+NVSHDQQPRYESFVLANGENKVEMEIDTRIPSSAIFTFNKEDHTLGNLIRSRLLQSSHVLFAAYKVPHPLVPNFQLRVQTDGD++PKDAVIAACHELVRDLGILSREFTKEYELRKMVGATAQQQNGVQDGV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>ref|XP_026621451.1|</Hit_id>
+  <Hit_def>DNA-directed RNA polymerase [Aspergillus welwitschiae] &gt;gb|KAI2820741.1| hypothetical protein CBS115989_3344 [Aspergillus niger] &gt;dbj|GCB27109.1| DNA-directed RNA polymerase II subunit RPB11 [Aspergillus awamori] &gt;gb|KAI2829948.1| hypothetical protein CBS133816_4098 [Aspergillus niger] &gt;gb|KAI2842046.1| hypothetical protein CBS12448_10302 [Aspergillus niger] &gt;gb|KAI2847397.1| hypothetical protein CBS11232_7113 [Aspergillus niger]</Hit_def>
+  <Hit_accession>XP_026621451</Hit_accession>
+  <Hit_len>157</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>329.717</Hsp_bit-score>
+      <Hsp_score>844</Hsp_score>
+      <Hsp_evalue>9.25875e-114</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>161</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>157</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>157</Hsp_identity>
+      <Hsp_positive>157</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>157</Hsp_align-len>
+      <Hsp_qseq>MPAEMVYARLKNGSGGSRVRCQSTVNVSHDQQPRYESFVLANGENKVEMEIDTRIPSSAIFTFNKEDHTLGNLIRSRLLQSSHVLFAAYKVPHPLVPNFQLRVQTDGDITPKDAVIAACHELVRDLGILSREFTKEYELRKMVGATAQQQNGVQDGV</Hsp_qseq>
+      <Hsp_hseq>MPAEMVYARLKNGSGGSRVRCQSTVNVSHDQQPRYESFVLANGENKVEMEIDTRIPSSAIFTFNKEDHTLGNLIRSRLLQSSHVLFAAYKVPHPLVPNFQLRVQTDGDITPKDAVIAACHELVRDLGILSREFTKEYELRKMVGATAQQQNGVQDGV</Hsp_hseq>
+      <Hsp_midline>MPAEMVYARLKNGSGGSRVRCQSTVNVSHDQQPRYESFVLANGENKVEMEIDTRIPSSAIFTFNKEDHTLGNLIRSRLLQSSHVLFAAYKVPHPLVPNFQLRVQTDGDITPKDAVIAACHELVRDLGILSREFTKEYELRKMVGATAQQQNGVQDGV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gb|OJI87641.1|</Hit_id>
+  <Hit_def>hypothetical protein ASPTUDRAFT_197076 [Aspergillus tubingensis CBS 134.48]</Hit_def>
+  <Hit_accession>OJI87641</Hit_accession>
+  <Hit_len>157</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>328.561</Hsp_bit-score>
+      <Hsp_score>841</Hsp_score>
+      <Hsp_evalue>2.56955e-113</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>161</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>157</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>155</Hsp_identity>
+      <Hsp_positive>157</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>157</Hsp_align-len>
+      <Hsp_qseq>MPAEMVYARLKNGSGGSRVRCQSTVNVSHDQQPRYESFVLANGENKVEMEIDTRIPSSAIFTFNKEDHTLGNLIRSRLLQSSHVLFAAYKVPHPLVPNFQLRVQTDGDITPKDAVIAACHELVRDLGILSREFTKEYELRKMVGATAQQQNGVQDGV</Hsp_qseq>
+      <Hsp_hseq>MPAEMVYARLKNGSGGSRVRCQSTINVSHDQQPRYESFVLANGENKVEMEIDTRIPSSAIFTFNKEDHTLGNLIRSRLLQSSHVLFAAYKVPHPLVPNFQLRVQTDGDVTPKDAVIAACHELVRDLGILSREFTKEYELRKMVGATAQQQNGVQDGV</Hsp_hseq>
+      <Hsp_midline>MPAEMVYARLKNGSGGSRVRCQST+NVSHDQQPRYESFVLANGENKVEMEIDTRIPSSAIFTFNKEDHTLGNLIRSRLLQSSHVLFAAYKVPHPLVPNFQLRVQTDGD+TPKDAVIAACHELVRDLGILSREFTKEYELRKMVGATAQQQNGVQDGV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>ref|XP_025580597.1|</Hit_id>
+  <Hit_def>DNA-directed RNA polymerase II subunit RPB11a [Aspergillus ibericus CBS 121593] &gt;gb|RAL06270.1| DNA-directed RNA polymerase II subunit RPB11a [Aspergillus ibericus CBS 121593]</Hit_def>
+  <Hit_accession>XP_025580597</Hit_accession>
+  <Hit_len>165</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>317.39</Hsp_bit-score>
+      <Hsp_score>812</Hsp_score>
+      <Hsp_evalue>9.29202e-109</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>161</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>165</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>150</Hsp_identity>
+      <Hsp_positive>154</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>160</Hsp_align-len>
+      <Hsp_qseq>ESIMPAEMVYARLKNGSGGSRVRCQSTVNVSHDQQPRYESFVLANGENKVEMEIDTRIPSSAIFTFNKEDHTLGNLIRSRLLQSSHVLFAAYKVPHPLVPNFQLRVQTDGDITPKDAVIAACHELVRDLGILSREFTKEYELRKMVGATAQQQNGVQDGV</Hsp_qseq>
+      <Hsp_hseq>EYIMPAELVYARWKNGSGGSRGGCQSTINVSHDQQPRYESFVLANGENKVEMEIDTRIPSSAIFTFNKEDHTLGNLIRARLLQSSHVLFAAYKVPHPLVPKFLLRVQTDGDITPKDAVIAACHELVRDLGILSREFTKEYELRKMVGATAQQQNGVQDGI</Hsp_hseq>
+      <Hsp_midline>E IMPAE+VYAR KNGSGGSR  CQST+NVSHDQQPRYESFVLANGENKVEMEIDTRIPSSAIFTFNKEDHTLGNLIR+RLLQSSHVLFAAYKVPHPLVP F LRVQTDGDITPKDAVIAACHELVRDLGILSREFTKEYELRKMVGATAQQQNGVQDG+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gb|OOF93760.1|</Hit_id>
+  <Hit_def>hypothetical protein ASPCADRAFT_7247 [Aspergillus carbonarius ITEM 5010]</Hit_def>
+  <Hit_accession>OOF93760</Hit_accession>
+  <Hit_len>165</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>311.997</Hsp_bit-score>
+      <Hsp_score>798</Hsp_score>
+      <Hsp_evalue>1.22683e-106</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>161</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>165</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>150</Hsp_identity>
+      <Hsp_positive>152</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>160</Hsp_align-len>
+      <Hsp_qseq>ESIMPAEMVYARLKNGSGGSRVRCQSTVNVSHDQQPRYESFVLANGENKVEMEIDTRIPSSAIFTFNKEDHTLGNLIRSRLLQSSHVLFAAYKVPHPLVPNFQLRVQTDGDITPKDAVIAACHELVRDLGILSREFTKEYELRKMVGATAQQQNGVQDGV</Hsp_qseq>
+      <Hsp_hseq>EYIMPAEMVYARWKNSSGGSRGGCQSTVNVSHDQQLRYESFVLANGENKVEMEIDTRIPSSAIFTFNKEDHTLGNLIRARLLQSSHVLFAAYKVPHPLVPKFLLRVQTDGDITPKEAVIAACHELVRDLGILSREFTKEYELRKMVGATAQQQNGVQDGV</Hsp_hseq>
+      <Hsp_midline>E IMPAEMVYAR KN SGGSR  CQSTVNVSHDQQ RYESFVLANGENKVEMEIDTRIPSSAIFTFNKEDHTLGNLIR+RLLQSSHVLFAAYKVPHPLVP F LRVQTDGDITPK+AVIAACHELVRDLGILSREFTKEYELRKMVGATAQQQNGVQDGV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>ref|XP_025394284.1|</Hit_id>
+  <Hit_def>putative DNA-directed RNA polymerase II subunit RPB11a [Aspergillus heteromorphus CBS 117.55] &gt;gb|PWY64482.1| putative DNA-directed RNA polymerase II subunit RPB11a [Aspergillus heteromorphus CBS 117.55]</Hit_def>
+  <Hit_accession>XP_025394284</Hit_accession>
+  <Hit_len>166</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>304.679</Hsp_bit-score>
+      <Hsp_score>779</Hsp_score>
+      <Hsp_evalue>1.1187e-103</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>161</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>166</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>144</Hsp_identity>
+      <Hsp_positive>152</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>161</Hsp_align-len>
+      <Hsp_qseq>ESIMPAEMVYARLKNGSGGS-RVRCQSTVNVSHDQQPRYESFVLANGENKVEMEIDTRIPSSAIFTFNKEDHTLGNLIRSRLLQSSHVLFAAYKVPHPLVPNFQLRVQTDGDITPKDAVIAACHELVRDLGILSREFTKEYELRKMVGATAQQQNGVQDGV</Hsp_qseq>
+      <Hsp_hseq>EYIMPKEMAYARWRNGSGGTPRIGCQSTINVSHDQQPRYESFVLASGENKVEMEIDTRIPSSAIFTFNKEDHTLGNLIRSRLLQSSHVLFAAYKVPHPLVPKFLLRVQTDGDVTPKEAVITACHELVRDLGILSREFTKEYELRKMVGATSQQQNGVQDGV</Hsp_hseq>
+      <Hsp_midline>E IMP EM YAR +NGSGG+ R+ CQST+NVSHDQQPRYESFVLA+GENKVEMEIDTRIPSSAIFTFNKEDHTLGNLIRSRLLQSSHVLFAAYKVPHPLVP F LRVQTDGD+TPK+AVI ACHELVRDLGILSREFTKEYELRKMVGAT+QQQNGVQDGV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gb|THC98705.1|</Hit_id>
+  <Hit_def>hypothetical protein EYZ11_001839 [Aspergillus tanneri]</Hit_def>
+  <Hit_accession>THC98705</Hit_accession>
+  <Hit_len>166</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>286.189</Hsp_bit-score>
+      <Hsp_score>731</Hsp_score>
+      <Hsp_evalue>2.20258e-96</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>160</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>165</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>139</Hsp_identity>
+      <Hsp_positive>146</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>160</Hsp_align-len>
+      <Hsp_qseq>ESIMPAEMVYARLKNGSGGSRVRCQSTVNVSHDQQPRYESFVLANGENKVEMEIDTRIPSSAIFTFNKEDHTLGNLIRSRLLQSSHVLFAAYKVPHPLVPNFQLRVQTDGDITPKDAVIAACHELVRDLGILSREFTKEYELRKMVGAT-AQQQNGVQDG</Hsp_qseq>
+      <Hsp_hseq>EPLLPPEMAYARWKNANGSSRKGCQSTVRVSHDQQPSYESFVLANGENKVEMEIDTRIPSSAIFTFNKEDHTLGNLIRSRLLQSSHVLFAAYKVPHPLVPKFELRVQTDGEVTPKDAVVAACHELVRDLGILSREFTKEYELRKMVGATQQQQQNGAQDG</Hsp_hseq>
+      <Hsp_midline>E ++P EM YAR KN +G SR  CQSTV VSHDQQP YESFVLANGENKVEMEIDTRIPSSAIFTFNKEDHTLGNLIRSRLLQSSHVLFAAYKVPHPLVP F+LRVQTDG++TPKDAV+AACHELVRDLGILSREFTKEYELRKMVGAT  QQQNG QDG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gb|KAE8417773.1|</Hit_id>
+  <Hit_def>putative DNA-directed RNA polymerase II subunit RPB11a [Aspergillus pseudocaelatus]</Hit_def>
+  <Hit_accession>KAE8417773</Hit_accession>
+  <Hit_len>166</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>285.419</Hsp_bit-score>
+      <Hsp_score>729</Hsp_score>
+      <Hsp_evalue>4.59305e-96</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>160</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>165</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>137</Hsp_identity>
+      <Hsp_positive>145</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>160</Hsp_align-len>
+      <Hsp_qseq>ESIMPAEMVYARLKNGSGGS-RVRCQSTVNVSHDQQPRYESFVLANGENKVEMEIDTRIPSSAIFTFNKEDHTLGNLIRSRLLQSSHVLFAAYKVPHPLVPNFQLRVQTDGDITPKDAVIAACHELVRDLGILSREFTKEYELRKMVGATAQQQNGVQDG</Hsp_qseq>
+      <Hsp_hseq>EYILSKEMAYARWINANGSSPRNGCQTTVKVSHDQQPSYESFVLANGENKVEMEIDTRIPSSAIFTFNKEDHTLGNLIRSRLLQSSHVLFAAYKVPHPLVPKFELRVQTDGEITPKEAVIAACHELVRDLGILSREFTKEYELRKMVGATQQQQDGVQEG</Hsp_hseq>
+      <Hsp_midline>E I+  EM YAR  N +G S R  CQ+TV VSHDQQP YESFVLANGENKVEMEIDTRIPSSAIFTFNKEDHTLGNLIRSRLLQSSHVLFAAYKVPHPLVP F+LRVQTDG+ITPK+AVIAACHELVRDLGILSREFTKEYELRKMVGAT QQQ+GVQ+G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>ref|XP_015402040.1|</Hit_id>
+  <Hit_def>putative DNA-directed RNA polymerase II subunit RPB11a [Aspergillus nomiae NRRL 13137] &gt;ref|XP_031935525.1| putative DNA-directed RNA polymerase II subunit RPB11a [Aspergillus pseudonomiae] &gt;gb|KAE8398206.1| putative DNA-directed RNA polymerase II subunit RPB11a [Aspergillus pseudonomiae] &gt;gb|KNG81117.1| putative DNA-directed RNA polymerase II subunit RPB11a [Aspergillus nomiae NRRL 13137]</Hit_def>
+  <Hit_accession>XP_015402040</Hit_accession>
+  <Hit_len>166</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>284.263</Hsp_bit-score>
+      <Hsp_score>726</Hsp_score>
+      <Hsp_evalue>1.11675e-95</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>160</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>165</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>137</Hsp_identity>
+      <Hsp_positive>144</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>160</Hsp_align-len>
+      <Hsp_qseq>ESIMPAEMVYARLKNGSGGS-RVRCQSTVNVSHDQQPRYESFVLANGENKVEMEIDTRIPSSAIFTFNKEDHTLGNLIRSRLLQSSHVLFAAYKVPHPLVPNFQLRVQTDGDITPKDAVIAACHELVRDLGILSREFTKEYELRKMVGATAQQQNGVQDG</Hsp_qseq>
+      <Hsp_hseq>EYILSKEMAYARWINANGSSPRNGCQSTVKVSHDQQPSYESFVLANGENKVEMEIDTRIPSSAIFTFNKEDHTLGNLIRSRLLQSSHVLFAAYKVPHPLVPKFELRVQTDGEITPKEAVISACHELVRDLGILSREFTKEYELRKMVGATQQQQDSVQDG</Hsp_hseq>
+      <Hsp_midline>E I+  EM YAR  N +G S R  CQSTV VSHDQQP YESFVLANGENKVEMEIDTRIPSSAIFTFNKEDHTLGNLIRSRLLQSSHVLFAAYKVPHPLVP F+LRVQTDG+ITPK+AVI+ACHELVRDLGILSREFTKEYELRKMVGAT QQQ+ VQDG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gb|KAE8160584.1|</Hit_id>
+  <Hit_def>DNA-directed RNA polymerase II subunit RPB11a [Aspergillus tamarii]</Hit_def>
+  <Hit_accession>KAE8160584</Hit_accession>
+  <Hit_len>200</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>285.419</Hsp_bit-score>
+      <Hsp_score>729</Hsp_score>
+      <Hsp_evalue>1.50861e-95</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>160</Hsp_query-to>
+      <Hsp_hit-from>41</Hsp_hit-from>
+      <Hsp_hit-to>199</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>136</Hsp_identity>
+      <Hsp_positive>144</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>159</Hsp_align-len>
+      <Hsp_qseq>ESIMPAEMVYARLKNGSGGSRVRCQSTVNVSHDQQPRYESFVLANGENKVEMEIDTRIPSSAIFTFNKEDHTLGNLIRSRLLQSSHVLFAAYKVPHPLVPNFQLRVQTDGDITPKDAVIAACHELVRDLGILSREFTKEYELRKMVGATAQQQNGVQDG</Hsp_qseq>
+      <Hsp_hseq>EYILSKVMAYARWINANGSSRKGCQTTVKVSHDQQPSYESFVLANGENKVEMEIDTRIPSSAIFTFNKEDHTLGNLIRSRLLQSSHVLFAAYKVPHPLVPKFELRVQTDGEITPKEAVIAACHELVRDLGILSREFTKEYELRKMVGATQQQQDGVQEG</Hsp_hseq>
+      <Hsp_midline>E I+   M YAR  N +G SR  CQ+TV VSHDQQP YESFVLANGENKVEMEIDTRIPSSAIFTFNKEDHTLGNLIRSRLLQSSHVLFAAYKVPHPLVP F+LRVQTDG+ITPK+AVIAACHELVRDLGILSREFTKEYELRKMVGAT QQQ+GVQ+G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>ref|XP_033421510.1|</Hit_id>
+  <Hit_def>DNA-directed RNA polymerase II core subunit [Aspergillus tanneri] &gt;gb|KAA8642148.1| DNA-directed RNA polymerase II core subunit [Aspergillus tanneri]</Hit_def>
+  <Hit_accession>XP_033421510</Hit_accession>
+  <Hit_len>154</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>278.1</Hsp_bit-score>
+      <Hsp_score>710</Hsp_score>
+      <Hsp_evalue>1.84368e-93</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>160</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>153</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>136</Hsp_identity>
+      <Hsp_positive>141</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>153</Hsp_align-len>
+      <Hsp_qseq>MVYARLKNGSGGSRVRCQSTVNVSHDQQPRYESFVLANGENKVEMEIDTRIPSSAIFTFNKEDHTLGNLIRSRLLQSSHVLFAAYKVPHPLVPNFQLRVQTDGDITPKDAVIAACHELVRDLGILSREFTKEYELRKMVGAT-AQQQNGVQDG</Hsp_qseq>
+      <Hsp_hseq>MAYARWKNANGSSRKGCQSTVRVSHDQQPSYESFVLANGENKVEMEIDTRIPSSAIFTFNKEDHTLGNLIRSRLLQSSHVLFAAYKVPHPLVPKFELRVQTDGEVTPKDAVVAACHELVRDLGILSREFTKEYELRKMVGATQQQQQNGAQDG</Hsp_hseq>
+      <Hsp_midline>M YAR KN +G SR  CQSTV VSHDQQP YESFVLANGENKVEMEIDTRIPSSAIFTFNKEDHTLGNLIRSRLLQSSHVLFAAYKVPHPLVP F+LRVQTDG++TPKDAV+AACHELVRDLGILSREFTKEYELRKMVGAT  QQQNG QDG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gb|KAI9042232.1|</Hit_id>
+  <Hit_def>DNA-directed RNA polymerase II subunit RPB11a [Aspergillus affinis]</Hit_def>
+  <Hit_accession>KAI9042232</Hit_accession>
+  <Hit_len>172</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>277.715</Hsp_bit-score>
+      <Hsp_score>709</Hsp_score>
+      <Hsp_evalue>5.84145e-93</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>161</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>172</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>128</Hsp_identity>
+      <Hsp_positive>142</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>160</Hsp_align-len>
+      <Hsp_qseq>ESIMPAEMVYARLKNGSGGSRVRCQSTVNVSHDQQPRYESFVLANGENKVEMEIDTRIPSSAIFTFNKEDHTLGNLIRSRLLQSSHVLFAAYKVPHPLVPNFQLRVQTDGDITPKDAVIAACHELVRDLGILSREFTKEYELRKMVGATAQQQNGVQDGV</Hsp_qseq>
+      <Hsp_hseq>EPLLPPETAFARWRNACGITRNGCQSTVRVSHDQQPSYESFVLANGESKVEMEIDTRIPSSAIFTFNKEDHTLGNLIRARLLQSAHVLFAAYKVPHPLVPKFELRVQTDGEIAPKEAVVTACHELVRDLGILSREFTKEYELRKMVGASQQQQNGAADGI</Hsp_hseq>
+      <Hsp_midline>E ++P E  +AR +N  G +R  CQSTV VSHDQQP YESFVLANGE+KVEMEIDTRIPSSAIFTFNKEDHTLGNLIR+RLLQS+HVLFAAYKVPHPLVP F+LRVQTDG+I PK+AV+ ACHELVRDLGILSREFTKEYELRKMVGA+ QQQNG  DG+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>ref|XP_024709583.1|</Hit_id>
+  <Hit_def>DNA-directed RNA polymerase II subunit RPB11a [Aspergillus steynii IBT 23096] &gt;gb|PLB54281.1| DNA-directed RNA polymerase II subunit RPB11a [Aspergillus steynii IBT 23096]</Hit_def>
+  <Hit_accession>XP_024709583</Hit_accession>
+  <Hit_len>187</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>277.715</Hsp_bit-score>
+      <Hsp_score>709</Hsp_score>
+      <Hsp_evalue>8.10042e-93</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>161</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>187</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>134</Hsp_identity>
+      <Hsp_positive>145</Hsp_positive>
+      <Hsp_gaps>22</Hsp_gaps>
+      <Hsp_align-len>182</Hsp_align-len>
+      <Hsp_qseq>ESIMPAEMVYARLKNGSGGSRVRCQSTVNVSHDQQPR----------------------YESFVLANGENKVEMEIDTRIPSSAIFTFNKEDHTLGNLIRSRLLQSSHVLFAAYKVPHPLVPNFQLRVQTDGDITPKDAVIAACHELVRDLGILSREFTKEYELRKMVGATAQQQNGVQDGV</Hsp_qseq>
+      <Hsp_hseq>EPLLPPETAYARWRNASGNARKGCQSTVRVSHDQQPRSAMLQLHDLSFSLQLSLTSFTTYESFVLANGESKVEMEIDTRIPSSAIFTFNKEDHTLGNLIRSRLLQSSHVLFAAYKVPHPLVPKFELRVQTDGEIAPKEAVVTACHELVRDLGILSREFTKEYELRKMVGASQQQQNGAQDGI</Hsp_hseq>
+      <Hsp_midline>E ++P E  YAR +N SG +R  CQSTV VSHDQQPR                      YESFVLANGE+KVEMEIDTRIPSSAIFTFNKEDHTLGNLIRSRLLQSSHVLFAAYKVPHPLVP F+LRVQTDG+I PK+AV+ ACHELVRDLGILSREFTKEYELRKMVGA+ QQQNG QDG+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gb|KAI9924147.1|</Hit_id>
+  <Hit_def>DNA-directed RNA polymerase II core subunit [Aspergillus wentii]</Hit_def>
+  <Hit_accession>KAI9924147</Hit_accession>
+  <Hit_len>165</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>275.789</Hsp_bit-score>
+      <Hsp_score>704</Hsp_score>
+      <Hsp_evalue>2.33029e-92</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>160</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>165</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>129</Hsp_identity>
+      <Hsp_positive>144</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>159</Hsp_align-len>
+      <Hsp_qseq>ESIMPAEMVYARLKNGSGGSRVRCQSTVNVSHDQQPRYESFVLANGENKVEMEIDTRIPSSAIFTFNKEDHTLGNLIRSRLLQSSHVLFAAYKVPHPLVPNFQLRVQTDGDITPKDAVIAACHELVRDLGILSREFTKEYELRKMVGATAQQQNGVQDG</Hsp_qseq>
+      <Hsp_hseq>EFIVPTEMAYARWRNPNGGSRHGCQSTINVAHDQQPSYESFVLANGESKVEVEVDTRIPSSAIFTFNKEDHTLGNLIRSRLLHSSHVLFAGYKVPHPLVPKFELRVQTDGEVTPKDAVISACHDLVKDLGILSREFTKEYELRKMVGAS--QQNGTMDG</Hsp_hseq>
+      <Hsp_midline>E I+P EM YAR +N +GGSR  CQST+NV+HDQQP YESFVLANGE+KVE+E+DTRIPSSAIFTFNKEDHTLGNLIRSRLL SSHVLFA YKVPHPLVP F+LRVQTDG++TPKDAVI+ACH+LV+DLGILSREFTKEYELRKMVGA+  QQNG  DG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gb|KAI9370496.1|</Hit_id>
+  <Hit_def>DNA-directed RNA polymerase [Aspergillus egyptiacus]</Hit_def>
+  <Hit_accession>KAI9370496</Hit_accession>
+  <Hit_len>167</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>275.404</Hsp_bit-score>
+      <Hsp_score>703</Hsp_score>
+      <Hsp_evalue>3.99864e-92</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>161</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>167</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>133</Hsp_identity>
+      <Hsp_positive>141</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>160</Hsp_align-len>
+      <Hsp_qseq>ESIMPAEMVYARLKNGSGGSRVRCQSTVNVSHDQQPRYESFVLANGENKVEMEIDTRIPSSAIFTFNKEDHTLGNLIRSRLLQSSHVLFAAYKVPHPLVPNFQLRVQTDGDITPKDAVIAACHELVRDLGILSREFTKEYELRKMVGATAQQQNGVQDGV</Hsp_qseq>
+      <Hsp_hseq>EHIFPRETIFARSMN-VNSTRKGCQSSVEVSHDQQPRYESFVLANGESKVEMEIDTRIPSSAIFTFNKEDHTLGNLIRSRLMQSSHVLFAAYKVPHPLVPNFILRVQTDGTITPKEAVITACHELVRDLGILSREFTKEYELRKMVGATQQQQNGATDGL</Hsp_hseq>
+      <Hsp_midline>E I P E ++AR  N    +R  CQS+V VSHDQQPRYESFVLANGE+KVEMEIDTRIPSSAIFTFNKEDHTLGNLIRSRL+QSSHVLFAAYKVPHPLVPNF LRVQTDG ITPK+AVI ACHELVRDLGILSREFTKEYELRKMVGAT QQQNG  DG+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>ref|XP_024689897.1|</Hit_id>
+  <Hit_def>DNA-directed RNA polymerase II subunit RPB11a [Aspergillus campestris IBT 28561] &gt;gb|PKY01303.1| DNA-directed RNA polymerase II subunit RPB11a [Aspergillus campestris IBT 28561]</Hit_def>
+  <Hit_accession>XP_024689897</Hit_accession>
+  <Hit_len>168</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>273.863</Hsp_bit-score>
+      <Hsp_score>699</Hsp_score>
+      <Hsp_evalue>1.5943e-91</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>161</Hsp_query-to>
+      <Hsp_hit-from>16</Hsp_hit-from>
+      <Hsp_hit-to>168</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>132</Hsp_identity>
+      <Hsp_positive>142</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>158</Hsp_align-len>
+      <Hsp_qseq>IMPAEMVYARLKNGSGGSRVRCQSTVNVSHDQQPRYESFVLANGENKVEMEIDTRIPSSAIFTFNKEDHTLGNLIRSRLLQSSHVLFAAYKVPHPLVPNFQLRVQTDGDITPKDAVIAACHELVRDLGILSREFTKEYELRKMVGATAQQQNGVQDGV</Hsp_qseq>
+      <Hsp_hseq>IMPTDMAYAR----TGGSRRGCQTTVNVSHDQQPRYESFVLGNGENKVDMEVDTRIPNTSIFTFNKEDHTLGNMIRSRLLQSSHVLFAAYKVPHPLVPKFILRVQTDGEITPKDAVIAACHELVRDLGILSREFTKEYELRKMVGAN-QQQGGNADGV</Hsp_hseq>
+      <Hsp_midline>IMP +M YAR    +GGSR  CQ+TVNVSHDQQPRYESFVL NGENKV+ME+DTRIP+++IFTFNKEDHTLGN+IRSRLLQSSHVLFAAYKVPHPLVP F LRVQTDG+ITPKDAVIAACHELVRDLGILSREFTKEYELRKMVGA  QQQ G  DGV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gb|TQB68776.1|</Hit_id>
+  <Hit_def>DNA-directed RNA polymerase II core subunit [Monascus purpureus]</Hit_def>
+  <Hit_accession>TQB68776</Hit_accession>
+  <Hit_len>165</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>271.166</Hsp_bit-score>
+      <Hsp_score>692</Hsp_score>
+      <Hsp_evalue>1.83243e-90</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>159</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>163</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>129</Hsp_identity>
+      <Hsp_positive>140</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>156</Hsp_align-len>
+      <Hsp_qseq>IMPAEMVYARLKNGSGGSRVRCQSTVNVSHDQQPRYESFVLANGENKVEMEIDTRIPSSAIFTFNKEDHTLGNLIRSRLLQSSHVLFAAYKVPHPLVPNFQLRVQTDGDITPKDAVIAACHELVRDLGILSREFTKEYELRKMVGATAQQQNGVQD</Hsp_qseq>
+      <Hsp_hseq>ILPTEMAYARWRYKSSGSRHGCQSTINVSHDQQPSYESFVLANGENKVEMEVDTRIPSSAIFTFNKEDHTLGNMIRSRLLQNSHVLFAGYKVPHPLVPSFILRVQTDGEITPKQAVITACNELVKDLGILSREFTKEYELRKMVGAT-QQQSGTPD</Hsp_hseq>
+      <Hsp_midline>I+P EM YAR +  S GSR  CQST+NVSHDQQP YESFVLANGENKVEME+DTRIPSSAIFTFNKEDHTLGN+IRSRLLQ+SHVLFA YKVPHPLVP+F LRVQTDG+ITPK AVI AC+ELV+DLGILSREFTKEYELRKMVGAT QQQ+G  D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gb|KAF7620142.1|</Hit_id>
+  <Hit_def>hypothetical protein AFLA_005455 [Aspergillus flavus NRRL3357] &gt;gb|QRD86156.1| DNA-directed RNA polymerase II subunit RPB11a [Aspergillus flavus] &gt;gb|RAQ53957.1| putative DNA-directed RNA polymerase II subunit RPB11a [Aspergillus flavus] &gt;gb|RAQ65445.1| putative DNA-directed RNA polymerase II subunit RPB11a [Aspergillus flavus] &gt;gb|RAQ72192.1| putative DNA-directed RNA polymerase II subunit RPB11a [Aspergillus flavus]</Hit_def>
+  <Hit_accession>KAF7620142</Hit_accession>
+  <Hit_len>166</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>270.781</Hsp_bit-score>
+      <Hsp_score>691</Hsp_score>
+      <Hsp_evalue>2.78311e-90</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>150</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>155</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>131</Hsp_identity>
+      <Hsp_positive>136</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>150</Hsp_align-len>
+      <Hsp_qseq>ESIMPAEMVYARLKNGSGGS-RVRCQSTVNVSHDQQPRYESFVLANGENKVEMEIDTRIPSSAIFTFNKEDHTLGNLIRSRLLQSSHVLFAAYKVPHPLVPNFQLRVQTDGDITPKDAVIAACHELVRDLGILSREFTKEYELRKMVGAT</Hsp_qseq>
+      <Hsp_hseq>EYILSKEMAYARWINANGSSPRNGCQSTVKVSHDQQPSYESFVLANGENKVEMEIDTRIPSSAIFTFNKEDHTLGNLIRSRLLQSSHVLFAAYKVPHPLVPKFELRVQTDGEITPKEAVIAACHELVRDLGILSREFTKEYELRKMVGAT</Hsp_hseq>
+      <Hsp_midline>E I+  EM YAR  N +G S R  CQSTV VSHDQQP YESFVLANGENKVEMEIDTRIPSSAIFTFNKEDHTLGNLIRSRLLQSSHVLFAAYKVPHPLVP F+LRVQTDG+ITPK+AVIAACHELVRDLGILSREFTKEYELRKMVGAT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gb|PIG86719.1|</Hit_id>
+  <Hit_def>putative DNA-directed RNA polymerase II subunit RPB11a [Aspergillus arachidicola]</Hit_def>
+  <Hit_accession>PIG86719</Hit_accession>
+  <Hit_len>166</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>269.626</Hsp_bit-score>
+      <Hsp_score>688</Hsp_score>
+      <Hsp_evalue>6.54644e-90</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>150</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>155</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>130</Hsp_identity>
+      <Hsp_positive>136</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>150</Hsp_align-len>
+      <Hsp_qseq>ESIMPAEMVYARLKNGSGGS-RVRCQSTVNVSHDQQPRYESFVLANGENKVEMEIDTRIPSSAIFTFNKEDHTLGNLIRSRLLQSSHVLFAAYKVPHPLVPNFQLRVQTDGDITPKDAVIAACHELVRDLGILSREFTKEYELRKMVGAT</Hsp_qseq>
+      <Hsp_hseq>EYILSKEMAYARWINANGSSPRNGCQSTVKVSHDQQPSYESFVLANGENKVEMEIDTRIPSSAIFTFNKEDHTLGNLIRSRLLQSSHVLFAAYKVPHPLVPKFELRVQTDGEITPKEAVIAACHELVRDLGILSREFTKEYELRKMVGAS</Hsp_hseq>
+      <Hsp_midline>E I+  EM YAR  N +G S R  CQSTV VSHDQQP YESFVLANGENKVEMEIDTRIPSSAIFTFNKEDHTLGNLIRSRLLQSSHVLFAAYKVPHPLVP F+LRVQTDG+ITPK+AVIAACHELVRDLGILSREFTKEYELRKMVGA+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gb|KAB8252054.1|</Hit_id>
+  <Hit_def>putative DNA-directed RNA polymerase II subunit RPB11a [Aspergillus flavus]</Hit_def>
+  <Hit_accession>KAB8252054</Hit_accession>
+  <Hit_len>166</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>269.24</Hsp_bit-score>
+      <Hsp_score>687</Hsp_score>
+      <Hsp_evalue>1.13273e-89</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>150</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>155</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>130</Hsp_identity>
+      <Hsp_positive>136</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>150</Hsp_align-len>
+      <Hsp_qseq>ESIMPAEMVYARLKNGSGGS-RVRCQSTVNVSHDQQPRYESFVLANGENKVEMEIDTRIPSSAIFTFNKEDHTLGNLIRSRLLQSSHVLFAAYKVPHPLVPNFQLRVQTDGDITPKDAVIAACHELVRDLGILSREFTKEYELRKMVGAT</Hsp_qseq>
+      <Hsp_hseq>EYILSKEMAYARWINANGSSPRNGCQSTVKVSHNQQPSYESFVLANGENKVEMEIDTRIPSSAIFTFNKEDHTLGNLIRSRLLQSSHVLFAAYKVPHPLVPKFELRVQTDGEITPKEAVIAACHELVRDLGILSREFTKEYELRKMVGAT</Hsp_hseq>
+      <Hsp_midline>E I+  EM YAR  N +G S R  CQSTV VSH+QQP YESFVLANGENKVEMEIDTRIPSSAIFTFNKEDHTLGNLIRSRLLQSSHVLFAAYKVPHPLVP F+LRVQTDG+ITPK+AVIAACHELVRDLGILSREFTKEYELRKMVGAT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gb|KAF7620141.1|</Hit_id>
+  <Hit_def>hypothetical protein AFLA_005455 [Aspergillus flavus NRRL3357]</Hit_def>
+  <Hit_accession>KAF7620141</Hit_accession>
+  <Hit_len>218</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>269.626</Hsp_bit-score>
+      <Hsp_score>688</Hsp_score>
+      <Hsp_evalue>4.66649e-89</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>150</Hsp_query-to>
+      <Hsp_hit-from>58</Hsp_hit-from>
+      <Hsp_hit-to>207</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>131</Hsp_identity>
+      <Hsp_positive>136</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>150</Hsp_align-len>
+      <Hsp_qseq>ESIMPAEMVYARLKNGSGGS-RVRCQSTVNVSHDQQPRYESFVLANGENKVEMEIDTRIPSSAIFTFNKEDHTLGNLIRSRLLQSSHVLFAAYKVPHPLVPNFQLRVQTDGDITPKDAVIAACHELVRDLGILSREFTKEYELRKMVGAT</Hsp_qseq>
+      <Hsp_hseq>EYILSKEMAYARWINANGSSPRNGCQSTVKVSHDQQPSYESFVLANGENKVEMEIDTRIPSSAIFTFNKEDHTLGNLIRSRLLQSSHVLFAAYKVPHPLVPKFELRVQTDGEITPKEAVIAACHELVRDLGILSREFTKEYELRKMVGAT</Hsp_hseq>
+      <Hsp_midline>E I+  EM YAR  N +G S R  CQSTV VSHDQQP YESFVLANGENKVEMEIDTRIPSSAIFTFNKEDHTLGNLIRSRLLQSSHVLFAAYKVPHPLVP F+LRVQTDG+ITPK+AVIAACHELVRDLGILSREFTKEYELRKMVGAT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gb|KKK15514.1|</Hit_id>
+  <Hit_def>DNA-directed RNA polymerase II subunit RPB11 [Aspergillus ochraceoroseus]</Hit_def>
+  <Hit_accession>KKK15514</Hit_accession>
+  <Hit_len>168</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>266.929</Hsp_bit-score>
+      <Hsp_score>681</Hsp_score>
+      <Hsp_evalue>9.32149e-89</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>161</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>168</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>127</Hsp_identity>
+      <Hsp_positive>138</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>160</Hsp_align-len>
+      <Hsp_qseq>ESIMPAEMVYARLKNGSGGSRVRCQSTVNVSHDQQPRYESFVLANGENKVEMEIDTRIPSSAIFTFNKEDHTLGNLIRSRLLQSSHVLFAAYKVPHPLVPNFQLRVQTDGDITPKDAVIAACHELVRDLGILSREFTKEYELRKMVGATAQQQNGVQDGV</Hsp_qseq>
+      <Hsp_hseq>EHIFPMETVYARWISSNPYVHKNSSSSVNITNDEQPRYESFVLGNGENKVEMEIDTRIPSSAIFTFNKEDHTLGNLIRSRLLQSSNVLFAAYKVPHPLVPKFELRVQTNGDITPKQAVITACHELVRDLGILSREFTKEYELRKMVGATQQQQNGATDGI</Hsp_hseq>
+      <Hsp_midline>E I P E VYAR  + +        S+VN+++D+QPRYESFVL NGENKVEMEIDTRIPSSAIFTFNKEDHTLGNLIRSRLLQSS+VLFAAYKVPHPLVP F+LRVQT+GDITPK AVI ACHELVRDLGILSREFTKEYELRKMVGAT QQQNG  DG+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gb|KKK24122.1|</Hit_id>
+  <Hit_def>DNA-directed RNA polymerase II subunit RPB11 [Aspergillus rambellii]</Hit_def>
+  <Hit_accession>KKK24122</Hit_accession>
+  <Hit_len>155</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>261.536</Hsp_bit-score>
+      <Hsp_score>667</Hsp_score>
+      <Hsp_evalue>8.06144e-87</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>161</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>155</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>125</Hsp_identity>
+      <Hsp_positive>135</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>154</Hsp_align-len>
+      <Hsp_qseq>EMVYARLKNGSGGSRVRCQSTVNVSHDQQPRYESFVLANGENKVEMEIDTRIPSSAIFTFNKEDHTLGNLIRSRLLQSSHVLFAAYKVPHPLVPNFQLRVQTDGDITPKDAVIAACHELVRDLGILSREFTKEYELRKMVGATAQQQNGVQDGV</Hsp_qseq>
+      <Hsp_hseq>ETVYARWISSNPYVHKNSSSSVNVTNDEQPRYESFVLGNGENKVEMEIDTRIPSSAIFTFNKEDHTLGNLIRSRLLQSSNVLFAAYKVPHPLVPKFELRVQTNGDITPKQAVITACHELVRDLGILSREFTKEYELRKMVGATQQQQNGATDGI</Hsp_hseq>
+      <Hsp_midline>E VYAR  + +        S+VNV++D+QPRYESFVL NGENKVEMEIDTRIPSSAIFTFNKEDHTLGNLIRSRLLQSS+VLFAAYKVPHPLVP F+LRVQT+GDITPK AVI ACHELVRDLGILSREFTKEYELRKMVGAT QQQNG  DG+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gb|KAE8378235.1|</Hit_id>
+  <Hit_def>DNA-directed RNA polymerase [Aspergillus bertholletiae]</Hit_def>
+  <Hit_accession>KAE8378235</Hit_accession>
+  <Hit_len>203</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>263.077</Hsp_bit-score>
+      <Hsp_score>671</Hsp_score>
+      <Hsp_evalue>1.03122e-86</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>150</Hsp_query-to>
+      <Hsp_hit-from>45</Hsp_hit-from>
+      <Hsp_hit-to>192</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>128</Hsp_identity>
+      <Hsp_positive>133</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>148</Hsp_align-len>
+      <Hsp_qseq>IMPAEMVYARLKNGSGGS-RVRCQSTVNVSHDQQPRYESFVLANGENKVEMEIDTRIPSSAIFTFNKEDHTLGNLIRSRLLQSSHVLFAAYKVPHPLVPNFQLRVQTDGDITPKDAVIAACHELVRDLGILSREFTKEYELRKMVGAT</Hsp_qseq>
+      <Hsp_hseq>ILSNEMAYARWINANGSSARNGCQSTVKVLHDQQPSYESFVLMNGENKVEMDIDTRIPSSAIFTFNKEDHTLGNLIRSRLLQSSHVLFAAYKVPHPLVPKFQLRVQTDGEITPKEAVIAACHELVRDLGILSREFTKEYELRKMVGAT</Hsp_hseq>
+      <Hsp_midline>I+  EM YAR  N +G S R  CQSTV V HDQQP YESFVL NGENKVEM+IDTRIPSSAIFTFNKEDHTLGNLIRSRLLQSSHVLFAAYKVPHPLVP FQLRVQTDG+ITPK+AVIAACHELVRDLGILSREFTKEYELRKMVGAT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>ref|XP_001396168.1|</Hit_id>
+  <Hit_def>DNA-directed RNA polymerase II subunit RPB11 [Aspergillus niger CBS 513.88] &gt;ref|XP_025458268.1| RBP11-like subunits of RNA polymerase [Aspergillus niger CBS 101883] &gt;gb|RDH24146.1| RBP11-like subunits of RNA polymerase [Aspergillus niger ATCC 13496] &gt;gb|RDK40476.1| RBP11-like subunits of RNA polymerase [Aspergillus phoenicis ATCC 13157] &gt;emb|CAK46429.1| unnamed protein product [Aspergillus niger] &gt;gb|PYH60213.1| RBP11-like subunits of RNA polymerase [Aspergillus niger CBS 101883] &gt;emb|SPB44727.1| unnamed protein product [Aspergillus niger]</Hit_def>
+  <Hit_accession>XP_001396168</Hit_accession>
+  <Hit_len>129</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>259.996</Hsp_bit-score>
+      <Hsp_score>663</Hsp_score>
+      <Hsp_evalue>1.59137e-86</Hsp_evalue>
+      <Hsp_query-from>38</Hsp_query-from>
+      <Hsp_query-to>161</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>129</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>124</Hsp_identity>
+      <Hsp_positive>124</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>124</Hsp_align-len>
+      <Hsp_qseq>RYESFVLANGENKVEMEIDTRIPSSAIFTFNKEDHTLGNLIRSRLLQSSHVLFAAYKVPHPLVPNFQLRVQTDGDITPKDAVIAACHELVRDLGILSREFTKEYELRKMVGATAQQQNGVQDGV</Hsp_qseq>
+      <Hsp_hseq>RYESFVLANGENKVEMEIDTRIPSSAIFTFNKEDHTLGNLIRSRLLQSSHVLFAAYKVPHPLVPNFQLRVQTDGDITPKDAVIAACHELVRDLGILSREFTKEYELRKMVGATAQQQNGVQDGV</Hsp_hseq>
+      <Hsp_midline>RYESFVLANGENKVEMEIDTRIPSSAIFTFNKEDHTLGNLIRSRLLQSSHVLFAAYKVPHPLVPNFQLRVQTDGDITPKDAVIAACHELVRDLGILSREFTKEYELRKMVGATAQQQNGVQDGV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gb|RMJ28258.1|</Hit_id>
+  <Hit_def>dna-directed rna polymerase ii [Aspergillus sp. HF37]</Hit_def>
+  <Hit_accession>RMJ28258</Hit_accession>
+  <Hit_len>166</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>261.151</Hsp_bit-score>
+      <Hsp_score>666</Hsp_score>
+      <Hsp_evalue>1.79565e-86</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>160</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>165</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>125</Hsp_identity>
+      <Hsp_positive>139</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>160</Hsp_align-len>
+      <Hsp_qseq>ESIMPAEMVYARLKNGSGGSRVRCQSTVNVSHDQQPRYESFVLANGENKVEMEIDTRIPSSAIFTFNKEDHTLGNLIRSRLLQSSHVLFAAYKVPHPLVPNFQLRVQTDGDITPKDAVIAACHELVRDLGILSREFTKEYELRKMVGATAQQQ-NGVQDG</Hsp_qseq>
+      <Hsp_hseq>EFILSKEMAYARYKSGAGHHRNGCQSTVNVSNDQQPRYEAFVLGSGENKVEMEIDTRIPSTAIFTLNKEDHTLGNLLRSQLLKSPHVLFAAYKAPHPLVPKVELRVQTDGEITPKEGVITACHELVKDLGILSREFTKEYELRKMVGATQQQQPNGNMDG</Hsp_hseq>
+      <Hsp_midline>E I+  EM YAR K+G+G  R  CQSTVNVS+DQQPRYE+FVL +GENKVEMEIDTRIPS+AIFT NKEDHTLGNL+RS+LL+S HVLFAAYK PHPLVP  +LRVQTDG+ITPK+ VI ACHELV+DLGILSREFTKEYELRKMVGAT QQQ NG  DG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>ref|XP_025565733.1|</Hit_id>
+  <Hit_def>RBP11-like subunits of RNA polymerase [Aspergillus vadensis CBS 113365] &gt;ref|XP_035360134.1| RBP11-like subunits of RNA polymerase [Aspergillus tubingensis] &gt;gb|PYH71939.1| RBP11-like subunits of RNA polymerase [Aspergillus vadensis CBS 113365] &gt;dbj|GFN19330.1| RBP11-like subunits of RNA polymerase [Aspergillus tubingensis] &gt;dbj|GLA70336.1| DNA-directed RNA polymerase II core subunit [Aspergillus tubingensis] &gt;dbj|GLA92008.1| DNA-directed RNA polymerase II core subunit [Aspergillus tubingensis]</Hit_def>
+  <Hit_accession>XP_025565733</Hit_accession>
+  <Hit_len>129</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>259.225</Hsp_bit-score>
+      <Hsp_score>661</Hsp_score>
+      <Hsp_evalue>2.66507e-86</Hsp_evalue>
+      <Hsp_query-from>38</Hsp_query-from>
+      <Hsp_query-to>161</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>129</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>123</Hsp_identity>
+      <Hsp_positive>124</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>124</Hsp_align-len>
+      <Hsp_qseq>RYESFVLANGENKVEMEIDTRIPSSAIFTFNKEDHTLGNLIRSRLLQSSHVLFAAYKVPHPLVPNFQLRVQTDGDITPKDAVIAACHELVRDLGILSREFTKEYELRKMVGATAQQQNGVQDGV</Hsp_qseq>
+      <Hsp_hseq>RYESFVLANGENKVEMEIDTRIPSSAIFTFNKEDHTLGNLIRSRLLQSSHVLFAAYKVPHPLVPNFQLRVQTDGDVTPKDAVIAACHELVRDLGILSREFTKEYELRKMVGATAQQQNGVQDGV</Hsp_hseq>
+      <Hsp_midline>RYESFVLANGENKVEMEIDTRIPSSAIFTFNKEDHTLGNLIRSRLLQSSHVLFAAYKVPHPLVPNFQLRVQTDGD+TPKDAVIAACHELVRDLGILSREFTKEYELRKMVGATAQQQNGVQDGV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gb|KAF7596174.1|</Hit_id>
+  <Hit_def>DNA-directed RNA polymerase II core subunit [Aspergillus hancockii]</Hit_def>
+  <Hit_accession>KAF7596174</Hit_accession>
+  <Hit_len>185</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>260.381</Hsp_bit-score>
+      <Hsp_score>664</Hsp_score>
+      <Hsp_evalue>6.04805e-86</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>150</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>174</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>131</Hsp_identity>
+      <Hsp_positive>138</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>169</Hsp_align-len>
+      <Hsp_qseq>ESIMPAEMVYARLKNGSGGS-RVRCQSTVNVSHDQQPR-------------------YESFVLANGENKVEMEIDTRIPSSAIFTFNKEDHTLGNLIRSRLLQSSHVLFAAYKVPHPLVPNFQLRVQTDGDITPKDAVIAACHELVRDLGILSREFTKEYELRKMVGAT</Hsp_qseq>
+      <Hsp_hseq>EYILSREMVYARWINANGSTPRNGCQSTVKVSHDQQPRSADFRLSYILYRFTHAPNSYESFVLANGENKVEMEIDTRIPSSAIFTFNKEDHTLGNLIRSRLLQSSHVLFAAYKVPHPLVPKFELRVQTDGEVTPKEAVIAACHELVRDLGILSREFTKEYELRKMVGAT</Hsp_hseq>
+      <Hsp_midline>E I+  EMVYAR  N +G + R  CQSTV VSHDQQPR                   YESFVLANGENKVEMEIDTRIPSSAIFTFNKEDHTLGNLIRSRLLQSSHVLFAAYKVPHPLVP F+LRVQTDG++TPK+AVIAACHELVRDLGILSREFTKEYELRKMVGAT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>ref|XP_025429423.1|</Hit_id>
+  <Hit_def>RBP11-like subunits of RNA polymerase [Aspergillus saccharolyticus JOP 1030-1] &gt;gb|PYH43441.1| RBP11-like subunits of RNA polymerase [Aspergillus saccharolyticus JOP 1030-1]</Hit_def>
+  <Hit_accession>XP_025429423</Hit_accession>
+  <Hit_len>202</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>261.151</Hsp_bit-score>
+      <Hsp_score>666</Hsp_score>
+      <Hsp_evalue>6.41986e-86</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>161</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>202</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>134</Hsp_identity>
+      <Hsp_positive>145</Hsp_positive>
+      <Hsp_gaps>35</Hsp_gaps>
+      <Hsp_align-len>194</Hsp_align-len>
+      <Hsp_qseq>ESIMPAEMVYARLKNGSGGSRVRCQSTVNVSHDQQPR----------------------------------YESFVLANGENKVEMEIDTRIPSSAIFTFNKEDHTLGNLIRSRLLQSSHVLFAAYKVPHPLVPNFQLRVQTDGDITPKDAVIAACHELVRDLGILSREFTKEYELRKMVGATAQQQNGVQDGV</Hsp_qseq>
+      <Hsp_hseq>EYLLPPETAYARWRHGNGGPRVGHQSTINVSHDQQQRSAPFDRKSRSLLFLYTGLSSTTVDIHVLTYSSISYESFVLASGENKVEMEIDTRIPSSAIFTFNKEDHTLGNLIRSRLLQSSHVNFAAYKVPHPLVPQFQLRVQTDGEITPKEAVITACHELVRDLGILSREFTKEYELRKMVGAS-QQQNGGQDAL</Hsp_hseq>
+      <Hsp_midline>E ++P E  YAR ++G+GG RV  QST+NVSHDQQ R                                  YESFVLA+GENKVEMEIDTRIPSSAIFTFNKEDHTLGNLIRSRLLQSSHV FAAYKVPHPLVP FQLRVQTDG+ITPK+AVI ACHELVRDLGILSREFTKEYELRKMVGA+ QQQNG QD +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>ref|XP_025385615.1|</Hit_id>
+  <Hit_def>RBP11-like subunits of RNA polymerase [Aspergillus eucalypticola CBS 122712] &gt;ref|XP_025520343.1| RBP11-like subunits of RNA polymerase [Aspergillus piperis CBS 112811] &gt;ref|XP_041538999.1| DNA-directed RNA polymerase II core subunit [Aspergillus luchuensis] &gt;gb|OJZ80790.1| hypothetical protein ASPFODRAFT_53025 [Aspergillus luchuensis CBS 106.47] &gt;dbj|GLB12399.1| DNA-directed RNA polymerase II core subunit [Aspergillus tubingensis] &gt;gb|PWY67677.1| RBP11-like subunits of RNA polymerase [Aspergillus eucalypticola CBS 122712] &gt;gb|RAH62421.1| RBP11-like subunits of RNA polymerase [Aspergillus piperis CBS 112811] &gt;dbj|BCR95233.1| DNA-directed RNA polymerase II core subunit [Aspergillus luchuensis]</Hit_def>
+  <Hit_accession>XP_025385615</Hit_accession>
+  <Hit_len>129</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>258.07</Hsp_bit-score>
+      <Hsp_score>658</Hsp_score>
+      <Hsp_evalue>8.52607e-86</Hsp_evalue>
+      <Hsp_query-from>38</Hsp_query-from>
+      <Hsp_query-to>161</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>129</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>122</Hsp_identity>
+      <Hsp_positive>124</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>124</Hsp_align-len>
+      <Hsp_qseq>RYESFVLANGENKVEMEIDTRIPSSAIFTFNKEDHTLGNLIRSRLLQSSHVLFAAYKVPHPLVPNFQLRVQTDGDITPKDAVIAACHELVRDLGILSREFTKEYELRKMVGATAQQQNGVQDGV</Hsp_qseq>
+      <Hsp_hseq>RYESFVLANGENKVEMEIDTRIPSSAIFTFNKEDHTLGNLIRSRLLQSSHVLFAAYKVPHPLVPNFQLRVQTDGDVSPKDAVIAACHELVRDLGILSREFTKEYELRKMVGATAQQQNGVQDGV</Hsp_hseq>
+      <Hsp_midline>RYESFVLANGENKVEMEIDTRIPSSAIFTFNKEDHTLGNLIRSRLLQSSHVLFAAYKVPHPLVPNFQLRVQTDGD++PKDAVIAACHELVRDLGILSREFTKEYELRKMVGATAQQQNGVQDGV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gb|OJJ66658.1|</Hit_id>
+  <Hit_def>hypothetical protein ASPBRDRAFT_48598 [Aspergillus brasiliensis CBS 101740] &gt;dbj|GKZ20113.1| DNA-directed RNA polymerase II core subunit [Aspergillus brasiliensis] &gt;dbj|GKZ35496.1| DNA-directed RNA polymerase II core subunit [Aspergillus brasiliensis] &gt;dbj|GKZ50315.1| DNA-directed RNA polymerase II core subunit [Aspergillus brasiliensis]</Hit_def>
+  <Hit_accession>OJJ66658</Hit_accession>
+  <Hit_len>129</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>257.299</Hsp_bit-score>
+      <Hsp_score>656</Hsp_score>
+      <Hsp_evalue>1.41226e-85</Hsp_evalue>
+      <Hsp_query-from>38</Hsp_query-from>
+      <Hsp_query-to>161</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>129</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>122</Hsp_identity>
+      <Hsp_positive>124</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>124</Hsp_align-len>
+      <Hsp_qseq>RYESFVLANGENKVEMEIDTRIPSSAIFTFNKEDHTLGNLIRSRLLQSSHVLFAAYKVPHPLVPNFQLRVQTDGDITPKDAVIAACHELVRDLGILSREFTKEYELRKMVGATAQQQNGVQDGV</Hsp_qseq>
+      <Hsp_hseq>RYESFVLANGENKVEMEIDTRIPSSAIFTFNKEDHTLGNLIRSRLLQSSHVLFAAYKVPHPLVPNFQLRVQTDGDVTPKEAVIAACHELVRDLGILSREFTKEYELRKMVGATAQQQNGVQDGV</Hsp_hseq>
+      <Hsp_midline>RYESFVLANGENKVEMEIDTRIPSSAIFTFNKEDHTLGNLIRSRLLQSSHVLFAAYKVPHPLVPNFQLRVQTDGD+TPK+AVIAACHELVRDLGILSREFTKEYELRKMVGATAQQQNGVQDGV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>ref|XP_025474876.1|</Hit_id>
+  <Hit_def>RBP11-like subunits of RNA polymerase [Aspergillus neoniger CBS 115656] &gt;gb|PYH29398.1| RBP11-like subunits of RNA polymerase [Aspergillus neoniger CBS 115656]</Hit_def>
+  <Hit_accession>XP_025474876</Hit_accession>
+  <Hit_len>129</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>255.758</Hsp_bit-score>
+      <Hsp_score>652</Hsp_score>
+      <Hsp_evalue>7.24114e-85</Hsp_evalue>
+      <Hsp_query-from>38</Hsp_query-from>
+      <Hsp_query-to>161</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>129</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>121</Hsp_identity>
+      <Hsp_positive>123</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>124</Hsp_align-len>
+      <Hsp_qseq>RYESFVLANGENKVEMEIDTRIPSSAIFTFNKEDHTLGNLIRSRLLQSSHVLFAAYKVPHPLVPNFQLRVQTDGDITPKDAVIAACHELVRDLGILSREFTKEYELRKMVGATAQQQNGVQDGV</Hsp_qseq>
+      <Hsp_hseq>RYESFVLANGENKVEMEIDTRIPSSAIFTFNKEDHTLGNLIRSRLLQSSHVLFAAYKVPHPLVPNFQLRVQTDGDVSPKDAVIAACHELVRDLGILSREFTKEYELRKMVGATAQQHNGVQDGV</Hsp_hseq>
+      <Hsp_midline>RYESFVLANGENKVEMEIDTRIPSSAIFTFNKEDHTLGNLIRSRLLQSSHVLFAAYKVPHPLVPNFQLRVQTDGD++PKDAVIAACHELVRDLGILSREFTKEYELRKMVGATAQQ NGVQDGV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>ref|XP_025464353.1|</Hit_id>
+  <Hit_def>RBP11-like subunits of RNA polymerase [Aspergillus sclerotioniger CBS 115572] &gt;gb|OOF93675.1| hypothetical protein ASPCADRAFT_208976 [Aspergillus carbonarius ITEM 5010] &gt;gb|PWY77166.1| RBP11-like subunits of RNA polymerase [Aspergillus sclerotioniger CBS 115572] &gt;gb|PYI10531.1| RBP11-like subunits of RNA polymerase [Aspergillus sclerotiicarbonarius CBS 121057]</Hit_def>
+  <Hit_accession>XP_025464353</Hit_accession>
+  <Hit_len>129</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>251.906</Hsp_bit-score>
+      <Hsp_score>642</Hsp_score>
+      <Hsp_evalue>2.19515e-83</Hsp_evalue>
+      <Hsp_query-from>38</Hsp_query-from>
+      <Hsp_query-to>161</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>129</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>120</Hsp_identity>
+      <Hsp_positive>122</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>124</Hsp_align-len>
+      <Hsp_qseq>RYESFVLANGENKVEMEIDTRIPSSAIFTFNKEDHTLGNLIRSRLLQSSHVLFAAYKVPHPLVPNFQLRVQTDGDITPKDAVIAACHELVRDLGILSREFTKEYELRKMVGATAQQQNGVQDGV</Hsp_qseq>
+      <Hsp_hseq>RYESFVLANGENKVEMEIDTRIPSSAIFTFNKEDHTLGNLIRARLLQSSHVLFAAYKVPHPLVPKFLLRVQTDGDITPKEAVIAACHELVRDLGILSREFTKEYELRKMVGATAQQQNGVQDGV</Hsp_hseq>
+      <Hsp_midline>RYESFVLANGENKVEMEIDTRIPSSAIFTFNKEDHTLGNLIR+RLLQSSHVLFAAYKVPHPLVP F LRVQTDGDITPK+AVIAACHELVRDLGILSREFTKEYELRKMVGATAQQQNGVQDGV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gb|KAF7133919.1|</Hit_id>
+  <Hit_def>hypothetical protein CNMCM5793_005385 [Aspergillus hiratsukae] &gt;gb|KAF7171279.1| hypothetical protein CNMCM6106_005734 [Aspergillus hiratsukae]</Hit_def>
+  <Hit_accession>KAF7133919</Hit_accession>
+  <Hit_len>167</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>251.136</Hsp_bit-score>
+      <Hsp_score>640</Hsp_score>
+      <Hsp_evalue>1.48955e-82</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>161</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>167</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>115</Hsp_identity>
+      <Hsp_positive>137</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>160</Hsp_align-len>
+      <Hsp_qseq>IMPAEMVYARLKNGSGGSR--VRCQSTVNVSHDQQPRYESFVLANGENKVEMEIDTRIPSSAIFTFNKEDHTLGNLIRSRLLQSSHVLFAAYKVPHPLVPNFQLRVQTDGDITPKDAVIAACHELVRDLGILSREFTKEYELRKMVGATAQQQNGVQDGV</Hsp_qseq>
+      <Hsp_hseq>MLPNEMAYARWKHAGGGSRKNTACHRSINLDNDQPRRFESFVLSPGEEKVEVETDTRIPSSSIFTFNKEDHTLGNLLRSRLLQNSHVIFAGYKVPHPLVPKFELRVQTDGEVTPKDALLAACHDLVKDLGILSREFTKEYELRKMVGATQQQQNGTAEGA</Hsp_hseq>
+      <Hsp_midline>++P EM YAR K+  GGSR    C  ++N+ +DQ  R+ESFVL+ GE KVE+E DTRIPSS+IFTFNKEDHTLGNL+RSRLLQ+SHV+FA YKVPHPLVP F+LRVQTDG++TPKDA++AACH+LV+DLGILSREFTKEYELRKMVGAT QQQNG  +G </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>ref|XP_001273226.1|</Hit_id>
+  <Hit_def>DNA-directed RNA polymerase II subunit RPB11a, putative [Aspergillus clavatus NRRL 1] &gt;gb|EAW11800.1| DNA-directed RNA polymerase II subunit RPB11a, putative [Aspergillus clavatus NRRL 1]</Hit_def>
+  <Hit_accession>XP_001273226</Hit_accession>
+  <Hit_len>165</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>250.366</Hsp_bit-score>
+      <Hsp_score>638</Hsp_score>
+      <Hsp_evalue>2.71736e-82</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>161</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>165</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>112</Hsp_identity>
+      <Hsp_positive>134</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>158</Hsp_align-len>
+      <Hsp_qseq>IMPAEMVYARLKNGSGGSRVRCQSTVNVSHDQQPRYESFVLANGENKVEMEIDTRIPSSAIFTFNKEDHTLGNLIRSRLLQSSHVLFAAYKVPHPLVPNFQLRVQTDGDITPKDAVIAACHELVRDLGILSREFTKEYELRKMVGATAQQQNGVQDGV</Hsp_qseq>
+      <Hsp_hseq>MLPNEMAYARWKHASGGPRTTGQTSINVDSDQPHSFESFVLSPGEEKVEVQTDTRIPSTAIFTFNKEDHTLGNLLRSRLLQSPHVLFAGYKIPHPLVPKFELRIQTDGEVTPKDALLAACHDLVKDLGILSREFTKEFELRKMVGAAQQQQNGATDGA</Hsp_hseq>
+      <Hsp_midline>++P EM YAR K+ SGG R   Q+++NV  DQ   +ESFVL+ GE KVE++ DTRIPS+AIFTFNKEDHTLGNL+RSRLLQS HVLFA YK+PHPLVP F+LR+QTDG++TPKDA++AACH+LV+DLGILSREFTKE+ELRKMVGA  QQQNG  DG </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gb|KAF9883194.1|</Hit_id>
+  <Hit_def>DNA-directed RNA polymerase II core subunit [Aspergillus nanangensis]</Hit_def>
+  <Hit_accession>KAF9883194</Hit_accession>
+  <Hit_len>159</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>249.595</Hsp_bit-score>
+      <Hsp_score>636</Hsp_score>
+      <Hsp_evalue>4.05615e-82</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>150</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>148</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>121</Hsp_identity>
+      <Hsp_positive>129</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>148</Hsp_align-len>
+      <Hsp_qseq>MPAEMVYARLKNGSGGSRVR--CQSTVNVSHDQQPRYESFVLANGENKVEMEIDTRIPSSAIFTFNKEDHTLGNLIRSRLLQSSHVLFAAYKVPHPLVPNFQLRVQTDGDITPKDAVIAACHELVRDLGILSREFTKEYELRKMVGAT</Hsp_qseq>
+      <Hsp_hseq>MSKDMAYARYHNSNAGSRKQRQTQTTVQVCHDQPESYESFVLGNGESKVEMEIDTRIPSSAIFTFNKEDHTLGNMLRSRLLQSSHVLFAAYKVPHPLVPKFILRVQTDGEITPKDAVIAACHELVRDLGILSREFTKEYELRKMVGAT</Hsp_hseq>
+      <Hsp_midline>M  +M YAR  N + GSR +   Q+TV V HDQ   YESFVL NGE+KVEMEIDTRIPSSAIFTFNKEDHTLGN++RSRLLQSSHVLFAAYKVPHPLVP F LRVQTDG+ITPKDAVIAACHELVRDLGILSREFTKEYELRKMVGAT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gb|KAE8349173.1|</Hit_id>
+  <Hit_def>hypothetical protein BDV28DRAFT_160713 [Aspergillus coremiiformis]</Hit_def>
+  <Hit_accession>KAE8349173</Hit_accession>
+  <Hit_len>1593</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>275.404</Hsp_bit-score>
+      <Hsp_score>703</Hsp_score>
+      <Hsp_evalue>4.61291e-82</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>156</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>161</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>132</Hsp_identity>
+      <Hsp_positive>140</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>156</Hsp_align-len>
+      <Hsp_qseq>ESIMPAEMVYARLKNGSGGS-RVRCQSTVNVSHDQQPRYESFVLANGENKVEMEIDTRIPSSAIFTFNKEDHTLGNLIRSRLLQSSHVLFAAYKVPHPLVPNFQLRVQTDGDITPKDAVIAACHELVRDLGILSREFTKEYELRKMVGATAQQQNG</Hsp_qseq>
+      <Hsp_hseq>EYILSKEMAYARWINANGSSPRNGCQSTVKVSHDQQPSYESFVLANGENKVEMEIDTRIPSSAIFTFNKEDHTLGNLIRSRLLQSSHVLFAAYKVPHPLVPKFELRVQTDGEITPKTAIIAACNDLVRDLGILSREFTKEYELRKMVGATQQQQDG</Hsp_hseq>
+      <Hsp_midline>E I+  EM YAR  N +G S R  CQSTV VSHDQQP YESFVLANGENKVEMEIDTRIPSSAIFTFNKEDHTLGNLIRSRLLQSSHVLFAAYKVPHPLVP F+LRVQTDG+ITPK A+IAAC++LVRDLGILSREFTKEYELRKMVGAT QQQ+G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gb|KAF5856012.1|</Hit_id>
+  <Hit_def>DNA-directed RNA polymerase II core subunit [Aspergillus burnettii]</Hit_def>
+  <Hit_accession>KAF5856012</Hit_accession>
+  <Hit_len>162</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>249.595</Hsp_bit-score>
+      <Hsp_score>636</Hsp_score>
+      <Hsp_evalue>6.16758e-82</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>150</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>151</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>122</Hsp_identity>
+      <Hsp_positive>131</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>149</Hsp_align-len>
+      <Hsp_qseq>ESIMPAEMVYARLKNGSGGSRVRCQSTVNVSHDQQPRYESFVLANGENKVEMEIDTRIPSSAIFTFNKEDHTLGNLIRSRLLQSSHVLFAAYKVPHPLVPNFQLRVQTDGDITPKDAVIAACHELVRDLGILSREFTKEYELRKMVGAT</Hsp_qseq>
+      <Hsp_hseq>EYIVPTDMAVAR---RGGPPRNGCQSTIKVSHDQQLSYESFVLANGESKVEMEIDTRIPSSAIFTFNKEDHTLGNLIRSRLLQNSRVLFAAYKVPHPLVPKFELRVQTDGEITPKEAVVAACHELVRDLGILSREFTKEYELRKMVGAT</Hsp_hseq>
+      <Hsp_midline>E I+P +M  AR     G  R  CQST+ VSHDQQ  YESFVLANGE+KVEMEIDTRIPSSAIFTFNKEDHTLGNLIRSRLLQ+S VLFAAYKVPHPLVP F+LRVQTDG+ITPK+AV+AACHELVRDLGILSREFTKEYELRKMVGAT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gb|PYH96991.1|</Hit_id>
+  <Hit_def>RBP11-like subunits of RNA polymerase [Aspergillus ellipticus CBS 707.79]</Hit_def>
+  <Hit_accession>PYH96991</Hit_accession>
+  <Hit_len>129</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>247.669</Hsp_bit-score>
+      <Hsp_score>631</Hsp_score>
+      <Hsp_evalue>8.94641e-82</Hsp_evalue>
+      <Hsp_query-from>38</Hsp_query-from>
+      <Hsp_query-to>161</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>129</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>117</Hsp_identity>
+      <Hsp_positive>121</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>124</Hsp_align-len>
+      <Hsp_qseq>RYESFVLANGENKVEMEIDTRIPSSAIFTFNKEDHTLGNLIRSRLLQSSHVLFAAYKVPHPLVPNFQLRVQTDGDITPKDAVIAACHELVRDLGILSREFTKEYELRKMVGATAQQQNGVQDGV</Hsp_qseq>
+      <Hsp_hseq>RYESFVLANGENKVEMEIDTRIPSSAIFTFNKEDHTLGNLVRSRLLQSSHVLFAAYKVPHPLVPKFLLRVQTDGEITPKEAVITACHELVRDLGILSREFTKEYELRKMVGATSQQQNGVQDGV</Hsp_hseq>
+      <Hsp_midline>RYESFVLANGENKVEMEIDTRIPSSAIFTFNKEDHTLGNL+RSRLLQSSHVLFAAYKVPHPLVP F LRVQTDG+ITPK+AVI ACHELVRDLGILSREFTKEYELRKMVGAT+QQQNGVQDGV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gb|KAF7171486.1|</Hit_id>
+  <Hit_def>hypothetical protein CNMCM5623_003821 [Aspergillus felis] &gt;gb|KAF7184646.1| hypothetical protein CNMCM7691_005958 [Aspergillus felis]</Hit_def>
+  <Hit_accession>KAF7171486</Hit_accession>
+  <Hit_len>167</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>248.825</Hsp_bit-score>
+      <Hsp_score>634</Hsp_score>
+      <Hsp_evalue>1.20866e-81</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>161</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>167</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>114</Hsp_identity>
+      <Hsp_positive>137</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>160</Hsp_align-len>
+      <Hsp_qseq>IMPAEMVYARLKNGSGGSRVR--CQSTVNVSHDQQPRYESFVLANGENKVEMEIDTRIPSSAIFTFNKEDHTLGNLIRSRLLQSSHVLFAAYKVPHPLVPNFQLRVQTDGDITPKDAVIAACHELVRDLGILSREFTKEYELRKMVGATAQQQNGVQDGV</Hsp_qseq>
+      <Hsp_hseq>MLPNEMAYARWIHAAGGSRTNNACHSSINLDNDQPRSFESFVLSPGEEKVEVETDTRIPSSSIFTFNKEDHTLGNLLRSRLLQNSHVIFAGYKVPHPLVPKFELRVQTDGEVTPKDALLAACHDLVKDLGILSREFTKEYELRKMVGATQQQQNGTAEGA</Hsp_hseq>
+      <Hsp_midline>++P EM YAR  + +GGSR    C S++N+ +DQ   +ESFVL+ GE KVE+E DTRIPSS+IFTFNKEDHTLGNL+RSRLLQ+SHV+FA YKVPHPLVP F+LRVQTDG++TPKDA++AACH+LV+DLGILSREFTKEYELRKMVGAT QQQNG  +G </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>ref|XP_025522018.1|</Hit_id>
+  <Hit_def>hypothetical protein BO86DRAFT_451875 [Aspergillus japonicus CBS 114.51] &gt;gb|RAH76124.1| hypothetical protein BO86DRAFT_451875 [Aspergillus japonicus CBS 114.51]</Hit_def>
+  <Hit_accession>XP_025522018</Hit_accession>
+  <Hit_len>1644</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>273.478</Hsp_bit-score>
+      <Hsp_score>698</Hsp_score>
+      <Hsp_evalue>1.94001e-81</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>150</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>154</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>127</Hsp_identity>
+      <Hsp_positive>137</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>149</Hsp_align-len>
+      <Hsp_qseq>ESIMPAEMVYARLKNGSGGSRVRCQSTVNVSHDQQPRYESFVLANGENKVEMEIDTRIPSSAIFTFNKEDHTLGNLIRSRLLQSSHVLFAAYKVPHPLVPNFQLRVQTDGDITPKDAVIAACHELVRDLGILSREFTKEYELRKMVGAT</Hsp_qseq>
+      <Hsp_hseq>EYLLPPETAYARWRHGNGGPRVGCQSTINVSHDQQQSYESFVLASGESKVEMEIDTRIPSSAIFTFNKEDHTLGNLIRSRLLQSSHVLFAAYKVPHPLVPQFLLRVQTDGEITPKEAVITACHELVRDLGILSREFTKEYELRKMVGAT</Hsp_hseq>
+      <Hsp_midline>E ++P E  YAR ++G+GG RV CQST+NVSHDQQ  YESFVLA+GE+KVEMEIDTRIPSSAIFTFNKEDHTLGNLIRSRLLQSSHVLFAAYKVPHPLVP F LRVQTDG+ITPK+AVI ACHELVRDLGILSREFTKEYELRKMVGAT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>ref|XP_043127348.1|</Hit_id>
+  <Hit_def>DNA-directed RNA polymerase II core subunit [Aspergillus viridinutans] &gt;dbj|GIK04162.1| DNA-directed RNA polymerase II core subunit [Aspergillus viridinutans]</Hit_def>
+  <Hit_accession>XP_043127348</Hit_accession>
+  <Hit_len>167</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>248.054</Hsp_bit-score>
+      <Hsp_score>632</Hsp_score>
+      <Hsp_evalue>2.3076e-81</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>161</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>167</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>115</Hsp_identity>
+      <Hsp_positive>137</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>160</Hsp_align-len>
+      <Hsp_qseq>IMPAEMVYARLKNGSGGSRVR--CQSTVNVSHDQQPRYESFVLANGENKVEMEIDTRIPSSAIFTFNKEDHTLGNLIRSRLLQSSHVLFAAYKVPHPLVPNFQLRVQTDGDITPKDAVIAACHELVRDLGILSREFTKEYELRKMVGATAQQQNGVQDGV</Hsp_qseq>
+      <Hsp_hseq>MLPNEMAYARWIHATGGSRNNNACHSSVNLDNDQPRSFESFVLSPGEEKVEVETDTRIPSSSIFTFNKEDHTLGNLLRSRLLQNSHVIFAGYKVPHPLVPKFELRVQTDGEVTPKDALLAACHDLVKDLGILSREFTKEYELRKMVGATQQQQNGTAEGA</Hsp_hseq>
+      <Hsp_midline>++P EM YAR  + +GGSR    C S+VN+ +DQ   +ESFVL+ GE KVE+E DTRIPSS+IFTFNKEDHTLGNL+RSRLLQ+SHV+FA YKVPHPLVP F+LRVQTDG++TPKDA++AACH+LV+DLGILSREFTKEYELRKMVGAT QQQNG  +G </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>dbj|GFF95330.1|</Hit_id>
+  <Hit_def>DNA-directed RNA polymerase II subunit RPB11a, putative [Aspergillus lentulus]</Hit_def>
+  <Hit_accession>GFF95330</Hit_accession>
+  <Hit_len>167</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>248.054</Hsp_bit-score>
+      <Hsp_score>632</Hsp_score>
+      <Hsp_evalue>2.38474e-81</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>161</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>167</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>115</Hsp_identity>
+      <Hsp_positive>137</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>160</Hsp_align-len>
+      <Hsp_qseq>IMPAEMVYARLKNGSGGSRVR--CQSTVNVSHDQQPRYESFVLANGENKVEMEIDTRIPSSAIFTFNKEDHTLGNLIRSRLLQSSHVLFAAYKVPHPLVPNFQLRVQTDGDITPKDAVIAACHELVRDLGILSREFTKEYELRKMVGATAQQQNGVQDGV</Hsp_qseq>
+      <Hsp_hseq>MLPNEMAYARWIHAAGGSRNNNACHSSINLDNDQPRSFESFVLSPGEEKVEVEADTRIPSSSIFTFNKEDHTLGNLLRSRLLQNSHVIFAGYKVPHPLVPKFELRVQTDGEITPKDALLAACHDLVKDLGILSREFTKEYELRKMVGATQQQQNGTAEGA</Hsp_hseq>
+      <Hsp_midline>++P EM YAR  + +GGSR    C S++N+ +DQ   +ESFVL+ GE KVE+E DTRIPSS+IFTFNKEDHTLGNL+RSRLLQ+SHV+FA YKVPHPLVP F+LRVQTDG+ITPKDA++AACH+LV+DLGILSREFTKEYELRKMVGAT QQQNG  +G </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>ref|XP_031909195.1|</Hit_id>
+  <Hit_def>DNA-directed RNA polymerase [Aspergillus pseudotamarii] &gt;ref|XP_031927274.1| DNA-directed RNA polymerase [Aspergillus caelatus] &gt;gb|KAE8133132.1| DNA-directed RNA polymerase [Aspergillus pseudotamarii] &gt;gb|KAE8364193.1| DNA-directed RNA polymerase [Aspergillus caelatus]</Hit_def>
+  <Hit_accession>XP_031909195</Hit_accession>
+  <Hit_len>129</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>245.743</Hsp_bit-score>
+      <Hsp_score>626</Hsp_score>
+      <Hsp_evalue>5.77381e-81</Hsp_evalue>
+      <Hsp_query-from>38</Hsp_query-from>
+      <Hsp_query-to>160</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>128</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>116</Hsp_identity>
+      <Hsp_positive>121</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>123</Hsp_align-len>
+      <Hsp_qseq>RYESFVLANGENKVEMEIDTRIPSSAIFTFNKEDHTLGNLIRSRLLQSSHVLFAAYKVPHPLVPNFQLRVQTDGDITPKDAVIAACHELVRDLGILSREFTKEYELRKMVGATAQQQNGVQDG</Hsp_qseq>
+      <Hsp_hseq>RYESFVLANGENKVEMEIDTRIPSSAIFTFNKEDHTLGNLIRSRLLQSSHVLFAAYKVPHPLVPKFELRVQTDGEITPKEAVIAACHELVRDLGILSREFTKEYELRKMVGATQQQQDGVQEG</Hsp_hseq>
+      <Hsp_midline>RYESFVLANGENKVEMEIDTRIPSSAIFTFNKEDHTLGNLIRSRLLQSSHVLFAAYKVPHPLVP F+LRVQTDG+ITPK+AVIAACHELVRDLGILSREFTKEYELRKMVGAT QQQ+GVQ+G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>ref|XP_001261307.1|</Hit_id>
+  <Hit_def>DNA-directed RNA polymerase II subunit RPB11a, putative [Aspergillus fischeri NRRL 181] &gt;gb|EAW19410.1| DNA-directed RNA polymerase II subunit RPB11a, putative [Aspergillus fischeri NRRL 181] &gt;gb|KAG2014675.1| hypothetical protein GB937_006394 [Aspergillus fischeri]</Hit_def>
+  <Hit_accession>XP_001261307</Hit_accession>
+  <Hit_len>167</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>247.284</Hsp_bit-score>
+      <Hsp_score>630</Hsp_score>
+      <Hsp_evalue>6.05422e-81</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>161</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>167</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>115</Hsp_identity>
+      <Hsp_positive>136</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>160</Hsp_align-len>
+      <Hsp_qseq>IMPAEMVYARLKNGSGGSRVR--CQSTVNVSHDQQPRYESFVLANGENKVEMEIDTRIPSSAIFTFNKEDHTLGNLIRSRLLQSSHVLFAAYKVPHPLVPNFQLRVQTDGDITPKDAVIAACHELVRDLGILSREFTKEYELRKMVGATAQQQNGVQDGV</Hsp_qseq>
+      <Hsp_hseq>MLPNEMAYARWIHAGGGSRNNNPCHSSINLDNDQPRSFESFVLSPGEEKVEVEADTRIPSSSIFTFNKEDHTLGNLLRSRLLQNSHVIFAGYKVPHPLVPKFELRVQTDGEITPKDALLAACHDLVKDLGILSREFTKEYELRKMVGATQQQQNGTAEGA</Hsp_hseq>
+      <Hsp_midline>++P EM YAR  +  GGSR    C S++N+ +DQ   +ESFVL+ GE KVE+E DTRIPSS+IFTFNKEDHTLGNL+RSRLLQ+SHV+FA YKVPHPLVP F+LRVQTDG+ITPKDA++AACH+LV+DLGILSREFTKEYELRKMVGAT QQQNG  +G </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gb|KAJ0416655.1|</Hit_id>
+  <Hit_def>DNA-directed RNA polymerase [Aspergillus carlsbadensis] &gt;emb|CEN60101.1| Putative DNA-directed RNA polymerase II subunit RPB11a [Aspergillus calidoustus]</Hit_def>
+  <Hit_accession>KAJ0416655</Hit_accession>
+  <Hit_len>129</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>245.743</Hsp_bit-score>
+      <Hsp_score>626</Hsp_score>
+      <Hsp_evalue>6.30334e-81</Hsp_evalue>
+      <Hsp_query-from>38</Hsp_query-from>
+      <Hsp_query-to>161</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>129</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>115</Hsp_identity>
+      <Hsp_positive>119</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>124</Hsp_align-len>
+      <Hsp_qseq>RYESFVLANGENKVEMEIDTRIPSSAIFTFNKEDHTLGNLIRSRLLQSSHVLFAAYKVPHPLVPNFQLRVQTDGDITPKDAVIAACHELVRDLGILSREFTKEYELRKMVGATAQQQNGVQDGV</Hsp_qseq>
+      <Hsp_hseq>RYESFVLANGESKVEMEIDTRIPSSAIFTFNKEDHTLGNLIRSRLMQSSHVLFAAYKVPHPLVPKFELRVQTDGDITPKDAVITACHELVRDLGILSREFTKEYELRKMVGATQQQQNGASDGI</Hsp_hseq>
+      <Hsp_midline>RYESFVLANGE+KVEMEIDTRIPSSAIFTFNKEDHTLGNLIRSRL+QSSHVLFAAYKVPHPLVP F+LRVQTDGDITPKDAVI ACHELVRDLGILSREFTKEYELRKMVGAT QQQNG  DG+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gb|KAB8256495.1|</Hit_id>
+  <Hit_def>DNA-directed RNA polymerase [Aspergillus pseudonomiae]</Hit_def>
+  <Hit_accession>KAB8256495</Hit_accession>
+  <Hit_len>129</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>244.202</Hsp_bit-score>
+      <Hsp_score>622</Hsp_score>
+      <Hsp_evalue>2.51053e-80</Hsp_evalue>
+      <Hsp_query-from>38</Hsp_query-from>
+      <Hsp_query-to>160</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>128</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>115</Hsp_identity>
+      <Hsp_positive>120</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>123</Hsp_align-len>
+      <Hsp_qseq>RYESFVLANGENKVEMEIDTRIPSSAIFTFNKEDHTLGNLIRSRLLQSSHVLFAAYKVPHPLVPNFQLRVQTDGDITPKDAVIAACHELVRDLGILSREFTKEYELRKMVGATAQQQNGVQDG</Hsp_qseq>
+      <Hsp_hseq>RYESFVLANGENKVEMEIDTRIPSSAIFTFNKEDHTLGNLIRSRLLQSSHVLFAAYKVPHPLVPKFELRVQTDGEITPKEAVISACHELVRDLGILSREFTKEYELRKMVGATQQQQDSVQDG</Hsp_hseq>
+      <Hsp_midline>RYESFVLANGENKVEMEIDTRIPSSAIFTFNKEDHTLGNLIRSRLLQSSHVLFAAYKVPHPLVP F+LRVQTDG+ITPK+AVI+ACHELVRDLGILSREFTKEYELRKMVGAT QQQ+ VQDG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gb|KAH3375212.1|</Hit_id>
+  <Hit_def>hypothetical protein KXW99_006488 [Aspergillus fumigatus]</Hit_def>
+  <Hit_accession>KAH3375212</Hit_accession>
+  <Hit_len>167</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>244.973</Hsp_bit-score>
+      <Hsp_score>624</Hsp_score>
+      <Hsp_evalue>3.77556e-80</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>161</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>167</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>115</Hsp_identity>
+      <Hsp_positive>136</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>160</Hsp_align-len>
+      <Hsp_qseq>IMPAEMVYARLKNGSGGSRVR--CQSTVNVSHDQQPRYESFVLANGENKVEMEIDTRIPSSAIFTFNKEDHTLGNLIRSRLLQSSHVLFAAYKVPHPLVPNFQLRVQTDGDITPKDAVIAACHELVRDLGILSREFTKEYELRKMVGATAQQQNGVQDGV</Hsp_qseq>
+      <Hsp_hseq>ILPNEMAYARWIHATGGSRNHNAFHSSINLDNDQPRSFESFVLSPGEEKVEVETDTRIPSSSIFTFNKEDHTLGNLLRSRLLQNSHVIFAGYKVPHPLVPKFELRVQTDGEITPKDALLAACHDLVKDLGILSREFTKEYELRKMVGATQQQQNGTAEGA</Hsp_hseq>
+      <Hsp_midline>I+P EM YAR  + +GGSR      S++N+ +DQ   +ESFVL+ GE KVE+E DTRIPSS+IFTFNKEDHTLGNL+RSRLLQ+SHV+FA YKVPHPLVP F+LRVQTDG+ITPKDA++AACH+LV+DLGILSREFTKEYELRKMVGAT QQQNG  +G </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gb|KAF4209238.1|</Hit_id>
+  <Hit_def>hypothetical protein CNMCM5878_005166 [Aspergillus fumigatiaffinis] &gt;gb|KAF4217047.1| hypothetical protein CNMCM6457_004726 [Aspergillus fumigatiaffinis] &gt;gb|KAF4225978.1| hypothetical protein CNMCM6805_005317 [Aspergillus fumigatiaffinis] &gt;gb|KAF4232030.1| hypothetical protein CNMCM8980_005092 [Aspergillus fumigatiaffinis]</Hit_def>
+  <Hit_accession>KAF4209238</Hit_accession>
+  <Hit_len>167</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>244.973</Hsp_bit-score>
+      <Hsp_score>624</Hsp_score>
+      <Hsp_evalue>3.85924e-80</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>161</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>167</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>113</Hsp_identity>
+      <Hsp_positive>136</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>160</Hsp_align-len>
+      <Hsp_qseq>IMPAEMVYARLKNGSGGSRVR--CQSTVNVSHDQQPRYESFVLANGENKVEMEIDTRIPSSAIFTFNKEDHTLGNLIRSRLLQSSHVLFAAYKVPHPLVPNFQLRVQTDGDITPKDAVIAACHELVRDLGILSREFTKEYELRKMVGATAQQQNGVQDGV</Hsp_qseq>
+      <Hsp_hseq>MLPNEMAYARWIHAAGGSRNNNACHSSINLDNDQPRSFESFVLSPGEEKVEVETDTRIPSSSIFTFNKEDHTLGNLLRSRLLQNPHVVFAGYKIPHPLVPKFELRVQTDGEITPKDALLAACHDLVKDLGILSREFTKEYELRKMVGATQQQQNGTAEGA</Hsp_hseq>
+      <Hsp_midline>++P EM YAR  + +GGSR    C S++N+ +DQ   +ESFVL+ GE KVE+E DTRIPSS+IFTFNKEDHTLGNL+RSRLLQ+ HV+FA YK+PHPLVP F+LRVQTDG+ITPKDA++AACH+LV+DLGILSREFTKEYELRKMVGAT QQQNG  +G </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>520277157</Statistics_db-num>
+      <Statistics_db-len>204016416296</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+  <Iteration_message>Searches from this IP address have consumed a large amount of server CPU time. Future searches may be penalized in fairness to other users. Please consider the BLAST+ binaries: https://www.ncbi.nlm.nih.gov/books/NBK279690/</Iteration_message>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>

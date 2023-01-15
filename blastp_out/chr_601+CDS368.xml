@@ -1,0 +1,1441 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.13.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_9719</BlastOutput_query-ID>
+  <BlastOutput_query-def>unnamed protein product</BlastOutput_query-def>
+  <BlastOutput_query-len>189</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_9719</Iteration_query-ID>
+  <Iteration_query-def>unnamed protein product</Iteration_query-def>
+  <Iteration_query-len>189</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>ref|XP_025457440.1|</Hit_id>
+  <Hit_def>uncharacterized protein BO96DRAFT_489334 [Aspergillus niger CBS 101883] &gt;ref|XP_026632753.1| hypothetical protein BDQ94DRAFT_8118 [Aspergillus welwitschiae] &gt;gb|EHA20712.1| hypothetical protein ASPNIDRAFT_214402 [Aspergillus niger ATCC 1015] &gt;gb|KAI2830985.1| transcriptional regulator family: C2H2 zinc finger [Aspergillus niger] &gt;gb|RDK47049.1| hypothetical protein M752DRAFT_306373 [Aspergillus phoenicis ATCC 13157] &gt;dbj|GCB23661.1| zinc finger protein GLIS3 [Aspergillus awamori] &gt;gb|KAI2852920.1| transcriptional regulator family: C2H2 zinc finger [Aspergillus niger]</Hit_def>
+  <Hit_accession>XP_025457440</Hit_accession>
+  <Hit_len>284</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>355.525</Hsp_bit-score>
+      <Hsp_score>911</Hsp_score>
+      <Hsp_evalue>1.42445e-121</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>189</Hsp_query-to>
+      <Hsp_hit-from>109</Hsp_hit-from>
+      <Hsp_hit-to>284</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>175</Hsp_identity>
+      <Hsp_positive>175</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>176</Hsp_align-len>
+      <Hsp_qseq>TFCRKTTLTKHQHRSHPPGSMTRLPSEDAVSEHSYQGPVAVPVPNEQYLLAQQPYYPHTPTPTHEFYPHQSLHITPVPIQEQPPIVTQHIPVTSPVDVQRAQQHYMQLVQQQQQQQQRYDPGRQGYLPPEFQQPYHALPTADGPPLMVTSTQSDYKPPARILNQPEGTDWGFLGVG</Hsp_qseq>
+      <Hsp_hseq>AFCRKTTLTKHQHRSHPPGSMTRLPSEDAVSEHSYQGPVAVPVPNEQYLLAQQPYYPHTPTPTHEFYPHQSLHITPVPIQEQPPIVTQHIPVTSPVDVQRAQQHYMQLVQQQQQQQQRYDPGRQGYLPPEFQQPYHALPTADGPPLMVTSTQSDYKPPARILNQPEGTDWGFLGVG</Hsp_hseq>
+      <Hsp_midline> FCRKTTLTKHQHRSHPPGSMTRLPSEDAVSEHSYQGPVAVPVPNEQYLLAQQPYYPHTPTPTHEFYPHQSLHITPVPIQEQPPIVTQHIPVTSPVDVQRAQQHYMQLVQQQQQQQQRYDPGRQGYLPPEFQQPYHALPTADGPPLMVTSTQSDYKPPARILNQPEGTDWGFLGVG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>dbj|GLA24828.1|</Hit_id>
+  <Hit_def>hypothetical protein AnigIFM63326_001292 [Aspergillus niger]</Hit_def>
+  <Hit_accession>GLA24828</Hit_accession>
+  <Hit_len>284</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>354.369</Hsp_bit-score>
+      <Hsp_score>908</Hsp_score>
+      <Hsp_evalue>3.57468e-121</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>189</Hsp_query-to>
+      <Hsp_hit-from>109</Hsp_hit-from>
+      <Hsp_hit-to>284</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>174</Hsp_identity>
+      <Hsp_positive>175</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>176</Hsp_align-len>
+      <Hsp_qseq>TFCRKTTLTKHQHRSHPPGSMTRLPSEDAVSEHSYQGPVAVPVPNEQYLLAQQPYYPHTPTPTHEFYPHQSLHITPVPIQEQPPIVTQHIPVTSPVDVQRAQQHYMQLVQQQQQQQQRYDPGRQGYLPPEFQQPYHALPTADGPPLMVTSTQSDYKPPARILNQPEGTDWGFLGVG</Hsp_qseq>
+      <Hsp_hseq>AFCRKTTLTKHQHRSHPPGSMTRLPSEDAVSEHSYQGPVAVPVPNEQYLLAQQPYYPHTPTPTHEFYPHQNLHITPVPIQEQPPIVTQHIPVTSPVDVQRAQQHYMQLVQQQQQQQQRYDPGRQGYLPPEFQQPYHALPTADGPPLMVTSTQSDYKPPARILNQPEGTDWGFLGVG</Hsp_hseq>
+      <Hsp_midline> FCRKTTLTKHQHRSHPPGSMTRLPSEDAVSEHSYQGPVAVPVPNEQYLLAQQPYYPHTPTPTHEFYPHQ+LHITPVPIQEQPPIVTQHIPVTSPVDVQRAQQHYMQLVQQQQQQQQRYDPGRQGYLPPEFQQPYHALPTADGPPLMVTSTQSDYKPPARILNQPEGTDWGFLGVG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>ref|XP_001401870.1|</Hit_id>
+  <Hit_def>C2H2 finger domain protein [Aspergillus niger CBS 513.88] &gt;gb|KAI2822939.1| transcriptional regulator family: C2H2 zinc finger [Aspergillus niger] &gt;gb|RDH20224.1| hypothetical protein M747DRAFT_351269 [Aspergillus niger ATCC 13496] &gt;gb|KAI2858984.1| transcriptional regulator family: C2H2 zinc finger [Aspergillus niger] &gt;gb|KAI2873299.1| transcriptional regulator family: C2H2 zinc finger [Aspergillus niger] &gt;emb|CAK38768.1| unnamed protein product [Aspergillus niger]</Hit_def>
+  <Hit_accession>XP_001401870</Hit_accession>
+  <Hit_len>284</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>353.984</Hsp_bit-score>
+      <Hsp_score>907</Hsp_score>
+      <Hsp_evalue>5.91641e-121</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>189</Hsp_query-to>
+      <Hsp_hit-from>109</Hsp_hit-from>
+      <Hsp_hit-to>284</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>174</Hsp_identity>
+      <Hsp_positive>175</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>176</Hsp_align-len>
+      <Hsp_qseq>TFCRKTTLTKHQHRSHPPGSMTRLPSEDAVSEHSYQGPVAVPVPNEQYLLAQQPYYPHTPTPTHEFYPHQSLHITPVPIQEQPPIVTQHIPVTSPVDVQRAQQHYMQLVQQQQQQQQRYDPGRQGYLPPEFQQPYHALPTADGPPLMVTSTQSDYKPPARILNQPEGTDWGFLGVG</Hsp_qseq>
+      <Hsp_hseq>AFCRKTTLTKHQHRSHPPGSMTRLPSEDAVSEHSYQGPVAVPVPNEQYLLAQQPYYPHTPTPTHEFYPHQSLHITPVPIQEQPPIVTQHIPVTSPVDVQRAQQHYMQLVQQQQQQQQRYDPGRQGYLPPEFQQPYHALPTADGPPLMVTSTQSNYKPPARILNQPEGTDWGFLGVG</Hsp_hseq>
+      <Hsp_midline> FCRKTTLTKHQHRSHPPGSMTRLPSEDAVSEHSYQGPVAVPVPNEQYLLAQQPYYPHTPTPTHEFYPHQSLHITPVPIQEQPPIVTQHIPVTSPVDVQRAQQHYMQLVQQQQQQQQRYDPGRQGYLPPEFQQPYHALPTADGPPLMVTSTQS+YKPPARILNQPEGTDWGFLGVG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>ref|XP_025515173.1|</Hit_id>
+  <Hit_def>hypothetical protein BO85DRAFT_36443 [Aspergillus piperis CBS 112811] &gt;gb|RAH57251.1| hypothetical protein BO85DRAFT_36443 [Aspergillus piperis CBS 112811]</Hit_def>
+  <Hit_accession>XP_025515173</Hit_accession>
+  <Hit_len>280</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>352.058</Hsp_bit-score>
+      <Hsp_score>902</Hsp_score>
+      <Hsp_evalue>3.17389e-120</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>189</Hsp_query-to>
+      <Hsp_hit-from>95</Hsp_hit-from>
+      <Hsp_hit-to>280</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>175</Hsp_identity>
+      <Hsp_positive>178</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>186</Hsp_align-len>
+      <Hsp_qseq>ATRPFL----TFCRKTTLTKHQHRSHPPGSMTRLPSEDAVSEHSYQGPVAVPVPNEQYLLAQQPYYPHTPTPTHEFYPHQSLHITPVPIQEQPPIVTQHIPVTSPVDVQRAQQHYMQLVQQQQQQQQRYDPGRQGYLPPEFQQPYHALPTADGPPLMVTSTQSDYKPPARILNQPEGTDWGFLGVG</Hsp_qseq>
+      <Hsp_hseq>GKRPYICQEPTFCRKTTLTKHQHRSHPPGSMTRLPSEDAVSEHSYQGPVAVPVPNEQYLLAQQPYYPHTPTPTHEFYPHQSLHITPVPIQEQPPIVTQHIPVTSPVDVQRAQQHYMQLVQQQQQQQQRYDPGRQGYLPPEFQQPYHTLPTAEGPPLMVTSTHSDYKPPARILNQPEGTDWGFLGVG</Hsp_hseq>
+      <Hsp_midline>  RP++    TFCRKTTLTKHQHRSHPPGSMTRLPSEDAVSEHSYQGPVAVPVPNEQYLLAQQPYYPHTPTPTHEFYPHQSLHITPVPIQEQPPIVTQHIPVTSPVDVQRAQQHYMQLVQQQQQQQQRYDPGRQGYLPPEFQQPYH LPTA+GPPLMVTST SDYKPPARILNQPEGTDWGFLGVG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>ref|XP_025543738.1|</Hit_id>
+  <Hit_def>hypothetical protein BO79DRAFT_138595 [Aspergillus costaricaensis CBS 115574] &gt;gb|OJZ87495.1| hypothetical protein ASPFODRAFT_131596 [Aspergillus luchuensis CBS 106.47] &gt;gb|RAK92903.1| hypothetical protein BO79DRAFT_138595 [Aspergillus costaricaensis CBS 115574]</Hit_def>
+  <Hit_accession>XP_025543738</Hit_accession>
+  <Hit_len>284</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>350.132</Hsp_bit-score>
+      <Hsp_score>897</Hsp_score>
+      <Hsp_evalue>2.0797e-119</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>189</Hsp_query-to>
+      <Hsp_hit-from>109</Hsp_hit-from>
+      <Hsp_hit-to>284</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>172</Hsp_identity>
+      <Hsp_positive>173</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>176</Hsp_align-len>
+      <Hsp_qseq>TFCRKTTLTKHQHRSHPPGSMTRLPSEDAVSEHSYQGPVAVPVPNEQYLLAQQPYYPHTPTPTHEFYPHQSLHITPVPIQEQPPIVTQHIPVTSPVDVQRAQQHYMQLVQQQQQQQQRYDPGRQGYLPPEFQQPYHALPTADGPPLMVTSTQSDYKPPARILNQPEGTDWGFLGVG</Hsp_qseq>
+      <Hsp_hseq>AFCRKTTLTKHQHRSHPPGSMTRLPSEDAVSEHSYQGPVAVPVPNEQYLLAQQPYYPHTPTPTHEFYPHQSLHITPVPIQEQPPIVTQHIPVTSPVDVQRAQQHYMQLVQQQQQQQQRYDPGRQGYLPPEFQQPYHTLPTAEGPPLMVTSTHSDYKPPARILNQPEGTDWGFLGVG</Hsp_hseq>
+      <Hsp_midline> FCRKTTLTKHQHRSHPPGSMTRLPSEDAVSEHSYQGPVAVPVPNEQYLLAQQPYYPHTPTPTHEFYPHQSLHITPVPIQEQPPIVTQHIPVTSPVDVQRAQQHYMQLVQQQQQQQQRYDPGRQGYLPPEFQQPYH LPTA+GPPLMVTST SDYKPPARILNQPEGTDWGFLGVG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>ref|XP_025480130.1|</Hit_id>
+  <Hit_def>hypothetical protein BO87DRAFT_307745 [Aspergillus neoniger CBS 115656] &gt;gb|PYH34652.1| hypothetical protein BO87DRAFT_307745 [Aspergillus neoniger CBS 115656]</Hit_def>
+  <Hit_accession>XP_025480130</Hit_accession>
+  <Hit_len>284</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>348.206</Hsp_bit-score>
+      <Hsp_score>892</Hsp_score>
+      <Hsp_evalue>1.13567e-118</Hsp_evalue>
+      <Hsp_query-from>15</Hsp_query-from>
+      <Hsp_query-to>189</Hsp_query-to>
+      <Hsp_hit-from>110</Hsp_hit-from>
+      <Hsp_hit-to>284</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>171</Hsp_identity>
+      <Hsp_positive>172</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>175</Hsp_align-len>
+      <Hsp_qseq>FCRKTTLTKHQHRSHPPGSMTRLPSEDAVSEHSYQGPVAVPVPNEQYLLAQQPYYPHTPTPTHEFYPHQSLHITPVPIQEQPPIVTQHIPVTSPVDVQRAQQHYMQLVQQQQQQQQRYDPGRQGYLPPEFQQPYHALPTADGPPLMVTSTQSDYKPPARILNQPEGTDWGFLGVG</Hsp_qseq>
+      <Hsp_hseq>FCRKTTLTKHQHRSHPPGSMTRLPSEDAVSEHSYQGPVAVPVPNEQYLLAQQPYYPHTPTPTHEFYPHQSLHITPVPIQEQPPIVTQHIPVTSPVDVQRAQQHYMQLVQQQQQQQQRYDPGRQGYLPPEFQQPYHTLPTAEGPPLMVTSTHSDYKPPTRILNQPEGTDWGFLGVG</Hsp_hseq>
+      <Hsp_midline>FCRKTTLTKHQHRSHPPGSMTRLPSEDAVSEHSYQGPVAVPVPNEQYLLAQQPYYPHTPTPTHEFYPHQSLHITPVPIQEQPPIVTQHIPVTSPVDVQRAQQHYMQLVQQQQQQQQRYDPGRQGYLPPEFQQPYH LPTA+GPPLMVTST SDYKPP RILNQPEGTDWGFLGVG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>ref|XP_041544907.1|</Hit_id>
+  <Hit_def>uncharacterized protein AKAW2_51486S [Aspergillus luchuensis] &gt;dbj|BCS01145.1| hypothetical protein AKAW2_51486S [Aspergillus luchuensis] &gt;dbj|BCS12896.1| hypothetical protein ALUC_50942S [Aspergillus luchuensis]</Hit_def>
+  <Hit_accession>XP_041544907</Hit_accession>
+  <Hit_len>284</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>347.051</Hsp_bit-score>
+      <Hsp_score>889</Hsp_score>
+      <Hsp_evalue>2.69775e-118</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>189</Hsp_query-to>
+      <Hsp_hit-from>109</Hsp_hit-from>
+      <Hsp_hit-to>284</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>171</Hsp_identity>
+      <Hsp_positive>172</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>176</Hsp_align-len>
+      <Hsp_qseq>TFCRKTTLTKHQHRSHPPGSMTRLPSEDAVSEHSYQGPVAVPVPNEQYLLAQQPYYPHTPTPTHEFYPHQSLHITPVPIQEQPPIVTQHIPVTSPVDVQRAQQHYMQLVQQQQQQQQRYDPGRQGYLPPEFQQPYHALPTADGPPLMVTSTQSDYKPPARILNQPEGTDWGFLGVG</Hsp_qseq>
+      <Hsp_hseq>AFCRKTTLTKHQHRSHPPGSMTRLPSEDAVSEHSYQGPVAVPVPNEQYLLAQQPYYPHTPTPTHEFYPHQSLHITPVPIQEQPPIVTQHIPVTSPVDVQRAQQHYMQLVQQQQQQQQRYDPGRQGYLPPEFQQPYHTLPTAEGPPLMVTSTHSDYKPPACILNQPEGTDWGFLGVG</Hsp_hseq>
+      <Hsp_midline> FCRKTTLTKHQHRSHPPGSMTRLPSEDAVSEHSYQGPVAVPVPNEQYLLAQQPYYPHTPTPTHEFYPHQSLHITPVPIQEQPPIVTQHIPVTSPVDVQRAQQHYMQLVQQQQQQQQRYDPGRQGYLPPEFQQPYH LPTA+GPPLMVTST SDYKPPA ILNQPEGTDWGFLGVG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>ref|XP_035353976.1|</Hit_id>
+  <Hit_def>C2H2 finger domain protein [Aspergillus tubingensis] &gt;gb|OJI81154.1| hypothetical protein ASPTUDRAFT_127433 [Aspergillus tubingensis CBS 134.48] &gt;dbj|GFN13172.1| C2H2 finger domain protein [Aspergillus tubingensis] &gt;dbj|GLA61373.1| hypothetical protein AtubIFM54640_001892 [Aspergillus tubingensis] &gt;dbj|GLA77976.1| hypothetical protein AtubIFM55763_010458 [Aspergillus tubingensis] &gt;dbj|GLA82162.1| hypothetical protein AtubIFM56815_006341 [Aspergillus tubingensis]</Hit_def>
+  <Hit_accession>XP_035353976</Hit_accession>
+  <Hit_len>285</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>345.51</Hsp_bit-score>
+      <Hsp_score>885</Hsp_score>
+      <Hsp_evalue>1.44339e-117</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>189</Hsp_query-to>
+      <Hsp_hit-from>109</Hsp_hit-from>
+      <Hsp_hit-to>285</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>172</Hsp_identity>
+      <Hsp_positive>173</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>177</Hsp_align-len>
+      <Hsp_qseq>TFCRKTTLTKHQHRSHPPGSMTRLPSEDAVSEHSYQGPVAVPVPNEQYLLAQQPYYPHTPTPTHEFYPHQSLHITPVPIQEQPPIVTQHIPVTSPVDVQRAQQHYMQLV-QQQQQQQQRYDPGRQGYLPPEFQQPYHALPTADGPPLMVTSTQSDYKPPARILNQPEGTDWGFLGVG</Hsp_qseq>
+      <Hsp_hseq>AFCRKTTLTKHQHRSHPPGSMTRLPSEDAVSEHSYQGPVAVPVPNEQYLLAQQPYYPHTPTPTHEFYPHQSLHITPVPIQEQPPIVTQHIPVTSPVDVQRAQQHYMQLVQQQQQQQQQRYDPGRQGYLPPEFQQPYHTLPTAEGPPLMVTSTHSDYKPPARILNQPEGTDWGFLGVG</Hsp_hseq>
+      <Hsp_midline> FCRKTTLTKHQHRSHPPGSMTRLPSEDAVSEHSYQGPVAVPVPNEQYLLAQQPYYPHTPTPTHEFYPHQSLHITPVPIQEQPPIVTQHIPVTSPVDVQRAQQHYMQLV QQQQQQQQRYDPGRQGYLPPEFQQPYH LPTA+GPPLMVTST SDYKPPARILNQPEGTDWGFLGVG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>dbj|GLB08106.1|</Hit_id>
+  <Hit_def>hypothetical protein AtubIFM57258_003474 [Aspergillus tubingensis]</Hit_def>
+  <Hit_accession>GLB08106</Hit_accession>
+  <Hit_len>286</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>344.739</Hsp_bit-score>
+      <Hsp_score>883</Hsp_score>
+      <Hsp_evalue>2.61145e-117</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>189</Hsp_query-to>
+      <Hsp_hit-from>109</Hsp_hit-from>
+      <Hsp_hit-to>286</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>172</Hsp_identity>
+      <Hsp_positive>173</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>178</Hsp_align-len>
+      <Hsp_qseq>TFCRKTTLTKHQHRSHPPGSMTRLPSEDAVSEHSYQGPVAVPVPNEQYLLAQQPYYPHTPTPTHEFYPHQSLHITPVPIQEQPPIVTQHIPVTSPVDVQRAQQHYMQLV--QQQQQQQQRYDPGRQGYLPPEFQQPYHALPTADGPPLMVTSTQSDYKPPARILNQPEGTDWGFLGVG</Hsp_qseq>
+      <Hsp_hseq>AFCRKTTLTKHQHRSHPPGSMTRLPSEDAVSEHSYQGPVAVPVPNEQYLLAQQPYYPHTPTPTHEFYPHQSLHITPVPIQEQPPIVTQHIPVTSPVDVQRAQQHYMQLVQQQQQQQQQQRYDPGRQGYLPPEFQQPYHTLPTAEGPPLMVTSTHSDYKPPARILNQPEGTDWGFLGVG</Hsp_hseq>
+      <Hsp_midline> FCRKTTLTKHQHRSHPPGSMTRLPSEDAVSEHSYQGPVAVPVPNEQYLLAQQPYYPHTPTPTHEFYPHQSLHITPVPIQEQPPIVTQHIPVTSPVDVQRAQQHYMQLV  QQQQQQQQRYDPGRQGYLPPEFQQPYH LPTA+GPPLMVTST SDYKPPARILNQPEGTDWGFLGVG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>dbj|GAQ37918.1|</Hit_id>
+  <Hit_def>hypothetical protein ASPNIDRAFT_214402 [Aspergillus niger]</Hit_def>
+  <Hit_accession>GAQ37918</Hit_accession>
+  <Hit_len>221</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>342.428</Hsp_bit-score>
+      <Hsp_score>877</Hsp_score>
+      <Hsp_evalue>2.6891e-117</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>189</Hsp_query-to>
+      <Hsp_hit-from>45</Hsp_hit-from>
+      <Hsp_hit-to>221</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>172</Hsp_identity>
+      <Hsp_positive>173</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>177</Hsp_align-len>
+      <Hsp_qseq>TFCRKTTLTKHQHRSHPPGSMTRLPSEDAVSEHSYQGPVAVPVPNEQYLLAQQPYYPHTPTPTHEFYPHQSLHITPVPIQEQPPIVTQHIPVTSPVDVQRAQQHYMQLV-QQQQQQQQRYDPGRQGYLPPEFQQPYHALPTADGPPLMVTSTQSDYKPPARILNQPEGTDWGFLGVG</Hsp_qseq>
+      <Hsp_hseq>AFCRKTTLTKHQHRSHPPGSMTRLPSEDAVSEHSYQGPVAVPVPNEQYLLAQQPYYPHTPTPTHEFYPHQSLHITPVPIQEQPPIVTQHIPVTSPVDVQRAQQHYMQLVQQQQQQQQQRYDPGRQGYLPPEFQQPYHTLPTAEGPPLMVTSTHSDYKPPARILNQPEGTDWGFLGVG</Hsp_hseq>
+      <Hsp_midline> FCRKTTLTKHQHRSHPPGSMTRLPSEDAVSEHSYQGPVAVPVPNEQYLLAQQPYYPHTPTPTHEFYPHQSLHITPVPIQEQPPIVTQHIPVTSPVDVQRAQQHYMQLV QQQQQQQQRYDPGRQGYLPPEFQQPYH LPTA+GPPLMVTST SDYKPPARILNQPEGTDWGFLGVG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>ref|XP_025383612.1|</Hit_id>
+  <Hit_def>uncharacterized protein BO83DRAFT_456001 [Aspergillus eucalypticola CBS 122712] &gt;gb|PWY64022.1| hypothetical protein BO83DRAFT_456001 [Aspergillus eucalypticola CBS 122712]</Hit_def>
+  <Hit_accession>XP_025383612</Hit_accession>
+  <Hit_len>287</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>344.739</Hsp_bit-score>
+      <Hsp_score>883</Hsp_score>
+      <Hsp_evalue>3.40165e-117</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>189</Hsp_query-to>
+      <Hsp_hit-from>109</Hsp_hit-from>
+      <Hsp_hit-to>287</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>172</Hsp_identity>
+      <Hsp_positive>173</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>179</Hsp_align-len>
+      <Hsp_qseq>TFCRKTTLTKHQHRSHPPGSMTRLPSEDAVSEHSYQGPVAVPVPNEQYLLAQQPYYPHTPTPTHEFYPHQSLHITPVPIQEQPPIVTQHIPVTSPVDVQRAQQHYMQLV---QQQQQQQQRYDPGRQGYLPPEFQQPYHALPTADGPPLMVTSTQSDYKPPARILNQPEGTDWGFLGVG</Hsp_qseq>
+      <Hsp_hseq>AFCRKTTLTKHQHRSHPPGSMTRLPSEDAVSEHSYQGPVAVPVPNEQYLLAQQPYYPHTPTPTHEFYPHQSLHITPVPIQEQPPIVTQHIPVTSPVDVQRAQQHYMQLVQQQQQQQQQQQRYDPGRQGYLPPEFQQPYHTLPTAEGPPLMVTSTHSDYKPPARILNQPEGTDWGFLGVG</Hsp_hseq>
+      <Hsp_midline> FCRKTTLTKHQHRSHPPGSMTRLPSEDAVSEHSYQGPVAVPVPNEQYLLAQQPYYPHTPTPTHEFYPHQSLHITPVPIQEQPPIVTQHIPVTSPVDVQRAQQHYMQLV   QQQQQQQQRYDPGRQGYLPPEFQQPYH LPTA+GPPLMVTST SDYKPPARILNQPEGTDWGFLGVG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>ref|XP_025567375.1|</Hit_id>
+  <Hit_def>hypothetical protein BO88DRAFT_468150 [Aspergillus vadensis CBS 113365] &gt;gb|PYH73581.1| hypothetical protein BO88DRAFT_468150 [Aspergillus vadensis CBS 113365]</Hit_def>
+  <Hit_accession>XP_025567375</Hit_accession>
+  <Hit_len>286</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>343.584</Hsp_bit-score>
+      <Hsp_score>880</Hsp_score>
+      <Hsp_evalue>8.61505e-117</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>189</Hsp_query-to>
+      <Hsp_hit-from>109</Hsp_hit-from>
+      <Hsp_hit-to>286</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>171</Hsp_identity>
+      <Hsp_positive>173</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>178</Hsp_align-len>
+      <Hsp_qseq>TFCRKTTLTKHQHRSHPPGSMTRLPSEDAVSEHSYQGPVAVPVPNEQYLLAQQPYYPHTPTPTHEFYPHQSLHITPVPIQEQPPIVTQHIPVTSPVDVQRAQQHYMQLV--QQQQQQQQRYDPGRQGYLPPEFQQPYHALPTADGPPLMVTSTQSDYKPPARILNQPEGTDWGFLGVG</Hsp_qseq>
+      <Hsp_hseq>AFCRKTTLTKHQHRSHPPGSLTRLPSEDAVSEHSYQGPVAVPVPNEQYLLAQQPYYPHTPTPTHEFYPHQSLHITPVPIQEQPPIVTQHIPVTSPVDVQRAQQHYMQLVQQQQQQQQQQRYDPGRQGYLPPEFQQPYHTLPTAEGPPLMVTSTHSDYKPPARILNQPEGTDWGFLGVG</Hsp_hseq>
+      <Hsp_midline> FCRKTTLTKHQHRSHPPGS+TRLPSEDAVSEHSYQGPVAVPVPNEQYLLAQQPYYPHTPTPTHEFYPHQSLHITPVPIQEQPPIVTQHIPVTSPVDVQRAQQHYMQLV  QQQQQQQQRYDPGRQGYLPPEFQQPYH LPTA+GPPLMVTST SDYKPPARILNQPEGTDWGFLGVG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gb|OJJ71034.1|</Hit_id>
+  <Hit_def>hypothetical protein ASPBRDRAFT_43941 [Aspergillus brasiliensis CBS 101740] &gt;dbj|GKZ43372.1| hypothetical protein AbraIFM66951_004471 [Aspergillus brasiliensis]</Hit_def>
+  <Hit_accession>OJJ71034</Hit_accession>
+  <Hit_len>285</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>342.428</Hsp_bit-score>
+      <Hsp_score>877</Hsp_score>
+      <Hsp_evalue>1.9132e-116</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>189</Hsp_query-to>
+      <Hsp_hit-from>109</Hsp_hit-from>
+      <Hsp_hit-to>285</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>171</Hsp_identity>
+      <Hsp_positive>172</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>177</Hsp_align-len>
+      <Hsp_qseq>TFCRKTTLTKHQHRSHPPGSMTRLPSEDAVSEHSYQGPVAVPVPNEQYLLAQQPYYPHTPTPTHEFYPHQSLHITPVPIQEQPPIVTQHIPVTSPVDVQRAQQHYMQLV-QQQQQQQQRYDPGRQGYLPPEFQQPYHALPTADGPPLMVTSTQSDYKPPARILNQPEGTDWGFLGVG</Hsp_qseq>
+      <Hsp_hseq>AFCRKTTLTKHQHRSHPPGSMTRLPSEDAVSEHSYQGPVAVPVPNEQYLLAQQPYYPHTPTPTHEFYPHQSLHITPVPIQDPPPIVTQHIPVTSPVDVHRAQQHYMQLVQQQQQQQQQRYDPGRQGYLPPEFQQPYHTLPTADGPPLMVTSTQSDYKPPARILNQPEGTDWGFLGVG</Hsp_hseq>
+      <Hsp_midline> FCRKTTLTKHQHRSHPPGSMTRLPSEDAVSEHSYQGPVAVPVPNEQYLLAQQPYYPHTPTPTHEFYPHQSLHITPVPIQ+ PPIVTQHIPVTSPVDV RAQQHYMQLV QQQQQQQQRYDPGRQGYLPPEFQQPYH LPTADGPPLMVTSTQSDYKPPARILNQPEGTDWGFLGVG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>dbj|GKZ25716.1|</Hit_id>
+  <Hit_def>hypothetical protein AbraCBS73388_001525 [Aspergillus brasiliensis] &gt;dbj|GKZ37410.1| hypothetical protein AbraIFM66950_008933 [Aspergillus brasiliensis]</Hit_def>
+  <Hit_accession>GKZ25716</Hit_accession>
+  <Hit_len>221</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>339.347</Hsp_bit-score>
+      <Hsp_score>869</Hsp_score>
+      <Hsp_evalue>4.35509e-116</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>189</Hsp_query-to>
+      <Hsp_hit-from>45</Hsp_hit-from>
+      <Hsp_hit-to>221</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>171</Hsp_identity>
+      <Hsp_positive>172</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>177</Hsp_align-len>
+      <Hsp_qseq>TFCRKTTLTKHQHRSHPPGSMTRLPSEDAVSEHSYQGPVAVPVPNEQYLLAQQPYYPHTPTPTHEFYPHQSLHITPVPIQEQPPIVTQHIPVTSPVDVQRAQQHYMQLV-QQQQQQQQRYDPGRQGYLPPEFQQPYHALPTADGPPLMVTSTQSDYKPPARILNQPEGTDWGFLGVG</Hsp_qseq>
+      <Hsp_hseq>AFCRKTTLTKHQHRSHPPGSMTRLPSEDAVSEHSYQGPVAVPVPNEQYLLAQQPYYPHTPTPTHEFYPHQSLHITPVPIQDPPPIVTQHIPVTSPVDVHRAQQHYMQLVQQQQQQQQQRYDPGRQGYLPPEFQQPYHTLPTADGPPLMVTSTQSDYKPPARILNQPEGTDWGFLGVG</Hsp_hseq>
+      <Hsp_midline> FCRKTTLTKHQHRSHPPGSMTRLPSEDAVSEHSYQGPVAVPVPNEQYLLAQQPYYPHTPTPTHEFYPHQSLHITPVPIQ+ PPIVTQHIPVTSPVDV RAQQHYMQLV QQQQQQQQRYDPGRQGYLPPEFQQPYH LPTADGPPLMVTSTQSDYKPPARILNQPEGTDWGFLGVG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gb|PYI06480.1|</Hit_id>
+  <Hit_def>putative C2H2 finger domain protein [Aspergillus sclerotiicarbonarius CBS 121057]</Hit_def>
+  <Hit_accession>PYI06480</Hit_accession>
+  <Hit_len>278</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>312.383</Hsp_bit-score>
+      <Hsp_score>799</Hsp_score>
+      <Hsp_evalue>1.14582e-104</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>189</Hsp_query-to>
+      <Hsp_hit-from>109</Hsp_hit-from>
+      <Hsp_hit-to>278</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>158</Hsp_identity>
+      <Hsp_positive>164</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>176</Hsp_align-len>
+      <Hsp_qseq>TFCRKTTLTKHQHRSHPPGSMTRLPSEDAVSEHSYQGPVAVPVPNEQYLLAQQPYYPHTPTPTHEFYPHQSLHITPVPIQEQPPIVTQHIPVTSPVDVQRAQQHYMQLVQQQQQQQQRYDPGRQGYLPPEFQQPYHALPTADGPPLMVTSTQSDYKPPARILNQPEGTDWGFLGVG</Hsp_qseq>
+      <Hsp_hseq>AFCRKTTLTKHQHRSHPPGSMTRLPSEDAVSEHSYQGQVAVPVPNEQYLLAQQPYYPHTPTPTHEFYPHQSLHITPVPVQDPPPIVTQHIPVTSPVDVQRAQQHYLQLV-----QQQRYDPGRQGYLPPEFPQPYHSLPT-EGPPLLVTHPQSDYKPPARILNQPEGTDWGFLGVG</Hsp_hseq>
+      <Hsp_midline> FCRKTTLTKHQHRSHPPGSMTRLPSEDAVSEHSYQG VAVPVPNEQYLLAQQPYYPHTPTPTHEFYPHQSLHITPVP+Q+ PPIVTQHIPVTSPVDVQRAQQHY+QLV     QQQRYDPGRQGYLPPEF QPYH+LPT +GPPL+VT  QSDYKPPARILNQPEGTDWGFLGVG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>ref|XP_025470137.1|</Hit_id>
+  <Hit_def>putative C2H2 finger domain protein [Aspergillus sclerotioniger CBS 115572] &gt;gb|PWY93376.1| putative C2H2 finger domain protein [Aspergillus sclerotioniger CBS 115572]</Hit_def>
+  <Hit_accession>XP_025470137</Hit_accession>
+  <Hit_len>280</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>312.383</Hsp_bit-score>
+      <Hsp_score>799</Hsp_score>
+      <Hsp_evalue>1.54273e-104</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>189</Hsp_query-to>
+      <Hsp_hit-from>109</Hsp_hit-from>
+      <Hsp_hit-to>280</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>155</Hsp_identity>
+      <Hsp_positive>164</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>177</Hsp_align-len>
+      <Hsp_qseq>TFCRKTTLTKHQHRSHPPGSMTRLPSEDAVSEHSYQGPVAVPVPNEQYLLAQQPYYPHTPTPTHEFYPHQSLHITPVPIQEQPPIVTQHIPVTSPVDVQRAQQHYMQLVQQQQQQQQRYDPGRQGYLPPEFQQPYHALPTADGPPLMVTSTQSDYKPP-ARILNQPEGTDWGFLGVG</Hsp_qseq>
+      <Hsp_hseq>AFCRKTTLTKHQHRSHPPGSMTRLPSEDAISEHSYQGQVGVPVPNEQYLLAQQPYYPHTPTPTHEFYPHQSLHITSVPVQEPPPIVAQHVPVTSPVDVQRAQQHYLQLV-----QQQRYDPGRQGYLPPEFQPPYHSLPTAEGPPLLVTNTQSEYKPPTARILNQPEGTDWGFLGVG</Hsp_hseq>
+      <Hsp_midline> FCRKTTLTKHQHRSHPPGSMTRLPSEDA+SEHSYQG V VPVPNEQYLLAQQPYYPHTPTPTHEFYPHQSLHIT VP+QE PPIV QH+PVTSPVDVQRAQQHY+QLV     QQQRYDPGRQGYLPPEFQ PYH+LPTA+GPPL+VT+TQS+YKPP ARILNQPEGTDWGFLGVG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>ref|XP_025571928.1|</Hit_id>
+  <Hit_def>hypothetical protein BO80DRAFT_363566 [Aspergillus ibericus CBS 121593] &gt;gb|RAK97600.1| hypothetical protein BO80DRAFT_363566 [Aspergillus ibericus CBS 121593]</Hit_def>
+  <Hit_accession>XP_025571928</Hit_accession>
+  <Hit_len>279</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>311.227</Hsp_bit-score>
+      <Hsp_score>796</Hsp_score>
+      <Hsp_evalue>3.31553e-104</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>189</Hsp_query-to>
+      <Hsp_hit-from>109</Hsp_hit-from>
+      <Hsp_hit-to>279</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>156</Hsp_identity>
+      <Hsp_positive>162</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>176</Hsp_align-len>
+      <Hsp_qseq>TFCRKTTLTKHQHRSHPPGSMTRLPSEDAVSEHSYQGPVAVPVPNEQYLLAQQPYYPHTPTPTHEFYPHQSLHITPVPIQEQPPIVTQHIPVTSPVDVQRAQQHYMQLVQQQQQQQQRYDPGRQGYLPPEFQQPYHALPTADGPPLMVTSTQSDYKPPARILNQPEGTDWGFLGVG</Hsp_qseq>
+      <Hsp_hseq>AFCRKTTLTKHQHRSHPPGSMTRLPSEDAVSEHSYQGQVAVPVPNEQYLLAQQPYYPHTPTPTHEFYPHQSLHITQVPMQDPPPIVTQHIPVTSPVDVQRAQQHYLQLV-----QQQRYDPGRQGYLPPEFPQPYHNLPTAEGGPILVTHPQSDYKPPARILNQPEGTDWGFLGVG</Hsp_hseq>
+      <Hsp_midline> FCRKTTLTKHQHRSHPPGSMTRLPSEDAVSEHSYQG VAVPVPNEQYLLAQQPYYPHTPTPTHEFYPHQSLHIT VP+Q+ PPIVTQHIPVTSPVDVQRAQQHY+QLV     QQQRYDPGRQGYLPPEF QPYH LPTA+G P++VT  QSDYKPPARILNQPEGTDWGFLGVG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>dbj|GAT25898.1|</Hit_id>
+  <Hit_def>C2H2 finger domain protein [Aspergillus luchuensis]</Hit_def>
+  <Hit_accession>GAT25898</Hit_accession>
+  <Hit_len>156</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>303.908</Hsp_bit-score>
+      <Hsp_score>777</Hsp_score>
+      <Hsp_evalue>4.4352e-103</Hsp_evalue>
+      <Hsp_query-from>34</Hsp_query-from>
+      <Hsp_query-to>189</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>156</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>153</Hsp_identity>
+      <Hsp_positive>154</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>156</Hsp_align-len>
+      <Hsp_qseq>MTRLPSEDAVSEHSYQGPVAVPVPNEQYLLAQQPYYPHTPTPTHEFYPHQSLHITPVPIQEQPPIVTQHIPVTSPVDVQRAQQHYMQLVQQQQQQQQRYDPGRQGYLPPEFQQPYHALPTADGPPLMVTSTQSDYKPPARILNQPEGTDWGFLGVG</Hsp_qseq>
+      <Hsp_hseq>MTRLPSEDAVSEHSYQGPVAVPVPNEQYLLAQQPYYPHTPTPTHEFYPHQSLHITPVPIQEQPPIVTQHIPVTSPVDVQRAQQHYMQLVQQQQQQQQRYDPGRQGYLPPEFQQPYHTLPTAEGPPLMVTSTHSDYKPPARILNQPEGTDWGFLGVG</Hsp_hseq>
+      <Hsp_midline>MTRLPSEDAVSEHSYQGPVAVPVPNEQYLLAQQPYYPHTPTPTHEFYPHQSLHITPVPIQEQPPIVTQHIPVTSPVDVQRAQQHYMQLVQQQQQQQQRYDPGRQGYLPPEFQQPYH LPTA+GPPLMVTST SDYKPPARILNQPEGTDWGFLGVG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>dbj|GAA82920.1|</Hit_id>
+  <Hit_def>C2H2 finger domain protein [Aspergillus luchuensis IFO 4308]</Hit_def>
+  <Hit_accession>GAA82920</Hit_accession>
+  <Hit_len>156</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>300.827</Hsp_bit-score>
+      <Hsp_score>769</Hsp_score>
+      <Hsp_evalue>7.03527e-102</Hsp_evalue>
+      <Hsp_query-from>34</Hsp_query-from>
+      <Hsp_query-to>189</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>156</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>152</Hsp_identity>
+      <Hsp_positive>153</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>156</Hsp_align-len>
+      <Hsp_qseq>MTRLPSEDAVSEHSYQGPVAVPVPNEQYLLAQQPYYPHTPTPTHEFYPHQSLHITPVPIQEQPPIVTQHIPVTSPVDVQRAQQHYMQLVQQQQQQQQRYDPGRQGYLPPEFQQPYHALPTADGPPLMVTSTQSDYKPPARILNQPEGTDWGFLGVG</Hsp_qseq>
+      <Hsp_hseq>MTRLPSEDAVSEHSYQGPVAVPVPNEQYLLAQQPYYPHTPTPTHEFYPHQSLHITPVPIQEQPPIVTQHIPVTSPVDVQRAQQHYMQLVQQQQQQQQRYDPGRQGYLPPEFQQPYHTLPTAEGPPLMVTSTHSDYKPPACILNQPEGTDWGFLGVG</Hsp_hseq>
+      <Hsp_midline>MTRLPSEDAVSEHSYQGPVAVPVPNEQYLLAQQPYYPHTPTPTHEFYPHQSLHITPVPIQEQPPIVTQHIPVTSPVDVQRAQQHYMQLVQQQQQQQQRYDPGRQGYLPPEFQQPYH LPTA+GPPLMVTST SDYKPPA ILNQPEGTDWGFLGVG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gb|OOF98103.1|</Hit_id>
+  <Hit_def>hypothetical protein ASPCADRAFT_205362, partial [Aspergillus carbonarius ITEM 5010]</Hit_def>
+  <Hit_accession>OOF98103</Hit_accession>
+  <Hit_len>252</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>261.922</Hsp_bit-score>
+      <Hsp_score>668</Hsp_score>
+      <Hsp_evalue>4.31076e-85</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>162</Hsp_query-to>
+      <Hsp_hit-from>109</Hsp_hit-from>
+      <Hsp_hit-to>252</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>132</Hsp_identity>
+      <Hsp_positive>137</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>149</Hsp_align-len>
+      <Hsp_qseq>TFCRKTTLTKHQHRSHPPGSMTRLPSEDAVSEHSYQGPVAVPVPNEQYLLAQQPYYPHTPTPTHEFYPHQSLHITPVPIQEQPPIVTQHIPVTSPVDVQRAQQHYMQLVQQQQQQQQRYDPGRQGYLPPEFQQPYHALPTADGPPLMVT</Hsp_qseq>
+      <Hsp_hseq>AFCRKTTLTKHQHRSHPPGSMTRLPSEDAVSEHSYQGQVAVPVPNEQYLLAQQPYYPHTPTPTHEFYPHQSLHITSVPVQEPPPIVTHHIPVTSPVDVQRAQQHYLQLV-----QQQRYDPGRQGYLPPEFQPPYHSLSTAEGPPLLVT</Hsp_hseq>
+      <Hsp_midline> FCRKTTLTKHQHRSHPPGSMTRLPSEDAVSEHSYQG VAVPVPNEQYLLAQQPYYPHTPTPTHEFYPHQSLHIT VP+QE PPIVT HIPVTSPVDVQRAQQHY+QLV     QQQRYDPGRQGYLPPEFQ PYH+L TA+GPPL+VT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gb|KAE8355839.1|</Hit_id>
+  <Hit_def>hypothetical protein BDV28DRAFT_128236 [Aspergillus coremiiformis]</Hit_def>
+  <Hit_accession>KAE8355839</Hit_accession>
+  <Hit_len>281</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>218.394</Hsp_bit-score>
+      <Hsp_score>555</Hsp_score>
+      <Hsp_evalue>1.56273e-67</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>189</Hsp_query-to>
+      <Hsp_hit-from>109</Hsp_hit-from>
+      <Hsp_hit-to>281</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>126</Hsp_identity>
+      <Hsp_positive>141</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>179</Hsp_align-len>
+      <Hsp_qseq>TFCRKTTLTKHQHRSHPPGSMTRLPSEDAVSEHSYQGPVAVPVPNEQYLLAQQPYYPHTPTPTHEFYPHQSLHITPVPIQEQPPIVTQHIPVTSPVDVQRAQQHYMQLVQQQQQQQQRYDPGRQGY-LPPEFQQPYHALPTADGPPLMVTSTQS-DYK-PPARILNQPEGTDWGFLGVG</Hsp_qseq>
+      <Hsp_hseq>SFCRKTTLTKHQHRSHPPGTVTRPPSEDATSEHSYQAPVPVSVPNDQYLLAQQPYYPHTQTPSHEFYPPPSLPITPVPVQDAPAIITQSVPVTSPVDVRQAQQ------QYMQLMQQRYDPSRQGYTVPPEFPQPFSTVPTVDGHPLMVTYPHNFQYKQQQTRILNQPEGTDWGFLGVG</Hsp_hseq>
+      <Hsp_midline>+FCRKTTLTKHQHRSHPPG++TR PSEDA SEHSYQ PV V VPN+QYLLAQQPYYPHT TP+HEFYP  SL ITPVP+Q+ P I+TQ +PVTSPVDV++AQQ      Q  Q  QQRYDP RQGY +PPEF QP+  +PT DG PLMVT   +  YK    RILNQPEGTDWGFLGVG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>ref|XP_031922206.1|</Hit_id>
+  <Hit_def>uncharacterized protein BDV27DRAFT_136625 [Aspergillus caelatus] &gt;gb|KAE8156949.1| hypothetical protein BDV40DRAFT_63716 [Aspergillus tamarii] &gt;gb|KAE8359125.1| hypothetical protein BDV27DRAFT_136625 [Aspergillus caelatus] &gt;gb|KAE8412972.1| hypothetical protein BDV36DRAFT_269799 [Aspergillus pseudocaelatus]</Hit_def>
+  <Hit_accession>XP_031922206</Hit_accession>
+  <Hit_len>281</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>217.624</Hsp_bit-score>
+      <Hsp_score>553</Hsp_score>
+      <Hsp_evalue>3.17168e-67</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>189</Hsp_query-to>
+      <Hsp_hit-from>109</Hsp_hit-from>
+      <Hsp_hit-to>281</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>122</Hsp_identity>
+      <Hsp_positive>137</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>179</Hsp_align-len>
+      <Hsp_qseq>TFCRKTTLTKHQHRSHPPGSMTRLPSEDAVSEHSYQGPVAVPVPNEQYLLAQQPYYPHTPTPTHEFYPHQSLHITPVPIQEQPPIVTQHIPVTSPVDVQRAQQHYMQLVQQQQQQQQRYDPGRQGY-LPPEFQQPYHALPTADGPPLMVTSTQS-DYKP-PARILNQPEGTDWGFLGVG</Hsp_qseq>
+      <Hsp_hseq>SFCRKTTLTKHQHRSHPPGTVTRPPSEDATSEHSYQAPVPASVPNDQYLLAQQPYYPHAQTPSHDFYPPTSLPITPVPVQDAPPIVTQSVPVTSPVDV------HQAQQQYMQLMQQRYDPSRQGYSIPPEFQQPFPGVPTMEGHPLMVTYPHNFQYKQHQTRILNQPEGTDWGFLGVG</Hsp_hseq>
+      <Hsp_midline>+FCRKTTLTKHQHRSHPPG++TR PSEDA SEHSYQ PV   VPN+QYLLAQQPYYPH  TP+H+FYP  SL ITPVP+Q+ PPIVTQ +PVTSPVDV      +    Q  Q  QQRYDP RQGY +PPEFQQP+  +PT +G PLMVT   +  YK    RILNQPEGTDWGFLGVG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gb|PIG69379.1|</Hit_id>
+  <Hit_def>C2H2 finger domain protein, partial [Aspergillus arachidicola]</Hit_def>
+  <Hit_accession>PIG69379</Hit_accession>
+  <Hit_len>308</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>218.009</Hsp_bit-score>
+      <Hsp_score>554</Hsp_score>
+      <Hsp_evalue>4.83515e-67</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>189</Hsp_query-to>
+      <Hsp_hit-from>136</Hsp_hit-from>
+      <Hsp_hit-to>308</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>122</Hsp_identity>
+      <Hsp_positive>137</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>179</Hsp_align-len>
+      <Hsp_qseq>TFCRKTTLTKHQHRSHPPGSMTRLPSEDAVSEHSYQGPVAVPVPNEQYLLAQQPYYPHTPTPTHEFYPHQSLHITPVPIQEQPPIVTQHIPVTSPVDVQRAQQHYMQLVQQQQQQQQRYDPGRQGY-LPPEFQQPYHALPTADGPPLMVTSTQS-DYKP-PARILNQPEGTDWGFLGVG</Hsp_qseq>
+      <Hsp_hseq>SFCRKTTLTKHQHRSHPPGTVTRPPSEDATSEHSYQAPVPASVPNDQYLLAQQPYYPHAQTPSHDFYPPPSLPITPVPVQDAPPIVTQSVPVTSPVDV------HQAQQQYMQLMQQRYDPSRQGYSIPPEFQQPFPGVPTVEGHPLMVTYPHNFQYKQHQTRILNQPEGTDWGFLGVG</Hsp_hseq>
+      <Hsp_midline>+FCRKTTLTKHQHRSHPPG++TR PSEDA SEHSYQ PV   VPN+QYLLAQQPYYPH  TP+H+FYP  SL ITPVP+Q+ PPIVTQ +PVTSPVDV      +    Q  Q  QQRYDP RQGY +PPEFQQP+  +PT +G PLMVT   +  YK    RILNQPEGTDWGFLGVG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gb|RAQ42330.1|</Hit_id>
+  <Hit_def>C2H2 finger domain protein [Aspergillus flavus]</Hit_def>
+  <Hit_accession>RAQ42330</Hit_accession>
+  <Hit_len>281</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>217.238</Hsp_bit-score>
+      <Hsp_score>552</Hsp_score>
+      <Hsp_evalue>4.90289e-67</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>189</Hsp_query-to>
+      <Hsp_hit-from>109</Hsp_hit-from>
+      <Hsp_hit-to>281</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>127</Hsp_identity>
+      <Hsp_positive>142</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>179</Hsp_align-len>
+      <Hsp_qseq>TFCRKTTLTKHQHRSHPPGSMTRLPSEDAVSEHSYQGPVAVPVPNEQYLLAQQPYYPHTPTPTHEFYPHQSLHITPVPIQEQPPIVTQHIPVTSPVDVQRAQQHYMQLVQQQQQQQQRYDPGRQGY-LPPEFQQPYHALPTADGPPLMVTSTQS-DYKP-PARILNQPEGTDWGFLGVG</Hsp_qseq>
+      <Hsp_hseq>SFCRKTTLTKHQHRSHPPGTVTRPPSEDATSEHSYQTPVPASVPNDQYLLAQQPYYPHTQTPSHDFYPPPSLLITPVPVQDAPPIVTQSVPVTSPVDVQQAQQ------QYMQLMQQRYDPSRQGYSIPPEFQQPFPGVPTVEGHPLMVTYPHNFQYKQHQTRILNQPEGTDWGFLGVG</Hsp_hseq>
+      <Hsp_midline>+FCRKTTLTKHQHRSHPPG++TR PSEDA SEHSYQ PV   VPN+QYLLAQQPYYPHT TP+H+FYP  SL ITPVP+Q+ PPIVTQ +PVTSPVDVQ+AQQ      Q  Q  QQRYDP RQGY +PPEFQQP+  +PT +G PLMVT   +  YK    RILNQPEGTDWGFLGVG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gb|KAE8321458.1|</Hit_id>
+  <Hit_def>hypothetical protein BDV39DRAFT_185772 [Aspergillus sergii] &gt;gb|KAE8335769.1| hypothetical protein BDV24DRAFT_120790 [Aspergillus arachidicola]</Hit_def>
+  <Hit_accession>KAE8321458</Hit_accession>
+  <Hit_len>281</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>217.238</Hsp_bit-score>
+      <Hsp_score>552</Hsp_score>
+      <Hsp_evalue>5.12116e-67</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>189</Hsp_query-to>
+      <Hsp_hit-from>109</Hsp_hit-from>
+      <Hsp_hit-to>281</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>122</Hsp_identity>
+      <Hsp_positive>137</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>179</Hsp_align-len>
+      <Hsp_qseq>TFCRKTTLTKHQHRSHPPGSMTRLPSEDAVSEHSYQGPVAVPVPNEQYLLAQQPYYPHTPTPTHEFYPHQSLHITPVPIQEQPPIVTQHIPVTSPVDVQRAQQHYMQLVQQQQQQQQRYDPGRQGY-LPPEFQQPYHALPTADGPPLMVTSTQS-DYKP-PARILNQPEGTDWGFLGVG</Hsp_qseq>
+      <Hsp_hseq>SFCRKTTLTKHQHRSHPPGTVTRPPSEDATSEHSYQAPVPASVPNDQYLLAQQPYYPHAQTPSHDFYPPPSLPITPVPVQDAPPIVTQSVPVTSPVDV------HQAQQQYMQLMQQRYDPSRQGYSIPPEFQQPFPGVPTVEGHPLMVTYPHNFQYKQHQTRILNQPEGTDWGFLGVG</Hsp_hseq>
+      <Hsp_midline>+FCRKTTLTKHQHRSHPPG++TR PSEDA SEHSYQ PV   VPN+QYLLAQQPYYPH  TP+H+FYP  SL ITPVP+Q+ PPIVTQ +PVTSPVDV      +    Q  Q  QQRYDP RQGY +PPEFQQP+  +PT +G PLMVT   +  YK    RILNQPEGTDWGFLGVG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gb|KAB8241899.1|</Hit_id>
+  <Hit_def>hypothetical protein BDV35DRAFT_384504 [Aspergillus flavus] &gt;gb|KAF7618956.1| hypothetical protein AFLA_000599 [Aspergillus flavus NRRL3357] &gt;gb|KOC17248.1| C2H2 finger domain protein [Aspergillus flavus AF70] &gt;gb|QRD82948.1| hypothetical protein F9C07_2278117 [Aspergillus flavus] &gt;gb|RAQ64157.1| C2H2 finger domain protein [Aspergillus flavus]</Hit_def>
+  <Hit_accession>KAB8241899</Hit_accession>
+  <Hit_len>281</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>216.853</Hsp_bit-score>
+      <Hsp_score>551</Hsp_score>
+      <Hsp_evalue>6.50734e-67</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>189</Hsp_query-to>
+      <Hsp_hit-from>109</Hsp_hit-from>
+      <Hsp_hit-to>281</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>127</Hsp_identity>
+      <Hsp_positive>142</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>179</Hsp_align-len>
+      <Hsp_qseq>TFCRKTTLTKHQHRSHPPGSMTRLPSEDAVSEHSYQGPVAVPVPNEQYLLAQQPYYPHTPTPTHEFYPHQSLHITPVPIQEQPPIVTQHIPVTSPVDVQRAQQHYMQLVQQQQQQQQRYDPGRQGY-LPPEFQQPYHALPTADGPPLMVTSTQS-DYKP-PARILNQPEGTDWGFLGVG</Hsp_qseq>
+      <Hsp_hseq>SFCRKTTLTKHQHRSHPPGTVTRPPSEDATSEHSYQTPVPASVPNDQYLLAQQPYYPHTQTPSHDFYPPPSLPITPVPVQDAPPIVTQSVPVTSPVDVQQAQQ------QYMQLMQQRYDPSRQGYSIPPEFQQPFPGVPTVEGHPLMVTYPHNFQYKQHQTRILNQPEGTDWGFLGVG</Hsp_hseq>
+      <Hsp_midline>+FCRKTTLTKHQHRSHPPG++TR PSEDA SEHSYQ PV   VPN+QYLLAQQPYYPHT TP+H+FYP  SL ITPVP+Q+ PPIVTQ +PVTSPVDVQ+AQQ      Q  Q  QQRYDP RQGY +PPEFQQP+  +PT +G PLMVT   +  YK    RILNQPEGTDWGFLGVG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>ref|XP_031908395.1|</Hit_id>
+  <Hit_def>uncharacterized protein BDV38DRAFT_212191 [Aspergillus pseudotamarii] &gt;gb|KAE8132332.1| hypothetical protein BDV38DRAFT_212191 [Aspergillus pseudotamarii]</Hit_def>
+  <Hit_accession>XP_031908395</Hit_accession>
+  <Hit_len>281</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>216.853</Hsp_bit-score>
+      <Hsp_score>551</Hsp_score>
+      <Hsp_evalue>6.94667e-67</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>189</Hsp_query-to>
+      <Hsp_hit-from>109</Hsp_hit-from>
+      <Hsp_hit-to>281</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>122</Hsp_identity>
+      <Hsp_positive>137</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>179</Hsp_align-len>
+      <Hsp_qseq>TFCRKTTLTKHQHRSHPPGSMTRLPSEDAVSEHSYQGPVAVPVPNEQYLLAQQPYYPHTPTPTHEFYPHQSLHITPVPIQEQPPIVTQHIPVTSPVDVQRAQQHYMQLVQQQQQQQQRYDPGRQGY-LPPEFQQPYHALPTADGPPLMVTSTQS-DYKP-PARILNQPEGTDWGFLGVG</Hsp_qseq>
+      <Hsp_hseq>SFCRKTTLTKHQHRSHPPGTVTRPPSEDATSEHSYQTPVPASVPNDQYLLAQQPYYPHAQTPSHDFYPPTSLPITPVPVQDAPPIVTQSVPVTSPVDV------HQAQQQYMQLMQQRYDPSRQGYSIPPEFQQPFPGVPTMEGHPLMVTYPHNFQYKQHQTRILNQPEGTDWGFLGVG</Hsp_hseq>
+      <Hsp_midline>+FCRKTTLTKHQHRSHPPG++TR PSEDA SEHSYQ PV   VPN+QYLLAQQPYYPH  TP+H+FYP  SL ITPVP+Q+ PPIVTQ +PVTSPVDV      +    Q  Q  QQRYDP RQGY +PPEFQQP+  +PT +G PLMVT   +  YK    RILNQPEGTDWGFLGVG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gb|KJK65328.1|</Hit_id>
+  <Hit_def>hypothetical protein P875_00010402 [Aspergillus parasiticus SU-1]</Hit_def>
+  <Hit_accession>KJK65328</Hit_accession>
+  <Hit_len>224</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>214.157</Hsp_bit-score>
+      <Hsp_score>544</Hsp_score>
+      <Hsp_evalue>1.13122e-66</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>189</Hsp_query-to>
+      <Hsp_hit-from>52</Hsp_hit-from>
+      <Hsp_hit-to>224</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>121</Hsp_identity>
+      <Hsp_positive>136</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>179</Hsp_align-len>
+      <Hsp_qseq>TFCRKTTLTKHQHRSHPPGSMTRLPSEDAVSEHSYQGPVAVPVPNEQYLLAQQPYYPHTPTPTHEFYPHQSLHITPVPIQEQPPIVTQHIPVTSPVDVQRAQQHYMQLVQQQQQQQQRYDPGRQGY-LPPEFQQPYHALPTADGPPLMVTSTQS-DYKP-PARILNQPEGTDWGFLGVG</Hsp_qseq>
+      <Hsp_hseq>SFCRKTTLTKHQHRSHPPGTVTRPPSEDATSEHSYQAPVPASVPNDQYLLAQQPYYPHAQTPSHDFYPPPSLPITPVPVQDATPIVTQSVPVTSPVDV------HQAQQQYMQLMQQRYDPSRQGYSIPPEFQQPFPGVPTVEGHPLMVTYPHNFQYKQHQTRILNQPEGTDWGFLGVG</Hsp_hseq>
+      <Hsp_midline>+FCRKTTLTKHQHRSHPPG++TR PSEDA SEHSYQ PV   VPN+QYLLAQQPYYPH  TP+H+FYP  SL ITPVP+Q+  PIVTQ +PVTSPVDV      +    Q  Q  QQRYDP RQGY +PPEFQQP+  +PT +G PLMVT   +  YK    RILNQPEGTDWGFLGVG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gb|KAB8268420.1|</Hit_id>
+  <Hit_def>hypothetical protein BDV30DRAFT_243398 [Aspergillus minisclerotigenes]</Hit_def>
+  <Hit_accession>KAB8268420</Hit_accession>
+  <Hit_len>281</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>216.083</Hsp_bit-score>
+      <Hsp_score>549</Hsp_score>
+      <Hsp_evalue>1.22368e-66</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>189</Hsp_query-to>
+      <Hsp_hit-from>109</Hsp_hit-from>
+      <Hsp_hit-to>281</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>122</Hsp_identity>
+      <Hsp_positive>137</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>179</Hsp_align-len>
+      <Hsp_qseq>TFCRKTTLTKHQHRSHPPGSMTRLPSEDAVSEHSYQGPVAVPVPNEQYLLAQQPYYPHTPTPTHEFYPHQSLHITPVPIQEQPPIVTQHIPVTSPVDVQRAQQHYMQLVQQQQQQQQRYDPGRQGY-LPPEFQQPYHALPTADGPPLMVTSTQS-DYKP-PARILNQPEGTDWGFLGVG</Hsp_qseq>
+      <Hsp_hseq>SFCRKTTLTKHQHRSHPPGTVTRPPSEDATSEHSYQTPVPASVPNDQYLLAQQPYYPHAQTPSHDFYPPPSLPITPVPVQDAPPIVTQSVPVTSPVDV------HQAQQQYMQLMQQRYDPSRQGYSIPPEFQQPFPGVPTVEGHPLMVTYPHNFQYKQHQTRILNQPEGTDWGFLGVG</Hsp_hseq>
+      <Hsp_midline>+FCRKTTLTKHQHRSHPPG++TR PSEDA SEHSYQ PV   VPN+QYLLAQQPYYPH  TP+H+FYP  SL ITPVP+Q+ PPIVTQ +PVTSPVDV      +    Q  Q  QQRYDP RQGY +PPEFQQP+  +PT +G PLMVT   +  YK    RILNQPEGTDWGFLGVG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gb|KAF7592662.1|</Hit_id>
+  <Hit_def>hypothetical protein BBP40_012625 [Aspergillus hancockii]</Hit_def>
+  <Hit_accession>KAF7592662</Hit_accession>
+  <Hit_len>206</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>212.616</Hsp_bit-score>
+      <Hsp_score>540</Hsp_score>
+      <Hsp_evalue>2.96063e-66</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>189</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>206</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>133</Hsp_identity>
+      <Hsp_positive>147</Hsp_positive>
+      <Hsp_gaps>29</Hsp_gaps>
+      <Hsp_align-len>212</Hsp_align-len>
+      <Hsp_qseq>MSVITEDATRPFLT--------------------FCRKTTLTKHQHRSHPPGSMTRLPSEDAVSEHSYQGPVAVPVPNEQYLLAQQPYYPHTPTPTHEFYPHQSLHITPVPIQEQPPIVTQHIPVTSPVDVQRAQQHYMQLVQQQQQQQQRYDPGRQGY-LPPEFQQPYHALPTADGPPLMVTS-TQSDYKP-PARILNQPEGTDWGFLGVG</Hsp_qseq>
+      <Hsp_hseq>MSVTTKDATKHFLIAVIKFSPPPQDSHGEAAVHIFCRKTTLTKHQHRSHPPGTVTRPQSEDATSEHSYQAPVPVSLPNDQYLLAQQPYYPHTSTPSHEFYPPTSLPITPVPVQDAPPIVTHSVPVTSPVSVQQAQQ------QYMQLMQQRYDPSRQGYGISPEFQQHFPGIPTVDGHPLMVTYPPNYQYKQHQTRILNQPEGTDWGFLGVG</Hsp_hseq>
+      <Hsp_midline>MSV T+DAT+ FL                     FCRKTTLTKHQHRSHPPG++TR  SEDA SEHSYQ PV V +PN+QYLLAQQPYYPHT TP+HEFYP  SL ITPVP+Q+ PPIVT  +PVTSPV VQ+AQQ      Q  Q  QQRYDP RQGY + PEFQQ +  +PT DG PLMVT      YK    RILNQPEGTDWGFLGVG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gb|KAB8218855.1|</Hit_id>
+  <Hit_def>hypothetical protein BDV33DRAFT_174860 [Aspergillus novoparasiticus]</Hit_def>
+  <Hit_accession>KAB8218855</Hit_accession>
+  <Hit_len>281</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>214.542</Hsp_bit-score>
+      <Hsp_score>545</Hsp_score>
+      <Hsp_evalue>4.32655e-66</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>189</Hsp_query-to>
+      <Hsp_hit-from>109</Hsp_hit-from>
+      <Hsp_hit-to>281</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>121</Hsp_identity>
+      <Hsp_positive>136</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>179</Hsp_align-len>
+      <Hsp_qseq>TFCRKTTLTKHQHRSHPPGSMTRLPSEDAVSEHSYQGPVAVPVPNEQYLLAQQPYYPHTPTPTHEFYPHQSLHITPVPIQEQPPIVTQHIPVTSPVDVQRAQQHYMQLVQQQQQQQQRYDPGRQGY-LPPEFQQPYHALPTADGPPLMVTSTQS-DYKP-PARILNQPEGTDWGFLGVG</Hsp_qseq>
+      <Hsp_hseq>SFCRKTTLTKHQHRSHPPGTVTRPPSEDATSEHSYQAPVPASVPNDQYLLAQQPYYPHAQTPSHDFYPPPSLPITPVPVQDAPPIVTQSVAVTSPVDV------HQAQQQYMQLMQQRYDPSRQGYSIPPEFQQPFPGVPTVEGHPLMVTYPHNFQYKQHQTRILNQPEGTDWGFLGVG</Hsp_hseq>
+      <Hsp_midline>+FCRKTTLTKHQHRSHPPG++TR PSEDA SEHSYQ PV   VPN+QYLLAQQPYYPH  TP+H+FYP  SL ITPVP+Q+ PPIVTQ + VTSPVDV      +    Q  Q  QQRYDP RQGY +PPEFQQP+  +PT +G PLMVT   +  YK    RILNQPEGTDWGFLGVG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gb|TPR03828.1|</Hit_id>
+  <Hit_def>putative undecaprenyl diphosphate synthase family protein [Aspergillus niger]</Hit_def>
+  <Hit_accession>TPR03828</Hit_accession>
+  <Hit_len>229</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>213.001</Hsp_bit-score>
+      <Hsp_score>541</Hsp_score>
+      <Hsp_evalue>4.55358e-66</Hsp_evalue>
+      <Hsp_query-from>15</Hsp_query-from>
+      <Hsp_query-to>189</Hsp_query-to>
+      <Hsp_hit-from>110</Hsp_hit-from>
+      <Hsp_hit-to>229</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>117</Hsp_identity>
+      <Hsp_positive>117</Hsp_positive>
+      <Hsp_gaps>55</Hsp_gaps>
+      <Hsp_align-len>175</Hsp_align-len>
+      <Hsp_qseq>FCRKTTLTKHQHRSHPPGSMTRLPSEDAVSEHSYQGPVAVPVPNEQYLLAQQPYYPHTPTPTHEFYPHQSLHITPVPIQEQPPIVTQHIPVTSPVDVQRAQQHYMQLVQQQQQQQQRYDPGRQGYLPPEFQQPYHALPTADGPPLMVTSTQSDYKPPARILNQPEGTDWGFLGVG</Hsp_qseq>
+      <Hsp_hseq>FCRKTTLTKHQHRSHPPGSMTRLPSEDAVSEHSYQGPVAVPVPNEQYLLAQQPYYPHTPTPTHEFYPHQSLHITPVPIQEQPPIVTQHIPVTSPVD--------------------------SDYKPP-----------------------------ARILNQPEGTDWGFLGVG</Hsp_hseq>
+      <Hsp_midline>FCRKTTLTKHQHRSHPPGSMTRLPSEDAVSEHSYQGPVAVPVPNEQYLLAQQPYYPHTPTPTHEFYPHQSLHITPVPIQEQPPIVTQHIPVTSPVD                            Y PP                             ARILNQPEGTDWGFLGVG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gb|KAB8200037.1|</Hit_id>
+  <Hit_def>hypothetical protein BDV34DRAFT_205575 [Aspergillus parasiticus] &gt;gb|KAE8306253.1| hypothetical protein BDV41DRAFT_570087 [Aspergillus transmontanensis]</Hit_def>
+  <Hit_accession>KAB8200037</Hit_accession>
+  <Hit_len>281</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>214.542</Hsp_bit-score>
+      <Hsp_score>545</Hsp_score>
+      <Hsp_evalue>5.93265e-66</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>189</Hsp_query-to>
+      <Hsp_hit-from>109</Hsp_hit-from>
+      <Hsp_hit-to>281</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>121</Hsp_identity>
+      <Hsp_positive>136</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>179</Hsp_align-len>
+      <Hsp_qseq>TFCRKTTLTKHQHRSHPPGSMTRLPSEDAVSEHSYQGPVAVPVPNEQYLLAQQPYYPHTPTPTHEFYPHQSLHITPVPIQEQPPIVTQHIPVTSPVDVQRAQQHYMQLVQQQQQQQQRYDPGRQGY-LPPEFQQPYHALPTADGPPLMVTSTQS-DYKP-PARILNQPEGTDWGFLGVG</Hsp_qseq>
+      <Hsp_hseq>SFCRKTTLTKHQHRSHPPGTVTRPPSEDATSEHSYQAPVPASVPNDQYLLAQQPYYPHAQTPSHDFYPPPSLPITPVPVQDATPIVTQSVPVTSPVDV------HQAQQQYMQLMQQRYDPSRQGYSIPPEFQQPFPGVPTVEGHPLMVTYPHNFQYKQHQTRILNQPEGTDWGFLGVG</Hsp_hseq>
+      <Hsp_midline>+FCRKTTLTKHQHRSHPPG++TR PSEDA SEHSYQ PV   VPN+QYLLAQQPYYPH  TP+H+FYP  SL ITPVP+Q+  PIVTQ +PVTSPVDV      +    Q  Q  QQRYDP RQGY +PPEFQQP+  +PT +G PLMVT   +  YK    RILNQPEGTDWGFLGVG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>ref|XP_031941279.1|</Hit_id>
+  <Hit_def>uncharacterized protein BDV37DRAFT_120925 [Aspergillus pseudonomiae] &gt;gb|KAB8258284.1| hypothetical protein BDV32DRAFT_126137 [Aspergillus pseudonomiae] &gt;gb|KAE8403960.1| hypothetical protein BDV37DRAFT_120925 [Aspergillus pseudonomiae]</Hit_def>
+  <Hit_accession>XP_031941279</Hit_accession>
+  <Hit_len>281</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>214.157</Hsp_bit-score>
+      <Hsp_score>544</Hsp_score>
+      <Hsp_evalue>6.61495e-66</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>189</Hsp_query-to>
+      <Hsp_hit-from>109</Hsp_hit-from>
+      <Hsp_hit-to>281</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>121</Hsp_identity>
+      <Hsp_positive>136</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>179</Hsp_align-len>
+      <Hsp_qseq>TFCRKTTLTKHQHRSHPPGSMTRLPSEDAVSEHSYQGPVAVPVPNEQYLLAQQPYYPHTPTPTHEFYPHQSLHITPVPIQEQPPIVTQHIPVTSPVDVQRAQQHYMQLVQQQQQQQQRYDPGRQGY-LPPEFQQPYHALPTADGPPLMVTSTQS-DYKP-PARILNQPEGTDWGFLGVG</Hsp_qseq>
+      <Hsp_hseq>SFCRKTTLTKHQHRSHPPGTVTRPPSEDATSEHSYQTPVPASVPNDQYLLAQQPYYPHAQTPSHDFYPPPSLPITPVPVQDAPPIVTQSIPVSSPVDV------HQAQQQYMQLMQQRYDPSRQGYSIPPEFQQPFPGVPAVEGHPLMVTYPHNFQYKQHQTRILNQPEGTDWGFLGVG</Hsp_hseq>
+      <Hsp_midline>+FCRKTTLTKHQHRSHPPG++TR PSEDA SEHSYQ PV   VPN+QYLLAQQPYYPH  TP+H+FYP  SL ITPVP+Q+ PPIVTQ IPV+SPVDV      +    Q  Q  QQRYDP RQGY +PPEFQQP+  +P  +G PLMVT   +  YK    RILNQPEGTDWGFLGVG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>ref|XP_015403018.1|</Hit_id>
+  <Hit_def>C2H2 finger domain protein [Aspergillus nomiae NRRL 13137] &gt;gb|KNG82095.1| C2H2 finger domain protein [Aspergillus nomiae NRRL 13137]</Hit_def>
+  <Hit_accession>XP_015403018</Hit_accession>
+  <Hit_len>300</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>214.542</Hsp_bit-score>
+      <Hsp_score>545</Hsp_score>
+      <Hsp_evalue>8.45114e-66</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>189</Hsp_query-to>
+      <Hsp_hit-from>128</Hsp_hit-from>
+      <Hsp_hit-to>300</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>121</Hsp_identity>
+      <Hsp_positive>136</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>179</Hsp_align-len>
+      <Hsp_qseq>TFCRKTTLTKHQHRSHPPGSMTRLPSEDAVSEHSYQGPVAVPVPNEQYLLAQQPYYPHTPTPTHEFYPHQSLHITPVPIQEQPPIVTQHIPVTSPVDVQRAQQHYMQLVQQQQQQQQRYDPGRQGY-LPPEFQQPYHALPTADGPPLMVTSTQS-DYKP-PARILNQPEGTDWGFLGVG</Hsp_qseq>
+      <Hsp_hseq>SFCRKTTLTKHQHRSHPPGTVTRPPSEDATSEHSYQTPVPASVPNDQYLLAQQPYYPHAQTPSHDFYPPPSLPITPVPVQDAPPIVTQSIPVSSPVDV------HQAQQQYMQLMQQRYDPSRQGYSIPPEFQQPFPGVPAVEGHPLMVTYPHNFQYKQHQTRILNQPEGTDWGFLGVG</Hsp_hseq>
+      <Hsp_midline>+FCRKTTLTKHQHRSHPPG++TR PSEDA SEHSYQ PV   VPN+QYLLAQQPYYPH  TP+H+FYP  SL ITPVP+Q+ PPIVTQ IPV+SPVDV      +    Q  Q  QQRYDP RQGY +PPEFQQP+  +P  +G PLMVT   +  YK    RILNQPEGTDWGFLGVG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gb|KAE8377760.1|</Hit_id>
+  <Hit_def>hypothetical protein BDV26DRAFT_281608 [Aspergillus bertholletiae]</Hit_def>
+  <Hit_accession>KAE8377760</Hit_accession>
+  <Hit_len>281</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>213.772</Hsp_bit-score>
+      <Hsp_score>543</Hsp_score>
+      <Hsp_evalue>1.09143e-65</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>189</Hsp_query-to>
+      <Hsp_hit-from>109</Hsp_hit-from>
+      <Hsp_hit-to>281</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>121</Hsp_identity>
+      <Hsp_positive>137</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>179</Hsp_align-len>
+      <Hsp_qseq>TFCRKTTLTKHQHRSHPPGSMTRLPSEDAVSEHSYQGPVAVPVPNEQYLLAQQPYYPHTPTPTHEFYPHQSLHITPVPIQEQPPIVTQHIPVTSPVDVQRAQQHYMQLVQQQQQQQQRYDPGRQGY-LPPEFQQPYHALPTADGPPLMVTSTQS-DYKP-PARILNQPEGTDWGFLGVG</Hsp_qseq>
+      <Hsp_hseq>SFCRKTTLTKHQHRSHPPGTVTRPPSEDATSEHSYQTPVPASVPNDQYLLAQQPYYPHAQTPSHDFYPPPSLPITPVPMQDAPPIVTQAVAVTSPVDV------HQAQQQYMQLMQQRYDPSRQGYSIPPEYQQPFPSVPTVDGHPLMVTYPHNFQYKQHQTRILNQPEGTDWGFLGVG</Hsp_hseq>
+      <Hsp_midline>+FCRKTTLTKHQHRSHPPG++TR PSEDA SEHSYQ PV   VPN+QYLLAQQPYYPH  TP+H+FYP  SL ITPVP+Q+ PPIVTQ + VTSPVDV      +    Q  Q  QQRYDP RQGY +PPE+QQP+ ++PT DG PLMVT   +  YK    RILNQPEGTDWGFLGVG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gb|KAE8146943.1|</Hit_id>
+  <Hit_def>putative C2H2 finger domain protein [Aspergillus avenaceus]</Hit_def>
+  <Hit_accession>KAE8146943</Hit_accession>
+  <Hit_len>282</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>213.386</Hsp_bit-score>
+      <Hsp_score>542</Hsp_score>
+      <Hsp_evalue>1.24081e-65</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>189</Hsp_query-to>
+      <Hsp_hit-from>109</Hsp_hit-from>
+      <Hsp_hit-to>282</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>122</Hsp_identity>
+      <Hsp_positive>140</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>180</Hsp_align-len>
+      <Hsp_qseq>TFCRKTTLTKHQHRSHPPGSMTRLPSEDAVSEHSYQGPVAVPVPNEQYLLAQQPYYPHTPTPTHEFYPHQSLHITPVPIQEQPPIVTQHIPVTSPVDVQRAQQHYMQLVQQQQQQQQRYDPGRQGY-LPPEFQQPYHALPTADGPPLMVT---STQSDYKPPARILNQPEGTDWGFLGVG</Hsp_qseq>
+      <Hsp_hseq>SFCRKTTLTKHQHRSHPPGTITRPPSEDATSEHSYHGHVPASAPNDQYLLAQQPYYPNSSTPTHEFYTHPSIPITPVPMQDAPPIVTHNVPVTSPVDVQQAQQ------QYMQLMQQRYEPGRQGYGIPPEFQQPFPGVPTVDSHPLMVTYPNNFQQFKQQQTRILNQPEGTDWGFLGVG</Hsp_hseq>
+      <Hsp_midline>+FCRKTTLTKHQHRSHPPG++TR PSEDA SEHSY G V    PN+QYLLAQQPYYP++ TPTHEFY H S+ ITPVP+Q+ PPIVT ++PVTSPVDVQ+AQQ      Q  Q  QQRY+PGRQGY +PPEFQQP+  +PT D  PLMVT   + Q   +   RILNQPEGTDWGFLGVG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gb|KAB8074081.1|</Hit_id>
+  <Hit_def>hypothetical protein BDV29DRAFT_126130 [Aspergillus leporis]</Hit_def>
+  <Hit_accession>KAB8074081</Hit_accession>
+  <Hit_len>281</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>212.231</Hsp_bit-score>
+      <Hsp_score>539</Hsp_score>
+      <Hsp_evalue>3.46001e-65</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>189</Hsp_query-to>
+      <Hsp_hit-from>109</Hsp_hit-from>
+      <Hsp_hit-to>281</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>125</Hsp_identity>
+      <Hsp_positive>138</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>179</Hsp_align-len>
+      <Hsp_qseq>TFCRKTTLTKHQHRSHPPGSMTRLPSEDAVSEHSYQGPVAVPVPNEQYLLAQQPYYPHTPTPTHEFYPHQSLHITPVPIQEQPPIVTQHIPVTSPVDVQRAQQHYMQLVQQQQQQQQRYDPGRQGY-LPPEFQQPYHALPTADGPPLMVTS-TQSDYKP-PARILNQPEGTDWGFLGVG</Hsp_qseq>
+      <Hsp_hseq>SFCRKTTLTKHQHRSHPPGTVTRPQSEDATSEHSYQAPVPVSVPNDQYLLAQQPYYPHSSTPSHEFYPPTSLPITPVPVQDGPPIVTHSVPVTSPVSVQQAQQ------QYMQLMQQRYDPSRQGYGIPPEFQQHFQGVPTVDGHPLMVTYPPNYQYKQHQTRILNQPEGTDWGFLGVG</Hsp_hseq>
+      <Hsp_midline>+FCRKTTLTKHQHRSHPPG++TR  SEDA SEHSYQ PV V VPN+QYLLAQQPYYPH+ TP+HEFYP  SL ITPVP+Q+ PPIVT  +PVTSPV VQ+AQQ      Q  Q  QQRYDP RQGY +PPEFQQ +  +PT DG PLMVT      YK    RILNQPEGTDWGFLGVG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>ref|XP_022384156.1|</Hit_id>
+  <Hit_def>C2H2 finger domain protein [Aspergillus bombycis] &gt;gb|OGM40439.1| C2H2 finger domain protein [Aspergillus bombycis]</Hit_def>
+  <Hit_accession>XP_022384156</Hit_accession>
+  <Hit_len>300</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>212.616</Hsp_bit-score>
+      <Hsp_score>540</Hsp_score>
+      <Hsp_evalue>4.81349e-65</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>189</Hsp_query-to>
+      <Hsp_hit-from>128</Hsp_hit-from>
+      <Hsp_hit-to>300</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>119</Hsp_identity>
+      <Hsp_positive>135</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>179</Hsp_align-len>
+      <Hsp_qseq>TFCRKTTLTKHQHRSHPPGSMTRLPSEDAVSEHSYQGPVAVPVPNEQYLLAQQPYYPHTPTPTHEFYPHQSLHITPVPIQEQPPIVTQHIPVTSPVDVQRAQQHYMQLVQQQQQQQQRYDPGRQGY-LPPEFQQPYHALPTADGPPLMVTSTQS-DYKP-PARILNQPEGTDWGFLGVG</Hsp_qseq>
+      <Hsp_hseq>SFCRKTTLTKHQHRSHPPGTVTRPPSEDATSEHSYQTPVPASAPNDQYLLAQQPYYPHAQTPSHDFYPPPSLPMTPVPVQDAPPIVTQSVPVTSPVDV------HQAQQQYMQLMQQRYDPSRQGYSIPPEFQQPFPGVPAVEGHPLMVTYPHNFQYKQHQTRILNQPEGTDWGFLGVG</Hsp_hseq>
+      <Hsp_midline>+FCRKTTLTKHQHRSHPPG++TR PSEDA SEHSYQ PV    PN+QYLLAQQPYYPH  TP+H+FYP  SL +TPVP+Q+ PPIVTQ +PVTSPVDV      +    Q  Q  QQRYDP RQGY +PPEFQQP+  +P  +G PLMVT   +  YK    RILNQPEGTDWGFLGVG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>ref|XP_031906169.1|</Hit_id>
+  <Hit_def>putative C2H2 finger domain protein [Aspergillus alliaceus] &gt;gb|KAB8239332.1| putative C2H2 finger domain protein [Aspergillus alliaceus] &gt;gb|KAE8396450.1| putative C2H2 finger domain protein [Aspergillus alliaceus]</Hit_def>
+  <Hit_accession>XP_031906169</Hit_accession>
+  <Hit_len>279</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>211.846</Hsp_bit-score>
+      <Hsp_score>538</Hsp_score>
+      <Hsp_evalue>5.92605e-65</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>189</Hsp_query-to>
+      <Hsp_hit-from>109</Hsp_hit-from>
+      <Hsp_hit-to>279</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>125</Hsp_identity>
+      <Hsp_positive>142</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>179</Hsp_align-len>
+      <Hsp_qseq>TFCRKTTLTKHQHRSHPPGSMTRLPSEDAVSEHSYQGPVAVPVPNEQYLLAQQPYYPHTPTPTHEFYPHQSLHITPVPIQEQPPIVTQHIPVTSPVDVQRAQQHYMQLVQQQQQQQQRYDPGRQGY-LPPEFQQPYHALPTADGPPLMVTSTQS-DYKP-PARILNQPEGTDWGFLGVG</Hsp_qseq>
+      <Hsp_hseq>SFCRKTTLTKHQHRSHPPGTVTRPPSEDATSEHSYQAPVPASLPNDQYLLAQQPYYPHAQTPSHDFYPPPSLPITPVPVQDAPPIVTHSVPVTSPVDVQQA--HYMQLM------QQRYDPTRQGYSIPPEFQQPFPPVPTVDGHPLIVTYPHNFQYKQHQTRILNQPEGTDWGFLGVG</Hsp_hseq>
+      <Hsp_midline>+FCRKTTLTKHQHRSHPPG++TR PSEDA SEHSYQ PV   +PN+QYLLAQQPYYPH  TP+H+FYP  SL ITPVP+Q+ PPIVT  +PVTSPVDVQ+A  HYMQL+      QQRYDP RQGY +PPEFQQP+  +PT DG PL+VT   +  YK    RILNQPEGTDWGFLGVG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gb|KAF5860891.1|</Hit_id>
+  <Hit_def>hypothetical protein ETB97_000927 [Aspergillus burnettii]</Hit_def>
+  <Hit_accession>KAF5860891</Hit_accession>
+  <Hit_len>273</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>211.46</Hsp_bit-score>
+      <Hsp_score>537</Hsp_score>
+      <Hsp_evalue>6.41329e-65</Hsp_evalue>
+      <Hsp_query-from>15</Hsp_query-from>
+      <Hsp_query-to>189</Hsp_query-to>
+      <Hsp_hit-from>104</Hsp_hit-from>
+      <Hsp_hit-to>273</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>125</Hsp_identity>
+      <Hsp_positive>141</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>178</Hsp_align-len>
+      <Hsp_qseq>FCRKTTLTKHQHRSHPPGSMTRLPSEDAVSEHSYQGPVAVPVPNEQYLLAQQPYYPHTPTPTHEFYPHQSLHITPVPIQEQPPIVTQHIPVTSPVDVQRAQQHYMQLVQQQQQQQQRYDPGRQGY-LPPEFQQPYHALPTADGPPLMVTSTQS-DYKP-PARILNQPEGTDWGFLGVG</Hsp_qseq>
+      <Hsp_hseq>FCRKTTLTKHQHRSHPPGTVTRPPSEDATSEHSYQAPVPASLPNDQYLLAQQPYYPHAQTPSHDFYPPPSLPITPVPVQDAPPIVTHSVPVTSPVDVQQA--HYMQLM------QQRYDPTRQGYSIPPEFQQPFPPVPTVDGHPLIVTYPHNFQYKQHQTRILNQPEGTDWGFLGVG</Hsp_hseq>
+      <Hsp_midline>FCRKTTLTKHQHRSHPPG++TR PSEDA SEHSYQ PV   +PN+QYLLAQQPYYPH  TP+H+FYP  SL ITPVP+Q+ PPIVT  +PVTSPVDVQ+A  HYMQL+      QQRYDP RQGY +PPEFQQP+  +PT DG PL+VT   +  YK    RILNQPEGTDWGFLGVG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>ref|XP_024691401.1|</Hit_id>
+  <Hit_def>putative C2H2 finger domain protein [Aspergillus campestris IBT 28561] &gt;gb|PKY02807.1| putative C2H2 finger domain protein [Aspergillus campestris IBT 28561]</Hit_def>
+  <Hit_accession>XP_024691401</Hit_accession>
+  <Hit_len>276</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>209.149</Hsp_bit-score>
+      <Hsp_score>531</Hsp_score>
+      <Hsp_evalue>5.68003e-64</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>189</Hsp_query-to>
+      <Hsp_hit-from>109</Hsp_hit-from>
+      <Hsp_hit-to>276</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>111</Hsp_identity>
+      <Hsp_positive>131</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>177</Hsp_align-len>
+      <Hsp_qseq>TFCRKTTLTKHQHRSHPPGSMTRLPSEDAVSEHSYQGPVAVPVPNEQYLLAQQPYYPHTPTPTHEFYPHQSLHITPVPIQEQPPIVTQHIPVTSPVDVQRAQQHYMQLVQQQQQQQQRYDPGRQGYLPPEFQQPYHALPTADGPPLMVTSTQS-DYKPPARILNQPEGTDWGFLGVG</Hsp_qseq>
+      <Hsp_hseq>SFCRKTTLTKHQHRSHPPGTITRPSSEDATSEHSYHPPTAVSIPNDQYLLAQQPYYPHASTPNHEYYRQQNVPMTPVAVHE-PPIVTQNVPVTSPVDVH-AQQQYMLM-------QQRYDQTRPDFVPPDYQQPFQGIPMVDGHPLMPSYQPGFQYKSQTRILNQPEGTDWGFLGVG</Hsp_hseq>
+      <Hsp_midline>+FCRKTTLTKHQHRSHPPG++TR  SEDA SEHSY  P AV +PN+QYLLAQQPYYPH  TP HE+Y  Q++ +TPV + E PPIVTQ++PVTSPVDV  AQQ YM +       QQRYD  R  ++PP++QQP+  +P  DG PLM +      YK   RILNQPEGTDWGFLGVG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gb|PLN81421.1|</Hit_id>
+  <Hit_def>putative C2H2 finger domain protein [Aspergillus taichungensis]</Hit_def>
+  <Hit_accession>PLN81421</Hit_accession>
+  <Hit_len>277</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>208.764</Hsp_bit-score>
+      <Hsp_score>530</Hsp_score>
+      <Hsp_evalue>7.27796e-64</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>189</Hsp_query-to>
+      <Hsp_hit-from>110</Hsp_hit-from>
+      <Hsp_hit-to>277</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>111</Hsp_identity>
+      <Hsp_positive>131</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>177</Hsp_align-len>
+      <Hsp_qseq>TFCRKTTLTKHQHRSHPPGSMTRLPSEDAVSEHSYQGPVAVPVPNEQYLLAQQPYYPHTPTPTHEFYPHQSLHITPVPIQEQPPIVTQHIPVTSPVDVQRAQQHYMQLVQQQQQQQQRYDPGRQGYLPPEFQQPYHALPTADGPPLMVTSTQS-DYKPPARILNQPEGTDWGFLGVG</Hsp_qseq>
+      <Hsp_hseq>SFCRKTTLTKHQHRSHPPGTITRPSSEDATSEHSYHPPTTVSIPNDQYLLAQQPYYPHTSTPNHEYYRQQNVPMTPVAVHE-PPIVTQNVPVTSPVDVH-AQQQYMLM-------QQRYDQTRPDFVPPDYQQPFQGIPMVDGHPLMPSYQPGFQYKSQTRILNQPEGTDWGFLGVG</Hsp_hseq>
+      <Hsp_midline>+FCRKTTLTKHQHRSHPPG++TR  SEDA SEHSY  P  V +PN+QYLLAQQPYYPHT TP HE+Y  Q++ +TPV + E PPIVTQ++PVTSPVDV  AQQ YM +       QQRYD  R  ++PP++QQP+  +P  DG PLM +      YK   RILNQPEGTDWGFLGVG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>ref|XP_024710368.1|</Hit_id>
+  <Hit_def>putative C2H2 finger domain protein [Aspergillus steynii IBT 23096] &gt;gb|PLB55066.1| putative C2H2 finger domain protein [Aspergillus steynii IBT 23096]</Hit_def>
+  <Hit_accession>XP_024710368</Hit_accession>
+  <Hit_len>281</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>207.994</Hsp_bit-score>
+      <Hsp_score>528</Hsp_score>
+      <Hsp_evalue>1.77767e-63</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>189</Hsp_query-to>
+      <Hsp_hit-from>109</Hsp_hit-from>
+      <Hsp_hit-to>281</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>115</Hsp_identity>
+      <Hsp_positive>137</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>178</Hsp_align-len>
+      <Hsp_qseq>TFCRKTTLTKHQHRSHPPGSMTRLPSEDAVSEHSYQGPVAVPVPNEQYLLAQQPYYPHTPTPTHEFYPHQSLHITPVPIQEQPPIVTQHIPVTSPVDVQRAQQHYMQLVQQQQQQQQRYDPGRQGYLPPEFQQPYHALPTADGPPLMVTSTQS-DYK-PPARILNQPEGTDWGFLGVG</Hsp_qseq>
+      <Hsp_hseq>SFCRKTTLTKHQHRSHPPGTVTRPPSEDAISEHSYQTPISTSVPNDQYLLAQQPYYPHSSTPTHDFYQHQNVPMTPVAVQEPPPIVAHSVPVTSPVDVQHVQQ-----QYMQQLMQQRYGHGRPGYVPPEFQPPFASVPAVESHPLMVTYPQNFQFKQEQTRLLNQPEGTDWGFLGVG</Hsp_hseq>
+      <Hsp_midline>+FCRKTTLTKHQHRSHPPG++TR PSEDA+SEHSYQ P++  VPN+QYLLAQQPYYPH+ TPTH+FY HQ++ +TPV +QE PPIV   +PVTSPVDVQ  QQ        QQ  QQRY  GR GY+PPEFQ P+ ++P  +  PLMVT  Q+  +K    R+LNQPEGTDWGFLGVG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>ref|XP_033428056.1|</Hit_id>
+  <Hit_def>uncharacterized protein ATNIH1004_004580 [Aspergillus tanneri] &gt;gb|KAA8648695.1| hypothetical protein ATNIH1004_004580 [Aspergillus tanneri]</Hit_def>
+  <Hit_accession>XP_033428056</Hit_accession>
+  <Hit_len>234</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>204.912</Hsp_bit-score>
+      <Hsp_score>520</Hsp_score>
+      <Hsp_evalue>7.29807e-63</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>189</Hsp_query-to>
+      <Hsp_hit-from>61</Hsp_hit-from>
+      <Hsp_hit-to>234</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>114</Hsp_identity>
+      <Hsp_positive>133</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>179</Hsp_align-len>
+      <Hsp_qseq>TFCRKTTLTKHQHRSHPPGSMTRLPSEDAVSEHSYQGPVAVPVPNEQYLLAQQPYYPHTPTPTHEFYPHQSLHITPVPIQEQPPIVTQHIPVTSPVDVQRAQQHYMQLVQQQQQQQQRYDPGRQGYLPPEFQQPYHALPTADGPPLMVT---STQSDYKPPARILNQPEGTDWGFLGVG</Hsp_qseq>
+      <Hsp_hseq>SFCRKTTLTKHQHRSHPPGTVTRPASEDVTSEHSYQTPISTSVANDQYLLAQQPYYPHSSTPTHEFYPPQNIPMTPVAVQEAPPIVAHNVPVTPPVDVQHVQQ-----QYMQQLMQQRYDQGRPGYVPPEFQHPFGGVPTADGHGLMVTYPQNFQYKQQQQTRLLNQPEGTDWAFLGVG</Hsp_hseq>
+      <Hsp_midline>+FCRKTTLTKHQHRSHPPG++TR  SED  SEHSYQ P++  V N+QYLLAQQPYYPH+ TPTHEFYP Q++ +TPV +QE PPIV  ++PVT PVDVQ  QQ        QQ  QQRYD GR GY+PPEFQ P+  +PTADG  LMVT   + Q   +   R+LNQPEGTDW FLGVG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gb|KAI9040952.1|</Hit_id>
+  <Hit_def>putative C2H2 finger domain protein [Aspergillus affinis]</Hit_def>
+  <Hit_accession>KAI9040952</Hit_accession>
+  <Hit_len>217</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>202.216</Hsp_bit-score>
+      <Hsp_score>513</Hsp_score>
+      <Hsp_evalue>5.43099e-62</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>189</Hsp_query-to>
+      <Hsp_hit-from>45</Hsp_hit-from>
+      <Hsp_hit-to>217</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>102</Hsp_identity>
+      <Hsp_positive>135</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>178</Hsp_align-len>
+      <Hsp_qseq>TFCRKTTLTKHQHRSHPPGSMTRLPSEDAVSEHSYQGPVAVPVPNEQYLLAQQPYYPHTPTPTHEFYPHQSLHITPVPIQEQPPIVTQHIPVTSPVDVQRAQQHYMQLVQQQQQQQQRYDPGRQGYLPPEFQQPYHALPTADGPPLMVTSTQS-DYK-PPARILNQPEGTDWGFLGVG</Hsp_qseq>
+      <Hsp_hseq>SFCRKTTLTKHQNKTHPPGTVSRPPSEDTISEHSYQTPISTSGPNDHYLLTQQPYYSHSSTPTHDFYHHQNVPMTPVAMQEGPPIVAHSVPVSPPMEMQHAQQQYM-----RQLMQQRYAQGRPGYVPPEFKQPFAAVPAVESQPLVVTYPQNFQFKQEETRLLDQPEGTDWGFLGVG</Hsp_hseq>
+      <Hsp_midline>+FCRKTTLTKHQ+++HPPG+++R PSED +SEHSYQ P++   PN+ YLL QQPYY H+ TPTH+FY HQ++ +TPV +QE PPIV   +PV+ P+++Q AQQ YM     +Q  QQRY  GR GY+PPEF+QP+ A+P  +  PL+VT  Q+  +K    R+L+QPEGTDWGFLGVG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>ref|XP_045943540.1|</Hit_id>
+  <Hit_def>uncharacterized protein LDX57_005887 [Aspergillus melleus] &gt;gb|KAH8428182.1| hypothetical protein LDX57_005887 [Aspergillus melleus]</Hit_def>
+  <Hit_accession>XP_045943540</Hit_accession>
+  <Hit_len>178</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>200.29</Hsp_bit-score>
+      <Hsp_score>508</Hsp_score>
+      <Hsp_evalue>6.73707e-62</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>189</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>178</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>102</Hsp_identity>
+      <Hsp_positive>131</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>178</Hsp_align-len>
+      <Hsp_qseq>TFCRKTTLTKHQHRSHPPGSMTRLPSEDAVSEHSYQGPVAVPVPNEQYLLAQQPYYPHTPTPTHEFYPHQSLHITPVPIQEQPPIVTQHIPVTSPVDVQRAQQHYMQLVQQQQQQQQRYDPGRQGYLPPEFQQPYHALPTADGPPLMVTS--TQSDYKPPARILNQPEGTDWGFLGVG</Hsp_qseq>
+      <Hsp_hseq>SFCRKTTLTKHQNKTHPSGTITRPPSEDTISEHSYQTPISTSGPNDHYLLTQQPYYPHSSTPTHDFYHHQNVPMTPVAMQEGPPIVAHSVPVSSPVEMQHAQQQYM-----RQLMQQRYAQGRPGYVPPEFQQHFAGVPAVESQPLVVTYPPNIQFKQEETRLLDQPEGTDWGFLGVG</Hsp_hseq>
+      <Hsp_midline>+FCRKTTLTKHQ+++HP G++TR PSED +SEHSYQ P++   PN+ YLL QQPYYPH+ TPTH+FY HQ++ +TPV +QE PPIV   +PV+SPV++Q AQQ YM     +Q  QQRY  GR GY+PPEFQQ +  +P  +  PL+VT        +   R+L+QPEGTDWGFLGVG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>ref|XP_024669019.1|</Hit_id>
+  <Hit_def>putative C2H2 finger domain protein [Aspergillus candidus] &gt;gb|PLB35007.1| putative C2H2 finger domain protein [Aspergillus candidus]</Hit_def>
+  <Hit_accession>XP_024669019</Hit_accession>
+  <Hit_len>276</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>202.216</Hsp_bit-score>
+      <Hsp_score>513</Hsp_score>
+      <Hsp_evalue>2.77306e-61</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>189</Hsp_query-to>
+      <Hsp_hit-from>109</Hsp_hit-from>
+      <Hsp_hit-to>276</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>108</Hsp_identity>
+      <Hsp_positive>129</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>177</Hsp_align-len>
+      <Hsp_qseq>TFCRKTTLTKHQHRSHPPGSMTRLPSEDAVSEHSYQGPVAVPVPNEQYLLAQQPYYPHTPTPTHEFYPHQSLHITPVPIQEQPPIVTQHIPVTSPVDVQRAQQHYMQLVQQQQQQQQRYDPGRQGYLPPEFQQPYHALPTADGPPLMVTSTQS-DYKPPARILNQPEGTDWGFLGVG</Hsp_qseq>
+      <Hsp_hseq>SFCRKTTLTKHQHRSHPPGTITRPSSEDATSENSYHPPTTVSIPNDQYLLAQQPYYPHTSTPNHEYYRQQNVPMTPVAVHE-PPIVTQNVPVTSPVDVH-TQQQYMLM-------QQRYDQTRPEFVPSDYQQPFQGIPMVDGHPLMPSYQPGFQYKSQTRILNQPEGTDWGFLGVG</Hsp_hseq>
+      <Hsp_midline>+FCRKTTLTKHQHRSHPPG++TR  SEDA SE+SY  P  V +PN+QYLLAQQPYYPHT TP HE+Y  Q++ +TPV + E PPIVTQ++PVTSPVDV   QQ YM +       QQRYD  R  ++P ++QQP+  +P  DG PLM +      YK   RILNQPEGTDWGFLGVG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>ref|XP_040694256.1|</Hit_id>
+  <Hit_def>uncharacterized protein ASPWEDRAFT_220907 [Aspergillus wentii DTO 134E9] &gt;gb|KAI9932994.1| hypothetical protein MW887_009248 [Aspergillus wentii] &gt;gb|OJJ40580.1| hypothetical protein ASPWEDRAFT_220907 [Aspergillus wentii DTO 134E9]</Hit_def>
+  <Hit_accession>XP_040694256</Hit_accession>
+  <Hit_len>280</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>196.052</Hsp_bit-score>
+      <Hsp_score>497</Hsp_score>
+      <Hsp_evalue>7.5625e-59</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>189</Hsp_query-to>
+      <Hsp_hit-from>109</Hsp_hit-from>
+      <Hsp_hit-to>280</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>112</Hsp_identity>
+      <Hsp_positive>129</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>178</Hsp_align-len>
+      <Hsp_qseq>TFCRKTTLTKHQHRSHPPGSMTRLPSEDAVSEHSYQGPVAVPVPNEQYLLAQQPYYPHTPTPTHEFYPHQSLHITPVPIQEQPPIVTQHIPVTSPVDVQRAQQHYMQLVQQQQQQQQRYDPGRQGYLPPEFQQP-YHALPTADGPPLMVTSTQS-DYKPPARILNQPEGTDWGFLGVG</Hsp_qseq>
+      <Hsp_hseq>SFCRKTTLTKHQHRSHPPGTMTRPSSEDATSEHSYQTSVTASLPNDQYLLAQQPYYQQPPTPSHEFYQQQNIPMGHVAVPEPAPIVTQNVQVPSPIDLQHAQQ------QYMQLMQQRYDQSRQGYLPPEYHQPQFAGHPLAEGHPLMVSYNPGFSYKAPARILNQPEGTDWGFLGVG</Hsp_hseq>
+      <Hsp_midline>+FCRKTTLTKHQHRSHPPG+MTR  SEDA SEHSYQ  V   +PN+QYLLAQQPYY   PTP+HEFY  Q++ +  V + E  PIVTQ++ V SP+D+Q AQQ      Q  Q  QQRYD  RQGYLPPE+ QP +   P A+G PLMV+      YK PARILNQPEGTDWGFLGVG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>ref|XP_024681226.1|</Hit_id>
+  <Hit_def>putative C2H2 finger domain protein [Aspergillus novofumigatus IBT 16806] &gt;gb|PKX92631.1| putative C2H2 finger domain protein [Aspergillus novofumigatus IBT 16806]</Hit_def>
+  <Hit_accession>XP_024681226</Hit_accession>
+  <Hit_len>286</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>196.052</Hsp_bit-score>
+      <Hsp_score>497</Hsp_score>
+      <Hsp_evalue>9.94077e-59</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>189</Hsp_query-to>
+      <Hsp_hit-from>109</Hsp_hit-from>
+      <Hsp_hit-to>286</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>114</Hsp_identity>
+      <Hsp_positive>135</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>183</Hsp_align-len>
+      <Hsp_qseq>TFCRKTTLTKHQHRSHPPGSMTRLPSEDAVSEHSYQGPVAVPVPNEQYLLAQQPYYPHTPTPTHEFYPHQSLHITPVPIQEQPPIVTQHIPVTSPVDVQRAQQHYMQLVQQQQQQQQRYDPGRQGYLPPEFQQP------YHALPTADGPPLMVTSTQS-DYKPPARILNQPEGTDWGFLGVG</Hsp_qseq>
+      <Hsp_hseq>SFCRKTTLTKHQHRSHPPGTMTRPPSEDAMSEQSYQAPVAAPIPNDQYLLAQQQYYHQPSTPSQDFYPQQSLPVTHIPVHDTPPMMTQSVPVTSPLDVQHAQQ-----QYMQQLMQQRYDTTNQSYIPPGFQQQQQPQQTFVAQPMAEGHPLMISYNQNFHYKQPARILNQPEGTDWGFLGVG</Hsp_hseq>
+      <Hsp_midline>+FCRKTTLTKHQHRSHPPG+MTR PSEDA+SE SYQ PVA P+PN+QYLLAQQ YY    TP+ +FYP QSL +T +P+ + PP++TQ +PVTSP+DVQ AQQ        QQ  QQRYD   Q Y+PP FQQ       + A P A+G PLM++  Q+  YK PARILNQPEGTDWGFLGVG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>520535009</Statistics_db-num>
+      <Statistics_db-len>204151440358</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>

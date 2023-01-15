@@ -1,0 +1,1441 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.13.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_390501</BlastOutput_query-ID>
+  <BlastOutput_query-def>unnamed protein product</BlastOutput_query-def>
+  <BlastOutput_query-len>270</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_390501</Iteration_query-ID>
+  <Iteration_query-def>unnamed protein product</Iteration_query-def>
+  <Iteration_query-len>270</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gb|KAI2829223.1|</Hit_id>
+  <Hit_def>hypothetical protein CBS133816_4760 [Aspergillus niger] &gt;gb|KAI2834140.1| hypothetical protein CBS11350_10935 [Aspergillus niger] &gt;gb|KAI2882601.1| hypothetical protein CBS11852_9605 [Aspergillus niger] &gt;gb|KAI2915153.1| hypothetical protein CBS147371_5970 [Aspergillus niger] &gt;gb|KAI2969777.1| hypothetical protein CBS147324_5785 [Aspergillus niger]</Hit_def>
+  <Hit_accession>KAI2829223</Hit_accession>
+  <Hit_len>346</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>556.214</Hsp_bit-score>
+      <Hsp_score>1432</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>269</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>269</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>268</Hsp_identity>
+      <Hsp_positive>269</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>269</Hsp_align-len>
+      <Hsp_qseq>MENIFAKIAQDTTKFDLGDEEGWRKLYEPLYPEAPDNVGVVKDESYGPAERNRLDVYFPLEEKPGGYPVVLYVHGGGFFSGDKGWSEKCWANVGFFFAQRGFVTVLANHQLVPHVVYPGGADDMQLAREWISENIAKEKYGRGIPEKVVLLGHSSGGAHIAMNLYAAGDEFLDNCHLHSLLTQDIGDPKRKTNVPLFPPVAGVIYLSVPFWFDRRKPVRQRVIRHYWGSDEEEVWGPLSALGLFRNLPEDSPLLDSEQLPVYIGSVKWD</Hsp_qseq>
+      <Hsp_hseq>MENIFAKIAQDTTKFDLGDEEGWRKLYEPLYPEAPDNVGVVKDESYGPAERNRLDVYFPLEEKPGGYPVVLYVHGGGFFSGDKGWSEKCWANVGFFFAQRGFVTVLANHQLVPHVVYPGGADDMQLAREWISENIAKEKYGRGIPEKVVLLGHSSGGAHIAMNLYAAGDEFLDNCHLHSLLTQDIGDPKRKTNVPLFPPVAGVIYLSVPFWFDRRKPVRQRVIRHYWGSDEEEVWGPLSALGLFRNLPEDSPLLDSEQLPVYIGSVKWE</Hsp_hseq>
+      <Hsp_midline>MENIFAKIAQDTTKFDLGDEEGWRKLYEPLYPEAPDNVGVVKDESYGPAERNRLDVYFPLEEKPGGYPVVLYVHGGGFFSGDKGWSEKCWANVGFFFAQRGFVTVLANHQLVPHVVYPGGADDMQLAREWISENIAKEKYGRGIPEKVVLLGHSSGGAHIAMNLYAAGDEFLDNCHLHSLLTQDIGDPKRKTNVPLFPPVAGVIYLSVPFWFDRRKPVRQRVIRHYWGSDEEEVWGPLSALGLFRNLPEDSPLLDSEQLPVYIGSVKW+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gb|RDH14090.1|</Hit_id>
+  <Hit_def>alpha/beta-hydrolase [Aspergillus niger ATCC 13496]</Hit_def>
+  <Hit_accession>RDH14090</Hit_accession>
+  <Hit_len>272</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>554.673</Hsp_bit-score>
+      <Hsp_score>1428</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>270</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>270</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>270</Hsp_identity>
+      <Hsp_positive>270</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>270</Hsp_align-len>
+      <Hsp_qseq>MENIFAKIAQDTTKFDLGDEEGWRKLYEPLYPEAPDNVGVVKDESYGPAERNRLDVYFPLEEKPGGYPVVLYVHGGGFFSGDKGWSEKCWANVGFFFAQRGFVTVLANHQLVPHVVYPGGADDMQLAREWISENIAKEKYGRGIPEKVVLLGHSSGGAHIAMNLYAAGDEFLDNCHLHSLLTQDIGDPKRKTNVPLFPPVAGVIYLSVPFWFDRRKPVRQRVIRHYWGSDEEEVWGPLSALGLFRNLPEDSPLLDSEQLPVYIGSVKWDW</Hsp_qseq>
+      <Hsp_hseq>MENIFAKIAQDTTKFDLGDEEGWRKLYEPLYPEAPDNVGVVKDESYGPAERNRLDVYFPLEEKPGGYPVVLYVHGGGFFSGDKGWSEKCWANVGFFFAQRGFVTVLANHQLVPHVVYPGGADDMQLAREWISENIAKEKYGRGIPEKVVLLGHSSGGAHIAMNLYAAGDEFLDNCHLHSLLTQDIGDPKRKTNVPLFPPVAGVIYLSVPFWFDRRKPVRQRVIRHYWGSDEEEVWGPLSALGLFRNLPEDSPLLDSEQLPVYIGSVKWDW</Hsp_hseq>
+      <Hsp_midline>MENIFAKIAQDTTKFDLGDEEGWRKLYEPLYPEAPDNVGVVKDESYGPAERNRLDVYFPLEEKPGGYPVVLYVHGGGFFSGDKGWSEKCWANVGFFFAQRGFVTVLANHQLVPHVVYPGGADDMQLAREWISENIAKEKYGRGIPEKVVLLGHSSGGAHIAMNLYAAGDEFLDNCHLHSLLTQDIGDPKRKTNVPLFPPVAGVIYLSVPFWFDRRKPVRQRVIRHYWGSDEEEVWGPLSALGLFRNLPEDSPLLDSEQLPVYIGSVKWDW</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>ref|XP_001395709.2|</Hit_id>
+  <Hit_def>hypothetical protein ANI_1_1998104 [Aspergillus niger CBS 513.88] &gt;gb|EHA25383.1| hypothetical protein ASPNIDRAFT_42261 [Aspergillus niger ATCC 1015]</Hit_def>
+  <Hit_accession>XP_001395709</Hit_accession>
+  <Hit_len>270</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>553.903</Hsp_bit-score>
+      <Hsp_score>1426</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>270</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>270</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>270</Hsp_identity>
+      <Hsp_positive>270</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>270</Hsp_align-len>
+      <Hsp_qseq>MENIFAKIAQDTTKFDLGDEEGWRKLYEPLYPEAPDNVGVVKDESYGPAERNRLDVYFPLEEKPGGYPVVLYVHGGGFFSGDKGWSEKCWANVGFFFAQRGFVTVLANHQLVPHVVYPGGADDMQLAREWISENIAKEKYGRGIPEKVVLLGHSSGGAHIAMNLYAAGDEFLDNCHLHSLLTQDIGDPKRKTNVPLFPPVAGVIYLSVPFWFDRRKPVRQRVIRHYWGSDEEEVWGPLSALGLFRNLPEDSPLLDSEQLPVYIGSVKWDW</Hsp_qseq>
+      <Hsp_hseq>MENIFAKIAQDTTKFDLGDEEGWRKLYEPLYPEAPDNVGVVKDESYGPAERNRLDVYFPLEEKPGGYPVVLYVHGGGFFSGDKGWSEKCWANVGFFFAQRGFVTVLANHQLVPHVVYPGGADDMQLAREWISENIAKEKYGRGIPEKVVLLGHSSGGAHIAMNLYAAGDEFLDNCHLHSLLTQDIGDPKRKTNVPLFPPVAGVIYLSVPFWFDRRKPVRQRVIRHYWGSDEEEVWGPLSALGLFRNLPEDSPLLDSEQLPVYIGSVKWDW</Hsp_hseq>
+      <Hsp_midline>MENIFAKIAQDTTKFDLGDEEGWRKLYEPLYPEAPDNVGVVKDESYGPAERNRLDVYFPLEEKPGGYPVVLYVHGGGFFSGDKGWSEKCWANVGFFFAQRGFVTVLANHQLVPHVVYPGGADDMQLAREWISENIAKEKYGRGIPEKVVLLGHSSGGAHIAMNLYAAGDEFLDNCHLHSLLTQDIGDPKRKTNVPLFPPVAGVIYLSVPFWFDRRKPVRQRVIRHYWGSDEEEVWGPLSALGLFRNLPEDSPLLDSEQLPVYIGSVKWDW</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gb|KAI2926534.1|</Hit_id>
+  <Hit_def>hypothetical protein CBS147320_5958 [Aspergillus niger]</Hit_def>
+  <Hit_accession>KAI2926534</Hit_accession>
+  <Hit_len>346</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>552.747</Hsp_bit-score>
+      <Hsp_score>1423</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>269</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>269</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>267</Hsp_identity>
+      <Hsp_positive>268</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>269</Hsp_align-len>
+      <Hsp_qseq>MENIFAKIAQDTTKFDLGDEEGWRKLYEPLYPEAPDNVGVVKDESYGPAERNRLDVYFPLEEKPGGYPVVLYVHGGGFFSGDKGWSEKCWANVGFFFAQRGFVTVLANHQLVPHVVYPGGADDMQLAREWISENIAKEKYGRGIPEKVVLLGHSSGGAHIAMNLYAAGDEFLDNCHLHSLLTQDIGDPKRKTNVPLFPPVAGVIYLSVPFWFDRRKPVRQRVIRHYWGSDEEEVWGPLSALGLFRNLPEDSPLLDSEQLPVYIGSVKWD</Hsp_qseq>
+      <Hsp_hseq>MENIFAKIAQDTTKFDLGDEEGWRKLYEPLYPEAPDNVGVVKDESYGPAERNRLDVYFPLEEKPGGYPVVLYVHGGGFFSGDKGWSEKCWANVGFFFAQRGFVTVLANHQLVPHVVYPGGADDMQLAREWISENIAKEKYGRGIPEKVVLLGHSSGGAHIAMNLYAAGDEFLDNCHLHSLLTQDIGDPKRKTNVPLFPPVAGVIYLSVPFWFDGRKPVRQRVIRHYWGSDEEEVWGPLSALGLFRNLPEDSPLLDSEQLPVYIGSVKWE</Hsp_hseq>
+      <Hsp_midline>MENIFAKIAQDTTKFDLGDEEGWRKLYEPLYPEAPDNVGVVKDESYGPAERNRLDVYFPLEEKPGGYPVVLYVHGGGFFSGDKGWSEKCWANVGFFFAQRGFVTVLANHQLVPHVVYPGGADDMQLAREWISENIAKEKYGRGIPEKVVLLGHSSGGAHIAMNLYAAGDEFLDNCHLHSLLTQDIGDPKRKTNVPLFPPVAGVIYLSVPFWFD RKPVRQRVIRHYWGSDEEEVWGPLSALGLFRNLPEDSPLLDSEQLPVYIGSVKW+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gb|KAI2993873.1|</Hit_id>
+  <Hit_def>hypothetical protein CBS147346_10816 [Aspergillus niger]</Hit_def>
+  <Hit_accession>KAI2993873</Hit_accession>
+  <Hit_len>346</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>550.051</Hsp_bit-score>
+      <Hsp_score>1416</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>269</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>269</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>265</Hsp_identity>
+      <Hsp_positive>267</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>269</Hsp_align-len>
+      <Hsp_qseq>MENIFAKIAQDTTKFDLGDEEGWRKLYEPLYPEAPDNVGVVKDESYGPAERNRLDVYFPLEEKPGGYPVVLYVHGGGFFSGDKGWSEKCWANVGFFFAQRGFVTVLANHQLVPHVVYPGGADDMQLAREWISENIAKEKYGRGIPEKVVLLGHSSGGAHIAMNLYAAGDEFLDNCHLHSLLTQDIGDPKRKTNVPLFPPVAGVIYLSVPFWFDRRKPVRQRVIRHYWGSDEEEVWGPLSALGLFRNLPEDSPLLDSEQLPVYIGSVKWD</Hsp_qseq>
+      <Hsp_hseq>MENIFAKIAQDTTKFDLGDEEGWRKLYEPLYAEAPDNVGVVKDESYGPAERNRLDVYFPLEEKPGGYPVVLYVHGGGFFSGDKGWSEKCWANVGFFFAQRGFVTVLANHQLVPHVVYPGGADDMQLAREWIFENIAKEKYGRGIPEKVVLLGHSSGGAHIAMNLYAAGDEFLDNCHLHSLLTQDIGDPKRKTNVPLFPPVAGVIYLSVPFWFDRRKPVRQRVIRHYWGSDEEEVWGPLSALGLFKNLPEDSPLLDSEQLPVYIGSVKWE</Hsp_hseq>
+      <Hsp_midline>MENIFAKIAQDTTKFDLGDEEGWRKLYEPLY EAPDNVGVVKDESYGPAERNRLDVYFPLEEKPGGYPVVLYVHGGGFFSGDKGWSEKCWANVGFFFAQRGFVTVLANHQLVPHVVYPGGADDMQLAREWI ENIAKEKYGRGIPEKVVLLGHSSGGAHIAMNLYAAGDEFLDNCHLHSLLTQDIGDPKRKTNVPLFPPVAGVIYLSVPFWFDRRKPVRQRVIRHYWGSDEEEVWGPLSALGLF+NLPEDSPLLDSEQLPVYIGSVKW+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gb|RDK45595.1|</Hit_id>
+  <Hit_def>alpha/beta-hydrolase [Aspergillus phoenicis ATCC 13157]</Hit_def>
+  <Hit_accession>RDK45595</Hit_accession>
+  <Hit_len>295</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>546.199</Hsp_bit-score>
+      <Hsp_score>1406</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>269</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>269</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>265</Hsp_identity>
+      <Hsp_positive>267</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>269</Hsp_align-len>
+      <Hsp_qseq>MENIFAKIAQDTTKFDLGDEEGWRKLYEPLYPEAPDNVGVVKDESYGPAERNRLDVYFPLEEKPGGYPVVLYVHGGGFFSGDKGWSEKCWANVGFFFAQRGFVTVLANHQLVPHVVYPGGADDMQLAREWISENIAKEKYGRGIPEKVVLLGHSSGGAHIAMNLYAAGDEFLDNCHLHSLLTQDIGDPKRKTNVPLFPPVAGVIYLSVPFWFDRRKPVRQRVIRHYWGSDEEEVWGPLSALGLFRNLPEDSPLLDSEQLPVYIGSVKWD</Hsp_qseq>
+      <Hsp_hseq>MENIFAKIAQDTTKFDLGDEEGWRKLYEPLYAEAPDNVGVVKDESYGPAERNRLDVYFPLEEKPGGYPVVLYVHGGGFFSGDKGWSEKCWANVGFFFAQRGFVTVLANHQLVPHVVYPGGADDMQLAREWIFENIAKEKYGRGIPEKVVLLGHSSGGAHIAMNLYAAGDEFLDNCHLHSLLTQDIGDPKRKTNVPLFPPVAGVIYLSVPFWFDRRKPVRQRVIRHYWGSDEEEVWGPLSALGLFKNLPEDSPLLDSEQLPVYIGSVKWE</Hsp_hseq>
+      <Hsp_midline>MENIFAKIAQDTTKFDLGDEEGWRKLYEPLY EAPDNVGVVKDESYGPAERNRLDVYFPLEEKPGGYPVVLYVHGGGFFSGDKGWSEKCWANVGFFFAQRGFVTVLANHQLVPHVVYPGGADDMQLAREWI ENIAKEKYGRGIPEKVVLLGHSSGGAHIAMNLYAAGDEFLDNCHLHSLLTQDIGDPKRKTNVPLFPPVAGVIYLSVPFWFDRRKPVRQRVIRHYWGSDEEEVWGPLSALGLF+NLPEDSPLLDSEQLPVYIGSVKW+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gb|KAI2861240.1|</Hit_id>
+  <Hit_def>hypothetical protein CBS12448_4940 [Aspergillus niger] &gt;gb|KAI2897636.1| hypothetical protein CBS63078_7958 [Aspergillus niger] &gt;gb|KAI2928803.1| hypothetical protein CBS147321_10950 [Aspergillus niger] &gt;gb|KAI2957186.1| hypothetical protein CBS147322_2291 [Aspergillus niger]</Hit_def>
+  <Hit_accession>KAI2861240</Hit_accession>
+  <Hit_len>355</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>545.043</Hsp_bit-score>
+      <Hsp_score>1403</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>269</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>269</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>262</Hsp_identity>
+      <Hsp_positive>266</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>269</Hsp_align-len>
+      <Hsp_qseq>MENIFAKIAQDTTKFDLGDEEGWRKLYEPLYPEAPDNVGVVKDESYGPAERNRLDVYFPLEEKPGGYPVVLYVHGGGFFSGDKGWSEKCWANVGFFFAQRGFVTVLANHQLVPHVVYPGGADDMQLAREWISENIAKEKYGRGIPEKVVLLGHSSGGAHIAMNLYAAGDEFLDNCHLHSLLTQDIGDPKRKTNVPLFPPVAGVIYLSVPFWFDRRKPVRQRVIRHYWGSDEEEVWGPLSALGLFRNLPEDSPLLDSEQLPVYIGSVKWD</Hsp_qseq>
+      <Hsp_hseq>MENIFAKIAQDTTKFDLGDEEGWRKLYEPLYAEAPDNVGVVKDESYGPAERNRLDVYFPLEEKPGGYPVVLYVHGGGFFSGDKGWSEKCWANVGFFFAQRGFVTVLANHQLVPHVVYPGGADDMQLAREWIFENIAKEKYGRGIPEKVVLLGHSSGGAHIAMNLYAAGDEFLDNCHLHSLLTRDIGDPNRKTNIPLFPPVAGVIYLSVPFWFDRRKPVRQRVIRHYWGSDEEEVWGPLSALGLFRNLPEESPLLDSEQLPVYIGSVKWE</Hsp_hseq>
+      <Hsp_midline>MENIFAKIAQDTTKFDLGDEEGWRKLYEPLY EAPDNVGVVKDESYGPAERNRLDVYFPLEEKPGGYPVVLYVHGGGFFSGDKGWSEKCWANVGFFFAQRGFVTVLANHQLVPHVVYPGGADDMQLAREWI ENIAKEKYGRGIPEKVVLLGHSSGGAHIAMNLYAAGDEFLDNCHLHSLLT+DIGDP RKTN+PLFPPVAGVIYLSVPFWFDRRKPVRQRVIRHYWGSDEEEVWGPLSALGLFRNLPE+SPLLDSEQLPVYIGSVKW+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gb|KAI2877371.1|</Hit_id>
+  <Hit_def>hypothetical protein CBS13152_9422 [Aspergillus niger] &gt;gb|KAI3036179.1| hypothetical protein CBS76997_10274 [Aspergillus niger]</Hit_def>
+  <Hit_accession>KAI2877371</Hit_accession>
+  <Hit_len>355</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>543.888</Hsp_bit-score>
+      <Hsp_score>1400</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>269</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>269</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>261</Hsp_identity>
+      <Hsp_positive>265</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>269</Hsp_align-len>
+      <Hsp_qseq>MENIFAKIAQDTTKFDLGDEEGWRKLYEPLYPEAPDNVGVVKDESYGPAERNRLDVYFPLEEKPGGYPVVLYVHGGGFFSGDKGWSEKCWANVGFFFAQRGFVTVLANHQLVPHVVYPGGADDMQLAREWISENIAKEKYGRGIPEKVVLLGHSSGGAHIAMNLYAAGDEFLDNCHLHSLLTQDIGDPKRKTNVPLFPPVAGVIYLSVPFWFDRRKPVRQRVIRHYWGSDEEEVWGPLSALGLFRNLPEDSPLLDSEQLPVYIGSVKWD</Hsp_qseq>
+      <Hsp_hseq>MENIFAKIAQDTTKFDLGDEEGWRKLYEPLYAEAPDNVGVVKDESYGPAERNRLDVYFPLEEKPGGYPVVLYVHGGGFFSGDKGWSEKCWANVGFFFAQRGFVTVLANHQLVPHVVYPGGADDMQLAREWIFENIAKEKYGRGIPEKVVLLGHSSGGAHIAMNLYAAGDEFLDNCHLHSLLTRDIADPNRKTNIPLFPPVAGVIYLSVPFWFDRRKPVRQRVIRHYWGSDEEEVWGPLSALGLFRNLPEESPLLDSEQLPVYIGSVKWE</Hsp_hseq>
+      <Hsp_midline>MENIFAKIAQDTTKFDLGDEEGWRKLYEPLY EAPDNVGVVKDESYGPAERNRLDVYFPLEEKPGGYPVVLYVHGGGFFSGDKGWSEKCWANVGFFFAQRGFVTVLANHQLVPHVVYPGGADDMQLAREWI ENIAKEKYGRGIPEKVVLLGHSSGGAHIAMNLYAAGDEFLDNCHLHSLLT+DI DP RKTN+PLFPPVAGVIYLSVPFWFDRRKPVRQRVIRHYWGSDEEEVWGPLSALGLFRNLPE+SPLLDSEQLPVYIGSVKW+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gb|TPR06196.1|</Hit_id>
+  <Hit_def>hypothetical protein CAN33_0020205 [Aspergillus niger]</Hit_def>
+  <Hit_accession>TPR06196</Hit_accession>
+  <Hit_len>252</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>503.827</Hsp_bit-score>
+      <Hsp_score>1296</Hsp_score>
+      <Hsp_evalue>2.35318e-179</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>270</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>252</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>252</Hsp_identity>
+      <Hsp_positive>252</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>270</Hsp_align-len>
+      <Hsp_qseq>MENIFAKIAQDTTKFDLGDEEGWRKLYEPLYPEAPDNVGVVKDESYGPAERNRLDVYFPLEEKPGGYPVVLYVHGGGFFSGDKGWSEKCWANVGFFFAQRGFVTVLANHQLVPHVVYPGGADDMQLAREWISENIAKEKYGRGIPEKVVLLGHSSGGAHIAMNLYAAGDEFLDNCHLHSLLTQDIGDPKRKTNVPLFPPVAGVIYLSVPFWFDRRKPVRQRVIRHYWGSDEEEVWGPLSALGLFRNLPEDSPLLDSEQLPVYIGSVKWDW</Hsp_qseq>
+      <Hsp_hseq>MENIFAKIAQDTTKFDLGDEEGWRKLYEPLYPEAPDNVGVVKDESYGPAERNRLDVYFPLEEKPGGYPVVLYVHGGGFFSGDKGWSEKCWANVGFFFAQRGFVTVLANHQLVPHVVYPGGADDMQLAREWISENIAKEKYGRGIPEKVVLLGHSSGGAHIAMNLYAA------------------GDPKRKTNVPLFPPVAGVIYLSVPFWFDRRKPVRQRVIRHYWGSDEEEVWGPLSALGLFRNLPEDSPLLDSEQLPVYIGSVKWDW</Hsp_hseq>
+      <Hsp_midline>MENIFAKIAQDTTKFDLGDEEGWRKLYEPLYPEAPDNVGVVKDESYGPAERNRLDVYFPLEEKPGGYPVVLYVHGGGFFSGDKGWSEKCWANVGFFFAQRGFVTVLANHQLVPHVVYPGGADDMQLAREWISENIAKEKYGRGIPEKVVLLGHSSGGAHIAMNLYAA                  GDPKRKTNVPLFPPVAGVIYLSVPFWFDRRKPVRQRVIRHYWGSDEEEVWGPLSALGLFRNLPEDSPLLDSEQLPVYIGSVKWDW</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gb|OJI80426.1|</Hit_id>
+  <Hit_def>hypothetical protein ASPTUDRAFT_59149 [Aspergillus tubingensis CBS 134.48]</Hit_def>
+  <Hit_accession>OJI80426</Hit_accession>
+  <Hit_len>270</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>501.901</Hsp_bit-score>
+      <Hsp_score>1291</Hsp_score>
+      <Hsp_evalue>2.97017e-178</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>269</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>269</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>240</Hsp_identity>
+      <Hsp_positive>257</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>269</Hsp_align-len>
+      <Hsp_qseq>MENIFAKIAQDTTKFDLGDEEGWRKLYEPLYPEAPDNVGVVKDESYGPAERNRLDVYFPLEEKPGGYPVVLYVHGGGFFSGDKGWSEKCWANVGFFFAQRGFVTVLANHQLVPHVVYPGGADDMQLAREWISENIAKEKYGRGIPEKVVLLGHSSGGAHIAMNLYAAGDEFLDNCHLHSLLTQDIGDPKRKTNVPLFPPVAGVIYLSVPFWFDRRKPVRQRVIRHYWGSDEEEVWGPLSALGLFRNLPEDSPLLDSEQLPVYIGSVKWD</Hsp_qseq>
+      <Hsp_hseq>MEKVFAKIAQDTTKFDLGDEEGWRKLYEHLYPKAPDNVGIVKDEQYGPAERNRLDVYFPAEEKPGGHPVVLFVHGGGFFSGDKGWSEKCWGNVGFYFAQRGFVTVLANHRLVPHVVYPGGADDMQLAREWIFENIAKQKYGRGSPEKVILLGHSSGGAHIAMNLYAAGDEFLDNTHHHSLLTREIGDPKRESKVPLFPPVAGVIYLSVPFWFDRRKPVRQRVIRHYYGSDAEEVWGPVSALGLFRNLPDDSPLLDSEHLPVYIGSVKWE</Hsp_hseq>
+      <Hsp_midline>ME +FAKIAQDTTKFDLGDEEGWRKLYE LYP+APDNVG+VKDE YGPAERNRLDVYFP EEKPGG+PVVL+VHGGGFFSGDKGWSEKCW NVGF+FAQRGFVTVLANH+LVPHVVYPGGADDMQLAREWI ENIAK+KYGRG PEKV+LLGHSSGGAHIAMNLYAAGDEFLDN H HSLLT++IGDPKR++ VPLFPPVAGVIYLSVPFWFDRRKPVRQRVIRHY+GSD EEVWGP+SALGLFRNLP+DSPLLDSE LPVYIGSVKW+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>ref|XP_026628356.1|</Hit_id>
+  <Hit_def>alpha/beta-hydrolase [Aspergillus welwitschiae] &gt;gb|RDH35334.1| alpha/beta-hydrolase [Aspergillus welwitschiae]</Hit_def>
+  <Hit_accession>XP_026628356</Hit_accession>
+  <Hit_len>328</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>495.738</Hsp_bit-score>
+      <Hsp_score>1275</Hsp_score>
+      <Hsp_evalue>5.76703e-175</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>269</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>251</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>246</Hsp_identity>
+      <Hsp_positive>248</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>269</Hsp_align-len>
+      <Hsp_qseq>MENIFAKIAQDTTKFDLGDEEGWRKLYEPLYPEAPDNVGVVKDESYGPAERNRLDVYFPLEEKPGGYPVVLYVHGGGFFSGDKGWSEKCWANVGFFFAQRGFVTVLANHQLVPHVVYPGGADDMQLAREWISENIAKEKYGRGIPEKVVLLGHSSGGAHIAMNLYAAGDEFLDNCHLHSLLTQDIGDPKRKTNVPLFPPVAGVIYLSVPFWFDRRKPVRQRVIRHYWGSDEEEVWGPLSALGLFRNLPEDSPLLDSEQLPVYIGSVKWD</Hsp_qseq>
+      <Hsp_hseq>MENIFAKIAQDTTKFDLGDEEGWRKLYEPLYAEAPDNVGVVKDESYGPAERNRLDVYFPLEEKPGGYPVVLYVHGGGFFSGDKGWSEKCWANVGFFFAQRGFVTVLANHQLVPHVVYPGGADDMQLAREWIFENIAKEKYGRGIPEKVVLLGHSSGGAHIAMNLYAA------------------GDPKRKTNVPLSPPVAGVIYLSVPFWFDRRKPVRQRVIRHYWGSDDEEVWGPLSALGLFRNLPEDSPLLDSEQLPVYIGSVKWE</Hsp_hseq>
+      <Hsp_midline>MENIFAKIAQDTTKFDLGDEEGWRKLYEPLY EAPDNVGVVKDESYGPAERNRLDVYFPLEEKPGGYPVVLYVHGGGFFSGDKGWSEKCWANVGFFFAQRGFVTVLANHQLVPHVVYPGGADDMQLAREWI ENIAKEKYGRGIPEKVVLLGHSSGGAHIAMNLYAA                  GDPKRKTNVPL PPVAGVIYLSVPFWFDRRKPVRQRVIRHYWGSD+EEVWGPLSALGLFRNLPEDSPLLDSEQLPVYIGSVKW+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>dbj|GJP88823.1|</Hit_id>
+  <Hit_def>hypothetical protein AlacWU_01722 [Aspergillus niger]</Hit_def>
+  <Hit_accession>GJP88823</Hit_accession>
+  <Hit_len>252</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>491.115</Hsp_bit-score>
+      <Hsp_score>1263</Hsp_score>
+      <Hsp_evalue>2.94293e-174</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>269</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>251</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>245</Hsp_identity>
+      <Hsp_positive>248</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>269</Hsp_align-len>
+      <Hsp_qseq>MENIFAKIAQDTTKFDLGDEEGWRKLYEPLYPEAPDNVGVVKDESYGPAERNRLDVYFPLEEKPGGYPVVLYVHGGGFFSGDKGWSEKCWANVGFFFAQRGFVTVLANHQLVPHVVYPGGADDMQLAREWISENIAKEKYGRGIPEKVVLLGHSSGGAHIAMNLYAAGDEFLDNCHLHSLLTQDIGDPKRKTNVPLFPPVAGVIYLSVPFWFDRRKPVRQRVIRHYWGSDEEEVWGPLSALGLFRNLPEDSPLLDSEQLPVYIGSVKWD</Hsp_qseq>
+      <Hsp_hseq>MENIFAKIAQDTTKFDLGDEEGWRKLYEPLYAEAPDNVGVVKDESYGPAERNRLDVYFPLEEKPGGYPVVLYVHGGGFFSGDKGWSEKCWANVGFFFAQRGFVTVLANHQLVPHVVYPGGADDMQLAREWIFENIAKEKYGRGIPEKVVLLGHSSGGAHIAMNLYAA------------------GDPNRKTNIPLFPPVAGVIYLSVPFWFDRRKPVRQRVIRHYWGSDEEEVWGPLSALGLFRNLPEESPLLDSEQLPVYIGSVKWE</Hsp_hseq>
+      <Hsp_midline>MENIFAKIAQDTTKFDLGDEEGWRKLYEPLY EAPDNVGVVKDESYGPAERNRLDVYFPLEEKPGGYPVVLYVHGGGFFSGDKGWSEKCWANVGFFFAQRGFVTVLANHQLVPHVVYPGGADDMQLAREWI ENIAKEKYGRGIPEKVVLLGHSSGGAHIAMNLYAA                  GDP RKTN+PLFPPVAGVIYLSVPFWFDRRKPVRQRVIRHYWGSDEEEVWGPLSALGLFRNLPE+SPLLDSEQLPVYIGSVKW+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>emb|SPB45984.1|</Hit_id>
+  <Hit_def>unnamed protein product [Aspergillus niger]</Hit_def>
+  <Hit_accession>SPB45984</Hit_accession>
+  <Hit_len>238</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>487.263</Hsp_bit-score>
+      <Hsp_score>1253</Hsp_score>
+      <Hsp_evalue>5.76941e-173</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>236</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>236</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>236</Hsp_identity>
+      <Hsp_positive>236</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>236</Hsp_align-len>
+      <Hsp_qseq>MENIFAKIAQDTTKFDLGDEEGWRKLYEPLYPEAPDNVGVVKDESYGPAERNRLDVYFPLEEKPGGYPVVLYVHGGGFFSGDKGWSEKCWANVGFFFAQRGFVTVLANHQLVPHVVYPGGADDMQLAREWISENIAKEKYGRGIPEKVVLLGHSSGGAHIAMNLYAAGDEFLDNCHLHSLLTQDIGDPKRKTNVPLFPPVAGVIYLSVPFWFDRRKPVRQRVIRHYWGSDEEEVWG</Hsp_qseq>
+      <Hsp_hseq>MENIFAKIAQDTTKFDLGDEEGWRKLYEPLYPEAPDNVGVVKDESYGPAERNRLDVYFPLEEKPGGYPVVLYVHGGGFFSGDKGWSEKCWANVGFFFAQRGFVTVLANHQLVPHVVYPGGADDMQLAREWISENIAKEKYGRGIPEKVVLLGHSSGGAHIAMNLYAAGDEFLDNCHLHSLLTQDIGDPKRKTNVPLFPPVAGVIYLSVPFWFDRRKPVRQRVIRHYWGSDEEEVWG</Hsp_hseq>
+      <Hsp_midline>MENIFAKIAQDTTKFDLGDEEGWRKLYEPLYPEAPDNVGVVKDESYGPAERNRLDVYFPLEEKPGGYPVVLYVHGGGFFSGDKGWSEKCWANVGFFFAQRGFVTVLANHQLVPHVVYPGGADDMQLAREWISENIAKEKYGRGIPEKVVLLGHSSGGAHIAMNLYAAGDEFLDNCHLHSLLTQDIGDPKRKTNVPLFPPVAGVIYLSVPFWFDRRKPVRQRVIRHYWGSDEEEVWG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>dbj|GCB21681.1|</Hit_id>
+  <Hit_def>probable isoprenylcysteine alpha-carbonyl methylesterase ICMEL1 [Aspergillus awamori]</Hit_def>
+  <Hit_accession>GCB21681</Hit_accession>
+  <Hit_len>355</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>486.878</Hsp_bit-score>
+      <Hsp_score>1252</Hsp_score>
+      <Hsp_evalue>4.94932e-171</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>269</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>269</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>246</Hsp_identity>
+      <Hsp_positive>249</Hsp_positive>
+      <Hsp_gaps>36</Hsp_gaps>
+      <Hsp_align-len>287</Hsp_align-len>
+      <Hsp_qseq>MENIFAKIAQDTTKFDLGDEEGWRKLYEPLYPEAPDNVGVVKDESYGPAERNRLDVYFPLEEKPGGYPVVLYVHGGGFFSGDKGWSE------------------KCWANVGFFFAQRGFVTVLANHQLVPHVVYPGGADDMQLAREWISENIAKEKYGRGIPEKVVLLGHSSGGAHIAMNLYAAGDEFLDNCHLHSLLTQDIGDPKRKTNVPLFPPVAGVIYLSVPFWFDRRKPVRQRVIRHYWGSDEEEVWGPLSALGLFRNLPEDSPLLDSEQLPVYIGSVKWD</Hsp_qseq>
+      <Hsp_hseq>MENIFAKIAQDTTKFDLGDEEGWRKLYEPLYPEAPENVGVVKDESYGPAERNRLDVYFPLEEKPGGYPVVLYVHGGGFFSGDKGWSEKVLARCNDNTYSNADRRHKCWANVGFFFAQRGFVTVLANHQLVPHVVYPGGADDMQLAREWIFENIAKEKYGRGIPEKVVLLGHSSGGAHIAMNLYAA------------------GDPKRKTNVPLSPPVAGVIYLSVPFWFDRRKPVRQRVIRHYWGSDDEEVWGPLSALGLFRNLPEDSPLLDSEQLPVYIGSVKWE</Hsp_hseq>
+      <Hsp_midline>MENIFAKIAQDTTKFDLGDEEGWRKLYEPLYPEAP+NVGVVKDESYGPAERNRLDVYFPLEEKPGGYPVVLYVHGGGFFSGDKGWSE                  KCWANVGFFFAQRGFVTVLANHQLVPHVVYPGGADDMQLAREWI ENIAKEKYGRGIPEKVVLLGHSSGGAHIAMNLYAA                  GDPKRKTNVPL PPVAGVIYLSVPFWFDRRKPVRQRVIRHYWGSD+EEVWGPLSALGLFRNLPEDSPLLDSEQLPVYIGSVKW+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>ref|XP_035352593.1|</Hit_id>
+  <Hit_def>alpha/beta-hydrolase [Aspergillus tubingensis] &gt;dbj|GAQ44844.1| hypothetical protein AOR_1_78074 [Aspergillus niger] &gt;dbj|GFN11789.1| alpha/beta-hydrolase [Aspergillus tubingensis]</Hit_def>
+  <Hit_accession>XP_035352593</Hit_accession>
+  <Hit_len>337</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>469.544</Hsp_bit-score>
+      <Hsp_score>1207</Hsp_score>
+      <Hsp_evalue>2.0359e-164</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>269</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>251</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>227</Hsp_identity>
+      <Hsp_positive>242</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>269</Hsp_align-len>
+      <Hsp_qseq>MENIFAKIAQDTTKFDLGDEEGWRKLYEPLYPEAPDNVGVVKDESYGPAERNRLDVYFPLEEKPGGYPVVLYVHGGGFFSGDKGWSEKCWANVGFFFAQRGFVTVLANHQLVPHVVYPGGADDMQLAREWISENIAKEKYGRGIPEKVVLLGHSSGGAHIAMNLYAAGDEFLDNCHLHSLLTQDIGDPKRKTNVPLFPPVAGVIYLSVPFWFDRRKPVRQRVIRHYWGSDEEEVWGPLSALGLFRNLPEDSPLLDSEQLPVYIGSVKWD</Hsp_qseq>
+      <Hsp_hseq>MEKVFAKIAQDTTKFDLGDEEGWRKLYEPLYPKAPDNVGIVKDEQYGPAERNRLDVYFPAEEKPGGHPVVLFVHGGGFFSGDKGWSEKCWGNVGFYFAQRGFVTVLANHRLVPHVVYPGGADDMQLAREWIFENIAKQKYGRGSPEKVILLGHSSGGAHIAMNLYAA------------------GDPKRESKVPLFPPVAGVIYLSVPFWFDRRKPVRQRVIRHYYGSDAEEVWGPVSALGLFRNLPDDSPLLDSEHLPVYIGSVKWE</Hsp_hseq>
+      <Hsp_midline>ME +FAKIAQDTTKFDLGDEEGWRKLYEPLYP+APDNVG+VKDE YGPAERNRLDVYFP EEKPGG+PVVL+VHGGGFFSGDKGWSEKCW NVGF+FAQRGFVTVLANH+LVPHVVYPGGADDMQLAREWI ENIAK+KYGRG PEKV+LLGHSSGGAHIAMNLYAA                  GDPKR++ VPLFPPVAGVIYLSVPFWFDRRKPVRQRVIRHY+GSD EEVWGP+SALGLFRNLP+DSPLLDSE LPVYIGSVKW+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>ref|XP_025389251.1|</Hit_id>
+  <Hit_def>alpha/beta-hydrolase [Aspergillus eucalypticola CBS 122712] &gt;gb|PWY75721.1| alpha/beta-hydrolase [Aspergillus eucalypticola CBS 122712]</Hit_def>
+  <Hit_accession>XP_025389251</Hit_accession>
+  <Hit_len>328</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>463.766</Hsp_bit-score>
+      <Hsp_score>1192</Hsp_score>
+      <Hsp_evalue>3.16422e-162</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>269</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>251</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>225</Hsp_identity>
+      <Hsp_positive>240</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>269</Hsp_align-len>
+      <Hsp_qseq>MENIFAKIAQDTTKFDLGDEEGWRKLYEPLYPEAPDNVGVVKDESYGPAERNRLDVYFPLEEKPGGYPVVLYVHGGGFFSGDKGWSEKCWANVGFFFAQRGFVTVLANHQLVPHVVYPGGADDMQLAREWISENIAKEKYGRGIPEKVVLLGHSSGGAHIAMNLYAAGDEFLDNCHLHSLLTQDIGDPKRKTNVPLFPPVAGVIYLSVPFWFDRRKPVRQRVIRHYWGSDEEEVWGPLSALGLFRNLPEDSPLLDSEQLPVYIGSVKWD</Hsp_qseq>
+      <Hsp_hseq>MEKVFAKIAQDTTKFDLGDEEGWRKLYEPLYPKAPDNVGIVKDEQYGPAERNRLDVYFPAEEKPGGHPVVLFVHGGGFFSGDKGWSEKCWANVGFYFAQRGFVTVLANHRLVPHVVYPGGADDMQLAREWIFENIAKQKYGRGSPDKVILLGHSSGGAHIAMNLYAA------------------GDPKRVSKDPLFPPVAGVIYLSVPFWFDRRKPVRQRVISHYYGSDAEEVWGPVSALGLFRNLPDDSPLLDSEHLPVYIGSVKWE</Hsp_hseq>
+      <Hsp_midline>ME +FAKIAQDTTKFDLGDEEGWRKLYEPLYP+APDNVG+VKDE YGPAERNRLDVYFP EEKPGG+PVVL+VHGGGFFSGDKGWSEKCWANVGF+FAQRGFVTVLANH+LVPHVVYPGGADDMQLAREWI ENIAK+KYGRG P+KV+LLGHSSGGAHIAMNLYAA                  GDPKR +  PLFPPVAGVIYLSVPFWFDRRKPVRQRVI HY+GSD EEVWGP+SALGLFRNLP+DSPLLDSE LPVYIGSVKW+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>emb|CAK41182.1|</Hit_id>
+  <Hit_def>unnamed protein product [Aspergillus niger]</Hit_def>
+  <Hit_accession>CAK41182</Hit_accession>
+  <Hit_len>327</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>459.144</Hsp_bit-score>
+      <Hsp_score>1180</Hsp_score>
+      <Hsp_evalue>1.98336e-160</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>241</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>230</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>226</Hsp_identity>
+      <Hsp_positive>228</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>241</Hsp_align-len>
+      <Hsp_qseq>MENIFAKIAQDTTKFDLGDEEGWRKLYEPLYPEAPDNVGVVKDESYGPAERNRLDVYFPLEEKPGGYPVVLYVHGGGFFSGDKGWSEKCWANVGFFFAQRGFVTVLANHQLVPHVVYPGGADDMQLAREWISENIAKEKYGRGIPEKVVLLGHSSGGAHIAMNLYAAGDEFLDNCHLHSLLTQDIGDPKRKTNVPLFPPVAGVIYLSVPFWFDRRKPVRQRVIRHYWGSDEEEVWGPLSAL</Hsp_qseq>
+      <Hsp_hseq>MENIFAKIAQDTTKFDLGDEEGWRKLYEPLYPEAPDNVGVVKDESYGPAERNRLDVYFPLEEKPGGYPVVLYVHGGGFFSGDKGWSEK-----------RGFVTVLANHQLVPHVVYPGGADDMQLAREWISENIAKEKYGRGIPEKVVLLGHSSGGAHIAMNLYAAGDEFLDNCHLHSLLTQDIGDPKRKTNVPLFPPVAGVIYLSVPFWFDRRKPVRQRVIRHYWGSDEEEVWGSISEV</Hsp_hseq>
+      <Hsp_midline>MENIFAKIAQDTTKFDLGDEEGWRKLYEPLYPEAPDNVGVVKDESYGPAERNRLDVYFPLEEKPGGYPVVLYVHGGGFFSGDKGWSEK           RGFVTVLANHQLVPHVVYPGGADDMQLAREWISENIAKEKYGRGIPEKVVLLGHSSGGAHIAMNLYAAGDEFLDNCHLHSLLTQDIGDPKRKTNVPLFPPVAGVIYLSVPFWFDRRKPVRQRVIRHYWGSDEEEVWG +S +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>ref|XP_025449092.1|</Hit_id>
+  <Hit_def>alpha/beta-hydrolase [Aspergillus niger CBS 101883] &gt;gb|PYH51037.1| alpha/beta-hydrolase [Aspergillus niger CBS 101883]</Hit_def>
+  <Hit_accession>XP_025449092</Hit_accession>
+  <Hit_len>315</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>446.432</Hsp_bit-score>
+      <Hsp_score>1147</Hsp_score>
+      <Hsp_evalue>1.19714e-155</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>236</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>225</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>220</Hsp_identity>
+      <Hsp_positive>222</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>236</Hsp_align-len>
+      <Hsp_qseq>MENIFAKIAQDTTKFDLGDEEGWRKLYEPLYPEAPDNVGVVKDESYGPAERNRLDVYFPLEEKPGGYPVVLYVHGGGFFSGDKGWSEKCWANVGFFFAQRGFVTVLANHQLVPHVVYPGGADDMQLAREWISENIAKEKYGRGIPEKVVLLGHSSGGAHIAMNLYAAGDEFLDNCHLHSLLTQDIGDPKRKTNVPLFPPVAGVIYLSVPFWFDRRKPVRQRVIRHYWGSDEEEVWG</Hsp_qseq>
+      <Hsp_hseq>MENIFAKIAQDTTKFDLGDEEGWRKLYEPLYAEAPDNVGVVKDESYGPAERNRLDVYFPLEEKPGGYPVVLYVHGGGFFSGDKGWSEK-----------RGFVTVLANHQLVPHVVYPGGADDMQLAREWIFENIAKEKYGRGIPEKVVLLGHSSGGAHIAMNLYAAGDEFLDNCHLHSLLTRDIGDPNRKTNIPLFPPVAGVIYLSVPFWFDRRKPVRQRVIRHYWGSDEEEVWG</Hsp_hseq>
+      <Hsp_midline>MENIFAKIAQDTTKFDLGDEEGWRKLYEPLY EAPDNVGVVKDESYGPAERNRLDVYFPLEEKPGGYPVVLYVHGGGFFSGDKGWSEK           RGFVTVLANHQLVPHVVYPGGADDMQLAREWI ENIAKEKYGRGIPEKVVLLGHSSGGAHIAMNLYAAGDEFLDNCHLHSLLT+DIGDP RKTN+PLFPPVAGVIYLSVPFWFDRRKPVRQRVIRHYWGSDEEEVWG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>ref|XP_025516859.1|</Hit_id>
+  <Hit_def>alpha/beta-hydrolase [Aspergillus piperis CBS 112811] &gt;gb|RAH58937.1| alpha/beta-hydrolase [Aspergillus piperis CBS 112811]</Hit_def>
+  <Hit_accession>XP_025516859</Hit_accession>
+  <Hit_len>321</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>443.351</Hsp_bit-score>
+      <Hsp_score>1139</Hsp_score>
+      <Hsp_evalue>2.52963e-154</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>254</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>236</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>215</Hsp_identity>
+      <Hsp_positive>227</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>254</Hsp_align-len>
+      <Hsp_qseq>MENIFAKIAQDTTKFDLGDEEGWRKLYEPLYPEAPDNVGVVKDESYGPAERNRLDVYFPLEEKPGGYPVVLYVHGGGFFSGDKGWSEKCWANVGFFFAQRGFVTVLANHQLVPHVVYPGGADDMQLAREWISENIAKEKYGRGIPEKVVLLGHSSGGAHIAMNLYAAGDEFLDNCHLHSLLTQDIGDPKRKTNVPLFPPVAGVIYLSVPFWFDRRKPVRQRVIRHYWGSDEEEVWGPLSALGLFRNLPEDSPLL</Hsp_qseq>
+      <Hsp_hseq>MEKVFAKIAQDTTKFDLGDEEGWRKLYEPLYPKAPDNVGIVKDEQYGPAERNRLDVYFPAEEKPGGHPVVLFVHGGGFFSGDKGWSEKCWANVGFYFAQRGFVTVLANHRLVPHVVYPGGADDMQLAREWIFENIAKQKYGRGSPEKVILLGHSSGGAHIAMNLYAA------------------GDPKRVSKVPLFPPVAGVIYLSVPFWFDRRKPVRQRVIRHYYGSDAEEVWGPFSALGLFRNLPDDSPLL</Hsp_hseq>
+      <Hsp_midline>ME +FAKIAQDTTKFDLGDEEGWRKLYEPLYP+APDNVG+VKDE YGPAERNRLDVYFP EEKPGG+PVVL+VHGGGFFSGDKGWSEKCWANVGF+FAQRGFVTVLANH+LVPHVVYPGGADDMQLAREWI ENIAK+KYGRG PEKV+LLGHSSGGAHIAMNLYAA                  GDPKR + VPLFPPVAGVIYLSVPFWFDRRKPVRQRVIRHY+GSD EEVWGP SALGLFRNLP+DSPLL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>ref|XP_025564749.1|</Hit_id>
+  <Hit_def>alpha/beta-hydrolase [Aspergillus vadensis CBS 113365] &gt;gb|PYH70955.1| alpha/beta-hydrolase [Aspergillus vadensis CBS 113365]</Hit_def>
+  <Hit_accession>XP_025564749</Hit_accession>
+  <Hit_len>321</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>442.58</Hsp_bit-score>
+      <Hsp_score>1137</Hsp_score>
+      <Hsp_evalue>5.09903e-154</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>254</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>236</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>215</Hsp_identity>
+      <Hsp_positive>227</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>254</Hsp_align-len>
+      <Hsp_qseq>MENIFAKIAQDTTKFDLGDEEGWRKLYEPLYPEAPDNVGVVKDESYGPAERNRLDVYFPLEEKPGGYPVVLYVHGGGFFSGDKGWSEKCWANVGFFFAQRGFVTVLANHQLVPHVVYPGGADDMQLAREWISENIAKEKYGRGIPEKVVLLGHSSGGAHIAMNLYAAGDEFLDNCHLHSLLTQDIGDPKRKTNVPLFPPVAGVIYLSVPFWFDRRKPVRQRVIRHYWGSDEEEVWGPLSALGLFRNLPEDSPLL</Hsp_qseq>
+      <Hsp_hseq>MEKIFAKIAQDTTKFDLGDEEGWRKLYEPLYPKAPDNVGIVKDEQYGPAERNRLDVYFPAEEKPGGHPVVLFVHGGGFFSGDKGWSEKCWANVGFYFAQRGFVTVLANHRLVPHVVYPGGADDMQLAREWIFENIAKQKYGRGSPEKVILLGHSSGGAHIAMNLYAA------------------GDPKRASKDPLFPPVAGVIYLSVPFWFDRRKPVRQRVIRHYYGSDAEEVWGPVSALGLFRNLPDDSPLL</Hsp_hseq>
+      <Hsp_midline>ME IFAKIAQDTTKFDLGDEEGWRKLYEPLYP+APDNVG+VKDE YGPAERNRLDVYFP EEKPGG+PVVL+VHGGGFFSGDKGWSEKCWANVGF+FAQRGFVTVLANH+LVPHVVYPGGADDMQLAREWI ENIAK+KYGRG PEKV+LLGHSSGGAHIAMNLYAA                  GDPKR +  PLFPPVAGVIYLSVPFWFDRRKPVRQRVIRHY+GSD EEVWGP+SALGLFRNLP+DSPLL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gb|KAG2416738.1|</Hit_id>
+  <Hit_def>hypothetical protein HFD88_007954 [Aspergillus terreus]</Hit_def>
+  <Hit_accession>KAG2416738</Hit_accession>
+  <Hit_len>337</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>428.328</Hsp_bit-score>
+      <Hsp_score>1100</Hsp_score>
+      <Hsp_evalue>4.00671e-148</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>269</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>251</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>209</Hsp_identity>
+      <Hsp_positive>229</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>269</Hsp_align-len>
+      <Hsp_qseq>MENIFAKIAQDTTKFDLGDEEGWRKLYEPLYPEAPDNVGVVKDESYGPAERNRLDVYFPLEEKPGGYPVVLYVHGGGFFSGDKGWSEKCWANVGFFFAQRGFVTVLANHQLVPHVVYPGGADDMQLAREWISENIAKEKYGRGIPEKVVLLGHSSGGAHIAMNLYAAGDEFLDNCHLHSLLTQDIGDPKRKTNVPLFPPVAGVIYLSVPFWFDRRKPVRQRVIRHYWGSDEEEVWGPLSALGLFRNLPEDSPLLDSEQLPVYIGSVKWD</Hsp_qseq>
+      <Hsp_hseq>MDAVFAKIAQDTVKFDLGDEEGWRSLYEPLYGNPPENVGVVKDERYGPAERNRLDVYFPLDDEREGKPVVLFVHGGGFFSGDKGWSEKCWANVGYFFSQHGCVTVLANHRLVPNVVYPGGADDMQMAREWIFHNIGAQKYGRGSPEKVVLLGHSSGGAHIAMNLYAA------------------GDPKRTPELPIFPPVAGVIYLSVPFWFDRRKPVRQRVIRHYYGSDEEEVWGPKSALGLFKSLPDDSPLLDSEQFPVYIGSVKWE</Hsp_hseq>
+      <Hsp_midline>M+ +FAKIAQDT KFDLGDEEGWR LYEPLY   P+NVGVVKDE YGPAERNRLDVYFPL+++  G PVVL+VHGGGFFSGDKGWSEKCWANVG+FF+Q G VTVLANH+LVP+VVYPGGADDMQ+AREWI  NI  +KYGRG PEKVVLLGHSSGGAHIAMNLYAA                  GDPKR   +P+FPPVAGVIYLSVPFWFDRRKPVRQRVIRHY+GSDEEEVWGP SALGLF++LP+DSPLLDSEQ PVYIGSVKW+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>dbj|GES60115.1|</Hit_id>
+  <Hit_def>hypothetical protein ATETN484_0004044700 [Aspergillus terreus] &gt;dbj|GFF13336.1| alpha/beta-hydrolase [Aspergillus terreus]</Hit_def>
+  <Hit_accession>GES60115</Hit_accession>
+  <Hit_len>336</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>426.017</Hsp_bit-score>
+      <Hsp_score>1094</Hsp_score>
+      <Hsp_evalue>3.19949e-147</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>269</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>250</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>209</Hsp_identity>
+      <Hsp_positive>230</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>269</Hsp_align-len>
+      <Hsp_qseq>MENIFAKIAQDTTKFDLGDEEGWRKLYEPLYPEAPDNVGVVKDESYGPAERNRLDVYFPLEEKPGGYPVVLYVHGGGFFSGDKGWSEKCWANVGFFFAQRGFVTVLANHQLVPHVVYPGGADDMQLAREWISENIAKEKYGRGIPEKVVLLGHSSGGAHIAMNLYAAGDEFLDNCHLHSLLTQDIGDPKRKTNVPLFPPVAGVIYLSVPFWFDRRKPVRQRVIRHYWGSDEEEVWGPLSALGLFRNLPEDSPLLDSEQLPVYIGSVKWD</Hsp_qseq>
+      <Hsp_hseq>MDAVFAKIAQDTVKFDLGDEEGWRILYEPLYGNPPENVGVVKDERYGPAERNQLDVYFPLDEREGK-PVVLFVHGGGFFSGDKGWSEKCWANVGYFFSQHGCVTVLANHRLVPNVAYPGGADDMQMAREWIFRNISAQKYGRGSPEKVVLLGHSSGGAHIAMNLYAA------------------GDPKRTPEIPIFPPVAGVIYLSVPFWFDRRKPVRQRVIRHYYGSDEEEVWGPKSALGLFKSLPDDSPLLDSEQLPVYIGSVKWE</Hsp_hseq>
+      <Hsp_midline>M+ +FAKIAQDT KFDLGDEEGWR LYEPLY   P+NVGVVKDE YGPAERN+LDVYFPL+E+ G  PVVL+VHGGGFFSGDKGWSEKCWANVG+FF+Q G VTVLANH+LVP+V YPGGADDMQ+AREWI  NI+ +KYGRG PEKVVLLGHSSGGAHIAMNLYAA                  GDPKR   +P+FPPVAGVIYLSVPFWFDRRKPVRQRVIRHY+GSDEEEVWGP SALGLF++LP+DSPLLDSEQLPVYIGSVKW+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gb|OOQ89531.1|</Hit_id>
+  <Hit_def>alpha/beta-hydrolase [Penicillium brasilianum]</Hit_def>
+  <Hit_accession>OOQ89531</Hit_accession>
+  <Hit_len>301</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>412.535</Hsp_bit-score>
+      <Hsp_score>1059</Hsp_score>
+      <Hsp_evalue>1.86594e-142</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>269</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>251</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>203</Hsp_identity>
+      <Hsp_positive>223</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>269</Hsp_align-len>
+      <Hsp_qseq>MENIFAKIAQDTTKFDLGDEEGWRKLYEPLYPEAPDNVGVVKDESYGPAERNRLDVYFPLEEKPGGYPVVLYVHGGGFFSGDKGWSEKCWANVGFFFAQRGFVTVLANHQLVPHVVYPGGADDMQLAREWISENIAKEKYGRGIPEKVVLLGHSSGGAHIAMNLYAAGDEFLDNCHLHSLLTQDIGDPKRKTNVPLFPPVAGVIYLSVPFWFDRRKPVRQRVIRHYWGSDEEEVWGPLSALGLFRNLPEDSPLLDSEQLPVYIGSVKWD</Hsp_qseq>
+      <Hsp_hseq>MEKIFKKIAQDTTKFDLGDEEGWRELYEPLFAEVPDSVGTVKDEQYGPADRNRLDVYFPREDNTDGKPVVLFVHGGGFFSGGKEWSEKCWANVGFFFAQRGFVAVLANHRLVPNVEYPGGADDMQLAREWVFQNIEGARYGRGSPEKVVLLGHSSGGAHIAMNLYAA------------------GDPKRRPKAPIFPPVAGVIYLSVPFWFDKTKPVRQKVIRHYYGSDCEAVWGPLSPLGLFKSLPEGSPLLDSDQLPVYIGSVKWE</Hsp_hseq>
+      <Hsp_midline>ME IF KIAQDTTKFDLGDEEGWR+LYEPL+ E PD+VG VKDE YGPA+RNRLDVYFP E+   G PVVL+VHGGGFFSG K WSEKCWANVGFFFAQRGFV VLANH+LVP+V YPGGADDMQLAREW+ +NI   +YGRG PEKVVLLGHSSGGAHIAMNLYAA                  GDPKR+   P+FPPVAGVIYLSVPFWFD+ KPVRQ+VIRHY+GSD E VWGPLS LGLF++LPE SPLLDS+QLPVYIGSVKW+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gb|KAF9893442.1|</Hit_id>
+  <Hit_def>hypothetical protein FE257_010754 [Aspergillus nanangensis]</Hit_def>
+  <Hit_accession>KAF9893442</Hit_accession>
+  <Hit_len>325</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>410.609</Hsp_bit-score>
+      <Hsp_score>1054</Hsp_score>
+      <Hsp_evalue>2.88659e-141</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>269</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>251</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>195</Hsp_identity>
+      <Hsp_positive>222</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>269</Hsp_align-len>
+      <Hsp_qseq>MENIFAKIAQDTTKFDLGDEEGWRKLYEPLYPEAPDNVGVVKDESYGPAERNRLDVYFPLEEKPGGYPVVLYVHGGGFFSGDKGWSEKCWANVGFFFAQRGFVTVLANHQLVPHVVYPGGADDMQLAREWISENIAKEKYGRGIPEKVVLLGHSSGGAHIAMNLYAAGDEFLDNCHLHSLLTQDIGDPKRKTNVPLFPPVAGVIYLSVPFWFDRRKPVRQRVIRHYWGSDEEEVWGPLSALGLFRNLPEDSPLLDSEQLPVYIGSVKWD</Hsp_qseq>
+      <Hsp_hseq>MENIFNKIAQDTTKFNLGDEEGWRALYEPLYNDAPANVGIFKNEHYGPSERNRLDIYYPLADDTPGKPVVMFVHGGGFFSGDKGWSEKCWANVGNFFAQNGMIAVLANHRLVPHVVYPGGADDMQMAREWIFHNIAAQKYGKGSPEKVILLGHSSGGAHLAMNLYAA------------------GDPKRTPTAQIFPPVAGVIYLSVPFWFDRTKPVRQKVIRQYYGSDSEEVWGPKSALGLFKALPDDSPLLNADELPVYIGSVKWE</Hsp_hseq>
+      <Hsp_midline>MENIF KIAQDTTKF+LGDEEGWR LYEPLY +AP NVG+ K+E YGP+ERNRLD+Y+PL +   G PVV++VHGGGFFSGDKGWSEKCWANVG FFAQ G + VLANH+LVPHVVYPGGADDMQ+AREWI  NIA +KYG+G PEKV+LLGHSSGGAH+AMNLYAA                  GDPKR     +FPPVAGVIYLSVPFWFDR KPVRQ+VIR Y+GSD EEVWGP SALGLF+ LP+DSPLL++++LPVYIGSVKW+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>ref|XP_001211530.1|</Hit_id>
+  <Hit_def>predicted protein [Aspergillus terreus NIH2624] &gt;gb|EAU37314.1| predicted protein [Aspergillus terreus NIH2624]</Hit_def>
+  <Hit_accession>XP_001211530</Hit_accession>
+  <Hit_len>321</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>401.364</Hsp_bit-score>
+      <Hsp_score>1030</Hsp_score>
+      <Hsp_evalue>1.15971e-137</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>254</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>236</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>195</Hsp_identity>
+      <Hsp_positive>214</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>254</Hsp_align-len>
+      <Hsp_qseq>MENIFAKIAQDTTKFDLGDEEGWRKLYEPLYPEAPDNVGVVKDESYGPAERNRLDVYFPLEEKPGGYPVVLYVHGGGFFSGDKGWSEKCWANVGFFFAQRGFVTVLANHQLVPHVVYPGGADDMQLAREWISENIAKEKYGRGIPEKVVLLGHSSGGAHIAMNLYAAGDEFLDNCHLHSLLTQDIGDPKRKTNVPLFPPVAGVIYLSVPFWFDRRKPVRQRVIRHYWGSDEEEVWGPLSALGLFRNLPEDSPLL</Hsp_qseq>
+      <Hsp_hseq>MDAVFAKIAQDTVKFDLGDEEGWRSLYEPLYGNPPENVGVVKDERYGPAERNRLDVYFPLDDEREGKPVVLFVHGGGFFSGDKGWSEKCWANVGYFFSQHGCVTVLANHRLVPNVVYPGGADDMQMAREWVFHNIGAQKYGRGSPEKVVLLGHSSGGAHIAMNLYAA------------------GDPKRTPELPIFPPVAGVIYLSVPFWFDRRKPVRQRVIRHYYGSDEEEVWGPKSALGLFKTLPDDSPLL</Hsp_hseq>
+      <Hsp_midline>M+ +FAKIAQDT KFDLGDEEGWR LYEPLY   P+NVGVVKDE YGPAERNRLDVYFPL+++  G PVVL+VHGGGFFSGDKGWSEKCWANVG+FF+Q G VTVLANH+LVP+VVYPGGADDMQ+AREW+  NI  +KYGRG PEKVVLLGHSSGGAHIAMNLYAA                  GDPKR   +P+FPPVAGVIYLSVPFWFDRRKPVRQRVIRHY+GSDEEEVWGP SALGLF+ LP+DSPLL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>ref|XP_046073434.1|</Hit_id>
+  <Hit_def>Alpha/Beta hydrolase protein [Talaromyces proteolyticus] &gt;gb|KAH8698970.1| Alpha/Beta hydrolase protein [Talaromyces proteolyticus]</Hit_def>
+  <Hit_accession>XP_046073434</Hit_accession>
+  <Hit_len>342</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>377.481</Hsp_bit-score>
+      <Hsp_score>968</Hsp_score>
+      <Hsp_evalue>5.7831e-128</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>269</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>257</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>185</Hsp_identity>
+      <Hsp_positive>211</Hsp_positive>
+      <Hsp_gaps>24</Hsp_gaps>
+      <Hsp_align-len>275</Hsp_align-len>
+      <Hsp_qseq>MENIFAKIAQDTTKFDLGDEEGWRKLYEPLYPEAPDNVGVVKDESYGPAERNRLDVYFPLEE------KPGGYPVVLYVHGGGFFSGDKGWSEKCWANVGFFFAQRGFVTVLANHQLVPHVVYPGGADDMQLAREWISENIAKEKYGRGIPEKVVLLGHSSGGAHIAMNLYAAGDEFLDNCHLHSLLTQDIGDPKRKTNVPLFPPVAGVIYLSVPFWFDRRKPVRQRVIRHYWGSDEEEVWGPLSALGLFRNLPEDSPLLDSEQLPVYIGSVKWD</Hsp_qseq>
+      <Hsp_hseq>MEAVFEKIAHETTTFNLGDEEKWRLLYEPFYTAPPKNVAVVRDVSYGPAERNRLDVFYPLDRDGDDKGKQTDRPVLLFVHGGGFFSGDKGWSEKCWANIGYFFAQHGVVAVIANHQLVPHVAYPGGADDMQRVREWIFRNIASDKYGGGSVDKVILLGHSSGGAHIAMNLYAA------------------GDPNRVPKQEVFPPVAGVIYLSVPFWYDRRKPIRQRVIRQYYGSDAEEVWGPLSALGLFKKLPDDSVLLDSDKIPVYVGSVKWE</Hsp_hseq>
+      <Hsp_midline>ME +F KIA +TT F+LGDEE WR LYEP Y   P NV VV+D SYGPAERNRLDV++PL+       K    PV+L+VHGGGFFSGDKGWSEKCWAN+G+FFAQ G V V+ANHQLVPHV YPGGADDMQ  REWI  NIA +KYG G  +KV+LLGHSSGGAHIAMNLYAA                  GDP R     +FPPVAGVIYLSVPFW+DRRKP+RQRVIR Y+GSD EEVWGPLSALGLF+ LP+DS LLDS+++PVY+GSVKW+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gb|RDW63347.1|</Hit_id>
+  <Hit_def>hypothetical protein BP6252_10892 [Coleophoma cylindrospora]</Hit_def>
+  <Hit_accession>RDW63347</Hit_accession>
+  <Hit_len>288</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>373.244</Hsp_bit-score>
+      <Hsp_score>957</Hsp_score>
+      <Hsp_evalue>3.49121e-127</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>269</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>250</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>178</Hsp_identity>
+      <Hsp_positive>211</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>269</Hsp_align-len>
+      <Hsp_qseq>MENIFAKIAQDTTKFDLGDEEGWRKLYEPLYPEAPDNVGVVKDESYGPAERNRLDVYFPLEEKPGGYPVVLYVHGGGFFSGDKGWSEKCWANVGFFFAQRGFVTVLANHQLVPHVVYPGGADDMQLAREWISENIAKEKYGRGIPEKVVLLGHSSGGAHIAMNLYAAGDEFLDNCHLHSLLTQDIGDPKRKTNVPLFPPVAGVIYLSVPFWFDRRKPVRQRVIRHYWGSDEEEVWGPLSALGLFRNLPEDSPLLDSEQLPVYIGSVKWD</Hsp_qseq>
+      <Hsp_hseq>MDKVFEKIAQETVKFNLGDEEIWRELYEPLYLEPPKDVGVIRDERYGPAERNRLDIFFPLN-KDTDKPVLLFVHGGGFFSGDKGWSEKCWANIGYYFAQQGMVVVVANHQLVPHVVYPGGADDIQLIREWIYNNITSEKYGSGSPNKVILFGHSSGGAHIASNLYAA------------------GDPSRSSRKDIFPPVAGVIYLSTPFWFDRTRPIRQRTLRQYFGSDAEDIWGPVSPLGLFDRLPDDSPLLDYDQVPVYIGTVKWE</Hsp_hseq>
+      <Hsp_midline>M+ +F KIAQ+T KF+LGDEE WR+LYEPLY E P +VGV++DE YGPAERNRLD++FPL  K    PV+L+VHGGGFFSGDKGWSEKCWAN+G++FAQ+G V V+ANHQLVPHVVYPGGADD+QL REWI  NI  EKYG G P KV+L GHSSGGAHIA NLYAA                  GDP R +   +FPPVAGVIYLS PFWFDR +P+RQR +R Y+GSD E++WGP+S LGLF  LP+DSPLLD +Q+PVYIG+VKW+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gb|KAE8332842.1|</Hit_id>
+  <Hit_def>alpha/beta-hydrolase [Aspergillus sergii]</Hit_def>
+  <Hit_accession>KAE8332842</Hit_accession>
+  <Hit_len>325</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>372.474</Hsp_bit-score>
+      <Hsp_score>955</Hsp_score>
+      <Hsp_evalue>3.51722e-126</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>269</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>251</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>180</Hsp_identity>
+      <Hsp_positive>215</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>269</Hsp_align-len>
+      <Hsp_qseq>MENIFAKIAQDTTKFDLGDEEGWRKLYEPLYPEAPDNVGVVKDESYGPAERNRLDVYFPLEEKPGGYPVVLYVHGGGFFSGDKGWSEKCWANVGFFFAQRGFVTVLANHQLVPHVVYPGGADDMQLAREWISENIAKEKYGRGIPEKVVLLGHSSGGAHIAMNLYAAGDEFLDNCHLHSLLTQDIGDPKRKTNVPLFPPVAGVIYLSVPFWFDRRKPVRQRVIRHYWGSDEEEVWGPLSALGLFRNLPEDSPLLDSEQLPVYIGSVKWD</Hsp_qseq>
+      <Hsp_hseq>MEDIFAKIAKDTIKFDVGDDEYWRGLYEPLHESSYEGIARVKDEVYGPAERNRLDVYFPLNDKTEKKPVILFVHGGGFFSGGKEWSEKIWGNVGWFFAKHGYVTVLANHRLVPHVTYPGGAEDMQMAREWIYYNIAAPKYGQGSPEKVILLGHSSGGAHLAMNLYAA------------------GDPKQIPKLPIFPPVAGIIYLSVPFWCDMRKPIRNKVFRSYYGTDDEKVWGPLSALGLFKALPDDSPLLDSTRLPVYIGSVEWE</Hsp_hseq>
+      <Hsp_midline>ME+IFAKIA+DT KFD+GD+E WR LYEPL+  + + +  VKDE YGPAERNRLDVYFPL +K    PV+L+VHGGGFFSG K WSEK W NVG+FFA+ G+VTVLANH+LVPHV YPGGA+DMQ+AREWI  NIA  KYG+G PEKV+LLGHSSGGAH+AMNLYAA                  GDPK+   +P+FPPVAG+IYLSVPFW D RKP+R +V R Y+G+D+E+VWGPLSALGLF+ LP+DSPLLDS +LPVYIGSV+W+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gb|KAE8308086.1|</Hit_id>
+  <Hit_def>alpha/beta-hydrolase [Aspergillus transmontanensis]</Hit_def>
+  <Hit_accession>KAE8308086</Hit_accession>
+  <Hit_len>325</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>372.089</Hsp_bit-score>
+      <Hsp_score>954</Hsp_score>
+      <Hsp_evalue>3.71488e-126</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>269</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>251</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>180</Hsp_identity>
+      <Hsp_positive>214</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>269</Hsp_align-len>
+      <Hsp_qseq>MENIFAKIAQDTTKFDLGDEEGWRKLYEPLYPEAPDNVGVVKDESYGPAERNRLDVYFPLEEKPGGYPVVLYVHGGGFFSGDKGWSEKCWANVGFFFAQRGFVTVLANHQLVPHVVYPGGADDMQLAREWISENIAKEKYGRGIPEKVVLLGHSSGGAHIAMNLYAAGDEFLDNCHLHSLLTQDIGDPKRKTNVPLFPPVAGVIYLSVPFWFDRRKPVRQRVIRHYWGSDEEEVWGPLSALGLFRNLPEDSPLLDSEQLPVYIGSVKWD</Hsp_qseq>
+      <Hsp_hseq>MEDIFAKIAKDTIKFDVGDDEYWRGQYEPLHESSYEGIARVKDEVYGPAERNRLDVYFPLNDKTEKKPVILFVHGGGFFSGGKEWSEKIWGNVGWFFAKHGYVTVLANHRLVPHVTYPGGAEDMQMAREWIYYNIAAPKYGQGSPEKVILLGHSSGGAHLAMNLYAA------------------GDPKRIPKLPIFPPVAGIIYLSVPFWCDMRKPIRNKVFRSYYGTDDEKVWGPLSALGLFKALPDDSPLLDSTRLPVYIGSVEWE</Hsp_hseq>
+      <Hsp_midline>ME+IFAKIA+DT KFD+GD+E WR  YEPL+  + + +  VKDE YGPAERNRLDVYFPL +K    PV+L+VHGGGFFSG K WSEK W NVG+FFA+ G+VTVLANH+LVPHV YPGGA+DMQ+AREWI  NIA  KYG+G PEKV+LLGHSSGGAH+AMNLYAA                  GDPKR   +P+FPPVAG+IYLSVPFW D RKP+R +V R Y+G+D+E+VWGPLSALGLF+ LP+DSPLLDS +LPVYIGSV+W+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gb|KJK63878.1|</Hit_id>
+  <Hit_def>Alpha/beta hydrolase family protein [Aspergillus parasiticus SU-1]</Hit_def>
+  <Hit_accession>KJK63878</Hit_accession>
+  <Hit_len>325</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>370.933</Hsp_bit-score>
+      <Hsp_score>951</Hsp_score>
+      <Hsp_evalue>1.3353e-125</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>269</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>251</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>180</Hsp_identity>
+      <Hsp_positive>214</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>269</Hsp_align-len>
+      <Hsp_qseq>MENIFAKIAQDTTKFDLGDEEGWRKLYEPLYPEAPDNVGVVKDESYGPAERNRLDVYFPLEEKPGGYPVVLYVHGGGFFSGDKGWSEKCWANVGFFFAQRGFVTVLANHQLVPHVVYPGGADDMQLAREWISENIAKEKYGRGIPEKVVLLGHSSGGAHIAMNLYAAGDEFLDNCHLHSLLTQDIGDPKRKTNVPLFPPVAGVIYLSVPFWFDRRKPVRQRVIRHYWGSDEEEVWGPLSALGLFRNLPEDSPLLDSEQLPVYIGSVKWD</Hsp_qseq>
+      <Hsp_hseq>MEDIFAKIAKDTIKFDVGDDEYWRGQYEPLHESSYEGIARVKDEVYGPAERNRLDVYFPLNDKTEKKPVILFVHGGGFFSGGKEWSEKIWGNVGWFFAKHGYVTVLANHRLVPHVTYPGGAEDMQMAREWIYYNIAAPKYGQGSPEKVILLGHSSGGAHLAMNLYAA------------------GDPKRIPKLPIFPPVAGIIYLSVPFWCDMRKPLRNKVFRSYYGTDDEKVWGPLSALGLFKALPDDSPLLDSTRLPVYIGSVEWE</Hsp_hseq>
+      <Hsp_midline>ME+IFAKIA+DT KFD+GD+E WR  YEPL+  + + +  VKDE YGPAERNRLDVYFPL +K    PV+L+VHGGGFFSG K WSEK W NVG+FFA+ G+VTVLANH+LVPHV YPGGA+DMQ+AREWI  NIA  KYG+G PEKV+LLGHSSGGAH+AMNLYAA                  GDPKR   +P+FPPVAG+IYLSVPFW D RKP+R +V R Y+G+D+E+VWGPLSALGLF+ LP+DSPLLDS +LPVYIGSV+W+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gb|KAH8782319.1|</Hit_id>
+  <Hit_def>Alpha/Beta hydrolase protein [Hyaloscypha sp. PMI_1271]</Hit_def>
+  <Hit_accession>KAH8782319</Hit_accession>
+  <Hit_len>326</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>370.548</Hsp_bit-score>
+      <Hsp_score>950</Hsp_score>
+      <Hsp_evalue>1.62824e-125</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>269</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>250</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>181</Hsp_identity>
+      <Hsp_positive>209</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>269</Hsp_align-len>
+      <Hsp_qseq>MENIFAKIAQDTTKFDLGDEEGWRKLYEPLYPEAPDNVGVVKDESYGPAERNRLDVYFPLEEKPGGYPVVLYVHGGGFFSGDKGWSEKCWANVGFFFAQRGFVTVLANHQLVPHVVYPGGADDMQLAREWISENIAKEKYGRGIPEKVVLLGHSSGGAHIAMNLYAAGDEFLDNCHLHSLLTQDIGDPKRKTNVPLFPPVAGVIYLSVPFWFDRRKPVRQRVIRHYWGSDEEEVWGPLSALGLFRNLPEDSPLLDSEQLPVYIGSVKWD</Hsp_qseq>
+      <Hsp_hseq>MENVFAKIAENTVKFNLGDEEEWRILFEPFYEEPSKDVGVIRDERYGPAERNRLDVFFPLS-KEAERPVLLFVHGGGFFSGDKGWSEKCWANIGNFFARHGIVTVVANHQLVPHVRYPGGADDIQLAREWIFNNIASEKYGRGSVDKVVLFGHSSGGAHIAANLYAA------------------GDPKRVPKQAIFPPVAGVMFFSTPFWFDRTRPIRQRTLRQYYGSDAEEVWGPLSPLKLFEGLPDDSPLLDSGKIPVYIGTVKWE</Hsp_hseq>
+      <Hsp_midline>MEN+FAKIA++T KF+LGDEE WR L+EP Y E   +VGV++DE YGPAERNRLDV+FPL  K    PV+L+VHGGGFFSGDKGWSEKCWAN+G FFA+ G VTV+ANHQLVPHV YPGGADD+QLAREWI  NIA EKYGRG  +KVVL GHSSGGAHIA NLYAA                  GDPKR     +FPPVAGV++ S PFWFDR +P+RQR +R Y+GSD EEVWGPLS L LF  LP+DSPLLDS ++PVYIG+VKW+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>ref|XP_025494792.1|</Hit_id>
+  <Hit_def>alpha/beta-hydrolase [Aspergillus uvarum CBS 121591] &gt;gb|PYH84592.1| alpha/beta-hydrolase [Aspergillus uvarum CBS 121591]</Hit_def>
+  <Hit_accession>XP_025494792</Hit_accession>
+  <Hit_len>325</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>369.007</Hsp_bit-score>
+      <Hsp_score>946</Hsp_score>
+      <Hsp_evalue>7.27179e-125</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>269</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>252</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>193</Hsp_identity>
+      <Hsp_positive>219</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>269</Hsp_align-len>
+      <Hsp_qseq>MENIFAKIAQDTTKFDLGDEEGWRKLYEPLYPEAPDNVGVVKDESYGPAERNRLDVYFPLEEKPGGYPVVLYVHGGGFFSGDKGWSEKCWANVGFFFAQRGFVTVLANHQLVPHVVYPGGADDMQLAREWISENIAKEKYGRGIPEKVVLLGHSSGGAHIAMNLYAAGDEFLDNCHLHSLLTQDIGDPKRKTNVPLFPPVAGVIYLSVPFWFDRRKPVRQRVIRHYWGSDEEEVWGPLSALGLFRNLPEDSPLLDSEQLPVYIGSVKWD</Hsp_qseq>
+      <Hsp_hseq>MENILRKIAQDTTKFDVGDEEGWRELYEPLYADAPDSIGTIKDIQYGPADRNQLDVYFPLKDNTEGKPVVFFVHGGGFFSGGKGWSEKCWANVGFYFAQNGFVTVLVNHRLVPNVEYPGGADDMQLAREWVYNHIGSEKYGQGSANKVVLLGHSSGGAHIAMNLYAAA-----------------GDPDRIPSTPIFPPVAGVLYLSVPFWFDRTKPVRQKVIRHYWGSDSEAVWGPRSALGLFKSLPGDSPLLDYEQLPVYVGSVQWE</Hsp_hseq>
+      <Hsp_midline>MENI  KIAQDTTKFD+GDEEGWR+LYEPLY +APD++G +KD  YGPA+RN+LDVYFPL++   G PVV +VHGGGFFSG KGWSEKCWANVGF+FAQ GFVTVL NH+LVP+V YPGGADDMQLAREW+  +I  EKYG+G   KVVLLGHSSGGAHIAMNLYAA                  GDP R  + P+FPPVAGV+YLSVPFWFDR KPVRQ+VIRHYWGSD E VWGP SALGLF++LP DSPLLD EQLPVY+GSV+W+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>ref|XP_041142021.1|</Hit_id>
+  <Hit_def>uncharacterized protein G4B84_002307 [Aspergillus flavus NRRL3357] &gt;gb|KAB8243520.1| alpha/beta-hydrolase [Aspergillus flavus] &gt;gb|QMW27018.1| hypothetical protein G4B84_002307 [Aspergillus flavus NRRL3357] &gt;gb|QMW39100.1| hypothetical protein G4B11_002380 [Aspergillus flavus] &gt;gb|RAQ75521.1| hypothetical protein COH20_008534 [Aspergillus flavus] &gt;gb|RAQ78777.1| hypothetical protein COH21_010677 [Aspergillus flavus]</Hit_def>
+  <Hit_accession>XP_041142021</Hit_accession>
+  <Hit_len>325</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>368.622</Hsp_bit-score>
+      <Hsp_score>945</Hsp_score>
+      <Hsp_evalue>8.3825e-125</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>269</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>251</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>177</Hsp_identity>
+      <Hsp_positive>215</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>269</Hsp_align-len>
+      <Hsp_qseq>MENIFAKIAQDTTKFDLGDEEGWRKLYEPLYPEAPDNVGVVKDESYGPAERNRLDVYFPLEEKPGGYPVVLYVHGGGFFSGDKGWSEKCWANVGFFFAQRGFVTVLANHQLVPHVVYPGGADDMQLAREWISENIAKEKYGRGIPEKVVLLGHSSGGAHIAMNLYAAGDEFLDNCHLHSLLTQDIGDPKRKTNVPLFPPVAGVIYLSVPFWFDRRKPVRQRVIRHYWGSDEEEVWGPLSALGLFRNLPEDSPLLDSEQLPVYIGSVKWD</Hsp_qseq>
+      <Hsp_hseq>MEDIFAKIAKDTIKFDVGDDEYWRGVYEPLHESSYEGIARVKDEVYGPAERNRLDIYFPLNDKREKKPVILFVHGGGFFSGGKEWSEKIWGNVGWFFAKHGYVTVLANHRLVPNVTYPGGAEDMQMAREWVYYNIAAPKYGQGSPEKVILLGHSSGGAHLAMNLYAA------------------GDPKRIPKLPIFPPVAGIIYLSVPFWCDMRKPIRNKVFRSYYGTDDEKVWGPLSALGLFKALPDDSPLLDSTRLPVYIGSVEWE</Hsp_hseq>
+      <Hsp_midline>ME+IFAKIA+DT KFD+GD+E WR +YEPL+  + + +  VKDE YGPAERNRLD+YFPL +K    PV+L+VHGGGFFSG K WSEK W NVG+FFA+ G+VTVLANH+LVP+V YPGGA+DMQ+AREW+  NIA  KYG+G PEKV+LLGHSSGGAH+AMNLYAA                  GDPKR   +P+FPPVAG+IYLSVPFW D RKP+R +V R Y+G+D+E+VWGPLSALGLF+ LP+DSPLLDS +LPVYIGSV+W+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>ref|XP_040753674.1|</Hit_id>
+  <Hit_def>uncharacterized protein P175DRAFT_0514389 [Aspergillus ochraceoroseus IBT 24754] &gt;gb|KKK12046.1| hypothetical protein ARAM_001000 [Aspergillus rambellii] &gt;gb|KKK21941.1| hypothetical protein AOCH_000174 [Aspergillus ochraceoroseus] &gt;gb|PTU22282.1| hypothetical protein P175DRAFT_0514389 [Aspergillus ochraceoroseus IBT 24754]</Hit_def>
+  <Hit_accession>XP_040753674</Hit_accession>
+  <Hit_len>326</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>368.622</Hsp_bit-score>
+      <Hsp_score>945</Hsp_score>
+      <Hsp_evalue>9.78357e-125</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>269</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>250</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>179</Hsp_identity>
+      <Hsp_positive>207</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>269</Hsp_align-len>
+      <Hsp_qseq>MENIFAKIAQDTTKFDLGDEEGWRKLYEPLYPEAPDNVGVVKDESYGPAERNRLDVYFPLEEKPGGYPVVLYVHGGGFFSGDKGWSEKCWANVGFFFAQRGFVTVLANHQLVPHVVYPGGADDMQLAREWISENIAKEKYGRGIPEKVVLLGHSSGGAHIAMNLYAAGDEFLDNCHLHSLLTQDIGDPKRKTNVPLFPPVAGVIYLSVPFWFDRRKPVRQRVIRHYWGSDEEEVWGPLSALGLFRNLPEDSPLLDSEQLPVYIGSVKWD</Hsp_qseq>
+      <Hsp_hseq>MEAVFRKIAQDTTKFNLGDEDAWRELYEPLYEPLSPNVEIIRDERYGPAERNRLDVYIPKDEA-ADKPVLLYVHGGGFFSGDKAWSEKCYANIGNFFARHGIITVLANHQLVPHVQYPGGADDIQLVREWIYNNIFHEKFGKGSVNKVILLGHSSGGAHIASNLYAA------------------GDPGRKSQNAVFPPVAGIMYFSVPFWFDRRKPLRQKTIRSYFGSDEEEVWGPKCALGLFRGLPDDSPLLDVNKYPVYLGSVKWE</Hsp_hseq>
+      <Hsp_midline>ME +F KIAQDTTKF+LGDE+ WR+LYEPLY     NV +++DE YGPAERNRLDVY P +E     PV+LYVHGGGFFSGDK WSEKC+AN+G FFA+ G +TVLANHQLVPHV YPGGADD+QL REWI  NI  EK+G+G   KV+LLGHSSGGAHIA NLYAA                  GDP RK+   +FPPVAG++Y SVPFWFDRRKP+RQ+ IR Y+GSDEEEVWGP  ALGLFR LP+DSPLLD  + PVY+GSVKW+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gb|OOO04966.1|</Hit_id>
+  <Hit_def>lipase, active site [Aspergillus oryzae]</Hit_def>
+  <Hit_accession>OOO04966</Hit_accession>
+  <Hit_len>325</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>368.622</Hsp_bit-score>
+      <Hsp_score>945</Hsp_score>
+      <Hsp_evalue>1.00949e-124</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>269</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>251</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>177</Hsp_identity>
+      <Hsp_positive>215</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>269</Hsp_align-len>
+      <Hsp_qseq>MENIFAKIAQDTTKFDLGDEEGWRKLYEPLYPEAPDNVGVVKDESYGPAERNRLDVYFPLEEKPGGYPVVLYVHGGGFFSGDKGWSEKCWANVGFFFAQRGFVTVLANHQLVPHVVYPGGADDMQLAREWISENIAKEKYGRGIPEKVVLLGHSSGGAHIAMNLYAAGDEFLDNCHLHSLLTQDIGDPKRKTNVPLFPPVAGVIYLSVPFWFDRRKPVRQRVIRHYWGSDEEEVWGPLSALGLFRNLPEDSPLLDSEQLPVYIGSVKWD</Hsp_qseq>
+      <Hsp_hseq>MEDIFAKIAKDTIKFDVGDDEYWRGVYEPLHESSYEGIARVKDEVYGPAERNRLDIYFPLNDKREKKPVILFVHGGGFFSGGKEWSEKIWGNVGWFFAKHGYVTVLANHRLVPNVTYPGGAEDMQMAREWVYYNIAAPKYGQGSPEKVILLGHSSGGAHLAMNLYAA------------------GDPKRIPKLPIFPPVAGIIYLSVPFWCDMRKPIRNKVFRSYYGTDDEKVWGPLSALGLFKALPDDSPLLDSTRLPVYIGSVEWE</Hsp_hseq>
+      <Hsp_midline>ME+IFAKIA+DT KFD+GD+E WR +YEPL+  + + +  VKDE YGPAERNRLD+YFPL +K    PV+L+VHGGGFFSG K WSEK W NVG+FFA+ G+VTVLANH+LVP+V YPGGA+DMQ+AREW+  NIA  KYG+G PEKV+LLGHSSGGAH+AMNLYAA                  GDPKR   +P+FPPVAG+IYLSVPFW D RKP+R +V R Y+G+D+E+VWGPLSALGLF+ LP+DSPLLDS +LPVYIGSV+W+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gb|RAQ40993.1|</Hit_id>
+  <Hit_def>hypothetical protein AFGD_007263 [Aspergillus flavus]</Hit_def>
+  <Hit_accession>RAQ40993</Hit_accession>
+  <Hit_len>325</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>368.622</Hsp_bit-score>
+      <Hsp_score>945</Hsp_score>
+      <Hsp_evalue>1.0318e-124</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>269</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>251</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>177</Hsp_identity>
+      <Hsp_positive>215</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>269</Hsp_align-len>
+      <Hsp_qseq>MENIFAKIAQDTTKFDLGDEEGWRKLYEPLYPEAPDNVGVVKDESYGPAERNRLDVYFPLEEKPGGYPVVLYVHGGGFFSGDKGWSEKCWANVGFFFAQRGFVTVLANHQLVPHVVYPGGADDMQLAREWISENIAKEKYGRGIPEKVVLLGHSSGGAHIAMNLYAAGDEFLDNCHLHSLLTQDIGDPKRKTNVPLFPPVAGVIYLSVPFWFDRRKPVRQRVIRHYWGSDEEEVWGPLSALGLFRNLPEDSPLLDSEQLPVYIGSVKWD</Hsp_qseq>
+      <Hsp_hseq>MEDIFAKIAKDTIKFDVGDDEYWRGVYEPLHESSYEGIARVKDEVYGPAERNRLDIYFPLNDKREKKPVILFVHGGGFFSGGKEWSEKIWGNVGWFFAKHGYVTVLANHRLVPNVTYPGGAEDMQMAREWVYYNIAAPKYGQGSPEKVILLGHSSGGAHLAMNLYAA------------------GDPKRIPKLPIFPPVAGIIYLSVPFWCDMRKPIRNKVFRSYYGTDDEKVWGPLSALGLFKALPDDSPLLDSTRLPVYIGSVEWE</Hsp_hseq>
+      <Hsp_midline>ME+IFAKIA+DT KFD+GD+E WR +YEPL+  + + +  VKDE YGPAERNRLD+YFPL +K    PV+L+VHGGGFFSG K WSEK W NVG+FFA+ G+VTVLANH+LVP+V YPGGA+DMQ+AREW+  NIA  KYG+G PEKV+LLGHSSGGAH+AMNLYAA                  GDPKR   +P+FPPVAG+IYLSVPFW D RKP+R +V R Y+G+D+E+VWGPLSALGLF+ LP+DSPLLDS +LPVYIGSV+W+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>ref|XP_024739668.1|</Hit_id>
+  <Hit_def>alpha/beta-hydrolase [Hyaloscypha bicolor E] &gt;gb|PMD62764.1| alpha/beta-hydrolase [Hyaloscypha bicolor E]</Hit_def>
+  <Hit_accession>XP_024739668</Hit_accession>
+  <Hit_len>326</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>367.851</Hsp_bit-score>
+      <Hsp_score>943</Hsp_score>
+      <Hsp_evalue>2.24585e-124</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>269</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>250</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>178</Hsp_identity>
+      <Hsp_positive>207</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>269</Hsp_align-len>
+      <Hsp_qseq>MENIFAKIAQDTTKFDLGDEEGWRKLYEPLYPEAPDNVGVVKDESYGPAERNRLDVYFPLEEKPGGYPVVLYVHGGGFFSGDKGWSEKCWANVGFFFAQRGFVTVLANHQLVPHVVYPGGADDMQLAREWISENIAKEKYGRGIPEKVVLLGHSSGGAHIAMNLYAAGDEFLDNCHLHSLLTQDIGDPKRKTNVPLFPPVAGVIYLSVPFWFDRRKPVRQRVIRHYWGSDEEEVWGPLSALGLFRNLPEDSPLLDSEQLPVYIGSVKWD</Hsp_qseq>
+      <Hsp_hseq>MENVLAKIAENTIKFNLGDEEEWRILFEPFYEEPSKDVSVIRDERYGPAERNRLDVFFPLS-KEAEKPVLLFVHGGGFFSGDKRWSEKCWANIGNFFARHGIVTVVANHQLVPHVRYPGGADDMQLAREWIFNNIASEKYGRGSVDKVILFGHSSGGAHIAANLYAA------------------GDPKRVPKQAIFPPVAGVMFFSTPFWFDRTRPIRQRTLRQYYGSDTEEVWGPLSPLKLFEGLPDDSPLLDSDKIPVYIGTVKWE</Hsp_hseq>
+      <Hsp_midline>MEN+ AKIA++T KF+LGDEE WR L+EP Y E   +V V++DE YGPAERNRLDV+FPL  K    PV+L+VHGGGFFSGDK WSEKCWAN+G FFA+ G VTV+ANHQLVPHV YPGGADDMQLAREWI  NIA EKYGRG  +KV+L GHSSGGAHIA NLYAA                  GDPKR     +FPPVAGV++ S PFWFDR +P+RQR +R Y+GSD EEVWGPLS L LF  LP+DSPLLDS+++PVYIG+VKW+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>ref|XP_020115574.1|</Hit_id>
+  <Hit_def>hypothetical protein UA08_09278 [Talaromyces atroroseus] &gt;gb|OKL55453.1| hypothetical protein UA08_09278 [Talaromyces atroroseus]</Hit_def>
+  <Hit_accession>XP_020115574</Hit_accession>
+  <Hit_len>301</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>363.614</Hsp_bit-score>
+      <Hsp_score>932</Hsp_score>
+      <Hsp_evalue>4.04446e-123</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>269</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>258</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>184</Hsp_identity>
+      <Hsp_positive>207</Hsp_positive>
+      <Hsp_gaps>25</Hsp_gaps>
+      <Hsp_align-len>276</Hsp_align-len>
+      <Hsp_qseq>MENIFAKIAQDTTKFDLGDEEGWRKLYEPLYPEAPDNVGVVKDESYGPAERNRLDVYFPLEEKPG----GYPVVLYVHGGGFFSGDKGWSEKCWANVGFFFAQRGFVTVLANHQLVPHVVYPGGADDMQLAREWISENIAKEKYGRGIPEKVVLLGHSSGGAHIAMNLYAAGDEFLDNCHLHSLLTQDIGDPKRKTNVPLFPPVAGVIYLSVPFWFDRRKPVRQRVIRHYWGSDEEEVWGPLSALGLFRNLPEDSPLL---DSEQLPVYIGSVKWD</Hsp_qseq>
+      <Hsp_hseq>MEGVFEKIAQETTSFNLGDEDIWRCLYEGHYAEPPETVSVVKDVRYGPAERNRLDVFFPTNDNTKWTKKSKPVLIFVHGGGFFSGDKGWSEKCWANVGYFFAQHGIVVVTANHQLVPHVQYPGGADDMQKVREWIYHNIASEKYGAGSVDKVVLLGHSSGGAHIAMNLYAA------------------GDPSRVPKQELFPPVAGVIYLSVPFWYDRRKPIRQRVIRQYYGSDAEDVWGPISALGLFENLPDDSILFFHRDSDKVPVYLGSVKWE</Hsp_hseq>
+      <Hsp_midline>ME +F KIAQ+TT F+LGDE+ WR LYE  Y E P+ V VVKD  YGPAERNRLDV+FP  +         PV+++VHGGGFFSGDKGWSEKCWANVG+FFAQ G V V ANHQLVPHV YPGGADDMQ  REWI  NIA EKYG G  +KVVLLGHSSGGAHIAMNLYAA                  GDP R     LFPPVAGVIYLSVPFW+DRRKP+RQRVIR Y+GSD E+VWGP+SALGLF NLP+DS L    DS+++PVY+GSVKW+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gb|PVH74231.1|</Hit_id>
+  <Hit_def>alpha/beta-hydrolase [Cadophora sp. DSE1049]</Hit_def>
+  <Hit_accession>PVH74231</Hit_accession>
+  <Hit_len>321</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>357.836</Hsp_bit-score>
+      <Hsp_score>917</Hsp_score>
+      <Hsp_evalue>1.70672e-120</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>269</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>250</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>172</Hsp_identity>
+      <Hsp_positive>205</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>269</Hsp_align-len>
+      <Hsp_qseq>MENIFAKIAQDTTKFDLGDEEGWRKLYEPLYPEAPDNVGVVKDESYGPAERNRLDVYFPLEEKPGGYPVVLYVHGGGFFSGDKGWSEKCWANVGFFFAQRGFVTVLANHQLVPHVVYPGGADDMQLAREWISENIAKEKYGRGIPEKVVLLGHSSGGAHIAMNLYAAGDEFLDNCHLHSLLTQDIGDPKRKTNVPLFPPVAGVIYLSVPFWFDRRKPVRQRVIRHYWGSDEEEVWGPLSALGLFRNLPEDSPLLDSEQLPVYIGSVKWD</Hsp_qseq>
+      <Hsp_hseq>MEGVFAKIEKNTVKFNLGDEEEWRELYEPFYEEPSQNVGVIRDERYGPAERNLLDVFFPLGDRADN-PVLIFVHGGGFFSGDKGWSEKCWANIGNFFARHGTVVVIVNHQLVPHVQYPGGANDMQLAREWVYKNISSEKFGRGSSDKVILFGHSSGGAHIASNLYAA------------------GDPKRVPKESVFPPVAGVIYFSTPFWFDRTRPIRQKTLHQYFGSDAEEVWGPLSPLGLFERLPVDSSLLDSDVIPVYIGTVKWE</Hsp_hseq>
+      <Hsp_midline>ME +FAKI ++T KF+LGDEE WR+LYEP Y E   NVGV++DE YGPAERN LDV+FPL ++    PV+++VHGGGFFSGDKGWSEKCWAN+G FFA+ G V V+ NHQLVPHV YPGGA+DMQLAREW+ +NI+ EK+GRG  +KV+L GHSSGGAHIA NLYAA                  GDPKR     +FPPVAGVIY S PFWFDR +P+RQ+ +  Y+GSD EEVWGPLS LGLF  LP DS LLDS+ +PVYIG+VKW+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>ref|XP_016597535.1|</Hit_id>
+  <Hit_def>Carboxylesterase, type B [Penicillium expansum] &gt;gb|KGO48628.1| Carboxylesterase, type B [Penicillium expansum] &gt;gb|KGO51839.1| Carboxylesterase, type B [Penicillium expansum] &gt;gb|KGO55384.1| Carboxylesterase, type B [Penicillium expansum]</Hit_def>
+  <Hit_accession>XP_016597535</Hit_accession>
+  <Hit_len>256</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>354.755</Hsp_bit-score>
+      <Hsp_score>909</Hsp_score>
+      <Hsp_evalue>2.99966e-120</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>269</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>255</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>169</Hsp_identity>
+      <Hsp_positive>212</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>269</Hsp_align-len>
+      <Hsp_qseq>MENIFAKIAQDTTKFDLGDEEGWRKLYEPLYPEAPDNVGVVKDESYGPAERNRLDVYFPLEEKPGGYPVVLYVHGGGFFSGDKGWSEKCWANVGFFFAQRGFVTVLANHQLVPHVVYPGGADDMQLAREWISENIAKEKYGRGIPEKVVLLGHSSGGAHIAMNLYAAGDEFLDNCHLHSLLTQDIGDPKRKTNVPLFPPVAGVIYLSVPFWFDRRKPVRQRVIRHYWGSDEEEVWGPLSALGLFRNLPEDSPLLDSEQLPVYIGSVKWD</Hsp_qseq>
+      <Hsp_hseq>MDAIFAKIAEETSKFQLGDEEIWRKLYDPFYPEPPQNVTVIRDERYGPSDRNLLDVFVP-HGNDSNRPVMMYVHGGGFFSGDKLWTEQVYSNIGWFFAQRGIITVVINHRLVPHVEYPGGADDIQLARQWIYNHISSTRYGRGSVEKVVLFGHSSGGAHIAMNLYAA------------------GDPERASQSPVFPPVAGVMYLSVPFWYDRTKPVRQKTIRSYYGSDSEDVWGPKSALGLFQRLPDNSPLLDSQKIPVYLGSVEWE</Hsp_hseq>
+      <Hsp_midline>M+ IFAKIA++T+KF LGDEE WRKLY+P YPE P NV V++DE YGP++RN LDV+ P        PV++YVHGGGFFSGDK W+E+ ++N+G+FFAQRG +TV+ NH+LVPHV YPGGADD+QLAR+WI  +I+  +YGRG  EKVVL GHSSGGAHIAMNLYAA                  GDP+R +  P+FPPVAGV+YLSVPFW+DR KPVRQ+ IR Y+GSD E+VWGP SALGLF+ LP++SPLLDS+++PVY+GSV+W+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gb|PCH02544.1|</Hit_id>
+  <Hit_def>hypothetical protein PENOC_043040 [Penicillium occitanis (nom. inval.)] &gt;gb|PCH02953.1| Carboxylesterase, type B [Penicillium occitanis (nom. inval.)]</Hit_def>
+  <Hit_accession>PCH02544</Hit_accession>
+  <Hit_len>288</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>354.369</Hsp_bit-score>
+      <Hsp_score>908</Hsp_score>
+      <Hsp_evalue>1.35312e-119</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>269</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>250</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>169</Hsp_identity>
+      <Hsp_positive>211</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>269</Hsp_align-len>
+      <Hsp_qseq>MENIFAKIAQDTTKFDLGDEEGWRKLYEPLYPEAPDNVGVVKDESYGPAERNRLDVYFPLEEKPGGYPVVLYVHGGGFFSGDKGWSEKCWANVGFFFAQRGFVTVLANHQLVPHVVYPGGADDMQLAREWISENIAKEKYGRGIPEKVVLLGHSSGGAHIAMNLYAAGDEFLDNCHLHSLLTQDIGDPKRKTNVPLFPPVAGVIYLSVPFWFDRRKPVRQRVIRHYWGSDEEEVWGPLSALGLFRNLPEDSPLLDSEQLPVYIGSVKWD</Hsp_qseq>
+      <Hsp_hseq>MEAVFAKIAEETTNFGLGDEEKWRKLYDPFYPDPPSNVSVIRDERYGPAERNRLDVFVPHGDE-TDRPVLMYVHGGGFFSGDKLWTDKVYSNIGWFFAQQGVITVVINHQLVPHVQYPGGADDIQLAREWISNNITTEKFGRGSVDKVVLFGHSSGGAHIAMNLYAAGDS------------------ERPSRDPLTPPVAGVIYLDVPFWYDRNKPVRQKTIRSYYGSDDESIWGPKCAVGLFQRLPDNSPVLDSQKLPIYLGSVEWE</Hsp_hseq>
+      <Hsp_midline>ME +FAKIA++TT F LGDEE WRKLY+P YP+ P NV V++DE YGPAERNRLDV+ P  ++    PV++YVHGGGFFSGDK W++K ++N+G+FFAQ+G +TV+ NHQLVPHV YPGGADD+QLAREWIS NI  EK+GRG  +KVVL GHSSGGAHIAMNLYAAGD                   +R +  PL PPVAGVIYL VPFW+DR KPVRQ+ IR Y+GSD+E +WGP  A+GLF+ LP++SP+LDS++LP+Y+GSV+W+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gb|KAH6989975.1|</Hit_id>
+  <Hit_def>Alpha/Beta hydrolase protein [Ilyonectria destructans]</Hit_def>
+  <Hit_accession>KAH6989975</Hit_accession>
+  <Hit_len>336</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>355.14</Hsp_bit-score>
+      <Hsp_score>910</Hsp_score>
+      <Hsp_evalue>3.39584e-119</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>269</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>265</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>170</Hsp_identity>
+      <Hsp_positive>212</Hsp_positive>
+      <Hsp_gaps>32</Hsp_gaps>
+      <Hsp_align-len>283</Hsp_align-len>
+      <Hsp_qseq>MENIFAKIAQDTTKFDLGDEEGWRKLYEPLYPEAPDNVGVVKDESYGPAERNRLDVYFPLEEKPGGYPVVLYVHGGGFFSGDKGWSEKCWANVGFFFAQRGFVTVLANHQLV--------------PHVVYPGGADDMQLAREWISENIAKEKYGRGIPEKVVLLGHSSGGAHIAMNLYAAGDEFLDNCHLHSLLTQDIGDPKRKTNVPLFPPVAGVIYLSVPFWFDRRKPVRQRVIRHYWGSDEEEVWGPLSALGLFRNLPEDSPLLDSEQLPVYIGSVKWD</Hsp_qseq>
+      <Hsp_hseq>MDGVFARIAQDTSKFELGDEEIWRELYEPFHQKDAPNVAVIRDERYGPAERNLLDIFSPLDDTTVGKPVLLFVHGGGFFSGDKGWSEKCWANIGNFFAQQGIVVVVANHQLVYYNKADDADDVGANPSAQYPAGADDIQLVRKWIYENISHKKYGQGSPENVVLMGHSSGGAHIAMNLYAKGNT------------------QRTSPNSVFPPVAGVIYLSVPFWYDRERPIRQRILRRYYGSDAEDVWGPRSALGLFRQLPDNSPLLDSSKIPVYIGTVKWE</Hsp_hseq>
+      <Hsp_midline>M+ +FA+IAQDT+KF+LGDEE WR+LYEP + +   NV V++DE YGPAERN LD++ PL++   G PV+L+VHGGGFFSGDKGWSEKCWAN+G FFAQ+G V V+ANHQLV              P   YP GADD+QL R+WI ENI+ +KYG+G PE VVL+GHSSGGAHIAMNLYA G+                   +R +   +FPPVAGVIYLSVPFW+DR +P+RQR++R Y+GSD E+VWGP SALGLFR LP++SPLLDS ++PVYIG+VKW+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gb|KAH6682741.1|</Hit_id>
+  <Hit_def>Alpha/Beta hydrolase protein [Halenospora varia]</Hit_def>
+  <Hit_accession>KAH6682741</Hit_accession>
+  <Hit_len>320</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>353.214</Hsp_bit-score>
+      <Hsp_score>905</Hsp_score>
+      <Hsp_evalue>8.72147e-119</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>269</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>250</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>168</Hsp_identity>
+      <Hsp_positive>208</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>269</Hsp_align-len>
+      <Hsp_qseq>MENIFAKIAQDTTKFDLGDEEGWRKLYEPLYPEAPDNVGVVKDESYGPAERNRLDVYFPLEEKPGGYPVVLYVHGGGFFSGDKGWSEKCWANVGFFFAQRGFVTVLANHQLVPHVVYPGGADDMQLAREWISENIAKEKYGRGIPEKVVLLGHSSGGAHIAMNLYAAGDEFLDNCHLHSLLTQDIGDPKRKTNVPLFPPVAGVIYLSVPFWFDRRKPVRQRVIRHYWGSDEEEVWGPLSALGLFRNLPEDSPLLDSEQLPVYIGSVKWD</Hsp_qseq>
+      <Hsp_hseq>MEAVFSRIAQETTNFALGDEDIWRELYEPLYPDPPSNIAVIRDERYGPAERNRLDVFVPPGDE-ASRPVLLFVHGGGFFSGDKLWTEKVYSNIGWFFAQNGIITVVANHQLVPHVQYPGGADDMQLVREWIYSNIALDKYGRGSTDKVILFGHSSGGAHIAMNLYAAGDT------------------ARVYKEPLFPPVAGAIYLDVPFWFDTRKPLRQKTIRSYYGSDSELIWGPKSPVGLFQRLPDNSPVLDSQKLPIYIGTVEWE</Hsp_hseq>
+      <Hsp_midline>ME +F++IAQ+TT F LGDE+ WR+LYEPLYP+ P N+ V++DE YGPAERNRLDV+ P  ++    PV+L+VHGGGFFSGDK W+EK ++N+G+FFAQ G +TV+ANHQLVPHV YPGGADDMQL REWI  NIA +KYGRG  +KV+L GHSSGGAHIAMNLYAAGD                    R    PLFPPVAG IYL VPFWFD RKP+RQ+ IR Y+GSD E +WGP S +GLF+ LP++SP+LDS++LP+YIG+V+W+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gb|KAH6971135.1|</Hit_id>
+  <Hit_def>Alpha/Beta hydrolase protein [Ilyonectria sp. MPI-CAGE-AT-0026]</Hit_def>
+  <Hit_accession>KAH6971135</Hit_accession>
+  <Hit_len>336</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>353.984</Hsp_bit-score>
+      <Hsp_score>907</Hsp_score>
+      <Hsp_evalue>9.69377e-119</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>269</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>265</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>172</Hsp_identity>
+      <Hsp_positive>210</Hsp_positive>
+      <Hsp_gaps>32</Hsp_gaps>
+      <Hsp_align-len>283</Hsp_align-len>
+      <Hsp_qseq>MENIFAKIAQDTTKFDLGDEEGWRKLYEPLYPEAPDNVGVVKDESYGPAERNRLDVYFPLEEKPGGYPVVLYVHGGGFFSGDKGWSEKCWANVGFFFAQRGFVTVLANHQLV--------------PHVVYPGGADDMQLAREWISENIAKEKYGRGIPEKVVLLGHSSGGAHIAMNLYAAGDEFLDNCHLHSLLTQDIGDPKRKTNVPLFPPVAGVIYLSVPFWFDRRKPVRQRVIRHYWGSDEEEVWGPLSALGLFRNLPEDSPLLDSEQLPVYIGSVKWD</Hsp_qseq>
+      <Hsp_hseq>MDSVFARIAQDTSKFELGDEEIWRELYEPFHQKEAPNVAVNRDERYGPAERNLLDVFSPLDDTTVGKPVLLFVHGGGFFSGDKGWSEKCWANIGNFFAQQGIVVVVANHQLVYYNKADETDGVGANPSAQYPAGADDIQLVREWIYQNISHKKYGQGSPENVVLMGHSSGGAHIAMNLYAKGKKL------------------GGTQGTVFPPVAGVIYLSVPFWYDRERPIRQKILRRYYGSDAEDVWGPRSALGLFRQLPEDSPLLDSSKVPVYIGTVKWE</Hsp_hseq>
+      <Hsp_midline>M+++FA+IAQDT+KF+LGDEE WR+LYEP + +   NV V +DE YGPAERN LDV+ PL++   G PV+L+VHGGGFFSGDKGWSEKCWAN+G FFAQ+G V V+ANHQLV              P   YP GADD+QL REWI +NI+ +KYG+G PE VVL+GHSSGGAHIAMNLYA G +                     T   +FPPVAGVIYLSVPFW+DR +P+RQ+++R Y+GSD E+VWGP SALGLFR LPEDSPLLDS ++PVYIG+VKW+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gb|KUL82005.1|</Hit_id>
+  <Hit_def>hypothetical protein ZTR_09645 [Talaromyces verruculosus]</Hit_def>
+  <Hit_accession>KUL82005</Hit_accession>
+  <Hit_len>288</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>351.673</Hsp_bit-score>
+      <Hsp_score>901</Hsp_score>
+      <Hsp_evalue>1.31639e-118</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>269</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>250</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>169</Hsp_identity>
+      <Hsp_positive>209</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>269</Hsp_align-len>
+      <Hsp_qseq>MENIFAKIAQDTTKFDLGDEEGWRKLYEPLYPEAPDNVGVVKDESYGPAERNRLDVYFPLEEKPGGYPVVLYVHGGGFFSGDKGWSEKCWANVGFFFAQRGFVTVLANHQLVPHVVYPGGADDMQLAREWISENIAKEKYGRGIPEKVVLLGHSSGGAHIAMNLYAAGDEFLDNCHLHSLLTQDIGDPKRKTNVPLFPPVAGVIYLSVPFWFDRRKPVRQRVIRHYWGSDEEEVWGPLSALGLFRNLPEDSPLLDSEQLPVYIGSVKWD</Hsp_qseq>
+      <Hsp_hseq>MEAVFAKIAEETTNFGLSDEEKWRKLYDPFYPDPPSNVSVIRDERYGPAERNRLDVFVPHGDE-TDRPVLMYVHGGGFFSGDKLWTDKVYSNIGWFFAQHGVITVVINHQLVPHVQYPGGADDIQLAREWICNNITTEKFGRGSVDKVVLLGHSSGGAHIAMNLYAAGDS------------------ERPSRDPLTPPVAGVIYLDVPFWYDRTKPVRQKTIRSYYGSDDESVWGPKCAVGLFQRLPDNSPVLDSQKLPIYLGSVEWE</Hsp_hseq>
+      <Hsp_midline>ME +FAKIA++TT F L DEE WRKLY+P YP+ P NV V++DE YGPAERNRLDV+ P  ++    PV++YVHGGGFFSGDK W++K ++N+G+FFAQ G +TV+ NHQLVPHV YPGGADD+QLAREWI  NI  EK+GRG  +KVVLLGHSSGGAHIAMNLYAAGD                   +R +  PL PPVAGVIYL VPFW+DR KPVRQ+ IR Y+GSD+E VWGP  A+GLF+ LP++SP+LDS++LP+Y+GSV+W+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>emb|CRL20764.1|</Hit_id>
+  <Hit_def>Carboxylesterase, type B [Penicillium camemberti]</Hit_def>
+  <Hit_accession>CRL20764</Hit_accession>
+  <Hit_len>329</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>351.288</Hsp_bit-score>
+      <Hsp_score>900</Hsp_score>
+      <Hsp_evalue>6.80338e-118</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>269</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>255</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>167</Hsp_identity>
+      <Hsp_positive>211</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>269</Hsp_align-len>
+      <Hsp_qseq>MENIFAKIAQDTTKFDLGDEEGWRKLYEPLYPEAPDNVGVVKDESYGPAERNRLDVYFPLEEKPGGYPVVLYVHGGGFFSGDKGWSEKCWANVGFFFAQRGFVTVLANHQLVPHVVYPGGADDMQLAREWISENIAKEKYGRGIPEKVVLLGHSSGGAHIAMNLYAAGDEFLDNCHLHSLLTQDIGDPKRKTNVPLFPPVAGVIYLSVPFWFDRRKPVRQRVIRHYWGSDEEEVWGPLSALGLFRNLPEDSPLLDSEQLPVYIGSVKWD</Hsp_qseq>
+      <Hsp_hseq>MDAIFAKIAEETTKFQLGDEEIWRKLYDPLYPEPPQNVTVIRDERYGPSDRNLLDVFVP-HGNESNRPVMMYVHGGGFFSGDKLWTEQVYSNIGWFFAQRGIITVVINHRLVPHVEYPGGADDIQLAREWIFNHISSTKYGCGSVDKVILFGHSSGGAHIAMNLYAA------------------GDPERASQLPISPPVAGVIYLSVPFWYDRTKPMRQKTIRSYYGSDAEDAWGPKSALGLFQRLPDNSPLLNSQKIPVYLGSVEWE</Hsp_hseq>
+      <Hsp_midline>M+ IFAKIA++TTKF LGDEE WRKLY+PLYPE P NV V++DE YGP++RN LDV+ P        PV++YVHGGGFFSGDK W+E+ ++N+G+FFAQRG +TV+ NH+LVPHV YPGGADD+QLAREWI  +I+  KYG G  +KV+L GHSSGGAHIAMNLYAA                  GDP+R + +P+ PPVAGVIYLSVPFW+DR KP+RQ+ IR Y+GSD E+ WGP SALGLF+ LP++SPLL+S+++PVY+GSV+W+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>ref|XP_040808557.1|</Hit_id>
+  <Hit_def>uncharacterized protein PENSOL_c060G06855 [Penicillium solitum] &gt;gb|OQD90243.1| hypothetical protein PENSOL_c060G06855 [Penicillium solitum]</Hit_def>
+  <Hit_accession>XP_040808557</Hit_accession>
+  <Hit_len>324</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>351.288</Hsp_bit-score>
+      <Hsp_score>900</Hsp_score>
+      <Hsp_evalue>7.54668e-118</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>269</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>255</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>167</Hsp_identity>
+      <Hsp_positive>211</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>269</Hsp_align-len>
+      <Hsp_qseq>MENIFAKIAQDTTKFDLGDEEGWRKLYEPLYPEAPDNVGVVKDESYGPAERNRLDVYFPLEEKPGGYPVVLYVHGGGFFSGDKGWSEKCWANVGFFFAQRGFVTVLANHQLVPHVVYPGGADDMQLAREWISENIAKEKYGRGIPEKVVLLGHSSGGAHIAMNLYAAGDEFLDNCHLHSLLTQDIGDPKRKTNVPLFPPVAGVIYLSVPFWFDRRKPVRQRVIRHYWGSDEEEVWGPLSALGLFRNLPEDSPLLDSEQLPVYIGSVKWD</Hsp_qseq>
+      <Hsp_hseq>MDAIFAKIAEETTKFQLGDEEIWRKLYDPLYPEPPQNVTVIRDERYGPSDRNLLDVFVP-HGNESNRPVMMYVHGGGFFSGDKLWTEQVYSNIGWFFAQRGIITVVINHRLVPHVEYPGGADDIQLAREWVFNHISSTKYGCGSVDKVILFGHSSGGAHIAMNLYAA------------------GDPERASQLPISPPLAGVIYLSVPFWYDRTKPMRQKTIRSYYGSDAEDVWGPKSALGLFERLPDDSPLLNSQKIPVYLGSVEWE</Hsp_hseq>
+      <Hsp_midline>M+ IFAKIA++TTKF LGDEE WRKLY+PLYPE P NV V++DE YGP++RN LDV+ P        PV++YVHGGGFFSGDK W+E+ ++N+G+FFAQRG +TV+ NH+LVPHV YPGGADD+QLAREW+  +I+  KYG G  +KV+L GHSSGGAHIAMNLYAA                  GDP+R + +P+ PP+AGVIYLSVPFW+DR KP+RQ+ IR Y+GSD E+VWGP SALGLF  LP+DSPLL+S+++PVY+GSV+W+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>dbj|GAM44125.1|</Hit_id>
+  <Hit_def>hypothetical protein TCE0_060f19498 [Talaromyces pinophilus]</Hit_def>
+  <Hit_accession>GAM44125</Hit_accession>
+  <Hit_len>288</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>349.362</Hsp_bit-score>
+      <Hsp_score>895</Hsp_score>
+      <Hsp_evalue>1.28046e-117</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>269</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>250</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>167</Hsp_identity>
+      <Hsp_positive>209</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>269</Hsp_align-len>
+      <Hsp_qseq>MENIFAKIAQDTTKFDLGDEEGWRKLYEPLYPEAPDNVGVVKDESYGPAERNRLDVYFPLEEKPGGYPVVLYVHGGGFFSGDKGWSEKCWANVGFFFAQRGFVTVLANHQLVPHVVYPGGADDMQLAREWISENIAKEKYGRGIPEKVVLLGHSSGGAHIAMNLYAAGDEFLDNCHLHSLLTQDIGDPKRKTNVPLFPPVAGVIYLSVPFWFDRRKPVRQRVIRHYWGSDEEEVWGPLSALGLFRNLPEDSPLLDSEQLPVYIGSVKWD</Hsp_qseq>
+      <Hsp_hseq>MEAVFAKIAEETTNFGLGDEEKWRKLYDPFYPDPPSNVSVIRDERYGPAERNRLDVFVPHGDETD-RPVLMYVHGGGFFSGDKLWTDKVYSNIGWFFAQQGVITVVINHQLVPHVQYPGGADDIQLAREWICNNITTEKFGRGSVDKVVLFGHSSGGAHIAMNLYAAGDS------------------ERPSRDPLTPRVAGVIYLDVPFWYDRNKPVRQKTIRSYYGSDDESIWGPKCAVGLFQRLPDNSPVLDSQKLPIYLGSVEWE</Hsp_hseq>
+      <Hsp_midline>ME +FAKIA++TT F LGDEE WRKLY+P YP+ P NV V++DE YGPAERNRLDV+ P  ++    PV++YVHGGGFFSGDK W++K ++N+G+FFAQ+G +TV+ NHQLVPHV YPGGADD+QLAREWI  NI  EK+GRG  +KVVL GHSSGGAHIAMNLYAAGD                   +R +  PL P VAGVIYL VPFW+DR KPVRQ+ IR Y+GSD+E +WGP  A+GLF+ LP++SP+LDS++LP+Y+GSV+W+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>ref|XP_020124546.1|</Hit_id>
+  <Hit_def>hypothetical protein UA08_00853 [Talaromyces atroroseus] &gt;gb|OKL64425.1| hypothetical protein UA08_00853 [Talaromyces atroroseus]</Hit_def>
+  <Hit_accession>XP_020124546</Hit_accession>
+  <Hit_len>334</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>349.747</Hsp_bit-score>
+      <Hsp_score>896</Hsp_score>
+      <Hsp_evalue>3.37086e-117</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>269</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>269</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>168</Hsp_identity>
+      <Hsp_positive>209</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>270</Hsp_align-len>
+      <Hsp_qseq>MENIFAKIAQDTTKFDLGDEEGWRKLYEPLYPEAPDNVGVVKDESYGPAERNRLDVYFPLEEKPGGYPVVLYVHGGGFFSGDKGWSEKCWANVGFFFAQRGFVTVLANHQLVPHVVYPGGADDMQLAREWISENIAKEKYGRGIPEKVVLLGHSSGGAHIAMNLYAAGDEFLDNCHLHSLL-TQDIGDPKRKTNVPLFPPVAGVIYLSVPFWFDRRKPVRQRVIRHYWGSDEEEVWGPLSALGLFRNLPEDSPLLDSEQLPVYIGSVKWD</Hsp_qseq>
+      <Hsp_hseq>MDAVFAEIDKETIKFAAGDEEKWRELYEPLYPETPSNVTVIRNERYGPHERNFLDVFVP-HDGAENKPVLMYIHGGGFFSGDKMWSERVYSNIGWFFAQHGIVTVVVNHRLVPHVQYPGGADDVQLAREWIYENIASEKYGCGSIDKVVLFGHSSGGAHVAMNLFAAGEMLLLRFFGRVYAKAESAGDPARPPKVPDFPPVAGLVLIDVPFWFDRTKPVRQRTIRSYYGSDDESDWGPKSALGLFQALPEDSPVLDSQKIPIYLGSVEWE</Hsp_hseq>
+      <Hsp_midline>M+ +FA+I ++T KF  GDEE WR+LYEPLYPE P NV V+++E YGP ERN LDV+ P  +     PV++Y+HGGGFFSGDK WSE+ ++N+G+FFAQ G VTV+ NH+LVPHV YPGGADD+QLAREWI ENIA EKYG G  +KVVL GHSSGGAH+AMNL+AAG+  L           +  GDP R   VP FPPVAG++ + VPFWFDR KPVRQR IR Y+GSD+E  WGP SALGLF+ LPEDSP+LDS+++P+Y+GSV+W+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gb|KUL82155.1|</Hit_id>
+  <Hit_def>hypothetical protein ZTR_11078 [Talaromyces verruculosus]</Hit_def>
+  <Hit_accession>KUL82155</Hit_accession>
+  <Hit_len>324</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>348.591</Hsp_bit-score>
+      <Hsp_score>893</Hsp_score>
+      <Hsp_evalue>6.35642e-117</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>269</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>250</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>168</Hsp_identity>
+      <Hsp_positive>208</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>269</Hsp_align-len>
+      <Hsp_qseq>MENIFAKIAQDTTKFDLGDEEGWRKLYEPLYPEAPDNVGVVKDESYGPAERNRLDVYFPLEEKPGGYPVVLYVHGGGFFSGDKGWSEKCWANVGFFFAQRGFVTVLANHQLVPHVVYPGGADDMQLAREWISENIAKEKYGRGIPEKVVLLGHSSGGAHIAMNLYAAGDEFLDNCHLHSLLTQDIGDPKRKTNVPLFPPVAGVIYLSVPFWFDRRKPVRQRVIRHYWGSDEEEVWGPLSALGLFRNLPEDSPLLDSEQLPVYIGSVKWD</Hsp_qseq>
+      <Hsp_hseq>MEAVFAKIAEETTNFGLGDEEKWRKLYDPFYAEPPSNIRVIRDERYGPAERNRLDVFVPHGDELD-RPVLMYVHGGGFFSGDKLWTDKVYSNIGWFFAQHGIVTVIINHQLVPHVQYPGGADDIQLAREWMYGNIASKKYGRGSVEKVILFGHSSGGAHIAMNLYAA------------------GDPGRPSRDPLSPPLAGVIYIDVPFWYDRNKPVRQKTIRSYYGSDDESVWGPKCAVGLFQRLPDTSPVLDSQRLPIYLGSVEWE</Hsp_hseq>
+      <Hsp_midline>ME +FAKIA++TT F LGDEE WRKLY+P Y E P N+ V++DE YGPAERNRLDV+ P  ++    PV++YVHGGGFFSGDK W++K ++N+G+FFAQ G VTV+ NHQLVPHV YPGGADD+QLAREW+  NIA +KYGRG  EKV+L GHSSGGAHIAMNLYAA                  GDP R +  PL PP+AGVIY+ VPFW+DR KPVRQ+ IR Y+GSD+E VWGP  A+GLF+ LP+ SP+LDS++LP+Y+GSV+W+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>519165233</Statistics_db-num>
+      <Statistics_db-len>1451323950</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
