@@ -1,29 +1,29 @@
 Summary stats:
-Total curations: 65
+Total curations: 66
 Of which original==truth: 0
-Perfect curations: 12 (0.18461538461538463)
+Perfect curations: 19 (0.2878787878787879)
 
 
-Total exons in truth: 304
-Old exons matching truth: 185 (0.6085526315789473)
-Curated exons matching truth: 178 (0.5855263157894737)
-Exons that did not match truth, but do match after curation: 32 (0.10526315789473684)
-Exons that matched truth, but do not match after curation: 39 (0.12828947368421054)
-Exons which did not change at all after curation: 146 (0.48026315789473684)
+Total exons in truth: 310
+Old exons matching truth: 188 (0.6064516129032258)
+Curated exons matching truth: 195 (0.6290322580645161)
+Exons that did not match truth, but do match after curation: 38 (0.12258064516129032)
+Exons that matched truth, but do not match after curation: 31 (0.1)
+Exons which did not change at all after curation: 157 (0.5064516129032258)
 
 
-Total starts in truth: 65
-Old starts matching truth: 37 (0.5692307692307692)
-Curated starts matching truth: 35 (0.5384615384615384)
-Starts that did not match truth, but do match after curation: 1 (0.015384615384615385)
-Starts that matched truth, but do not match after curation: 3 (0.046153846153846156)
-Starts which did not change at all after curation: 34 (0.5230769230769231)
+Total starts in truth: 66
+Old starts matching truth: 37 (0.5606060606060606)
+Curated starts matching truth: 35 (0.5303030303030303)
+Starts that did not match truth, but do match after curation: 1 (0.015151515151515152)
+Starts that matched truth, but do not match after curation: 3 (0.045454545454545456)
+Starts which did not change at all after curation: 34 (0.5151515151515151)
 
 
-Total stops in truth: 304
-Old stops matching truth: 59 (0.19407894736842105)
-Curated stops matching truth: 30 (0.09868421052631579)
-Stops that did not match truth, but do match after curation: 2 (0.006578947368421052)
-Stops that matched truth, but do not match after curation: 31 (0.10197368421052631)
-Stops which did not change at all after curation: 28 (0.09210526315789473)
+Total stops in truth: 66
+Old stops matching truth: 60 (0.9090909090909091)
+Curated stops matching truth: 45 (0.6818181818181818)
+Stops that did not match truth, but do match after curation: 4 (0.06060606060606061)
+Stops that matched truth, but do not match after curation: 19 (0.2878787878787879)
+Stops which did not change at all after curation: 41 (0.6212121212121212)
 
