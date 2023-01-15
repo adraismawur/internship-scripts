@@ -117,10 +117,9 @@ if __name__ == "__main__":
     truth_features, truth_aa_seqs = unpack_gbk_to_map(truth_id_set, truth_gbk_path)
     old_features, old_aa_seqs = unpack_gbk_to_map(old_id_set, old_gbk_path)
 
-    summary_lines = []
     results_handle = open(result_base_path / Path('results.csv'), mode='w', encoding='utf-8')
 
-    header = "id,total_len,exon_len,start,stop,n_exons,sequence\n"
+    header = "id,strand,start,stop,n_exons,sequence\n"
     print(header, end="")
     results_handle.write(header)
 
@@ -165,10 +164,6 @@ if __name__ == "__main__":
         truth_aa_seq = truth_aa_seqs[truth_model_id]
         truth_feature: SeqFeature
 
-        truth_row = f"{curated_model_id}|TRUE,{truth_aa_seq}\n"
-        print(truth_row, end="")
-        results_handle.write(truth_row)
-
         # curated gbk
         curated_gbk_path = output_folder / Path(f"output/{curated_model_id}.gbk")
         with open(curated_gbk_path, encoding='utf-8') as output_gbk_handle:
@@ -195,9 +190,6 @@ if __name__ == "__main__":
         # translate the feature
         curated_aa_seq = curated_feature.translate(curated_dna_seq, cds=False)
 
-        curated_row = f"{curated_model_id}|CRTD,{curated_aa_seq}\n"
-        print(curated_row, end="")
-        results_handle.write(curated_row)
 
 
         # old gbk
@@ -206,18 +198,7 @@ if __name__ == "__main__":
         old_feature: SeqFeature
         old_aa_seq = old_aa_seqs[curated_model_id]
 
-        old_row = f"{curated_model_id}|ORIG,{old_aa_seq}\n"
-        print(old_row, end="")
-        results_handle.write(old_row)
 
-
-        # summaries
-        summary_lines.append(f"{curated_model_id} (original {truth_model_id}):\n")
-
-        summary_lines.append("Translated sequence lengths:\n")
-        summary_lines.append(f"GROUND TRUTH: {len(truth_aa_seq)}\n")
-        summary_lines.append(f"CURATION:     {len(curated_aa_seq)}\n")
-        summary_lines.append(f"ORIGINAL:     {len(old_aa_seq)}\n")
 
         # figure out sequence equality
         o_t_equal = old_aa_seq == truth_aa_seq
@@ -228,10 +209,6 @@ if __name__ == "__main__":
         if p_t_equal:
             perfect_curations += 1
 
-        summary_lines.append("Equality:\n")
-        summary_lines.append(f"ORIGINAL TO TRUTH (expect False): {o_t_equal}\n")
-        summary_lines.append(f"ORIGINAL TO PRED (expect False): {o_p_equal}\n")
-        summary_lines.append(f"PREDICTED TO TRUTH (expect True): {p_t_equal}\n")
 
         total_curations += 1
 
@@ -318,7 +295,18 @@ if __name__ == "__main__":
         if truth_stop != old_stop and truth_stop == curated_stop:
             fixed_stops += 1
 
-        summary_lines.append("\n")
+
+        truth_row = f"{curated_model_id}|TRUE,{truth_feature.strand},{truth_start},{truth_stop},{len(truth_exons)},{truth_aa_seq}\n"
+        print(truth_row, end="")
+        results_handle.write(truth_row)
+
+        curated_row = f"{curated_model_id}|CRTD,{curated_feature.strand},{curated_start},{curated_stop},{len(curated_exons)},{curated_aa_seq}\n"
+        print(curated_row, end="")
+        results_handle.write(curated_row)
+
+        old_row = f"{curated_model_id}|ORIG,{old_feature.strand},{old_start},{old_stop},{len(old_exons)},{old_aa_seq}\n"
+        print(old_row, end="")
+        results_handle.write(old_row)
 
     with open(result_base_path / Path('summary.txt'), mode='w', encoding='utf-8') as summary_handle:
         summary_handle.write("Summary stats:\n")
