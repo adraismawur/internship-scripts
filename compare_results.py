@@ -129,12 +129,12 @@ if __name__ == "__main__":
     total_old_equal_truth = 0 # total number of old models that already match the truth
     perfect_curations = 0
     # exons
-    total_exons = 0
-    curated_matching_exons = 0
-    old_matching_exons = 0
-    fixed_exons = 0
-    broken_exons = 0
-    unchanged_exons = 0
+    total_introns = 0
+    curated_matching_introns = 0
+    old_matching_introns = 0
+    fixed_introns = 0
+    broken_introns = 0
+    unchanged_introns = 0
     # starts
     total_starts = 0
     old_matching_starts = 0
@@ -212,51 +212,89 @@ if __name__ == "__main__":
 
         total_curations += 1
 
-        # exons
-        truth_exons = set([(int(p.start), int(p.end)) for p in truth_feature.location.parts])
-        curated_exons = set([(int(p.start), int(p.end)) for p in curated_feature.location.parts])
-        old_exons = set([(int(p.start), int(p.end)) for p in old_feature.location.parts])
+        # intron sets
+        truth_introns = set()
+        curated_introns = set()
+        old_introns = set()
+
+        if len(truth_feature.location.parts) > 1:
+            # get introns from locations
+            # go through all but the last feature locations. these correspond to exons.
+            # first sort by start
+            truth_feature_locations = list(sorted(
+                truth_feature.location.parts,
+                key = lambda part: part.start
+            ))
+            for idx, exon in enumerate(truth_feature_locations[:-1]):
+                # get intron buy taking end of this exon
+                intron_start = exon.end
+                # and start of next exon
+                intron_end = truth_feature_locations[idx+1].end
+                truth_introns.add((intron_start, intron_end))
+
+        # old
+        if len(old_feature.location.parts) > 1:
+            old_feature_locations = list(sorted(
+                old_feature.location.parts,
+                key = lambda part: part.start
+            ))
+            for idx, exon in enumerate(old_feature_locations[:-1]):
+                # get intron buy taking end of this exon
+                intron_start = exon.end
+                # and start of next exon
+                intron_end = old_feature_locations[idx+1].end
+                old_introns.add((intron_start, intron_end))
+
+        # curated
+        if len(curated_feature.location.parts) > 1:
+            curated_feature_locations = list(sorted(
+                curated_feature.location.parts,
+                key = lambda part: part.start
+            ))
+            for idx, exon in enumerate(curated_feature_locations[:-1]):
+                # get intron buy taking end of this exon
+                intron_start = exon.end
+                # and start of next exon
+                intron_end = curated_feature_locations[idx+1].end
+                curated_introns.add((intron_start, intron_end))
 
         # total number of expected exons
-        total_exons += len(truth_exons)
+        total_introns += len(truth_introns)
 
         # of which old matched truth
-        old_matching_exons += len(truth_exons & old_exons)
+        old_matching_introns += len(truth_introns & old_introns)
 
         # of which curated match truth
-        curated_matching_exons += len(truth_exons & curated_exons)
+        curated_matching_introns += len(truth_introns & curated_introns)
 
         # of which were incorrect before, but are correct now
-        fixed_exons += len((truth_exons - old_exons) & curated_exons)
+        fixed_introns += len((truth_introns - old_introns) & curated_introns)
 
         # of which were correct before, but are not now
-        broken_exons += len((truth_exons & old_exons) - curated_exons)
+        broken_introns += len((truth_introns & old_introns) - curated_introns)
 
         # of which are unchanged between truth, curation and old model
-        unchanged_exons += len(truth_exons & old_exons & curated_exons)
+        unchanged_introns += len(truth_introns & old_introns & curated_introns)
 
 
         # find start and stop
-        ordered_truth_exons = sorted(list(truth_exons), key = lambda exon: exon[0])
-        ordered_curated_exons = sorted(list(curated_exons), key = lambda exon: exon[0])
-        ordered_old_exons = sorted(list(old_exons), key = lambda exon: exon[0])
 
         if truth_feature.strand == 1:
-            truth_start = ordered_truth_exons[0][0]
-            curated_start = ordered_curated_exons[0][0]
-            old_start = ordered_old_exons[0][0]
+            truth_start = truth_feature.location.start
+            curated_start = curated_feature.location.start
+            old_start = old_feature.location.start
 
-            truth_stop = ordered_truth_exons[-1][1]
-            curated_stop = ordered_curated_exons[-1][1]
-            old_stop = ordered_old_exons[-1][1]
+            truth_stop = truth_feature.location.end
+            curated_stop = curated_feature.location.end
+            old_stop = old_feature.location.end
         else:
-            truth_start = ordered_truth_exons[-1][1]
-            curated_start = ordered_curated_exons[-1][1]
-            old_start = ordered_old_exons[-1][1]
+            truth_start = truth_feature.location.end
+            curated_start = curated_feature.location.end
+            old_start = old_feature.location.end
 
-            truth_stop = ordered_truth_exons[0][0]
-            curated_stop = ordered_curated_exons[0][0]
-            old_stop = ordered_old_exons[0][0]
+            truth_stop = truth_feature.location.start
+            curated_stop = curated_feature.location.start
+            old_stop = old_feature.location.start
 
         # starts
         total_starts += 1
@@ -296,15 +334,15 @@ if __name__ == "__main__":
             fixed_stops += 1
 
 
-        truth_row = f"{curated_model_id}|TRUE,{truth_feature.strand},{truth_start},{truth_stop},{len(truth_exons)},{truth_aa_seq}\n"
+        truth_row = f"{curated_model_id}|TRUE,{truth_feature.strand},{truth_start},{truth_stop},{len(truth_introns)},{truth_aa_seq}\n"
         print(truth_row, end="")
         results_handle.write(truth_row)
 
-        curated_row = f"{curated_model_id}|CRTD,{curated_feature.strand},{curated_start},{curated_stop},{len(curated_exons)},{curated_aa_seq}\n"
+        curated_row = f"{curated_model_id}|CRTD,{curated_feature.strand},{curated_start},{curated_stop},{len(curated_introns)},{curated_aa_seq}\n"
         print(curated_row, end="")
         results_handle.write(curated_row)
 
-        old_row = f"{curated_model_id}|ORIG,{old_feature.strand},{old_start},{old_stop},{len(old_exons)},{old_aa_seq}\n"
+        old_row = f"{curated_model_id}|ORIG,{old_feature.strand},{old_start},{old_stop},{len(old_introns)},{old_aa_seq}\n"
         print(old_row, end="")
         results_handle.write(old_row)
 
@@ -314,12 +352,12 @@ if __name__ == "__main__":
         summary_handle.write(f"Of which original==truth: {total_old_equal_truth}\n")
         summary_handle.write(f"Perfect curations: {perfect_curations} ({perfect_curations/total_curations})\n")
         summary_handle.write("\n\n")
-        summary_handle.write(f"Total exons in truth: {total_exons}\n")
-        summary_handle.write(f"Old exons matching truth: {old_matching_exons} ({old_matching_exons/total_exons})\n")
-        summary_handle.write(f"Curated exons matching truth: {curated_matching_exons} ({curated_matching_exons/total_exons})\n")
-        summary_handle.write(f"Exons that did not match truth, but do match after curation: {fixed_exons} ({fixed_exons/total_exons})\n")
-        summary_handle.write(f"Exons that matched truth, but do not match after curation: {broken_exons} ({broken_exons/total_exons})\n")
-        summary_handle.write(f"Exons which did not change at all after curation: {unchanged_exons} ({unchanged_exons/total_exons})\n")
+        summary_handle.write(f"Total introns in truth: {total_introns}\n")
+        summary_handle.write(f"Old introns matching truth: {old_matching_introns} ({old_matching_introns/total_introns})\n")
+        summary_handle.write(f"Curated introns matching truth: {curated_matching_introns} ({curated_matching_introns/total_introns})\n")
+        summary_handle.write(f"Introns that did not match truth, but do match after curation: {fixed_introns} ({fixed_introns/total_introns})\n")
+        summary_handle.write(f"Introns that matched truth, but do not match after curation: {broken_introns} ({broken_introns/total_introns})\n")
+        summary_handle.write(f"Introns which did not change at all after curation: {unchanged_introns} ({unchanged_introns/total_introns})\n")
         summary_handle.write("\n\n")
         summary_handle.write(f"Total starts in truth: {total_starts}\n")
         summary_handle.write(f"Old starts matching truth: {old_matching_starts} ({old_matching_starts/total_starts})\n")
