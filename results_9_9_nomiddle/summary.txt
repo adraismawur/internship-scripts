@@ -1,0 +1,29 @@
+Summary stats:
+Total curations: 67
+Of which original==truth: 0
+Perfect curations: 5 (0.07462686567164178)
+
+
+Total introns in truth: 260
+Old introns matching truth: 163 (0.6269230769230769)
+Curated introns matching truth: 164 (0.6307692307692307)
+Introns that did not match truth, but do match after curation: 6 (0.023076923076923078)
+Introns that matched truth, but do not match after curation: 5 (0.019230769230769232)
+Introns which did not change at all after curation: 158 (0.6076923076923076)
+
+
+Total starts in truth: 67
+Old starts matching truth: 38 (0.5671641791044776)
+Curated starts matching truth: 35 (0.5223880597014925)
+Starts that did not match truth, but do match after curation: 2 (0.029850746268656716)
+Starts that matched truth, but do not match after curation: 5 (0.07462686567164178)
+Starts which did not change at all after curation: 33 (0.4925373134328358)
+
+
+Total stops in truth: 67
+Old stops matching truth: 62 (0.9253731343283582)
+Curated stops matching truth: 57 (0.8507462686567164)
+Stops that did not match truth, but do match after curation: 1 (0.014925373134328358)
+Stops that matched truth, but do not match after curation: 6 (0.08955223880597014)
+Stops which did not change at all after curation: 56 (0.835820895522388)
+
