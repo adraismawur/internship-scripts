@@ -4,12 +4,12 @@ Of which original==truth: 0
 Perfect curations: 17 (0.2698412698412698)
 
 
-Total exons in truth: 310
-Old exons matching truth: 196 (0.632258064516129)
-Curated exons matching truth: 192 (0.6193548387096774)
-Exons that did not match truth, but do match after curation: 36 (0.11612903225806452)
-Exons that matched truth, but do not match after curation: 40 (0.12903225806451613)
-Exons which did not change at all after curation: 156 (0.5032258064516129)
+Total introns in truth: 247
+Old introns matching truth: 159 (0.6437246963562753)
+Curated introns matching truth: 162 (0.6558704453441295)
+Introns that did not match truth, but do match after curation: 25 (0.10121457489878542)
+Introns that matched truth, but do not match after curation: 22 (0.08906882591093117)
+Introns which did not change at all after curation: 137 (0.5546558704453441)
 
 
 Total starts in truth: 63
