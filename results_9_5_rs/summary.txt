@@ -9,7 +9,7 @@ Old introns matching truth: 160 (0.6201550387596899)
 Curated introns matching truth: 169 (0.6550387596899225)
 Introns that did not match truth, but do match after curation: 28 (0.10852713178294573)
 Introns that matched truth, but do not match after curation: 19 (0.07364341085271318)
-Introns which did not change at all after curation: 141 (0.5465116279069767)
+Introns which did not change at all after curation: 153 (0.5930232558139535)
 
 
 Total starts in truth: 66
@@ -17,7 +17,7 @@ Old starts matching truth: 37 (0.5606060606060606)
 Curated starts matching truth: 34 (0.5151515151515151)
 Starts that did not match truth, but do match after curation: 1 (0.015151515151515152)
 Starts that matched truth, but do not match after curation: 4 (0.06060606060606061)
-Starts which did not change at all after curation: 33 (0.5)
+Starts which did not change at all after curation: 49 (0.7424242424242424)
 
 
 Total stops in truth: 66
@@ -27,3 +27,4 @@ Stops that did not match truth, but do match after curation: 3 (0.04545454545454
 Stops that matched truth, but do not match after curation: 23 (0.3484848484848485)
 Stops which did not change at all after curation: 39 (0.5909090909090909)
 
+66,18,258,4,98,160,4,28,19,153,0.2857142857142857,0.11875,66,29,37,34,32,1,4,49,0.034482758620689655,0.10810810810810811,66,4,62,42,24,3,23,39,0.75,0.3709677419354839

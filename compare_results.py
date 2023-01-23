@@ -131,24 +131,33 @@ if __name__ == "__main__":
     # exons
     total_introns = 0
     curated_matching_introns = 0
+    curated_nonmatching_introns = 0
     old_matching_introns = 0
-    fixed_introns = 0
-    broken_introns = 0
+    improvable_introns = 0
+    improved_introns = 0
+    regressable_introns = 0
+    regressed_introns = 0
     unchanged_introns = 0
     # starts
     total_starts = 0
-    old_matching_starts = 0
+    regressable_starts = 0
     curated_matching_starts = 0
+    curated_nonmatching_starts = 0
     unchanged_starts = 0
-    broken_starts = 0
-    fixed_starts = 0
+    regressable_starts =  0
+    regressed_starts = 0
+    improvable_starts = 0
+    improved_starts = 0
     # stops
     total_stops = 0
-    old_matching_stops = 0
+    regressable_stops = 0
     curated_matching_stops = 0
+    curated_nonmatching_stops = 0
     unchanged_stops = 0
-    broken_stops = 0
-    fixed_stops = 0
+    regressable_stops = 0
+    regressed_stops = 0
+    improvable_stops = 0
+    improved_stops = 0
 
     for output_folder in output_folders:
         curated_model_id = output_folder.name
@@ -267,14 +276,22 @@ if __name__ == "__main__":
         # of which curated match truth
         curated_matching_introns += len(truth_introns & curated_introns)
 
+        curated_nonmatching_introns += len(curated_introns - truth_introns)
+
+        # of which can be improved
+        improvable_introns += len(truth_introns - old_introns)
+
+        # of which can regress
+        regressable_introns += len(truth_introns & old_introns)
+
         # of which were incorrect before, but are correct now
-        fixed_introns += len((truth_introns - old_introns) & curated_introns)
+        improved_introns += len((truth_introns - old_introns) & curated_introns)
 
         # of which were correct before, but are not now
-        broken_introns += len((truth_introns & old_introns) - curated_introns)
+        regressed_introns += len((truth_introns & old_introns) - curated_introns)
 
-        # of which are unchanged between truth, curation and old model
-        unchanged_introns += len(truth_introns & old_introns & curated_introns)
+        # of which are unchanged between curation and old model
+        unchanged_introns += len(old_introns & curated_introns)
 
 
         # find start and stop
@@ -299,39 +316,49 @@ if __name__ == "__main__":
         # starts
         total_starts += 1
 
-        if truth_start == old_start:
-            old_matching_starts += 1
-
         if truth_start == curated_start:
             curated_matching_starts += 1
+        else:
+            curated_nonmatching_starts += 1
 
-        if truth_start == old_start == curated_start:
+        if old_start == curated_start:
             unchanged_starts += 1
 
+        if truth_start == old_start:
+            regressable_starts += 1
+
         if truth_start == old_start and truth_start != curated_start:
-            broken_starts += 1
+            regressed_starts += 1
+
+        if truth_start != old_start:
+            improvable_starts += 1
 
         if truth_start != old_start and truth_start == curated_start:
-            fixed_starts += 1
+            improved_starts += 1
 
 
         # stops
         total_stops += 1
 
-        if truth_stop == old_stop:
-            old_matching_stops += 1
-
         if truth_stop == curated_stop:
             curated_matching_stops += 1
+        else:
+            curated_nonmatching_stops += 1
 
-        if truth_stop == old_stop == curated_stop:
+        if old_stop == curated_stop:
             unchanged_stops += 1
 
+        if truth_stop == old_stop:
+            regressable_stops += 1
+
         if truth_stop == old_stop and truth_stop != curated_stop:
-            broken_stops += 1
+            regressed_stops += 1
+
+        if truth_stop != old_stop:
+            improvable_stops += 1
 
         if truth_stop != old_stop and truth_stop == curated_stop:
-            fixed_stops += 1
+            improved_stops += 1
 
 
         truth_row = f"{curated_model_id}|TRUE,{truth_feature.strand},{truth_start},{truth_stop},{len(truth_introns)},{truth_aa_seq}\n"
@@ -355,22 +382,60 @@ if __name__ == "__main__":
         summary_handle.write(f"Total introns in truth: {total_introns}\n")
         summary_handle.write(f"Old introns matching truth: {old_matching_introns} ({old_matching_introns/total_introns})\n")
         summary_handle.write(f"Curated introns matching truth: {curated_matching_introns} ({curated_matching_introns/total_introns})\n")
-        summary_handle.write(f"Introns that did not match truth, but do match after curation: {fixed_introns} ({fixed_introns/total_introns})\n")
-        summary_handle.write(f"Introns that matched truth, but do not match after curation: {broken_introns} ({broken_introns/total_introns})\n")
+        summary_handle.write(f"Introns that did not match truth, but do match after curation: {improved_introns} ({improved_introns/total_introns})\n")
+        summary_handle.write(f"Introns that matched truth, but do not match after curation: {regressed_introns} ({regressed_introns/total_introns})\n")
         summary_handle.write(f"Introns which did not change at all after curation: {unchanged_introns} ({unchanged_introns/total_introns})\n")
         summary_handle.write("\n\n")
         summary_handle.write(f"Total starts in truth: {total_starts}\n")
-        summary_handle.write(f"Old starts matching truth: {old_matching_starts} ({old_matching_starts/total_starts})\n")
+        summary_handle.write(f"Old starts matching truth: {regressable_starts} ({regressable_starts/total_starts})\n")
         summary_handle.write(f"Curated starts matching truth: {curated_matching_starts} ({curated_matching_starts/total_starts})\n")
-        summary_handle.write(f"Starts that did not match truth, but do match after curation: {fixed_starts} ({fixed_starts/total_starts})\n")
-        summary_handle.write(f"Starts that matched truth, but do not match after curation: {broken_starts} ({broken_starts/total_starts})\n")
+        summary_handle.write(f"Starts that did not match truth, but do match after curation: {improved_starts} ({improved_starts/total_starts})\n")
+        summary_handle.write(f"Starts that matched truth, but do not match after curation: {regressed_starts} ({regressed_starts/total_starts})\n")
         summary_handle.write(f"Starts which did not change at all after curation: {unchanged_starts} ({unchanged_starts/total_starts})\n")
         summary_handle.write("\n\n")
         summary_handle.write(f"Total stops in truth: {total_stops}\n")
-        summary_handle.write(f"Old stops matching truth: {old_matching_stops} ({old_matching_stops/total_stops})\n")
+        summary_handle.write(f"Old stops matching truth: {regressable_stops} ({regressable_stops/total_stops})\n")
         summary_handle.write(f"Curated stops matching truth: {curated_matching_stops} ({curated_matching_stops/total_stops})\n")
-        summary_handle.write(f"Stops that did not match truth, but do match after curation: {fixed_stops} ({fixed_stops/total_stops})\n")
-        summary_handle.write(f"Stops that matched truth, but do not match after curation: {broken_stops} ({broken_stops/total_stops})\n")
+        summary_handle.write(f"Stops that did not match truth, but do match after curation: {improved_stops} ({improved_stops/total_stops})\n")
+        summary_handle.write(f"Stops that matched truth, but do not match after curation: {regressed_stops} ({regressed_stops/total_stops})\n")
         summary_handle.write(f"Stops which did not change at all after curation: {unchanged_stops} ({unchanged_stops/total_stops})\n")
+        summary_handle.write("\n")
+        summary_handle.write("")
+        # line for excel summaries
+        excel_fields = map(str, [
+            total_curations,
+            perfect_curations,
+            total_introns,
+            len(old_introns),
+            improvable_introns,
+            regressable_introns,
+            len(curated_introns),
+            improved_introns,
+            regressed_introns,
+            unchanged_introns,
+            improved_introns / improvable_introns,
+            regressed_introns / regressable_introns,
+            total_starts,
+            improvable_starts,
+            regressable_starts,
+            curated_matching_starts,
+            curated_nonmatching_starts,
+            improved_starts,
+            regressed_starts,
+            unchanged_starts,
+            improved_starts / improvable_starts,
+            regressed_starts / regressable_starts,
+            total_stops,
+            improvable_stops,
+            regressable_stops,
+            curated_matching_stops,
+            curated_nonmatching_stops,
+            improved_stops,
+            regressed_stops,
+            unchanged_stops,
+            improved_stops / improvable_stops,
+            regressed_stops / regressable_stops
+        ])
+        summary_handle.write(",".join(excel_fields))
         summary_handle.write("\n")
     results_handle.close()
